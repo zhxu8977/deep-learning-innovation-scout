@@ -5734,6 +5734,3049 @@
       "evidence_status": "synthesis_static",
       "runtime_verified": false,
       "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-168",
+      "kind": "module",
+      "title": "UCMNet Uncertainty Memory",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "图像恢复与退化适应",
+        "UCMNet Uncertainty Memory"
+      ],
+      "mechanism": "用空间不确定性估计指导上下文记忆检索，使不同退化区域获得不同恢复信息。",
+      "integration": "屏下成像恢复主干的特征与上下文交互处；记忆结构及损失须回读原实现。",
+      "risks": "不确定性可能学成亮度代理；记忆库训练与测试隔离，避免记住测试内容。",
+      "minimal_experiment": "与无记忆、均匀检索及亮度门控比较，按退化强度分桶评估细节。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-001"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.00381v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-169",
+      "kind": "module",
+      "title": "VideoFusion Differential Reinforcement",
+      "family": "alignment",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "融合/对齐",
+        "时间序列",
+        "LLM/多模态",
+        "跨模态与时空对齐",
+        "VideoFusion Differential Reinforcement"
+      ],
+      "mechanism": "通过模态间差分增强交互，突出红外与可见光的互补信息。",
+      "integration": "双模态特征提取后、融合前；需要时间同步与空间配准。",
+      "risks": "差分也会放大错位和传感器噪声，不能直接视为目标显著性。",
+      "minimal_experiment": "比较固定差分、普通拼接及差分增强，加入受控配准误差。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-002"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2503.23359v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-170",
+      "kind": "module",
+      "title": "VideoFusion Bi-temporal Co-attention",
+      "family": "alignment",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "融合/对齐",
+        "时间序列",
+        "LLM/多模态",
+        "跨模态与时空对齐",
+        "VideoFusion Bi-temporal Co-attention"
+      ],
+      "mechanism": "在融合视频中聚合前后时刻的上下文，以建模帧间连续性。",
+      "integration": "多帧融合的时序特征阶段。",
+      "risks": "双向上下文依赖未来帧，不能直接当作在线因果模块。",
+      "minimal_experiment": "与单帧、单向邻帧和双向聚合比较，同时报告闪烁与延迟。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-002"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2503.23359v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-171",
+      "kind": "module",
+      "title": "Flickerformer PFM",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "频域与周期结构",
+        "Flickerformer PFM"
+      ],
+      "mechanism": "通过帧间相位相关对齐并融合短曝光连拍中的周期性闪烁信息。",
+      "integration": "多帧去闪烁特征融合处。",
+      "risks": "非刚性运动、遮挡和相位歧义会破坏相关估计。",
+      "minimal_experiment": "比较固定平均、运动对齐和相位融合，分离运动与照明频率变量。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-003"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2603.22794v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-172",
+      "kind": "module",
+      "title": "Flickerformer AFFN",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "频域与周期结构",
+        "Flickerformer AFFN"
+      ],
+      "mechanism": "利用帧内自相关强化重复空间结构，补充连拍去闪烁的周期建模。",
+      "integration": "恢复网络的前馈特征变换阶段。",
+      "risks": "纹理重复与闪烁周期可能混淆，不能把自相关峰解释为纯退化。",
+      "minimal_experiment": "与普通FFN及固定频率滤波比较，单独变化纹理和闪烁周期。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-003"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2603.22794v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-173",
+      "kind": "module",
+      "title": "Flickerformer WDAM",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "频域与周期结构",
+        "Flickerformer WDAM"
+      ],
+      "mechanism": "以小波域高频方向变化引导低频暗区恢复，用于定位具有方向性的闪烁。",
+      "integration": "连拍去闪烁的方向信息聚合处。",
+      "risks": "高频噪声和真实边缘都可能成为错误引导。",
+      "minimal_experiment": "与无方向、固定小波和学习方向门控比较，按条纹方向评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-003"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2603.22794v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-174",
+      "kind": "module",
+      "title": "Circulant Attention",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "高效交互与移动表示",
+        "Circulant Attention"
+      ],
+      "mechanism": "将视觉注意力图约束到块循环结构，通过该结构的快速矩阵乘法降低计算负担。",
+      "integration": "替换已核对token网格与边界定义的自注意力层。",
+      "risks": "循环结构可能不适合非平稳区域；理论复杂度不代表实际设备速度。",
+      "minimal_experiment": "比较标准注意力、窗口注意力和循环近似，报告实际峰值显存及延迟。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-004"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.21542v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-175",
+      "kind": "module",
+      "title": "ACFA Structured Decoder",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "医学分割",
+        "边界/结构",
+        "多层特征融合",
+        "ACFA Structured Decoder"
+      ],
+      "mechanism": "组合通道增强与空间注意力，并引入平面、水平和垂直方向的可学习引导。",
+      "integration": "医学分割解码器的跨特征融合阶段。",
+      "risks": "方向先验对旋转与非规则结构可能有偏置。",
+      "minimal_experiment": "分开消融通道、空间和方向引导，并加入旋转扰动。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-005"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.05494v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-176",
+      "kind": "module",
+      "title": "TFFA Structured Decoder",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "医学分割",
+        "边界/结构",
+        "频域与周期结构",
+        "TFFA Structured Decoder"
+      ],
+      "mechanism": "融合空间、傅里叶和小波域特征，联系局部边缘与全局结构。",
+      "integration": "分割解码器中的多域特征融合处。",
+      "risks": "多域支路增加容量；变换归一化与逆变换边界需核实。",
+      "minimal_experiment": "与同预算空间多分支比较，逐支路移除，并按边界模糊度分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-005"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.05494v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-177",
+      "kind": "module",
+      "title": "SMMM Structured Decoder",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "医学分割",
+        "边界/结构",
+        "多层特征融合",
+        "SMMM Structured Decoder"
+      ],
+      "mechanism": "使用多尺度上下文和结构显著性筛选跳跃特征，以减少冗余传递。",
+      "integration": "编码器到解码器的跳跃连接。",
+      "risks": "显著性筛选可能删掉低对比度病灶；不能把权重当因果解释。",
+      "minimal_experiment": "与普通跳连、固定掩码和学习掩码比较，检查小结构漏检。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-005"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.05494v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-178",
+      "kind": "module",
+      "title": "SAT Density Token Aggregation",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "高效交互与移动表示",
+        "SAT Density Token Aggregation"
+      ],
+      "mechanism": "保留完整查询分辨率，依据密度与孤立性将键值聚合为代表token。",
+      "integration": "超分Transformer的键值构造处。",
+      "risks": "聚合可能丢失稀有纹理；聚类和索引开销必须计入耗时。",
+      "minimal_experiment": "固定token预算比较均匀池化、随机选择与密度聚合。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-009"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.07994v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-179",
+      "kind": "module",
+      "title": "Freqformer FCT",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "频域与周期结构",
+        "Freqformer FCT"
+      ],
+      "mechanism": "为高频局部摩尔纹与低频颜色畸变分路处理，再以可学习频率组合变换融合。",
+      "integration": "去摩尔纹网络的多频重建输出处。",
+      "risks": "颜色与纹理未必能被固定频段完全分开。",
+      "minimal_experiment": "比较单支路、双支路固定相加与学习组合，分别评价色偏和纹理。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-011"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2505.19120v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-180",
+      "kind": "module",
+      "title": "Freqformer SA-CA",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "通道与空间重标定",
+        "Freqformer SA-CA"
+      ],
+      "mechanism": "利用空间感知的通道注意力加强摩尔纹敏感区域和跨通道互补信息。",
+      "integration": "去摩尔纹特征块内部，保持原有重建输出语义。",
+      "risks": "空间提示可能与真实重复纹理混淆。",
+      "minimal_experiment": "与SE和无空间提示版本比较，加入高重复但无摩尔纹样本。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-011"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2505.19120v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-181",
+      "kind": "module",
+      "title": "HVI Color-Intensity Decoupling",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "图像恢复与退化适应",
+        "HVI Color-Intensity Decoupling"
+      ],
+      "mechanism": "使用水平垂直色度与可学习强度表示，把低光增强中的颜色和亮度处理解耦。",
+      "integration": "像素颜色变换与增强网络的输入输出接口。",
+      "risks": "颜色空间转换、数值范围及回转映射须核对；不是任意中间特征的通用注意力。",
+      "minimal_experiment": "与RGB、HSV及HVI表示比较，固定增强骨干与训练预算。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-013"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2502.20272v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-182",
+      "kind": "module",
+      "title": "U-RWKV DARM",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "效率/部署",
+        "医学分割",
+        "状态空间与扫描",
+        "U-RWKV DARM"
+      ],
+      "mechanism": "通过双RWKV与多方向扫描聚合上下文，减轻视觉序列化的方向偏置。",
+      "integration": "分割编码器或上下文块，按原文核对扫描与恢复网格方式。",
+      "risks": "扫描顺序与二维结构不等价；非因果视觉设计不能直接迁移在线序列。",
+      "minimal_experiment": "在同预算下比较单方向与多方向，并按结构朝向评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-014"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2507.11415v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-183",
+      "kind": "module",
+      "title": "U-RWKV SASE",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "效率/部署",
+        "医学分割",
+        "通道与空间重标定",
+        "U-RWKV SASE"
+      ],
+      "mechanism": "随特征提取阶段调整挤压激励设计，以平衡高分辨率细节和深层语义。",
+      "integration": "不同编码器阶段的通道重标定位置。",
+      "risks": "阶段适配与额外参数的影响需要分开。",
+      "minimal_experiment": "与每层相同SE和同参数静态分配比较，分别消融早期与深层。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-014"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2507.11415v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-184",
+      "kind": "module",
+      "title": "MANO Multipole Attention",
+      "family": "longrange",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "注意力",
+        "长程关系与全局上下文",
+        "MANO Multipole Attention"
+      ],
+      "mechanism": "借鉴多极交互，以距离分层的多尺度交互在每个头中保持全局感受范围。",
+      "integration": "具有明确网格或距离定义的全局特征交互。",
+      "risks": "依赖几何结构；非规则token与不同边界条件需要重新定义层级。",
+      "minimal_experiment": "与窗口、全局及距离分层近似比较，检查局部细节和远距离交互。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-015"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2507.02748v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-185",
+      "kind": "module",
+      "title": "FreqSal Fourier Interaction",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "频域与周期结构",
+        "FreqSal Fourier Interaction"
+      ],
+      "mechanism": "在傅里叶表示中协调双模态感知、分解低层边缘并执行残差通道交互。",
+      "integration": "RGB与热红外显著性检测的融合与解码阶段。",
+      "risks": "频域处理仍受空间错位影响；须区分三个子块的贡献。",
+      "minimal_experiment": "逐个移除模态协调、边缘分解和残差通道模块，并加入噪声扰动。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-020"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2411.18409v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-186",
+      "kind": "module",
+      "title": "VolFormer VolSA",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "恢复/增强",
+        "体数据与切片关系",
+        "VolFormer VolSA"
+      ],
+      "mechanism": "将平面交互扩展到立体光谱体，并通过注意力分解降低全体交互负担。",
+      "integration": "高光谱恢复中的空间与光谱联合特征块。",
+      "risks": "光谱轴不等同于医学体素轴，迁移不能只看张量秩。",
+      "minimal_experiment": "与空间单独、光谱单独及分解立体交互比较，分离光谱失真与空间误差。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-021"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_VolFormer_Explore_More_Comprehensive_Cube_Interaction_for_Hyperspectral_Image_Restoration_CVPR_2025_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-187",
+      "kind": "module",
+      "title": "Blind-spot-safe Attention",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "弱监督/少样本",
+        "恢复/增强",
+        "图像恢复与退化适应",
+        "Blind-spot-safe Attention"
+      ],
+      "mechanism": "重新设计通道和空间交互，避免多尺度重排把中心像素信息泄漏到盲点预测。",
+      "integration": "自监督盲点去噪的注意力与下采样交界处。",
+      "risks": "普通注意力即使不显式读取中心位置，也可能经通道重排造成间接泄漏。",
+      "minimal_experiment": "通过中心像素干预检测输出依赖，再在同训练协议比较去噪结果。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-022"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2404.07846v4"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-188",
+      "kind": "module",
+      "title": "MCANet Cross-axis Attention",
+      "family": "longrange",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "医学分割",
+        "长程关系与全局上下文",
+        "MCANet Cross-axis Attention"
+      ],
+      "mechanism": "在并行轴向路径间进行交叉交互，并用不同长度条形卷积提供尺度信息。",
+      "integration": "分割主干的轴向上下文块。",
+      "risks": "条带核和轴方向可能偏置细长结构的朝向。",
+      "minimal_experiment": "比较串联轴向、并行不交互和交叉轴向，使用旋转与尺度分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-024"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2312.08866v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-189",
+      "kind": "module",
+      "title": "RGT Recursive Generalization Attention",
+      "family": "longrange",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "长程关系与全局上下文",
+        "RGT Recursive Generalization Attention"
+      ],
+      "mechanism": "通过递归泛化构造较紧凑的全局表示，用于高分辨率超分的长程交互。",
+      "integration": "超分Transformer的全局上下文分支。",
+      "risks": "全局压缩可能平滑局部重复纹理，具体泛化算子须回读正文。",
+      "minimal_experiment": "与池化全局token及窗口基线比较，固定全局token数量。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-025"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2303.06373v4"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-190",
+      "kind": "module",
+      "title": "HiLo Attention",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "效率/部署",
+        "高效交互与移动表示",
+        "HiLo Attention"
+      ],
+      "mechanism": "将注意力处理分为高频局部与低频全局路径，围绕实际吞吐设计计算分配。",
+      "integration": "视觉Transformer的token交互块。",
+      "risks": "高低频划分与头数比例影响细节；FLOPs不能替代实际延迟。",
+      "minimal_experiment": "扫路径比例，对比同预算窗口注意力，在目标设备测吞吐和显存。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-027"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.13213v5"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-191",
+      "kind": "module",
+      "title": "SCSA",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "通道与空间重标定",
+        "SCSA"
+      ],
+      "mechanism": "以共享多语义空间注意力和渐进通道自注意力建立空间与通道协同。",
+      "integration": "视觉主干或融合后的特征重标定块。",
+      "risks": "多次门控可能重复抑制弱目标；增益不应只归因于协同命名。",
+      "minimal_experiment": "比较空间单独、通道单独、简单串联与完整交互。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-041"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2407.05128v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-192",
+      "kind": "module",
+      "title": "TransNeXt Convolutional GLU",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "卷积与交互混合",
+        "TransNeXt Convolutional GLU"
+      ],
+      "mechanism": "在通道门控中引入邻域图像特征，把局部建模与门控通道变换结合。",
+      "integration": "视觉Transformer的通道混合位置。",
+      "risks": "局部卷积代价与门控代价需拆分；与普通GLU的张量布局不同。",
+      "minimal_experiment": "与GLU加同参数深度卷积、SE和完整CGLU进行等预算比较。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-048"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2311.17132v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-193",
+      "kind": "module",
+      "title": "MAN Multi-scale Large Kernel Attention",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "多尺度与感受野",
+        "MAN Multi-scale Large Kernel Attention"
+      ],
+      "mechanism": "在大核注意力中加入多尺度和门控，使注意力图覆盖不同粒度。",
+      "integration": "超分特征块的空间调制分支。",
+      "risks": "大核与多分支增加计算；块效应与平滑效应需分别观察。",
+      "minimal_experiment": "比较单大核、无门控多尺度和完整设计，检查重复纹理及边缘。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-049"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2209.14145v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-194",
+      "kind": "module",
+      "title": "DAT Deformable Attention",
+      "family": "sampling",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "空间卷积与动态采样",
+        "DAT Deformable Attention"
+      ],
+      "mechanism": "根据输入学习键值采样位置，使自注意力集中在相关区域。",
+      "integration": "视觉Transformer的键值采样与注意力计算处。",
+      "risks": "与超分Dual Aggregation Transformer同为DAT但不是同一方法；偏移可能越界。",
+      "minimal_experiment": "固定采样点预算比较规则网格与学习偏移，并记录采样分布。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-050"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2201.00520v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-195",
+      "kind": "module",
+      "title": "DCT-Former",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "效率/部署",
+        "频域与周期结构",
+        "DCT-Former"
+      ],
+      "mechanism": "以离散余弦变换构造注意力近似，借鉴有损压缩的频率表示。",
+      "integration": "序列模型中的注意力近似分支。",
+      "risks": "截断频率可能损失高频依赖；不是无条件精确替代。",
+      "minimal_experiment": "在相同秩或频率预算下比较低秩投影与DCT近似，增加非周期输入。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-054"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.01178v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-196",
+      "kind": "module",
+      "title": "MotionAGFormer AGFormer",
+      "family": "graph",
+      "family_label": "图与几何关系",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "图与几何关系",
+        "MotionAGFormer AGFormer"
+      ],
+      "mechanism": "用并行Transformer与图分支分别建模全局关系和相邻关节结构。",
+      "integration": "人体姿态估计的关节特征交互。",
+      "risks": "关节拓扑是任务条件，不能无映射迁移到普通像素网格。",
+      "minimal_experiment": "与单分支、固定加和及完整双路比较，按遮挡和动作速度分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-055"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2310.16288v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-197",
+      "kind": "module",
+      "title": "RMT Spatial Decay Attention",
+      "family": "longrange",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "长程关系与全局上下文",
+        "RMT Spatial Decay Attention"
+      ],
+      "mechanism": "把保留网络的衰减思想扩展到空间，用曼哈顿距离构造显式空间先验。",
+      "integration": "具有二维网格的视觉上下文交互块。",
+      "risks": "距离先验可能压低有用的远程关系；非网格数据需另定距离。",
+      "minimal_experiment": "比较无距离先验、固定距离衰减和学习衰减，检查远距目标关系。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-056"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Fan_RMT_Retentive_Networks_Meet_Vision_Transformers_CVPR_2024_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-198",
+      "kind": "module",
+      "title": "CATANet Content-aware Token Aggregation",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "效率/部署",
+        "恢复/增强",
+        "高效交互与移动表示",
+        "CATANet Content-aware Token Aggregation"
+      ],
+      "mechanism": "为超分聚合长距离内容相似token，训练期间更新共享token中心。",
+      "integration": "轻量超分网络的非局部交互位置。",
+      "risks": "共享中心可能不适应分布外纹理，训练与推理更新规则要分开核对。",
+      "minimal_experiment": "比较固定中心、训练学习中心与均匀池化，加入未见纹理测试。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-057"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2503.06896v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-199",
+      "kind": "module",
+      "title": "High-Similarity-Pass Attention",
+      "family": "sparsity",
+      "family_label": "稀疏选择与信息压缩",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "稀疏选择与信息压缩",
+        "High-Similarity-Pass Attention"
+      ],
+      "mechanism": "通过软阈值保留高相似关联，减少超分中低相关token的干扰。",
+      "integration": "非局部或自注意力权重的稀疏化位置。",
+      "risks": "阈值可能丢掉罕见但有用的纹理依赖，稀疏权重不一定加速算子。",
+      "minimal_experiment": "比较无阈值、固定阈值与学习阈值，记录保留比例和真实延迟。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-059"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2305.15768v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-200",
+      "kind": "module",
+      "title": "PMFS Block",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "效率/部署",
+        "医学分割",
+        "多尺度与感受野",
+        "PMFS Block"
+      ],
+      "mechanism": "以极化多尺度特征自注意力结合全局与局部信息，控制分割的计算冗余。",
+      "integration": "多尺度医学分割特征的聚合处。",
+      "risks": "极化的轴定义与多尺度对齐必须核实。",
+      "minimal_experiment": "与池化上下文、普通多尺度卷积比较，固定参数和输入分辨率。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-060"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2401.07579v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-201",
+      "kind": "module",
+      "title": "Fourier Angle Alignment",
+      "family": "alignment",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "融合/对齐",
+        "遥感/小目标",
+        "跨模态与时空对齐",
+        "Fourier Angle Alignment"
+      ],
+      "mechanism": "利用傅里叶旋转等变性估计主方向，再做方向对齐的融合或检测。",
+      "integration": "旋转目标检测的特征融合或检测头。",
+      "risks": "对近圆形目标或多方向混叠场景，主方向可能不稳定。",
+      "minimal_experiment": "与空间旋转对齐和无角度处理比较，按长宽比与旋转角分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-061"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2602.23790v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-202",
+      "kind": "module",
+      "title": "ReflexSplit LFSB",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "多层特征融合",
+        "ReflexSplit LFSB"
+      ],
+      "mechanism": "在双流中交替融合共享结构与分离差分信息，减少透射和反射层混淆。",
+      "integration": "单图反射分离的双流特征交互处。",
+      "risks": "真实混合可能非线性；多流容量不能与机制收益混为一谈。",
+      "minimal_experiment": "与拼接、单次差分和交替融合分离比较，控制双流宽度。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-062"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2601.17468v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-203",
+      "kind": "module",
+      "title": "MixerCSeg DEGConv",
+      "family": "boundary",
+      "family_label": "边界与形状",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "注意力",
+        "融合/对齐",
+        "效率/部署",
+        "边界与形状",
+        "MixerCSeg DEGConv"
+      ],
+      "mechanism": "通过方向引导的边缘门控卷积强化不规则裂纹边缘。",
+      "integration": "裂纹分割的局部结构提取分支。",
+      "risks": "方向先验可能增强背景线条，需避免只在显著裂纹上评估。",
+      "minimal_experiment": "按宽度、曲率和背景线条分桶，与普通边缘损失加卷积比较。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-063"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2603.01361v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-204",
+      "kind": "module",
+      "title": "WPFormer Wavelet Cross-Attention",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "融合/对齐",
+        "频域与周期结构",
+        "WPFormer Wavelet Cross-Attention"
+      ],
+      "mechanism": "在小波域聚合高低频图像特征来细化掩码预测查询。",
+      "integration": "基于查询的缺陷分割解码器。",
+      "risks": "查询与多频特征的尺度和位置对齐需核对。",
+      "minimal_experiment": "保持查询数，比较空间交叉注意力、固定多频融合与小波交互。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-064"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Yan_Wavelet_and_Prototype_Augmented_Query-based_Transformer_for_Pixel-level_Surface_Defect_CVPR_2025_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-205",
+      "kind": "module",
+      "title": "ConDSeg Consistency Reinforcement",
+      "family": "training",
+      "family_label": "训练与适配策略",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "医学分割",
+        "恢复/增强",
+        "训练与适配策略",
+        "ConDSeg Consistency Reinforcement"
+      ],
+      "mechanism": "通过对比驱动的训练一致性增强编码器对照明和对比度变化的稳健性。",
+      "integration": "分割训练策略及其增广对。",
+      "risks": "增广不能改变标签语义，不能把训练策略当独立推理模块。",
+      "minimal_experiment": "与普通增广、相同对比损失预算比较，在独立低对比子集评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-066"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2412.08345v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-206",
+      "kind": "module",
+      "title": "DuAT GLSA-SBA",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "融合/对齐",
+        "医学分割",
+        "多层特征融合",
+        "DuAT GLSA-SBA"
+      ],
+      "mechanism": "全局到局部空间聚合与选择性边界聚合共同联系高层语义和低层边界。",
+      "integration": "医学分割的多层特征聚合与跳跃连接。",
+      "risks": "不能与题名相近的遥感GLSANet等同；先核对真实来源。",
+      "minimal_experiment": "分别消融GLSA和SBA，与同预算卷积融合比较边界指标。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-072"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2212.11677v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-207",
+      "kind": "module",
+      "title": "LipschitzNorm",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "归一化/分布偏移",
+        "图/点云",
+        "归一化与分布漂移",
+        "LipschitzNorm"
+      ],
+      "mechanism": "依据注意力的Lipschitz连续性约束构造无额外参数的归一化。",
+      "integration": "图注意力或其他已满足公式条件的自注意力层。",
+      "risks": "输入范数与公式条件必须回读，不能直接宣称任意网络鲁棒性有界。",
+      "minimal_experiment": "在深度和输入尺度扰动下比较稳定性、梯度范数与任务误差。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-077"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2103.04886v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-208",
+      "kind": "module",
+      "title": "ContraNorm",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [],
+      "tags": [
+        "归一化/分布偏移",
+        "归一化与分布漂移",
+        "ContraNorm"
+      ],
+      "mechanism": "从对比学习防止维度塌缩的角度设计归一化，以缓解表示过平滑。",
+      "integration": "GNN或Transformer的特征更新阶段。",
+      "risks": "塌缩度下降不一定对应任务提升；小批统计和图划分要一致。",
+      "minimal_experiment": "与LayerNorm比较表示秩、节点可分性和下游结果，扫网络深度。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-079"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2303.06562v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-209",
+      "kind": "module",
+      "title": "CrossNorm and SelfNorm",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [],
+      "tags": [
+        "归一化/分布偏移",
+        "归一化与分布漂移",
+        "CrossNorm and SelfNorm"
+      ],
+      "mechanism": "通过跨样本统计扰动与自适应统计处理研究分布变化下的泛化。",
+      "integration": "训练增广与归一化相关位置，按正文区分两种操作。",
+      "risks": "训练与测试统计不可混用，跨样本操作须避免域或测试泄漏。",
+      "minimal_experiment": "分别测试单一操作和组合，对照颜色增广及正常归一化。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-080"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2102.02811v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-210",
+      "kind": "module",
+      "title": "Dynamic Tanh",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "归一化/分布偏移",
+        "归一化与分布漂移",
+        "Dynamic Tanh"
+      ],
+      "mechanism": "以带可学习尺度的逐元素tanh运算替代Transformer中的归一化操作。",
+      "integration": "原归一化层位置；保留并核对周边仿射与残差设计。",
+      "risks": "不能由“不算均值方差”推导任意任务都稳定；饱和区可能损害梯度。",
+      "minimal_experiment": "与LayerNorm、固定tanh及学习尺度tanh比较激活分布和梯度。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-081"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_Transformers_without_Normalization_CVPR_2025_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-211",
+      "kind": "module",
+      "title": "Balanced BatchNorm TTA",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [],
+      "tags": [
+        "归一化/分布偏移",
+        "归一化与分布漂移",
+        "Balanced BatchNorm TTA"
+      ],
+      "mechanism": "在持续测试时域偏移中平衡批归一化，并以锚定约束稳定自训练更新。",
+      "integration": "测试时自适应的BN与更新策略。",
+      "risks": "测试流顺序和批大小影响结果，状态必须按协议重置。",
+      "minimal_experiment": "比较冻结BN、仅更新统计和完整自训练，改变域顺序评估遗忘。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-083"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2309.14949v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-212",
+      "kind": "module",
+      "title": "Partial Channel Mechanism",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "高效交互与移动表示",
+        "Partial Channel Mechanism"
+      ],
+      "mechanism": "将通道分组分配给卷积、注意力、池化或恒等操作以减少冗余处理。",
+      "integration": "网络基础块的通道分配处。",
+      "risks": "分组宽度和混合方式影响信息交换；不等同于FasterNet的PConv。",
+      "minimal_experiment": "与同宽度单算子及固定分组比较，记录真实吞吐而非仅FLOPs。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-088"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2502.01303v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-213",
+      "kind": "module",
+      "title": "StripNet Orthogonal Strip Convolution",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "遥感/小目标",
+        "多尺度与感受野",
+        "StripNet Orthogonal Strip Convolution"
+      ],
+      "mechanism": "用顺序正交的大条形卷积捕捉遥感目标的方向与长距离空间信息。",
+      "integration": "遥感检测骨干中的空间混合位置。",
+      "risks": "细长核可能对朝向和边界条件敏感。",
+      "minimal_experiment": "与同预算方形大核和轴向卷积比较旋转目标及长宽比分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-089"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2501.03775v4"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-214",
+      "kind": "module",
+      "title": "TM-BSN Triangular Masked Convolution",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "弱监督/少样本",
+        "恢复/增强",
+        "图像恢复与退化适应",
+        "TM-BSN Triangular Masked Convolution"
+      ],
+      "mechanism": "限制卷积核到三角区域，以在原分辨率形成排除相关噪声的盲区。",
+      "integration": "真实噪声自监督盲点网络的空间算子。",
+      "risks": "掩码几何必须与噪声相关范围相容；后续连接也不能造成泄漏。",
+      "minimal_experiment": "先做中心像素干预，再比较不同噪声相关长度下的重建。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-090"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.04484v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-215",
+      "kind": "module",
+      "title": "SimConv Forestry",
+      "family": "sampling",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "遥感/小目标",
+        "空间卷积与动态采样",
+        "SimConv Forestry"
+      ],
+      "mechanism": "通过特征关系选择动态卷积核尺寸，以适应遥感林业目标的结构变化。",
+      "integration": "林业遥感特征提取骨干。",
+      "risks": "摘要不足以给出完整选择公式或延迟；与其他SimConv同名方法区分。",
+      "minimal_experiment": "同计算预算比较固定核、多核平均与自适应核尺寸选择。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-091"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/WACV2026/html/Wang_Remote_Sensing_Forestry_Similarity_Convolution_WACV_2026_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-216",
+      "kind": "module",
+      "title": "Depthwise Reverse Convolution",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "恢复/增强",
+        "图像恢复与退化适应",
+        "Depthwise Reverse Convolution"
+      ],
+      "mechanism": "将反转深度卷积写为正则化最小二乘问题，并与通道变换构成恢复块。",
+      "integration": "图像恢复特征块，按原文实现逆算子与正则项。",
+      "risks": "不是转置卷积的别名；逆问题病态与数值稳定性需检查。",
+      "minimal_experiment": "比较深度卷积、转置卷积与正则逆算子，在噪声与模糊变化下评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-096"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2508.09824v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-217",
+      "kind": "module",
+      "title": "Pinwheel Convolution",
+      "family": "sampling",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "遥感/小目标",
+        "空间卷积与动态采样",
+        "Pinwheel Convolution"
+      ],
+      "mechanism": "用风车形空间采样适配暗弱小目标的局部像素分布。",
+      "integration": "红外小目标骨干浅层。",
+      "risks": "与部分卷积同称PConv但机制不同；不应把目标分布先验推广到所有任务。",
+      "minimal_experiment": "与同预算十字、普通卷积比较，按目标尺寸和背景杂波分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-097"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2412.16986v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-218",
+      "kind": "module",
+      "title": "CTR Graph Convolution",
+      "family": "graph",
+      "family_label": "图与几何关系",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "图/点云",
+        "边界/结构",
+        "图与几何关系",
+        "CTR Graph Convolution"
+      ],
+      "mechanism": "用共享拓扑先验加通道特定关系细化，为不同通道学习不同关节交互。",
+      "integration": "骨架动作识别的图卷积块。",
+      "risks": "关节顺序和图拓扑必须匹配；不能直接复制到无拓扑图像特征。",
+      "minimal_experiment": "比较固定图、共享自适应图及通道细化图，控制关系参数量。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-098"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2107.12213v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-219",
+      "kind": "module",
+      "title": "SFS-DETR Semantic-aligned Fusion",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "遥感/小目标",
+        "多层特征融合",
+        "SFS-DETR Semantic-aligned Fusion"
+      ],
+      "mechanism": "在多尺度融合中校准语义错位，减少小目标信息被高层语义稀释。",
+      "integration": "无人机检测的多尺度融合模块。",
+      "risks": "融合收益可能来自额外分辨率和通道宽度。",
+      "minimal_experiment": "与固定对齐、普通FPN和同预算学习融合比较小目标召回。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-112"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2026F/html/Jia_SFS-DETR_Spatial-Frequency_Selection_for_UAV_Object_Detection_CVPRF_2026_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-220",
+      "kind": "module",
+      "title": "SCSegamba SAVSS",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "效率/部署",
+        "边界/结构",
+        "状态空间与扫描",
+        "SCSegamba SAVSS"
+      ],
+      "mechanism": "将轻量门控瓶颈卷积和结构感知扫描结合，用于裂纹的形态与纹理建模。",
+      "integration": "裂纹分割骨干的状态空间块。",
+      "risks": "结构扫描规则可能偏置特定裂纹形状；不同方向的效率需实测。",
+      "minimal_experiment": "比较规则扫描与结构感知扫描，并分桶评估曲率和断裂程度。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-119"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2503.01113v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-221",
+      "kind": "module",
+      "title": "Tri-VAE Gated Cross-skip",
+      "family": "anomaly",
+      "family_label": "异常建模与重建",
+      "aliases": [],
+      "tags": [
+        "医学分割",
+        "异常建模与重建",
+        "Tri-VAE Gated Cross-skip"
+      ],
+      "mechanism": "利用健康样本学习的深层语义门控跳跃信息，兼顾细节恢复与异常抑制。",
+      "integration": "正常样本训练的MRI异常重建模型跳跃连接。",
+      "risks": "过强跳连会复制异常，过弱跳连会使正常细节重建失败。",
+      "minimal_experiment": "比较无跳连、普通跳连和健康语义门控，并在独立异常集评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-133"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Wijanarko_Tri-VAE_Triplet_Variational_Autoencoder_for_Unsupervised_Anomaly_Detection_in_Brain_CVPRW_2024_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-222",
+      "kind": "module",
+      "title": "GraphKAN Feature Transformation",
+      "family": "graph",
+      "family_label": "图与几何关系",
+      "aliases": [],
+      "tags": [
+        "图/点云",
+        "图与几何关系",
+        "GraphKAN Feature Transformation"
+      ],
+      "mechanism": "以KAN代替图特征变换中的MLP与固定激活，探索函数学习对表示的影响。",
+      "integration": "图网络的特征变换子层。",
+      "risks": "参数量、基函数网格与训练成本需等预算比较。",
+      "minimal_experiment": "与加宽MLP及同参数KAN比较，分别测少样本与分布外结果。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-135"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2406.13597v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-223",
+      "kind": "module",
+      "title": "HS-FPN",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "多层特征融合",
+        "HS-FPN"
+      ],
+      "mechanism": "用高层通道信息筛选低层特征，再进行多级特征融合以处理目标尺度差异。",
+      "integration": "细胞检测的多尺度特征金字塔。",
+      "risks": "高层筛选可能删除低对比小目标，医学样本按患者或切片来源隔离。",
+      "minimal_experiment": "与普通FPN和无筛选融合比较，按目标大小与粘连程度评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-136"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2401.00926v4"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-224",
+      "kind": "module",
+      "title": "Wavelet-SSM",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "长程依赖",
+        "归一化/分布偏移",
+        "融合/对齐",
+        "遥感/小目标",
+        "状态空间与扫描",
+        "Wavelet-SSM"
+      ],
+      "mechanism": "在小波表示中组合多频局部信息与SSM全局建模，并进行跨模态调制。",
+      "integration": "红外与可见光融合特征块。",
+      "risks": "频率分支与扫描顺序会共同改变代价，配准误差可能被放大。",
+      "minimal_experiment": "分开消融小波、SSM和跨模态调制，与空间SSM比较。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-143"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2503.18378v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-225",
+      "kind": "module",
+      "title": "AMD Multi-scale Decomposition",
+      "family": "temporal",
+      "family_label": "时间序列与信号",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "时间序列",
+        "时间序列与信号",
+        "AMD Multi-scale Decomposition"
+      ],
+      "mechanism": "以残差多尺度分解混合、时序与通道依赖交互及自适应预测综合处理不同时间模式。",
+      "integration": "多变量时间序列预测的分解、交互与预测头。",
+      "risks": "分解尺度和自相关选择不可读取未来；多预测头增加容量。",
+      "minimal_experiment": "与简单线性、固定分解和同预算多预测头比较，按预测步长评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-150"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2406.03751v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-226",
+      "kind": "module",
+      "title": "Spatial Frequency Modulation",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "效率/部署",
+        "频域与周期结构",
+        "Spatial Frequency Modulation"
+      ],
+      "mechanism": "在下采样前把高频信息调制到较低频率，再于上采样阶段解调以减轻混叠。",
+      "integration": "编码器下采样与解码器上采样配对位置。",
+      "risks": "调制解调必须成对核对；不能把普通小波下采样当作同一方法。",
+      "minimal_experiment": "与抗混叠低通、提高输入分辨率和调制解调比较细线条恢复。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-155"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2507.11893v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-227",
+      "kind": "module",
+      "title": "SDANet Dynamic Channel Sparse Attention",
+      "family": "sparsity",
+      "family_label": "稀疏选择与信息压缩",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "注意力",
+        "恢复/增强",
+        "稀疏选择与信息压缩",
+        "SDANet Dynamic Channel Sparse Attention"
+      ],
+      "mechanism": "按数据动态稀疏化光谱通道相关性，抑制冗余光谱交互。",
+      "integration": "高光谱超分的通道注意力。",
+      "risks": "稀疏化可能损伤弱但有意义的谱带关系。",
+      "minimal_experiment": "同稀疏率比较固定top-k与动态选择，报告光谱角和空间质量。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-157"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.27326v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-228",
+      "kind": "module",
+      "title": "GhostNetV2 DFC Attention",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "注意力",
+        "高效交互与移动表示",
+        "GhostNetV2 DFC Attention"
+      ],
+      "mechanism": "以硬件友好的长距离交互补充廉价Ghost特征生成的全局信息不足。",
+      "integration": "移动视觉Ghost特征块的上下文分支。",
+      "risks": "实际收益依赖算子实现和硬件，不能只用参数量推断延迟。",
+      "minimal_experiment": "与普通Ghost和同预算局部增强比较，在目标设备测延迟。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-161"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2211.12905v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-229",
+      "kind": "module",
+      "title": "Fast-dLLM KV Cache and Decoding",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "效率/部署",
+        "扩散/生成",
+        "LLM/多模态",
+        "语言与多模态推理",
+        "Fast-dLLM KV Cache and Decoding"
+      ],
+      "mechanism": "以分块近似KV缓存和置信度感知并行解码加速双向扩散语言模型。",
+      "integration": "扩散语言模型推理调度，不是图像特征层。",
+      "risks": "双向依赖与缓存失效会影响生成，不能套用自回归模型缓存假设。",
+      "minimal_experiment": "固定模型与任务，扫缓存块和置信阈值，比较速度与答案质量。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-162"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2505.22618v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-230",
+      "kind": "module",
+      "title": "Dynamic-dLLM DCU-APD",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "效率/部署",
+        "扩散/生成",
+        "LLM/多模态",
+        "语言与多模态推理",
+        "Dynamic-dLLM DCU-APD"
+      ],
+      "mechanism": "按层间token动态分配缓存更新预算，并自适应校准并行解码阈值。",
+      "integration": "扩散语言模型推理中的缓存与解码控制器。",
+      "risks": "测量token动态有开销，速度不能只计算被省掉的前向次数。",
+      "minimal_experiment": "与固定预算缓存和固定阈值解码分别比较，保持生成任务一致。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-163"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2606.26120v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-231",
+      "kind": "module",
+      "title": "Memory Decoder",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "LLM/多模态",
+        "语言与多模态推理",
+        "Memory Decoder"
+      ],
+      "mechanism": "通过额外预训练记忆组件进行领域适配，同时保持原语言模型参数。",
+      "integration": "语言模型的记忆增强接口；具体结构需回读实现。",
+      "risks": "记忆训练成本、更新策略和知识泄漏必须评估，不能宣传无需训练。",
+      "minimal_experiment": "与检索增强和同预算适配器比较领域效果、延迟及更新成本。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-165"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2508.09874v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-232",
+      "kind": "module",
+      "title": "UniComp Video Token Compression",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "效率/部署",
+        "LLM/多模态",
+        "语言与多模态推理",
+        "UniComp Video Token Compression"
+      ],
+      "mechanism": "依据token信息独特性进行帧分组、预算分配和空间压缩，控制视频表示冗余。",
+      "integration": "视频大模型的视觉token压缩阶段。",
+      "risks": "压缩可能损害短事件与细节，不能仅用平均问答指标评价。",
+      "minimal_experiment": "同token预算比较均匀采帧、注意力筛选与独特性压缩。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-167"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.03575v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-233",
+      "kind": "module",
+      "title": "In-Place Test-Time Training",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "LLM/多模态",
+        "语言与多模态推理",
+        "In-Place Test-Time Training"
+      ],
+      "mechanism": "把MLP最终投影作为可适配快权重，并以分块更新进行测试时学习。",
+      "integration": "具备原文训练目标与状态管理的语言模型MLP。",
+      "risks": "每个样本的快权重重置、未来信息泄漏和额外反向开销需要核对。",
+      "minimal_experiment": "与无更新及同计算检索或长上下文方法比较，记录适配成本。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-172"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06169v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-234",
+      "kind": "module",
+      "title": "FreeU",
+      "family": "generative",
+      "family_label": "生成与逆问题",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "扩散/生成",
+        "生成与逆问题",
+        "FreeU"
+      ],
+      "mechanism": "调整扩散U-Net骨干与跳跃特征的相对贡献，以平衡语义去噪与高频细节。",
+      "integration": "兼容的预训练扩散U-Net解码阶段。",
+      "risks": "缩放系数受模型、采样器与分辨率影响，不能承诺所有检查点都受益。",
+      "minimal_experiment": "固定种子和采样预算，分别消融骨干及跳连缩放并做人类盲评。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-175"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2309.11497v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-235",
+      "kind": "module",
+      "title": "Diffusion Data-consistency Projection",
+      "family": "generative",
+      "family_label": "生成与逆问题",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "扩散/生成",
+        "生成与逆问题",
+        "Diffusion Data-consistency Projection"
+      ],
+      "mechanism": "将去噪先验、测量一致性与采样步骤分开，并组合多种保真项处理压缩感知重建。",
+      "integration": "已知前向测量算子的逆问题采样循环。",
+      "risks": "测量算子、噪声模型与投影参数错误会造成伪重建。",
+      "minimal_experiment": "与固定先验、单一保真项和组合投影比较测量残差及重建误差。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-177"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2509.09365v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-236",
+      "kind": "module",
+      "title": "Spectral Progressive Diffusion",
+      "family": "generative",
+      "family_label": "生成与逆问题",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "融合/对齐",
+        "效率/部署",
+        "扩散/生成",
+        "生成与逆问题",
+        "Spectral Progressive Diffusion"
+      ],
+      "mechanism": "沿去噪轨迹逐步增加分辨率，并依据功率谱设计噪声扩展和分辨率调度。",
+      "integration": "预训练扩散模型的采样调度。",
+      "risks": "改变分辨率可能引起频谱和噪声分布不匹配。",
+      "minimal_experiment": "同总计算预算比较固定分辨率、固定升采样点和谱调度。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-181"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2605.18736v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-237",
+      "kind": "module",
+      "title": "Dark Restoration Patch-Grad Mamba",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "恢复/增强",
+        "状态空间与扫描",
+        "Dark Restoration Patch-Grad Mamba"
+      ],
+      "mechanism": "先通过傅里叶引导恢复照明，再用不降采样局部片段与高梯度区域SSM细化纹理。",
+      "integration": "极暗图像恢复的双阶段结构。",
+      "risks": "亮度改善与细节真实性要分开，不能用噪声锐化冒充细节恢复。",
+      "minimal_experiment": "拆分照明阶段、Patch和Grad分支，按噪声和照明强度评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-184"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2508.03336v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-238",
+      "kind": "module",
+      "title": "C2SSM Cluster-centric Scan",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "效率/部署",
+        "恢复/增强",
+        "状态空间与扫描",
+        "C2SSM Cluster-centric Scan"
+      ],
+      "mechanism": "以少量聚类中心进行序列扫描，再通过相似性把全局信息扩散回像素。",
+      "integration": "超高清恢复的SSM全局交互路径。",
+      "risks": "聚类误差可能损失小区域纹理，聚类和分发耗时必须计入。",
+      "minimal_experiment": "同压缩预算比较规则池化中心与聚类中心，并检查局部细节。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-185"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2602.21917v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-239",
+      "kind": "module",
+      "title": "EfficientViM HSM-SSD",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "效率/部署",
+        "状态空间与扫描",
+        "EfficientViM HSM-SSD"
+      ],
+      "mechanism": "将通道混合移入压缩隐状态空间，并结合多阶段隐状态融合减轻内存瓶颈。",
+      "integration": "轻量视觉SSM的状态交互阶段。",
+      "risks": "状态压缩可能限制表示，理论省算量不等于带宽节省。",
+      "minimal_experiment": "与输入序列通道混合和同状态维度基线比较，测真实设备带宽开销。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-190"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2411.15241v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-240",
+      "kind": "module",
+      "title": "nnMamba MICCSS",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "医学分割",
+        "体数据与切片关系",
+        "nnMamba MICCSS"
+      ],
+      "mechanism": "把Mamba与卷积结合，通过通道空间孪生学习建模体素长距离关系。",
+      "integration": "三维生物医学编码器特征块。",
+      "risks": "体素间距和轴语义影响扫描；不能只把二维实现加一维就称兼容。",
+      "minimal_experiment": "与同预算3D卷积及单独SSM比较，固定裁块与体素分辨率。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-193"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2402.03526v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-241",
+      "kind": "module",
+      "title": "RSCaMa SD-SSM and TT-SSM",
+      "family": "alignment",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "遥感/小目标",
+        "跨模态与时空对齐",
+        "RSCaMa SD-SSM and TT-SSM"
+      ],
+      "mechanism": "结合空间差分感知SSM与双时相交错扫描，对变化描述任务进行联合时空建模。",
+      "integration": "双时相遥感图像的特征交互。",
+      "risks": "双时相配准和时间顺序是前提，变化描述不等于像素变化检测。",
+      "minimal_experiment": "比较无差分、单时相扫描和交错扫描，加入受控配准误差。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-196"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2404.18895v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-242",
+      "kind": "module",
+      "title": "VMamba SS2D",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "状态空间与扫描",
+        "VMamba SS2D"
+      ],
+      "mechanism": "以二维选择性扫描在视觉状态空间块中建立多方向长距离交互。",
+      "integration": "二维视觉主干的VSS块。",
+      "risks": "具体扫描实现与CUDA依赖必须核对；视觉双向设计不能直接用于因果序列。",
+      "minimal_experiment": "对比卷积、单向与多向扫描，保持状态和通道预算一致。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-198"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2401.10166v4"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-243",
+      "kind": "module",
+      "title": "WalMaFa WMB-FFAB",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "长程依赖",
+        "恢复/增强",
+        "频域与周期结构",
+        "WalMaFa WMB-FFAB"
+      ],
+      "mechanism": "使用小波域Mamba处理照明，再借傅里叶调整细化局部细节。",
+      "integration": "低光增强网络的多频特征块。",
+      "risks": "相位、幅度与亮度的关系依赖图像和变换条件，不能绝对化。",
+      "minimal_experiment": "单独消融小波Mamba与傅里叶调整，并观察色偏和噪声放大。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-201"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2410.20314v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-244",
+      "kind": "module",
+      "title": "PODS Rollout Down-sampling",
+      "family": "training",
+      "family_label": "训练与适配策略",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "LLM/多模态",
+        "训练与适配策略",
+        "PODS Rollout Down-sampling"
+      ],
+      "mechanism": "依据奖励差异选择部分rollout用于策略更新，将生成和更新的预算分开。",
+      "integration": "语言模型强化学习训练的数据选择。",
+      "risks": "此处下采样指轨迹样本，不是图像空间下采样；选择可能增加估计偏差。",
+      "minimal_experiment": "同生成数量比较随机子集与奖励方差选择，并控制策略更新token预算。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-224"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2504.13818v5"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-245",
+      "kind": "module",
+      "title": "Reliable Thinking Visual Cue Filtering",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "LLM/多模态",
+        "语言与多模态推理",
+        "Reliable Thinking Visual Cue Filtering"
+      ],
+      "mechanism": "估计视觉线索与文字推理的可靠性，再通过过滤和投票减少错误线索传播。",
+      "integration": "多模态推理的中间线索处理阶段。",
+      "risks": "可靠性估计本身可能失准，多次投票也可能相关错误。",
+      "minimal_experiment": "固定推理次数比较无过滤、置信筛选与可靠性投票，包含误导线索样本。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-232"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2602.12916v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-246",
+      "kind": "module",
+      "title": "DashFusion Bottleneck Alignment",
+      "family": "alignment",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [],
+      "tags": [
+        "融合/对齐",
+        "LLM/多模态",
+        "跨模态与时空对齐",
+        "DashFusion Bottleneck Alignment"
+      ],
+      "mechanism": "先做时间和语义对齐，再通过层级瓶颈融合多模态情感信息。",
+      "integration": "音频、视觉和文本序列的融合编码器。",
+      "risks": "瓶颈压缩会删除短暂事件，受试者和会话划分要独立。",
+      "minimal_experiment": "对照无对齐、仅时间对齐及完整瓶颈融合，控制token数量。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-233"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.05515v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-247",
+      "kind": "module",
+      "title": "Streaming Token Compression",
+      "family": "llm-inference",
+      "family_label": "语言与多模态推理",
+      "aliases": [],
+      "tags": [
+        "效率/部署",
+        "时间序列",
+        "LLM/多模态",
+        "语言与多模态推理",
+        "Streaming Token Compression"
+      ],
+      "mechanism": "缓存相似帧视觉特征，并在进入语言模型前筛除冗余时空token。",
+      "integration": "流式视频模型的视觉编码与预填充接口。",
+      "risks": "缓存不能读取未来帧；短瞬态事件可能被相似性筛掉。",
+      "minimal_experiment": "同延迟预算比较均匀采帧、仅缓存、仅剪枝和组合。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-237"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2512.00891v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-248",
+      "kind": "module",
+      "title": "CrossLinear Correlation Embedding",
+      "family": "temporal",
+      "family_label": "时间序列与信号",
+      "aliases": [],
+      "tags": [
+        "时间序列",
+        "时间序列与信号",
+        "CrossLinear Correlation Embedding"
+      ],
+      "mechanism": "以轻量交叉相关嵌入捕捉外生变量的直接且时间相对稳定的依赖。",
+      "integration": "带外生变量的预测网络输入或交互处。",
+      "risks": "外生变量在预测时是否可获得必须明确；间接依赖和时变关系未必适合。",
+      "minimal_experiment": "与线性拼接和时变交互比较，加入外生变量延迟及漂移测试。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-246"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2505.23116v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-249",
+      "kind": "module",
+      "title": "MSGNet Multi-scale Inter-series Graph",
+      "family": "temporal",
+      "family_label": "时间序列与信号",
+      "aliases": [],
+      "tags": [
+        "时间序列",
+        "时间序列与信号",
+        "MSGNet Multi-scale Inter-series Graph"
+      ],
+      "mechanism": "通过频域拆分时间尺度，在各尺度学习变量间关系并建模序列内依赖。",
+      "integration": "多变量预测的多尺度图交互阶段。",
+      "risks": "训练和测试不能共享未来频谱；图可视化不是因果关系证明。",
+      "minimal_experiment": "对比固定图、单尺度图和多尺度图，按预测步长及漂移分桶。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-247"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2401.00423v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-250",
+      "kind": "module",
+      "title": "UACA Context Attention",
+      "family": "boundary",
+      "family_label": "边界与形状",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "医学分割",
+        "边界与形状",
+        "UACA Context Attention"
+      ],
+      "mechanism": "用前一预测划分前景、背景和不确定区域，再聚合对应上下文细化分割。",
+      "integration": "逐级分割解码器的预测引导阶段。",
+      "risks": "初期错误预测可能自我强化；不确定区域不等于真实标注边界。",
+      "minimal_experiment": "与二分前背景上下文及无预测引导比较，按低对比区域评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-249"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2107.02368v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-251",
+      "kind": "module",
+      "title": "SFFNet Wavelet Feature Decomposer",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "归一化/分布偏移",
+        "融合/对齐",
+        "遥感/小目标",
+        "频域与周期结构",
+        "SFFNet Wavelet Feature Decomposer"
+      ],
+      "mechanism": "以Haar小波分离高低频特征，并与空间路径联合用于遥感分割。",
+      "integration": "空间编码后的多域特征映射阶段。",
+      "risks": "低高频尺寸与边界填充需核对；与同名SFFusion不同。",
+      "minimal_experiment": "与空间多分支及固定小波不融合版本比较细节和大范围结构。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-250"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2405.01992v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-252",
+      "kind": "module",
+      "title": "SAM2-SGP PMG-PMA",
+      "family": "fewshot",
+      "family_label": "少样本与支持提示",
+      "aliases": [],
+      "tags": [
+        "医学分割",
+        "少样本与支持提示",
+        "SAM2-SGP PMG-PMA"
+      ],
+      "mechanism": "用支持集图像掩码对生成伪掩码，再据此形成框提示与局部注意力。",
+      "integration": "SAM2的支持集记忆及自动提示接口。",
+      "risks": "支持集不能与查询患者重叠；伪掩码误差会传到后续提示。",
+      "minimal_experiment": "固定支持样本数量比较人工框、简单检索伪掩码与完整策略。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-253"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.19658v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-253",
+      "kind": "module",
+      "title": "DyCON UnCL-FeCL",
+      "family": "training",
+      "family_label": "训练与适配策略",
+      "aliases": [],
+      "tags": [
+        "医学分割",
+        "训练与适配策略",
+        "DyCON UnCL-FeCL"
+      ],
+      "mechanism": "按不确定性动态加权一致性，并以熵相关对比学习增强半监督分割。",
+      "integration": "半监督训练的损失与伪标签分支。",
+      "risks": "不能简单删除全部高不确定区域，伪标签校准影响解释。",
+      "minimal_experiment": "分别消融两类损失，固定标注比例并采用患者独立划分。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-258"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Assefa_DyCON_Dynamic_Uncertainty-aware_Consistency_and_Contrastive_Learning_for_Semi-supervised_Medical_CVPR_2025_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-254",
+      "kind": "module",
+      "title": "HResFormer HLGM",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "医学分割",
+        "体数据与切片关系",
+        "HResFormer HLGM"
+      ],
+      "mechanism": "融合切片内二维细节与体积三维上下文，并以残差学习形成体数据表征。",
+      "integration": "二维和三维分支的混合交互处。",
+      "risks": "分支分辨率、切片顺序与体素间距须一致。",
+      "minimal_experiment": "与单纯2D、单纯3D和固定加和比较，控制内存预算。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-264"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2412.11458v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-255",
+      "kind": "module",
+      "title": "DRPCA Dynamic Unfolding",
+      "family": "anomaly",
+      "family_label": "异常建模与重建",
+      "aliases": [],
+      "tags": [
+        "遥感/小目标",
+        "异常建模与重建",
+        "DRPCA Dynamic Unfolding"
+      ],
+      "mechanism": "将低秩稀疏分解展开为可学习网络，并用输入条件化的超网络生成迭代参数。",
+      "integration": "红外小目标的深度展开迭代过程。",
+      "risks": "动态参数可能破坏原优化收敛解释，迭代成本需全部计入。",
+      "minimal_experiment": "比较静态参数展开、动态参数展开和经典RPCA，增加复杂背景测试。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-274"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2507.09541v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-256",
+      "kind": "module",
+      "title": "Vision-LSTM Alternating Scan",
+      "family": "state-space",
+      "family_label": "状态空间与扫描",
+      "aliases": [],
+      "tags": [
+        "医学分割",
+        "状态空间与扫描",
+        "Vision-LSTM Alternating Scan"
+      ],
+      "mechanism": "将xLSTM块用于图像patch序列，交替按相反方向处理以聚合视觉上下文。",
+      "integration": "视觉主干的序列块。",
+      "risks": "顺序与二维局部性并不天然一致，训练和推理内核需单独验证。",
+      "minimal_experiment": "同预算比较单方向、交替方向与全局注意力主干。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-283"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2406.04303v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-257",
+      "kind": "module",
+      "title": "GeoConv Facial Geodesic",
+      "family": "graph",
+      "family_label": "图与几何关系",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "图/点云",
+        "图与几何关系",
+        "GeoConv Facial Geodesic"
+      ],
+      "mechanism": "用粗重建三维人脸的测地距离给二维卷积核加权，以利用脸部流形结构。",
+      "integration": "面部动作单元识别的几何引导卷积。",
+      "risks": "不是任意点云卷积；依赖人脸几何重建和对应关系。",
+      "minimal_experiment": "比较二维欧氏权重与测地权重，加入姿态和重建误差扰动。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-298"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2003.03055v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-258",
+      "kind": "module",
+      "title": "KPConv",
+      "family": "graph",
+      "family_label": "图与几何关系",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "图/点云",
+        "图与几何关系",
+        "KPConv"
+      ],
+      "mechanism": "在连续点云中通过核点定义卷积，不需先转换成体素或图像网格。",
+      "integration": "点云邻域特征聚合。",
+      "risks": "采样密度、邻域半径和核点形变都会改变结果。",
+      "minimal_experiment": "在相同邻点预算下比较固定核点和可变形核点，并扫密度。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-303"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/1904.08889v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-259",
+      "kind": "module",
+      "title": "MoE3D Depth Experts",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [],
+      "tags": [
+        "其他/待归类",
+        "体数据与切片关系",
+        "MoE3D Depth Experts"
+      ],
+      "mechanism": "用多个平滑深度专家及其混合表示处理深度边界的不确定性。",
+      "integration": "前馈三维重建的深度预测头。",
+      "risks": "专家分歧不自动等于校准的不确定性；混合可能模糊边界。",
+      "minimal_experiment": "与单头、同宽多头平均及学习混合比较边界与非边界深度误差。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-308"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2601.05208v3"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-260",
+      "kind": "module",
+      "title": "FAdam",
+      "family": "training",
+      "family_label": "训练与适配策略",
+      "aliases": [],
+      "tags": [
+        "其他/待归类",
+        "训练与适配策略",
+        "FAdam"
+      ],
+      "mechanism": "从对角经验Fisher与自然梯度视角修正动量、偏差、epsilon、裁剪和衰减。",
+      "integration": "模型优化器，不是特征提取模块。",
+      "risks": "优化器收益依赖学习率与训练预算，不能沿用Adam最优超参直接比较。",
+      "minimal_experiment": "给予对照相同超参搜索预算，报告收敛、梯度和多种子差异。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-310"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2405.12807v11"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-261",
+      "kind": "module",
+      "title": "Histoformer Histogram Attention",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "图像恢复与退化适应",
+        "Histoformer Histogram Attention"
+      ],
+      "mechanism": "按强度排序并分桶空间特征，用相近亮度的关联聚合天气退化信息。",
+      "integration": "图像恢复的自注意力层。",
+      "risks": "相近亮度不一定同一语义，排序与恢复索引必须正确。",
+      "minimal_experiment": "与空间窗口和随机分桶比较，并检查亮暗交界和颜色一致性。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-315"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2407.10172v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-262",
+      "kind": "module",
+      "title": "AST ASSA-FRFN",
+      "family": "sparsity",
+      "family_label": "稀疏选择与信息压缩",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "恢复/增强",
+        "稀疏选择与信息压缩",
+        "AST ASSA-FRFN"
+      ],
+      "mechanism": "通过自适应稀疏自注意力减少无关区域交互，再以前馈细化减少特征冗余。",
+      "integration": "图像恢复Transformer块。",
+      "risks": "稀疏模式可能排除微弱信号，实际算子未必支持稀疏加速。",
+      "minimal_experiment": "分开消融ASSA与FRFN，固定稀疏率比较质量、内存与延迟。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-316"
+      ],
+      "primary_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Adapt_or_Perish_Adaptive_Sparse_Transformer_with_Attentive_Feature_Refinement_CVPR_2024_paper.html"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-263",
+      "kind": "module",
+      "title": "CGRSeg Rectangular Self-calibration",
+      "family": "boundary",
+      "family_label": "边界与形状",
+      "aliases": [],
+      "tags": [
+        "效率/部署",
+        "边界与形状",
+        "CGRSeg Rectangular Self-calibration"
+      ],
+      "mechanism": "用矩形上下文与形状自校准重建空间特征，使关键区域贴近前景。",
+      "integration": "实时分割的空间重建与金字塔上下文模块。",
+      "risks": "矩形上下文可能对不规则结构有偏置。",
+      "minimal_experiment": "与同预算条形卷积和普通空间门控比较，按形状复杂度评估。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-317"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2405.06228v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-264",
+      "kind": "module",
+      "title": "Semantic-aware Discriminator",
+      "family": "generative",
+      "family_label": "生成与逆问题",
+      "aliases": [],
+      "tags": [
+        "扩散/生成",
+        "恢复/增强",
+        "生成与逆问题",
+        "Semantic-aware Discriminator"
+      ],
+      "mechanism": "以预训练视觉语义作为判别器条件，结合空间交叉注意力学习细粒度分布。",
+      "integration": "超分GAN训练的判别器。",
+      "risks": "语义条件可能掩盖保真错误，推理生成器是否增加成本需区分。",
+      "minimal_experiment": "与无语义及随机语义条件比较，联合报告保真与感知评价。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-320"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2402.19387v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-265",
+      "kind": "module",
+      "title": "WTConv",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [],
+      "tags": [
+        "频域/小波",
+        "卷积/采样",
+        "频域与周期结构",
+        "WTConv"
+      ],
+      "mechanism": "利用多层小波分解扩大卷积有效感受野，以多频表示避免单纯扩张大核的参数增长。",
+      "integration": "保持轴和通道条件相容的空间卷积替代位置。",
+      "risks": "边界填充、分解层数与输入尺寸需核实；不同频带的噪声可能被同时增强。",
+      "minimal_experiment": "与同参数空洞卷积和大核卷积比较，分别扫分解层数与图像尺寸。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-099"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2407.05848v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-266",
+      "kind": "module",
+      "title": "CSAM Cross-slice Attention",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [],
+      "tags": [
+        "注意力",
+        "医学分割",
+        "体数据与切片关系",
+        "CSAM Cross-slice Attention"
+      ],
+      "mechanism": "以语义、位置和切片注意力联系体数据中的切片信息，用于各向异性2.5D分割。",
+      "integration": "多尺度深特征的跨切片交互处。",
+      "risks": "切片轴不是通道轴；间距差异和切片顺序影响空间解释。",
+      "minimal_experiment": "比较逐片2D、固定邻片聚合和跨切片注意力，改变切片间距。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-047"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2311.04942v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-267",
+      "kind": "module",
+      "title": "PatchTST",
+      "family": "temporal",
+      "family_label": "时间序列与信号",
+      "aliases": [],
+      "tags": [
+        "长程依赖",
+        "注意力",
+        "时间序列",
+        "时间序列与信号",
+        "PatchTST"
+      ],
+      "mechanism": "把时间序列切成子序列patch作为token，并以共享模型处理各单变量通道。",
+      "integration": "多变量时间预测的嵌入与编码器设计。",
+      "risks": "通道独立性会限制显式跨变量交互，切片不得越过预测时点。",
+      "minimal_experiment": "与逐点token及显式通道混合比较，固定历史窗口和预测步长。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-248"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2211.14730v2"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
+    },
+    {
+      "id": "MOD-268",
+      "kind": "module",
+      "title": "CoordGate",
+      "family": "position",
+      "family_label": "位置与网格编码",
+      "aliases": [],
+      "tags": [
+        "卷积/采样",
+        "效率/部署",
+        "位置与网格编码",
+        "CoordGate"
+      ],
+      "mechanism": "使用坐标编码网络生成乘性门控，使卷积能表达空间位置相关的变化。",
+      "integration": "具有可定义坐标的二维卷积特征块。",
+      "risks": "位置先验可能过拟合固定布局，不能与Coordinate Attention混为一谈。",
+      "minimal_experiment": "与固定位置编码加卷积比较，测试平移、裁切和分辨率变化。",
+      "code_refs": [],
+      "paper_refs": [],
+      "lead_refs": [
+        "DLI-288"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2401.04680v1"
+      ],
+      "evidence_status": "primary_abstract_synthesis",
+      "runtime_verified": false,
+      "metadata_checked": "2026-10-27",
+      "evidence_boundary": "依据已读官方摘要归纳机制；接入与实验是条件化建议。未核对全文公式与实现，不提供未经核实的张量签名。"
     }
   ]
 }

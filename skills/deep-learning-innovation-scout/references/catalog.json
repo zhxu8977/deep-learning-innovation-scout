@@ -5,19 +5,21 @@
     "workflow_pdf_pages": 9,
     "source_filename_advertised_count": 366,
     "detected_title_occurrences": 360,
-    "deduplicated_title_records": 321,
+    "deduplicated_title_records": 322,
     "extracted_link_occurrences": 611,
     "unique_links": 575,
-    "quarantined_records": 8,
-    "verification_scope": "8 个 arXiv 页面抽查题名与摘要；没有宣称全文阅读所有被引论文",
+    "quarantined_records": 11,
+    "verification_scope": "272条书目的官方题名/摘要身份核对；新机制卡按已读摘要归纳，非全部全文精读。",
     "source_sha256": "815b51697ab2dff772cfd335adbedae9fd0f6a5012ca2a92d16f5eb77e025c91",
-    "generated_from": "用户提供 PDF 的逐页文字；完整正文留在本机私有归档"
+    "generated_from": "用户提供 PDF 的逐页文字；完整正文留在本机私有归档",
+    "detected_title_occurrences_v2_0": 360,
+    "source_method_occurrences_v2_1": 361
   },
   "records": [
     {
       "id": "DLI-001",
       "title": "UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration",
-      "verified_title": null,
+      "verified_title": "UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration",
       "source_pages": [
         1
       ],
@@ -37,13 +39,17 @@
         "https://github.com/kdhRick2222/UCMNet"
       ],
       "arxiv_id": "2604.00381",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-001"
+      ]
     },
     {
       "id": "DLI-002",
       "title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
-      "verified_title": null,
+      "verified_title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
       "source_pages": [
         1,
         35
@@ -69,13 +75,18 @@
         "https://github.com/Linfeng-Tang/VideoFusion"
       ],
       "arxiv_id": "2503.23359",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-002",
+        "SRC-264"
+      ]
     },
     {
       "id": "DLI-003",
       "title": "It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal",
-      "verified_title": null,
+      "verified_title": "It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal",
       "source_pages": [
         1
       ],
@@ -94,13 +105,17 @@
         "https://github.com/qulishen/Flickerformer"
       ],
       "arxiv_id": "2603.22794",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-003"
+      ]
     },
     {
       "id": "DLI-004",
       "title": "Vision Transformers are Circulant Attention Learners",
-      "verified_title": null,
+      "verified_title": "Vision Transformers are Circulant Attention Learners",
       "source_pages": [
         1
       ],
@@ -119,13 +134,17 @@
         "https://github.com/LeapLabTHU/Circulant-Attention"
       ],
       "arxiv_id": "2512.21542",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-004"
+      ]
     },
     {
       "id": "DLI-005",
       "title": "Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation",
       "source_pages": [
         1,
         2
@@ -148,9 +167,13 @@
         "https://github.com/zhaoyang97/Paper-Notes/blob/main/docs/AAAI2026/medical_imaging/decoding_with_structured_awareness_integrating_directional_frequency-spatial_and.md"
       ],
       "arxiv_id": "2512.05494",
-      "evidence_status": "source_only",
+      "evidence_status": "verified_metadata",
       "quality_notes": [
         "包含二手笔记或短链接，不能作为论文事实的唯一证据。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-005"
       ]
     },
     {
@@ -175,12 +198,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-006"
+      ]
     },
     {
       "id": "DLI-007",
       "title": "ABDUCTIVEMLLM: Boosting Visual Abductive Reasoning Within MLLMs",
-      "verified_title": null,
+      "verified_title": "AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs",
       "source_pages": [
         2,
         27
@@ -200,13 +226,18 @@
       ],
       "other_urls": [],
       "arxiv_id": "2601.02771",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-007",
+        "SRC-194"
+      ]
     },
     {
       "id": "DLI-008",
       "title": "MODA: The First Challenging Benchmark for Multispectral Object Detection in Aerial Images",
-      "verified_title": null,
+      "verified_title": "MODA: The First Challenging Benchmark for Multispectral Object Detection in Aerial Images",
       "source_pages": [
         2
       ],
@@ -227,13 +258,17 @@
         "https://github.com/shuaihao-han/MODA"
       ],
       "arxiv_id": "2512.09489",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-008"
+      ]
     },
     {
       "id": "DLI-009",
       "title": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
       "source_pages": [
         2
       ],
@@ -251,8 +286,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2604.07994",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-009"
+      ]
     },
     {
       "id": "DLI-010",
@@ -278,13 +317,19 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "quarantine",
+      "quality_notes": [
+        "2.1.0：当前官方题名与原目录不匹配，隔离待重新查明。",
+        "2.1.0：提供的IEEE链接返回另一篇遥感融合论文，题名与链接不匹配。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-010"
+      ]
     },
     {
       "id": "DLI-011",
       "title": "Freqformer: Image-Demoiréing Transformer via Effective Frequency Decomposition",
-      "verified_title": null,
+      "verified_title": "Freqformer: Image-Demoiréing Transformer via Effective Frequency Decomposition",
       "source_pages": [
         2
       ],
@@ -304,8 +349,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2505.19120",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-011"
+      ]
     },
     {
       "id": "DLI-012",
@@ -332,12 +381,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-012"
+      ]
     },
     {
       "id": "DLI-013",
       "title": "HVI: ANewColor Space for Low-light Image Enhancement",
-      "verified_title": null,
+      "verified_title": "HVI: A New Color Space for Low-light Image Enhancement",
       "source_pages": [
         2
       ],
@@ -357,13 +409,17 @@
         "https://github.com/Fediory/HVI-CIDNet"
       ],
       "arxiv_id": "2502.20272",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-013"
+      ]
     },
     {
       "id": "DLI-014",
       "title": "U-RWKV: Lightweight medical image segmentation with direction-adaptive",
-      "verified_title": null,
+      "verified_title": "U-RWKV: Lightweight medical image segmentation with direction-adaptive RWKV",
       "source_pages": [
         2
       ],
@@ -384,13 +440,17 @@
         "https://github.com/hbyecoding/U-RWKV"
       ],
       "arxiv_id": "2507.11415",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-014"
+      ]
     },
     {
       "id": "DLI-015",
       "title": "Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics",
-      "verified_title": null,
+      "verified_title": "Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics",
       "source_pages": [
         2,
         3
@@ -411,8 +471,12 @@
         "https://github.com/AlexColagrande/MANO"
       ],
       "arxiv_id": "2507.02748",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-015"
+      ]
     },
     {
       "id": "DLI-016",
@@ -439,12 +503,16 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-016",
+        "SRC-049"
+      ]
     },
     {
       "id": "DLI-017",
       "title": "CTOD: Cross-Attentive Task-Alignment for One-Stage Object Detection",
-      "verified_title": null,
+      "verified_title": "CTOD: Cross-Attentive Task-Alignment for One-Stage Object Detection | IEEE Journals & Magazine | IEEE Xplore",
       "source_pages": [
         3
       ],
@@ -462,13 +530,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-017"
+      ]
     },
     {
       "id": "DLI-018",
       "title": "A Universal Scale-Adaptive Deformable Transformer for Image Restoration across Diverse Artifacts",
-      "verified_title": null,
+      "verified_title": "A Universal Scale-Adaptive Deformable Transformer for Image Restoration across Diverse Artifacts",
       "source_pages": [
         3
       ],
@@ -488,8 +560,12 @@
         "https://github.com/csxyhe/SADT/blob/main/README.md"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-018"
+      ]
     },
     {
       "id": "DLI-019",
@@ -514,12 +590,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-019"
+      ]
     },
     {
       "id": "DLI-020",
       "title": "Deep Fourier-embedded Network for RGB and Thermal Salient Object Detection",
-      "verified_title": null,
+      "verified_title": "Deep Fourier-embedded Network for RGB and Thermal Salient Object Detection",
       "source_pages": [
         3
       ],
@@ -539,13 +618,17 @@
         "https://github.com/JoshuaLPF/FreqSal"
       ],
       "arxiv_id": "2411.18409",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-020"
+      ]
     },
     {
       "id": "DLI-021",
       "title": "VolFormer: Explore More Comprehensive Cube Interaction for Hyperspectral Image Restoration and Beyond",
-      "verified_title": null,
+      "verified_title": "VolFormer: Explore More Comprehensive Cube Interaction for Hyperspectral Image Restoration and Beyond",
       "source_pages": [
         3
       ],
@@ -564,13 +647,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-021"
+      ]
     },
     {
       "id": "DLI-022",
       "title": "Rethinking Transformer-Based Blind-Spot Network for Self-Supervised Image Denoising",
-      "verified_title": null,
+      "verified_title": "Rethinking Transformer-Based Blind-Spot Network for Self-Supervised Image Denoising",
       "source_pages": [
         3,
         7,
@@ -593,8 +680,13 @@
         "https://github.com/nagejacob/TBSN"
       ],
       "arxiv_id": "2404.07846",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-022",
+        "SRC-057"
+      ]
     },
     {
       "id": "DLI-023",
@@ -621,12 +713,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-023"
+      ]
     },
     {
       "id": "DLI-024",
       "title": "MCANet: Medical Image Segmentation withMulti-Scale Cross-Axis Attention",
-      "verified_title": null,
+      "verified_title": "MCANet: Medical Image Segmentation with Multi-Scale Cross-Axis Attention",
       "source_pages": [
         4
       ],
@@ -646,13 +741,17 @@
         "https://github.com/haoshao-nku/medical_seg"
       ],
       "arxiv_id": "2312.08866",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-024"
+      ]
     },
     {
       "id": "DLI-025",
       "title": "Recursive Generalization Transformer for Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "Recursive Generalization Transformer for Image Super-Resolution",
       "source_pages": [
         4
       ],
@@ -672,13 +771,17 @@
         "https://github.com/zhengchen1999/RGT"
       ],
       "arxiv_id": "2303.06373",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-025"
+      ]
     },
     {
       "id": "DLI-026",
       "title": "Energy-Based Cross Attention for Bayesian Context Update in Text-to-Image Diffusion Models",
-      "verified_title": null,
+      "verified_title": "Energy-Based Cross Attention for Bayesian Context Update in Text-to-Image Diffusion Models",
       "source_pages": [
         4
       ],
@@ -699,13 +802,17 @@
         "https://github.com/EnergyAttention/Energy-Based-CrossAttention"
       ],
       "arxiv_id": "2306.09869",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-026"
+      ]
     },
     {
       "id": "DLI-027",
       "title": "Fast Vision Transformers with HiLo Attention",
-      "verified_title": null,
+      "verified_title": "Fast Vision Transformers with HiLo Attention",
       "source_pages": [
         4
       ],
@@ -723,13 +830,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2205.13213",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-027"
+      ]
     },
     {
       "id": "DLI-028",
       "title": "HCF-Net: Hierarchical Context Fusion Network for Infrared Small Object Detection",
-      "verified_title": null,
+      "verified_title": "HCF-Net: Hierarchical Context Fusion Network for Infrared Small Object Detection",
       "source_pages": [
         4,
         10
@@ -755,8 +866,13 @@
         "https://github.com/zhengshuchen/HCFNet"
       ],
       "arxiv_id": "2403.10778",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-028",
+        "SRC-073"
+      ]
     },
     {
       "id": "DLI-029",
@@ -782,12 +898,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-029"
+      ]
     },
     {
       "id": "DLI-030",
       "title": "Relation-Aware Global Attention for Person Re-identification",
-      "verified_title": null,
+      "verified_title": "Relation-Aware Global Attention for Person Re-identification",
       "source_pages": [
         4
       ],
@@ -809,8 +928,12 @@
         "https://github.com/microsoft/Relation-Aware-Global-Attention-Networks"
       ],
       "arxiv_id": "1904.02998",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-030"
+      ]
     },
     {
       "id": "DLI-031",
@@ -837,12 +960,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-031"
+      ]
     },
     {
       "id": "DLI-032",
       "title": "Agent Attention: On the Integration of Softmax and Linear Attention",
-      "verified_title": null,
+      "verified_title": "Agent Attention: On the Integration of Softmax and Linear Attention",
       "source_pages": [
         4,
         5
@@ -862,13 +988,17 @@
         "https://github.com/LeapLabTHU/Agent-Attention"
       ],
       "arxiv_id": "2312.08874",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-032"
+      ]
     },
     {
       "id": "DLI-033",
       "title": "Squeeze-and-Excitation Networks",
-      "verified_title": null,
+      "verified_title": "Squeeze-and-Excitation Networks",
       "source_pages": [
         5
       ],
@@ -887,13 +1017,17 @@
         "https://github.com/miraclewkf/SENet-PyTorch"
       ],
       "arxiv_id": "1709.01507",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-033"
+      ]
     },
     {
       "id": "DLI-034",
       "title": "Ultra-Lightweight Subspace Attention Module for Compact Convolutional Neural Networks",
-      "verified_title": null,
+      "verified_title": "ULSAM: Ultra-Lightweight Subspace Attention Module for Compact Convolutional Neural Networks",
       "source_pages": [
         5
       ],
@@ -916,13 +1050,17 @@
         "https://github.com/Nandan91/ULSAM"
       ],
       "arxiv_id": "2006.15102",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-034"
+      ]
     },
     {
       "id": "DLI-035",
       "title": "Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks",
-      "verified_title": null,
+      "verified_title": "Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks",
       "source_pages": [
         5
       ],
@@ -940,13 +1078,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "1803.02579",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-035"
+      ]
     },
     {
       "id": "DLI-036",
       "title": "Gated Channel Transformation for Visual Recognition",
-      "verified_title": null,
+      "verified_title": "Gated Channel Transformation for Visual Recognition",
       "source_pages": [
         5
       ],
@@ -965,8 +1107,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "1909.11519",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-036"
+      ]
     },
     {
       "id": "DLI-037",
@@ -993,12 +1139,15 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "题名是免疫细胞研究，目录却称为水下图像增强注意力；禁止按该模块推荐。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-037"
       ]
     },
     {
       "id": "DLI-038",
       "title": "AAU-net: An Adaptive Attention U-net for Breast Lesions Segmentation in Ultrasound Images",
-      "verified_title": null,
+      "verified_title": "AAU-net: An Adaptive Attention U-net for Breast Lesions Segmentation in Ultrasound Images",
       "source_pages": [
         5
       ],
@@ -1019,13 +1168,17 @@
         "https://github.com/CGPxy/AAU-net"
       ],
       "arxiv_id": "2204.12077",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-038"
+      ]
     },
     {
       "id": "DLI-039",
       "title": "HALF WAVELET ATTENTION ON M-NET+ FOR LOW-LIGHT IMAGE ENHANCEMENT",
-      "verified_title": null,
+      "verified_title": "Half Wavelet Attention on M-Net+ for Low-Light Image Enhancement",
       "source_pages": [
         5
       ],
@@ -1046,8 +1199,12 @@
         "https://github.com/FanChiMao/HWMNet"
       ],
       "arxiv_id": "2203.01296",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-039"
+      ]
     },
     {
       "id": "DLI-040",
@@ -1076,12 +1233,16 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-040",
+        "SRC-058"
+      ]
     },
     {
       "id": "DLI-041",
       "title": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
-      "verified_title": null,
+      "verified_title": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
       "source_pages": [
         6
       ],
@@ -1100,13 +1261,17 @@
         "https://github.com/HZAI-ZJNU/SCSA"
       ],
       "arxiv_id": "2407.05128",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-041"
+      ]
     },
     {
       "id": "DLI-042",
       "title": "Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields",
-      "verified_title": null,
+      "verified_title": "Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields",
       "source_pages": [
         6
       ],
@@ -1127,13 +1292,17 @@
         "https://github.com/tljxyys/Perspective-Unet"
       ],
       "arxiv_id": "2406.14052",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-042"
+      ]
     },
     {
       "id": "DLI-043",
       "title": "Demystify Mamba in Vision: A Linear Attention Perspective",
-      "verified_title": null,
+      "verified_title": "Demystify Mamba in Vision: A Linear Attention Perspective",
       "source_pages": [
         6
       ],
@@ -1153,8 +1322,12 @@
         "https://github.com/LeapLabTHU/MLLA"
       ],
       "arxiv_id": "2405.16605",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-043"
+      ]
     },
     {
       "id": "DLI-044",
@@ -1186,7 +1359,12 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "官方题名、摘要已核对；目录第6页将同一链接误配给 LDConv。",
-        "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-044, DLI-287"
+        "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-044, DLI-287",
+        "2.1.0：当前官方题名与原目录不匹配，隔离待重新查明。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-044",
+        "SRC-122"
       ]
     },
     {
@@ -1215,12 +1393,16 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-045",
+        "SRC-071"
+      ]
     },
     {
       "id": "DLI-046",
       "title": "LGAG-Net: Lesion-Guided Adaptive Graph Network for Bone Abnormality Detection from Musculoskeletal Radiograph",
-      "verified_title": null,
+      "verified_title": "LGAG-Net: Lesion-Guided Adaptive Graph Network for Bone Abnormality Detection From Musculoskeletal Radiograph | IEEE Journals & Magazine | IEEE Xplore",
       "source_pages": [
         6
       ],
@@ -1242,12 +1424,16 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "目录把骨异常检测题名配给医学分割 LGAG 模块；来源关系待核验。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-046"
       ]
     },
     {
       "id": "DLI-047",
       "title": "CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation",
       "source_pages": [
         6
       ],
@@ -1267,13 +1453,17 @@
         "https://github.com/aL3x-O-o-Hung/CSAM"
       ],
       "arxiv_id": "2311.04942",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-047"
+      ]
     },
     {
       "id": "DLI-048",
       "title": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
-      "verified_title": null,
+      "verified_title": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
       "source_pages": [
         6,
         7
@@ -1293,13 +1483,17 @@
         "https://github.com/DaiShiResearch/TransNeXt"
       ],
       "arxiv_id": "2311.17132",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-048"
+      ]
     },
     {
       "id": "DLI-049",
       "title": "Multi-scale Attention Network for Single Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "Multi-scale Attention Network for Single Image Super-Resolution",
       "source_pages": [
         7
       ],
@@ -1319,13 +1513,17 @@
         "https://github.com/icandle/MAN"
       ],
       "arxiv_id": "2209.14145",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-050"
+      ]
     },
     {
       "id": "DLI-050",
       "title": "Vision Transformer with Deformable Attention",
-      "verified_title": null,
+      "verified_title": "Vision Transformer with Deformable Attention",
       "source_pages": [
         7
       ],
@@ -1344,13 +1542,17 @@
         "https://github.com/LeapLabTHU/DAT"
       ],
       "arxiv_id": "2201.00520",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-051"
+      ]
     },
     {
       "id": "DLI-051",
       "title": "FECAM: Frequency Enhanced Channel Attention Mechanism for Time Series Forecasting",
-      "verified_title": null,
+      "verified_title": "FECAM: Frequency Enhanced Channel Attention Mechanism for Time Series Forecasting",
       "source_pages": [
         7
       ],
@@ -1371,8 +1573,12 @@
         "https://github.com/Zero-coder/FECAM"
       ],
       "arxiv_id": "2212.01209",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-052"
+      ]
     },
     {
       "id": "DLI-052",
@@ -1398,7 +1604,10 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-053"
+      ]
     },
     {
       "id": "DLI-053",
@@ -1421,12 +1630,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-054"
+      ]
     },
     {
       "id": "DLI-054",
       "title": "DCT-Former: Efficient Self-Attention with Discrete Cosine Transform",
-      "verified_title": null,
+      "verified_title": "DCT-Former: Efficient Self-Attention with Discrete Cosine Transform",
       "source_pages": [
         7
       ],
@@ -1447,13 +1659,17 @@
         "https://github.com/cscribano/DCT-Former-Public"
       ],
       "arxiv_id": "2203.01178",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-055"
+      ]
     },
     {
       "id": "DLI-055",
       "title": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer- GCNFormer Network",
-      "verified_title": null,
+      "verified_title": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer-GCNFormer Network",
       "source_pages": [
         7
       ],
@@ -1472,13 +1688,17 @@
         "https://github.com/TaatiTeam/MotionAGFormer"
       ],
       "arxiv_id": "2310.16288",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-056"
+      ]
     },
     {
       "id": "DLI-056",
       "title": "RMT: Retentive Networks Meet Vision Transformers",
-      "verified_title": null,
+      "verified_title": "RMT: Retentive Networks Meet Vision Transformers",
       "source_pages": [
         8
       ],
@@ -1497,13 +1717,17 @@
         "https://github.com/qhfan/RMT"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-059"
+      ]
     },
     {
       "id": "DLI-057",
       "title": "CATANet: Efficient Content-Aware Token Aggregation for Lightweight Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "CATANet: Efficient Content-Aware Token Aggregation for Lightweight Image Super-Resolution",
       "source_pages": [
         8
       ],
@@ -1524,13 +1748,17 @@
         "https://github.com/EquationWalker/CATANet/tree/main"
       ],
       "arxiv_id": "2503.06896",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-060"
+      ]
     },
     {
       "id": "DLI-058",
       "title": "FSTA-SNN:Frequency-based Spatial-Temporal Attention Module for Spiking Neural Networks",
-      "verified_title": null,
+      "verified_title": "FSTA-SNN:Frequency-based Spatial-Temporal Attention Module for Spiking Neural Networks",
       "source_pages": [
         8,
         37
@@ -1554,15 +1782,20 @@
         "https://blog.csdn.net/qq_43303160/article/details/146243016"
       ],
       "arxiv_id": "2501.14744",
-      "evidence_status": "source_only",
+      "evidence_status": "verified_metadata",
       "quality_notes": [
         "包含二手笔记或短链接，不能作为论文事实的唯一证据。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-061",
+        "SRC-280"
       ]
     },
     {
       "id": "DLI-059",
       "title": "High-Similarity-Pass Attention for Single Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "High-Similarity-Pass Attention for Single Image Super-Resolution",
       "source_pages": [
         8
       ],
@@ -1584,13 +1817,17 @@
         "https://github.com/laoyangui/HSPAN"
       ],
       "arxiv_id": "2305.15768",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-062"
+      ]
     },
     {
       "id": "DLI-060",
       "title": "PMFSNet: Polarized Multi-scale Feature Self-attention Network For Lightweight Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "PMFSNet: Polarized Multi-scale Feature Self-attention Network For Lightweight Medical Image Segmentation",
       "source_pages": [
         8
       ],
@@ -1611,13 +1848,17 @@
         "https://github.com/yykzjh/PMFSNet"
       ],
       "arxiv_id": "2401.07579",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-063"
+      ]
     },
     {
       "id": "DLI-061",
       "title": "Fourier Angle Alignment for Oriented Object Detection in Remote Sensing",
-      "verified_title": null,
+      "verified_title": "Fourier Angle Alignment for Oriented Object Detection in Remote Sensing",
       "source_pages": [
         8,
         9
@@ -1642,13 +1883,18 @@
         "https://github.com/gcy0423/Fourier-Angle-Alignment"
       ],
       "arxiv_id": "2602.23790",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-064",
+        "SRC-067"
+      ]
     },
     {
       "id": "DLI-062",
       "title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
-      "verified_title": null,
+      "verified_title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
       "source_pages": [
         8
       ],
@@ -1669,13 +1915,17 @@
         "https://github.com/wuw2135/ReflexSplit"
       ],
       "arxiv_id": "2601.17468",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-065"
+      ]
     },
     {
       "id": "DLI-063",
       "title": "MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention",
-      "verified_title": null,
+      "verified_title": "MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention",
       "source_pages": [
         9
       ],
@@ -1697,13 +1947,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2603.01361",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-066"
+      ]
     },
     {
       "id": "DLI-064",
       "title": "Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection",
-      "verified_title": null,
+      "verified_title": "Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection",
       "source_pages": [
         9,
         10,
@@ -1727,13 +1981,18 @@
         "https://github.com/fengyan-cv/WPFormer"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-068",
+        "SRC-080"
+      ]
     },
     {
       "id": "DLI-065",
       "title": "Dual-Stage Cross-Modal Network with Dynamic Feature Fusion for Emotional Mimicry Intensity Estimation",
-      "verified_title": null,
+      "verified_title": "Dual-Stage Cross-Modal Network with Dynamic Feature Fusion for Emotional Mimicry Intensity Estimation",
       "source_pages": [
         9
       ],
@@ -1750,13 +2009,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-069"
+      ]
     },
     {
       "id": "DLI-066",
       "title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
-      "verified_title": null,
+      "verified_title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
       "source_pages": [
         9,
         10,
@@ -1782,13 +2045,19 @@
         "https://github.com/Mengqi-Lei/ConDSeg"
       ],
       "arxiv_id": "2412.08345",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-070",
+        "SRC-079",
+        "SRC-169"
+      ]
     },
     {
       "id": "DLI-067",
       "title": "Dynamic Feature Fusion for Semantic Edge Detection",
-      "verified_title": null,
+      "verified_title": "Dynamic Feature Fusion for Semantic Edge Detection",
       "source_pages": [
         9
       ],
@@ -1808,13 +2077,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "1902.09104",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-072"
+      ]
     },
     {
       "id": "DLI-068",
       "title": "PnPNet: Unified Network for Precise Boundary Segmentation of Volumetric Images",
-      "verified_title": null,
+      "verified_title": "PnPNet: Pull-and-Push Networks for Volumetric Segmentation with Boundary Confusion",
       "source_pages": [
         10
       ],
@@ -1836,13 +2109,17 @@
         "https://github.com/AlexYouXin/PnPNet"
       ],
       "arxiv_id": "2312.08323",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-074"
+      ]
     },
     {
       "id": "DLI-069",
       "title": "DS-TransUNet: Dual Swin Transformer U-Net for Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "DS-TransUNet:Dual Swin Transformer U-Net for Medical Image Segmentation",
       "source_pages": [
         10
       ],
@@ -1863,8 +2140,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2106.06716",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-075"
+      ]
     },
     {
       "id": "DLI-070",
@@ -1892,12 +2173,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-076"
+      ]
     },
     {
       "id": "DLI-071",
       "title": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content- Guided Attention",
-      "verified_title": null,
+      "verified_title": "DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention",
       "source_pages": [
         10,
         14
@@ -1922,13 +2206,18 @@
         "https://github.com/cecret3350/DEA-Net"
       ],
       "arxiv_id": "2301.04805",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-077",
+        "SRC-109"
+      ]
     },
     {
       "id": "DLI-072",
       "title": "DuAT: Dual-Aggregation Transformer Network for Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "DuAT: Dual-Aggregation Transformer Network for Medical Image Segmentation",
       "source_pages": [
         10
       ],
@@ -1949,8 +2238,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2212.11677",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-078"
+      ]
     },
     {
       "id": "DLI-073",
@@ -1975,12 +2268,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-081"
+      ]
     },
     {
       "id": "DLI-074",
       "title": "Hilbert Curve-Based Attention Enabling Topology-Preserving Image Tensor Representation for Semantic Segmentation Network",
-      "verified_title": null,
+      "verified_title": "Hilbert Curve-Based Attention Enabling Topology-Preserving Image Tensor Representation for Semantic Segmentation Network",
       "source_pages": [
         11
       ],
@@ -1999,13 +2295,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-082"
+      ]
     },
     {
       "id": "DLI-075",
       "title": "FreDFT: Frequency Domain Fusion Transformer for Visible-Infrared Object Detection",
-      "verified_title": null,
+      "verified_title": "FreDFT: Frequency Domain Fusion Transformer for Visible-Infrared Object Detection",
       "source_pages": [
         11
       ],
@@ -2031,13 +2331,17 @@
         "https://github.com/WenCongWu/FreDFT"
       ],
       "arxiv_id": "2511.10046",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-083"
+      ]
     },
     {
       "id": "DLI-076",
       "title": "BCN: Batch Channel Normalization for Image Classification",
-      "verified_title": null,
+      "verified_title": "BCN: Batch Channel Normalization for Image Classification",
       "source_pages": [
         11,
         12
@@ -2058,13 +2362,18 @@
         "https://github.com/AfifaKhaled/Batch-Channel-Normalization"
       ],
       "arxiv_id": "2312.00596",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-084",
+        "SRC-093"
+      ]
     },
     {
       "id": "DLI-077",
       "title": "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks",
-      "verified_title": null,
+      "verified_title": "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks",
       "source_pages": [
         11
       ],
@@ -2085,13 +2394,17 @@
         "https://github.com/gdasoulas/LipschitzNorm"
       ],
       "arxiv_id": "2103.04886",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-085"
+      ]
     },
     {
       "id": "DLI-078",
       "title": "SelfNorm and CrossNorm for Out-of-Distribution Robustness",
-      "verified_title": null,
+      "verified_title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
       "source_pages": [
         11
       ],
@@ -2108,15 +2421,19 @@
       ],
       "other_urls": [],
       "arxiv_id": "2102.02811",
-      "evidence_status": "source_only",
+      "evidence_status": "verified_metadata",
       "quality_notes": [
         "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-078, DLI-080"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-086"
       ]
     },
     {
       "id": "DLI-079",
       "title": "CONTRANORM: A CONTRASTIVE LEARNING PERSPECTIVE ON OVERSMOOTHING AND BEYOND",
-      "verified_title": null,
+      "verified_title": "ContraNorm: A Contrastive Learning Perspective on Oversmoothing and Beyond",
       "source_pages": [
         11
       ],
@@ -2137,13 +2454,17 @@
         "https://github.com/PKU-ML/ContraNorm"
       ],
       "arxiv_id": "2303.06562",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-087"
+      ]
     },
     {
       "id": "DLI-080",
       "title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
-      "verified_title": null,
+      "verified_title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
       "source_pages": [
         11,
         12
@@ -2163,15 +2484,19 @@
         "https://github.com/amazon-science/crossnorm-selfnorm"
       ],
       "arxiv_id": "2102.02811",
-      "evidence_status": "source_only",
+      "evidence_status": "verified_metadata",
       "quality_notes": [
         "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-078, DLI-080"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-088"
       ]
     },
     {
       "id": "DLI-081",
       "title": "Transformers without Normalization",
-      "verified_title": null,
+      "verified_title": "Transformers without Normalization",
       "source_pages": [
         12
       ],
@@ -2191,8 +2516,13 @@
         "https://github.com/jiachenzhu/DyT"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-089",
+        "SRC-363"
+      ]
     },
     {
       "id": "DLI-082",
@@ -2217,12 +2547,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-090"
+      ]
     },
     {
       "id": "DLI-083",
       "title": "Towards Real-World Test-Time Adaptation: Tri-net Self-Training with Balanced Normalization",
-      "verified_title": null,
+      "verified_title": "Towards Real-World Test-Time Adaptation: Tri-Net Self-Training with Balanced Normalization",
       "source_pages": [
         12
       ],
@@ -2241,13 +2574,17 @@
         "https://github.com/Gorilla-Lab-SCUT/TRIBE"
       ],
       "arxiv_id": "2309.14949",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-091"
+      ]
     },
     {
       "id": "DLI-084",
       "title": "Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization",
-      "verified_title": null,
+      "verified_title": "Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization",
       "source_pages": [
         12
       ],
@@ -2266,13 +2603,17 @@
         "https://github.com/ynanwu/MABN"
       ],
       "arxiv_id": "2312.10165",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-092"
+      ]
     },
     {
       "id": "DLI-085",
       "title": "Spectral Normalization and Dual Contrastive Regularization for Image-to-Image Translation",
-      "verified_title": null,
+      "verified_title": "Spectral Normalization and Dual Contrastive Regularization for Image-to-Image Translation",
       "source_pages": [
         12
       ],
@@ -2292,13 +2633,17 @@
         "https://github.com/ChenzhaoNju/SN-DCR"
       ],
       "arxiv_id": "2304.11319",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-094"
+      ]
     },
     {
       "id": "DLI-086",
       "title": "Hyperspherical Normalization for Scalable Deep Reinforcement Learning",
-      "verified_title": null,
+      "verified_title": "Hyperspherical Normalization for Scalable Deep Reinforcement Learning",
       "source_pages": [
         12
       ],
@@ -2317,8 +2662,12 @@
         "https://dojeon-ai.github.io/SimbaV2/"
       ],
       "arxiv_id": "2502.15280",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-095"
+      ]
     },
     {
       "id": "DLI-087",
@@ -2342,12 +2691,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-096"
+      ]
     },
     {
       "id": "DLI-088",
       "title": "Partial Channel Network: Compute Fewer, Perform Better",
-      "verified_title": null,
+      "verified_title": "Partial Channel Network: Compute Fewer, Perform Better",
       "source_pages": [
         13
       ],
@@ -2366,13 +2718,17 @@
         "https://github.com/AITricks/AITricks/tree/main/01_Attention%EF%BC%88%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%EF%BC%89/papers/15_PartialNet-%E5%9F%BA%E4%BA%8E%E2%80%9C%E9%83%A8%E5%88%86%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%8D%B7%E7%A7%AF%E2%80%9D%E4%B8%8E%E2%80%9C%E5%8A%A8%E6%80%81%E9%80%9A%E9%81%93%E5%88%86%E5%89%B2%E2%80%9D%E7%9A%84%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%BD%91%E7%BB%9C%E6%96%B0%E6%A0%87%E6%9D%86"
       ],
       "arxiv_id": "2502.01303",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-097"
+      ]
     },
     {
       "id": "DLI-089",
       "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
-      "verified_title": null,
+      "verified_title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
       "source_pages": [
         13
       ],
@@ -2393,13 +2749,19 @@
         "https://github.com/HVision-NKU/Strip-R-CNN/blob/main/README.md"
       ],
       "arxiv_id": "2501.03775",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-098",
+        "SRC-100",
+        "SRC-102"
+      ]
     },
     {
       "id": "DLI-090",
       "title": "TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising",
-      "verified_title": null,
+      "verified_title": "TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising",
       "source_pages": [
         13
       ],
@@ -2418,13 +2780,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2604.04484",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-099"
+      ]
     },
     {
       "id": "DLI-091",
       "title": "Remote Sensing Forestry Similarity Convolution",
-      "verified_title": null,
+      "verified_title": "Remote Sensing Forestry Similarity Convolution",
       "source_pages": [
         13,
         17
@@ -2444,8 +2810,13 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-101",
+        "SRC-133"
+      ]
     },
     {
       "id": "DLI-092",
@@ -2479,7 +2850,11 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-103",
+        "SRC-142"
+      ]
     },
     {
       "id": "DLI-093",
@@ -2504,12 +2879,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-104"
+      ]
     },
     {
       "id": "DLI-094",
       "title": "MobileIE: An Extremely Lightweight and Effective ConvNet for Real-Time Image Enhancement on Mobile Devices",
-      "verified_title": null,
+      "verified_title": "MobileIE: An Extremely Lightweight and Effective ConvNet for Real-Time Image Enhancement on Mobile Devices",
       "source_pages": [
         14
       ],
@@ -2530,13 +2908,17 @@
         "https://github.com/AVC2-UESTC/MobileIE/blob/main/README.md"
       ],
       "arxiv_id": "2507.01838",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-105"
+      ]
     },
     {
       "id": "DLI-095",
       "title": "Adaptive Rectangular Convolution for Remote Sensing Pansharpening",
-      "verified_title": null,
+      "verified_title": "Adaptive Rectangular Convolution for Remote Sensing Pansharpening",
       "source_pages": [
         14,
         16
@@ -2557,13 +2939,18 @@
         "https://github.com/WangXueyang-uestc/ARConv"
       ],
       "arxiv_id": "2503.00467",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-106",
+        "SRC-124"
+      ]
     },
     {
       "id": "DLI-096",
       "title": "Reverse Convolution and Its Applications to Image Restoration",
-      "verified_title": null,
+      "verified_title": "Reverse Convolution and Its Applications to Image Restoration",
       "source_pages": [
         14
       ],
@@ -2583,13 +2970,17 @@
         "https://github.com/cszn/ConverseNet"
       ],
       "arxiv_id": "2508.09824",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-107"
+      ]
     },
     {
       "id": "DLI-097",
       "title": "Pinwheel-shaped Convolution and Scale-based Dynamic Loss for Infrared Small Target Detection",
-      "verified_title": null,
+      "verified_title": "Pinwheel-shaped Convolution and Scale-based Dynamic Loss for Infrared Small Target Detection",
       "source_pages": [
         14,
         16
@@ -2610,13 +3001,18 @@
         "https://github.com/JN-Yang/PConv-SDloss-Data"
       ],
       "arxiv_id": "2412.16986",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-108",
+        "SRC-125"
+      ]
     },
     {
       "id": "DLI-098",
       "title": "Channel-wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
-      "verified_title": null,
+      "verified_title": "Channel-wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
       "source_pages": [
         14
       ],
@@ -2639,8 +3035,12 @@
         "https://github.com/Uason-Chen/CTR-GCN"
       ],
       "arxiv_id": "2107.12213",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-110"
+      ]
     },
     {
       "id": "DLI-099",
@@ -2669,12 +3069,17 @@
       "evidence_status": "verified_metadata",
       "quality_notes": [
         "官方题名和摘要核对；具体迁移收益仍需本任务实验。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-111",
+        "SRC-120"
       ]
     },
     {
       "id": "DLI-100",
       "title": "TVConv: Efficient Translation Variant Convolution for Layout-aware Visual Processing",
-      "verified_title": null,
+      "verified_title": "TVConv: Efficient Translation Variant Convolution for Layout-aware Visual Processing",
       "source_pages": [
         15
       ],
@@ -2696,13 +3101,17 @@
         "https://github.com/JierunChen/TVConv"
       ],
       "arxiv_id": "2203.10489",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-112"
+      ]
     },
     {
       "id": "DLI-101",
       "title": "Dynamic Convolution: Attention over Convolution Kernels",
-      "verified_title": null,
+      "verified_title": "Dynamic Convolution: Attention over Convolution Kernels",
       "source_pages": [
         15,
         16
@@ -2721,13 +3130,18 @@
       ],
       "other_urls": [],
       "arxiv_id": "1912.03458",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-113",
+        "SRC-121"
+      ]
     },
     {
       "id": "DLI-102",
       "title": "Pyramidal Convolution: Rethinking Convolutional Neural Networks for Visual Recognition",
-      "verified_title": null,
+      "verified_title": "Pyramidal Convolution: Rethinking Convolutional Neural Networks for Visual Recognition",
       "source_pages": [
         15
       ],
@@ -2746,8 +3160,12 @@
         "https://github.com/iduta/pyconv"
       ],
       "arxiv_id": "2006.11538",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-114"
+      ]
     },
     {
       "id": "DLI-103",
@@ -2772,12 +3190,16 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "原目录把条件推理数据集当成卷积模块；官方摘要确认是多文档推理数据集。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-115"
       ]
     },
     {
       "id": "DLI-104",
       "title": "CondConv: Conditionally Parameterized Convolutions for Efficient Inference",
-      "verified_title": null,
+      "verified_title": "CondConv: Conditionally Parameterized Convolutions for Efficient Inference",
       "source_pages": [
         15
       ],
@@ -2797,13 +3219,17 @@
         "https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet/condconv"
       ],
       "arxiv_id": "1904.04971",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-116"
+      ]
     },
     {
       "id": "DLI-105",
       "title": "DO-Conv: Depthwise Over-parameterized Convolutional Layer",
-      "verified_title": null,
+      "verified_title": "DO-Conv: Depthwise Over-parameterized Convolutional Layer",
       "source_pages": [
         15
       ],
@@ -2822,13 +3248,17 @@
         "https://github.com/yangyanli/DO-Conv"
       ],
       "arxiv_id": "2006.12030",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-117"
+      ]
     },
     {
       "id": "DLI-106",
       "title": "Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks",
-      "verified_title": null,
+      "verified_title": "Run, Don't Walk: Chasing Higher FLOPS for Faster Neural Networks",
       "source_pages": [
         15
       ],
@@ -2848,8 +3278,12 @@
         "https://github.com/JierunChen/FasterNet"
       ],
       "arxiv_id": "2303.03667",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-118"
+      ]
     },
     {
       "id": "DLI-107",
@@ -2876,6 +3310,10 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "原目录把数值线性代数论文当成大核下采样模块。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-119"
       ]
     },
     {
@@ -2900,16 +3338,20 @@
         "https://github.com/CV-ZhangXin/LDConv/blob/main/README.md"
       ],
       "arxiv_id": "2311.11587",
-      "evidence_status": "source_only",
+      "evidence_status": "verified_metadata",
       "quality_notes": [
         "官方题名、摘要已核对；目录内 AKConv/LDConv 别名与同链接需谨慎区分。",
         "AKConv 为原目录别名，官方题名为 LDConv，别名关系未核实。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-123"
       ]
     },
     {
       "id": "DLI-109",
       "title": "BHViT: Binarized Hybrid Vision Transformer",
-      "verified_title": null,
+      "verified_title": "BHViT: Binarized Hybrid Vision Transformer",
       "source_pages": [
         16,
         24
@@ -2932,8 +3374,13 @@
         "https://github.com/IMRL/BHViT"
       ],
       "arxiv_id": "2503.02394",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-126",
+        "SRC-171"
+      ]
     },
     {
       "id": "DLI-110",
@@ -2961,7 +3408,10 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-127"
+      ]
     },
     {
       "id": "DLI-111",
@@ -2985,12 +3435,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-128"
+      ]
     },
     {
       "id": "DLI-112",
       "title": "SFS-DETR: Spatial-Frequency Selection for UAV Object Detection",
-      "verified_title": null,
+      "verified_title": "SFS-DETR: Spatial-Frequency Selection for UAV Object Detection",
       "source_pages": [
         16,
         17
@@ -3009,13 +3462,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-129"
+      ]
     },
     {
       "id": "DLI-113",
       "title": "Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization",
-      "verified_title": null,
+      "verified_title": "Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization",
       "source_pages": [
         17
       ],
@@ -3032,8 +3489,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2412.13753",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-130"
+      ]
     },
     {
       "id": "DLI-114",
@@ -3057,12 +3518,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-131"
+      ]
     },
     {
       "id": "DLI-115",
       "title": "Real-World Remote Sensing Image Dehazing: Benchmark and Baseline",
-      "verified_title": null,
+      "verified_title": "Real-World Remote Sensing Image Dehazing: Benchmark and Baseline",
       "source_pages": [
         17
       ],
@@ -3083,8 +3547,13 @@
         "https://github.com/AeroVILab-AHU/RRSHID"
       ],
       "arxiv_id": "2503.17966",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-132",
+        "SRC-134"
+      ]
     },
     {
       "id": "DLI-116",
@@ -3111,12 +3580,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-135"
+      ]
     },
     {
       "id": "DLI-117",
       "title": "MixDehazeNet : Mix Structure Block For Image Dehazing Network",
-      "verified_title": null,
+      "verified_title": "MixDehazeNet : Mix Structure Block For Image Dehazing Network",
       "source_pages": [
         17
       ],
@@ -3136,13 +3608,17 @@
         "https://github.com/AmeryXiong/MixDehazeNet"
       ],
       "arxiv_id": "2305.17654",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-136"
+      ]
     },
     {
       "id": "DLI-118",
       "title": "SCConv: Spatial and Channel Reconstruction Convolution for Feature Redundancy",
-      "verified_title": null,
+      "verified_title": "SCConv: Spatial and Channel Reconstruction Convolution for Feature Redundancy",
       "source_pages": [
         17,
         18
@@ -3162,13 +3638,17 @@
         "https://github.com/cheng-haha/ScConv"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-137"
+      ]
     },
     {
       "id": "DLI-119",
       "title": "SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures",
-      "verified_title": null,
+      "verified_title": "SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures",
       "source_pages": [
         18,
         29
@@ -3191,13 +3671,18 @@
         "https://github.com/Karl1109/SCSegamba"
       ],
       "arxiv_id": "2503.01113",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-138",
+        "SRC-212"
+      ]
     },
     {
       "id": "DLI-120",
       "title": "Depth Information Assisted Collaborative Mutual Promotion Network for Single Image Dehazing",
-      "verified_title": null,
+      "verified_title": "Depth Information Assisted Collaborative Mutual Promotion Network for Single Image Dehazing",
       "source_pages": [
         18
       ],
@@ -3216,13 +3701,17 @@
         "https://github.com/zhoushen1/DCMPNet"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-139"
+      ]
     },
     {
       "id": "DLI-121",
       "title": "OTTER:A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
-      "verified_title": null,
+      "verified_title": "OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
       "source_pages": [
         18
       ],
@@ -3244,8 +3733,12 @@
         "https://github.com/Max-Fu/otter#dataset"
       ],
       "arxiv_id": "2503.03734",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-140"
+      ]
     },
     {
       "id": "DLI-122",
@@ -3268,7 +3761,10 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-141"
+      ]
     },
     {
       "id": "DLI-123",
@@ -3297,12 +3793,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-143"
+      ]
     },
     {
       "id": "DLI-124",
       "title": "Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers",
-      "verified_title": null,
+      "verified_title": "Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers",
       "source_pages": [
         19
       ],
@@ -3326,13 +3825,17 @@
         "https://subhadeepkoley.github.io/DiffusionZSSBIR/"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-144"
+      ]
     },
     {
       "id": "DLI-125",
       "title": "Latent Feature-Guided Diffusion Models for Shadow Removal",
-      "verified_title": null,
+      "verified_title": "Latent Feature-Guided Diffusion Models for Shadow Removal",
       "source_pages": [
         19
       ],
@@ -3355,13 +3858,17 @@
         "https://github.com/MKFMIKU/Instance-Shadow-Diffusion"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-145"
+      ]
     },
     {
       "id": "DLI-126",
       "title": "Weak-Mamba-UNet: Visual Mamba Makes CNN and ViT Work Better for Scribble-based Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "Weak-Mamba-UNet: Visual Mamba Makes CNN and ViT Work Better for Scribble-based Medical Image Segmentation",
       "source_pages": [
         19
       ],
@@ -3386,13 +3893,17 @@
         "https://github.com/ziyangwang007/Mamba-UNet"
       ],
       "arxiv_id": "2402.10887",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-146"
+      ]
     },
     {
       "id": "DLI-127",
       "title": "BEFUnet: A Hybrid CNN-Transformer Architecture for Precise Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "BEFUnet: A Hybrid CNN-Transformer Architecture for Precise Medical Image Segmentation",
       "source_pages": [
         20,
         41
@@ -3414,13 +3925,18 @@
         "https://github.com/Omid-Nejati/BEFUnet"
       ],
       "arxiv_id": "2402.08793",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-147",
+        "SRC-304"
+      ]
     },
     {
       "id": "DLI-128",
       "title": "Multimodal Deep Learning for Remote Stress Estimation Using CCT-LSTM",
-      "verified_title": null,
+      "verified_title": "Multimodal Deep Learning for Remote Stress Estimation Using CCT-LSTM",
       "source_pages": [
         20
       ],
@@ -3441,13 +3957,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-148"
+      ]
     },
     {
       "id": "DLI-129",
       "title": "T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews",
-      "verified_title": null,
+      "verified_title": "T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews",
       "source_pages": [
         20
       ],
@@ -3471,8 +3991,12 @@
         "https://github.com/gessi-chatbots/t-frex"
       ],
       "arxiv_id": "2401.03833",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-149"
+      ]
     },
     {
       "id": "DLI-130",
@@ -3501,12 +4025,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-150"
+      ]
     },
     {
       "id": "DLI-131",
       "title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
-      "verified_title": null,
+      "verified_title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
       "source_pages": [
         20
       ],
@@ -3526,8 +4053,12 @@
         "https://github.com/NVlabs/MambaVision"
       ],
       "arxiv_id": "2407.08083",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-151"
+      ]
     },
     {
       "id": "DLI-132",
@@ -3557,12 +4088,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-152"
+      ]
     },
     {
       "id": "DLI-133",
       "title": "Tri-VAE: Triplet Variational Autoencoder for Unsupervised Anomaly Detection in Brain Tumor MRI",
-      "verified_title": null,
+      "verified_title": "Tri-VAE: Triplet Variational Autoencoder for Unsupervised Anomaly Detection in Brain Tumor MRI",
       "source_pages": [
         21
       ],
@@ -3579,8 +4113,12 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-153"
+      ]
     },
     {
       "id": "DLI-134",
@@ -3614,12 +4152,17 @@
       "evidence_status": "verified_metadata",
       "quality_notes": [
         "官方题名和摘要核对；时序任务的跨域迁移仍待验证。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-154",
+        "SRC-283"
       ]
     },
     {
       "id": "DLI-135",
       "title": "GraphKAN: Enhancing Feature Extraction with Graph Kolmogorov Arnold Networks",
-      "verified_title": null,
+      "verified_title": "GraphKAN: Enhancing Feature Extraction with Graph Kolmogorov Arnold Networks",
       "source_pages": [
         21
       ],
@@ -3641,13 +4184,17 @@
         "https://github.com/Ryanfzhang/GraphKan"
       ],
       "arxiv_id": "2406.13597",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-155"
+      ]
     },
     {
       "id": "DLI-136",
       "title": "Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases",
-      "verified_title": null,
+      "verified_title": "Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases",
       "source_pages": [
         21
       ],
@@ -3666,13 +4213,17 @@
         "https://github.com/JustlfC03/MFDS-DETR"
       ],
       "arxiv_id": "2401.00926",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-156"
+      ]
     },
     {
       "id": "DLI-137",
       "title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
-      "verified_title": null,
+      "verified_title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
       "source_pages": [
         22
       ],
@@ -3695,13 +4246,17 @@
         "https://github.com/zju3dv/efficientloftr"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-157"
+      ]
     },
     {
       "id": "DLI-138",
       "title": "XFeat: Accelerated Features for Lightweight Image Matching",
-      "verified_title": null,
+      "verified_title": "XFeat: Accelerated Features for Lightweight Image Matching",
       "source_pages": [
         22
       ],
@@ -3723,13 +4278,17 @@
         "https://github.com/brukg/xfeat"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-158"
+      ]
     },
     {
       "id": "DLI-139",
       "title": "FourierKAN-GCF: Fourier Kolmogorov-Arnold Network- An Effective and Efficient Feature Transformation for Graph Collaborative Filtering",
-      "verified_title": null,
+      "verified_title": "Enhancing Graph Collaborative Filtering with FourierKAN Feature Transformation",
       "source_pages": [
         22
       ],
@@ -3753,13 +4312,17 @@
         "https://github.com/Jinfeng-Xu/FKAN-GCF"
       ],
       "arxiv_id": "2406.01034",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-159"
+      ]
     },
     {
       "id": "DLI-140",
       "title": "Infrared Image Super-Resolution via Lightweight Information Split Network",
-      "verified_title": null,
+      "verified_title": "Infrared Image Super-Resolution via Lightweight Information Split Network",
       "source_pages": [
         22
       ],
@@ -3784,13 +4347,17 @@
         "https://github.com/sad192/LISN-Infrared-Image-SR"
       ],
       "arxiv_id": "2405.10561",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-160"
+      ]
     },
     {
       "id": "DLI-141",
       "title": "WaveNet-SF: A Hybrid Network for Retinal Disease Detection Based on Wavelet Transform in the Spatial-Frequency Domain",
-      "verified_title": null,
+      "verified_title": "WaveNet-SF: A Hybrid Network for Retinal Disease Detection Based on Wavelet Transform in Spatial-Frequency Domain",
       "source_pages": [
         22
       ],
@@ -3813,13 +4380,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2501.11854",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-161"
+      ]
     },
     {
       "id": "DLI-142",
       "title": "MLP-KAN: UNIFYING DEEP REPRESENTATION AND FUNCTION LEARNING",
-      "verified_title": null,
+      "verified_title": "MLP-KAN: Unifying Deep Representation and Function Learning",
       "source_pages": [
         23
       ],
@@ -3838,13 +4409,17 @@
         "https://github.com/DLYuanGod/MLP-KAN"
       ],
       "arxiv_id": "2410.03027",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-162"
+      ]
     },
     {
       "id": "DLI-143",
       "title": "Exploring State Space Model in Wavelet Domain: An Infrared and Visible Image Fusion Network via Wavelet Transform and State Space Model",
-      "verified_title": null,
+      "verified_title": "Exploring State Space Model in Wavelet Domain: An Infrared and Visible Image Fusion Network via Wavelet Transform and State Space Model",
       "source_pages": [
         23
       ],
@@ -3873,8 +4448,12 @@
         "https://github.com/Lmmh058/W-Mamba"
       ],
       "arxiv_id": "2503.18378",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-163"
+      ]
     },
     {
       "id": "DLI-144",
@@ -3900,12 +4479,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-164"
+      ]
     },
     {
       "id": "DLI-145",
       "title": "Dual-Path Learning based on Frequency StructuralDecoupling and Regional-Aware Fusion forLow- Light Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "Dual-Path Learning based on Frequency Structural Decoupling and Regional-Aware Fusion for Low-Light Image Super-Resolution",
       "source_pages": [
         23
       ],
@@ -3929,13 +4511,17 @@
         "https://github.com/JXVision/DTP"
       ],
       "arxiv_id": "2603.27301",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-165"
+      ]
     },
     {
       "id": "DLI-146",
       "title": "FBRT-YOLO: Faster and Better for Real-Time Aerial Image Detection",
-      "verified_title": null,
+      "verified_title": "FBRT-YOLO: Faster and Better for Real-Time Aerial Image Detection",
       "source_pages": [
         23
       ],
@@ -3954,8 +4540,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2504.20670",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-166"
+      ]
     },
     {
       "id": "DLI-147",
@@ -3982,12 +4572,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-167"
+      ]
     },
     {
       "id": "DLI-148",
       "title": "HISRCNet: Super-resolution And Classification Network For Low-resolution Breast Cancer Histopathology Image",
-      "verified_title": null,
+      "verified_title": "SHISRCNet: Super-resolution And Classification Network For Low-resolution Breast Cancer Histopathology Image",
       "source_pages": [
         24
       ],
@@ -4005,13 +4598,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2306.14119",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-168"
+      ]
     },
     {
       "id": "DLI-149",
       "title": "CEDNET: A CASCADE ENCODER-DECODER NET WORK FOR DENSE PREDICTION",
-      "verified_title": null,
+      "verified_title": "CEDNet: A Cascade Encoder-Decoder Network for Dense Prediction",
       "source_pages": [
         24
       ],
@@ -4028,13 +4625,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2302.06052",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-170"
+      ]
     },
     {
       "id": "DLI-150",
       "title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
-      "verified_title": null,
+      "verified_title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
       "source_pages": [
         24,
         37
@@ -4057,9 +4658,15 @@
         "https://github.com/TROUBADOUR000/AMD"
       ],
       "arxiv_id": "2406.03751",
-      "evidence_status": "source_only",
+      "evidence_status": "verified_metadata",
       "quality_notes": [
         "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-150, DLI-238"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-172",
+        "SRC-277",
+        "SRC-362"
       ]
     },
     {
@@ -4088,12 +4695,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-173"
+      ]
     },
     {
       "id": "DLI-152",
       "title": "MDFM: Multi-Decision Fusing Model for Few-Shot Learning",
-      "verified_title": null,
+      "verified_title": "MDFM: Multi-Decision Fusing Model for Few-Shot Learning",
       "source_pages": [
         24
       ],
@@ -4111,13 +4721,19 @@
       ],
       "other_urls": [],
       "arxiv_id": "2112.00690",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "quarantine",
+      "quality_notes": [
+        "2.1.0：论文实际是少样本多决策融合，原目录将其当作遥感变化检测多尺度差异模块；不得沿用该机制解释。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-174"
+      ]
     },
     {
       "id": "DLI-153",
       "title": "D-Net: Dynamic Large Kernel with Dynamic Feature Fusion for Volumetric Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "D-Net: Dynamic Large Kernel with Dynamic Feature Fusion for Volumetric Medical Image Segmentation",
       "source_pages": [
         24
       ],
@@ -4137,13 +4753,17 @@
         "https://github.com/sotiraslab/DLK"
       ],
       "arxiv_id": "2403.10674",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-175"
+      ]
     },
     {
       "id": "DLI-154",
       "title": "DETRs Beat YOLOs on Real-time Object Detection",
-      "verified_title": null,
+      "verified_title": "DETRs Beat YOLOs on Real-time Object Detection",
       "source_pages": [
         24
       ],
@@ -4162,13 +4782,17 @@
         "https://zhao-yian.github.io/RTDETR/"
       ],
       "arxiv_id": "2304.08069",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-176"
+      ]
     },
     {
       "id": "DLI-155",
       "title": "Spatial Frequency Modulation for Semantic Segmentation",
-      "verified_title": null,
+      "verified_title": "Spatial Frequency Modulation for Semantic Segmentation",
       "source_pages": [
         25,
         31,
@@ -4192,13 +4816,18 @@
         "https://github.com/Linwei-Chen/SFM"
       ],
       "arxiv_id": "2507.11893",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-177",
+        "SRC-235"
+      ]
     },
     {
       "id": "DLI-156",
       "title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
-      "verified_title": null,
+      "verified_title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
       "source_pages": [
         25
       ],
@@ -4219,13 +4848,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2604.14884",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-178"
+      ]
     },
     {
       "id": "DLI-157",
       "title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
       "source_pages": [
         25
       ],
@@ -4248,8 +4881,12 @@
         "https://github.com/oucailab/SDANet"
       ],
       "arxiv_id": "2604.27326",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-179"
+      ]
     },
     {
       "id": "DLI-158",
@@ -4273,13 +4910,19 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "quarantine",
+      "quality_notes": [
+        "2.1.0：当前官方题名与原目录不匹配，隔离待重新查明。",
+        "2.1.0：提供的IEEE链接返回PQGNet红外小目标论文，与建筑变化检测题名不匹配。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-180"
+      ]
     },
     {
       "id": "DLI-159",
       "title": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
-      "verified_title": null,
+      "verified_title": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
       "source_pages": [
         25,
         36
@@ -4302,13 +4945,18 @@
         "https://github.com/altair199797/CPUBone"
       ],
       "arxiv_id": "2603.26425",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-181",
+        "SRC-270"
+      ]
     },
     {
       "id": "DLI-160",
       "title": "Rewrite the Stars",
-      "verified_title": null,
+      "verified_title": "Rewrite the Stars",
       "source_pages": [
         25
       ],
@@ -4329,13 +4977,17 @@
         "https://github.com/ma-xu/Rewrite-the-Stars"
       ],
       "arxiv_id": "2403.19967",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-182"
+      ]
     },
     {
       "id": "DLI-161",
       "title": "GhostNetV2: Enhance Cheap Operation with Long-Range Attention",
-      "verified_title": null,
+      "verified_title": "GhostNetV2: Enhance Cheap Operation with Long-Range Attention",
       "source_pages": [
         25
       ],
@@ -4357,13 +5009,17 @@
         "https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/ghostnetv2_pytorch"
       ],
       "arxiv_id": "2211.12905",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-183"
+      ]
     },
     {
       "id": "DLI-162",
       "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
-      "verified_title": null,
+      "verified_title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
       "source_pages": [
         25,
         26
@@ -4387,13 +5043,17 @@
         "https://github.com/NVlabs/Fast-dLLM"
       ],
       "arxiv_id": "2505.22618",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-184"
+      ]
     },
     {
       "id": "DLI-163",
       "title": "DYNAMIC-DLLM: DYNAMIC CACHE-BUDGET AND ADAPTIVE PARALLEL DECODING FOR TRAINING FREE ACCELERATION OF DIFFUSION LLM",
-      "verified_title": null,
+      "verified_title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
       "source_pages": [
         26
       ],
@@ -4415,13 +5075,17 @@
         "https://github.com/TianyiWu233/DYNAMIC-DLLM"
       ],
       "arxiv_id": "2606.26120",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-185"
+      ]
     },
     {
       "id": "DLI-164",
       "title": "Video Compression Commander: Plug-and-PlayInference Acceleration for Video Large LanguageModels",
-      "verified_title": null,
+      "verified_title": "Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models",
       "source_pages": [
         26
       ],
@@ -4443,13 +5107,17 @@
         "https://github.com/xuyang-liu16/VidCom2"
       ],
       "arxiv_id": "2505.14454",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-186"
+      ]
     },
     {
       "id": "DLI-165",
       "title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
-      "verified_title": null,
+      "verified_title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
       "source_pages": [
         26,
         27
@@ -4468,13 +5136,18 @@
       ],
       "other_urls": [],
       "arxiv_id": "2508.09874",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-187",
+        "SRC-193"
+      ]
     },
     {
       "id": "DLI-166",
       "title": "VLSA: Vision-Language-Action Models withPlug-and-Play Safety Constraint Layer",
-      "verified_title": null,
+      "verified_title": "VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer",
       "source_pages": [
         26
       ],
@@ -4493,13 +5166,17 @@
         "https://vlsa-aegis.github.io/"
       ],
       "arxiv_id": "2512.11891",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-188"
+      ]
     },
     {
       "id": "DLI-167",
       "title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
-      "verified_title": null,
+      "verified_title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
       "source_pages": [
         26
       ],
@@ -4519,13 +5196,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2512.03575",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-189"
+      ]
     },
     {
       "id": "DLI-168",
       "title": "SLOT: Sample-specific Language Model Optimization at Test-time",
-      "verified_title": null,
+      "verified_title": "SLOT: Sample-specific Language Model Optimization at Test-time",
       "source_pages": [
         26
       ],
@@ -4544,13 +5225,17 @@
         "https://github.com/maple-research-lab/SLOT"
       ],
       "arxiv_id": "2505.12392",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-190"
+      ]
     },
     {
       "id": "DLI-169",
       "title": "RACER:Retrieval-Augmented Contextual Rapid Speculative Decoding",
-      "verified_title": null,
+      "verified_title": "RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding",
       "source_pages": [
         26
       ],
@@ -4569,8 +5254,12 @@
         "https://github.com/hkr04/RACER"
       ],
       "arxiv_id": "2604.14885",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-191"
+      ]
     },
     {
       "id": "DLI-170",
@@ -4595,12 +5284,15 @@
       "evidence_status": "source_only",
       "quality_notes": [
         "未提取到直接论文链接，只有仓库/项目/二手页面；需查原论文。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-192"
       ]
     },
     {
       "id": "DLI-171",
       "title": "LLM2CLIP: Powerful Language Model Unlocks Richer Cross-Modality Representation",
-      "verified_title": null,
+      "verified_title": "LLM2CLIP: Powerful Language Model Unlocks Richer Cross-Modality Representation",
       "source_pages": [
         27
       ],
@@ -4618,13 +5310,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2411.04997",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-195"
+      ]
     },
     {
       "id": "DLI-172",
       "title": "In-Place Test-Time Training",
-      "verified_title": null,
+      "verified_title": "In-Place Test-Time Training",
       "source_pages": [
         27
       ],
@@ -4643,13 +5339,17 @@
         "https://github.com/ByteDance-Seed/In-Place-TTT"
       ],
       "arxiv_id": "2604.06169",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-196"
+      ]
     },
     {
       "id": "DLI-173",
       "title": "All-in-One Slider for Attribute Manipulation in Diffusion Models",
-      "verified_title": null,
+      "verified_title": "All-in-One Slider for Attribute Manipulation in Diffusion Models",
       "source_pages": [
         27
       ],
@@ -4669,13 +5369,17 @@
         "https://github.com/ywxsuperstar/ksaedit"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-197"
+      ]
     },
     {
       "id": "DLI-174",
       "title": "BEVDiffuser: Plug-and-Play Diffusion Model for BEV Denoising with Ground-Truth Guidanc",
-      "verified_title": null,
+      "verified_title": "BEVDiffuser: Plug-and-Play Diffusion Model for BEV Denoising with Ground-Truth Guidance",
       "source_pages": [
         27
       ],
@@ -4696,13 +5400,17 @@
         "https://github.com/boschresearch/BEVDiffuser"
       ],
       "arxiv_id": "2502.19694",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-198"
+      ]
     },
     {
       "id": "DLI-175",
       "title": "FreeU: Free Lunch in Diffusion U-Net",
-      "verified_title": null,
+      "verified_title": "FreeU: Free Lunch in Diffusion U-Net",
       "source_pages": [
         27
       ],
@@ -4720,13 +5428,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2309.11497",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-199"
+      ]
     },
     {
       "id": "DLI-176",
       "title": "ONE STEP FURTHER WITH MONTE-CARLO SAMPLER TO GUIDE DIFFUSION BETTER",
-      "verified_title": null,
+      "verified_title": "One step further with Monte-Carlo sampler to guide diffusion better",
       "source_pages": [
         27
       ],
@@ -4747,13 +5459,17 @@
         "https://github.com/AI4Science-WestlakeU/ABMS"
       ],
       "arxiv_id": "2603.06685",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-200"
+      ]
     },
     {
       "id": "DLI-177",
       "title": "PLUG-AND-PLAY DIFFUSION MODELS FOR IMAGE COMPRESSIVE SENSING WITH DATA CONSISTENCY PROJECTION",
-      "verified_title": null,
+      "verified_title": "Plug-and-play Diffusion Models for Image Compressive Sensing with Data Consistency Projection",
       "source_pages": [
         27
       ],
@@ -4771,13 +5487,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2509.09365",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-201"
+      ]
     },
     {
       "id": "DLI-178",
       "title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
-      "verified_title": null,
+      "verified_title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
       "source_pages": [
         27
       ],
@@ -4795,13 +5515,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2605.05960",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-202"
+      ]
     },
     {
       "id": "DLI-179",
       "title": "Super-Resolution and Denoising of Corneal B-Scan OCT Imaging Using Diffusion Model Plug-and-Play Priors",
-      "verified_title": null,
+      "verified_title": "Super-Resolution and Denoising of Corneal B-Scan OCT Imaging Using Diffusion Model Plug-and-Play Priors",
       "source_pages": [
         28
       ],
@@ -4825,13 +5549,17 @@
         "https://github.com/SuhZhang/CorrAdapter"
       ],
       "arxiv_id": "2602.02795",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-203"
+      ]
     },
     {
       "id": "DLI-180",
       "title": "Golden Noise for Diffusion Models: A Learning Framework",
-      "verified_title": null,
+      "verified_title": "Golden Noise for Diffusion Models: A Learning Framework",
       "source_pages": [
         28
       ],
@@ -4851,13 +5579,17 @@
         "https://github.com/xie-lab-ml/Golden-Noise-for-Diffusion-Models"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-204"
+      ]
     },
     {
       "id": "DLI-181",
       "title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
-      "verified_title": null,
+      "verified_title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
       "source_pages": [
         28
       ],
@@ -4879,13 +5611,17 @@
         "https://howardxiao.ca/speed/"
       ],
       "arxiv_id": "2605.18736",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-205"
+      ]
     },
     {
       "id": "DLI-182",
       "title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
-      "verified_title": null,
+      "verified_title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
       "source_pages": [
         28
       ],
@@ -4905,13 +5641,17 @@
         "https://github.com/AMAP-ML/DCW"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-206"
+      ]
     },
     {
       "id": "DLI-183",
       "title": "InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models",
-      "verified_title": null,
+      "verified_title": "InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models",
       "source_pages": [
         28
       ],
@@ -4931,13 +5671,17 @@
         "https://jiuntian.github.io/interactdiffusion/"
       ],
       "arxiv_id": "2312.05849",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-207"
+      ]
     },
     {
       "id": "DLI-184",
       "title": "Beyond Illumination: Fine-Grained Detail Preservation in Extreme Dark Image Restoration",
-      "verified_title": null,
+      "verified_title": "Beyond Illumination: Fine-Grained Detail Preservation in Extreme Dark Image Restoration",
       "source_pages": [
         28,
         29
@@ -4958,13 +5702,17 @@
         "https://github.com/bywlzts/RFGM"
       ],
       "arxiv_id": "2508.03336",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-208"
+      ]
     },
     {
       "id": "DLI-185",
       "title": "Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for EfficientUltra-high-definition Image Restoration",
-      "verified_title": null,
+      "verified_title": "Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-high-definition Image Restoration",
       "source_pages": [
         29
       ],
@@ -4985,13 +5733,17 @@
         "https://github.com/5chen/C2SSM/tree/main/CVPR26"
       ],
       "arxiv_id": "2602.21917",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-209"
+      ]
     },
     {
       "id": "DLI-186",
       "title": "AKCMamba-YOLO: Selective State Space Models For Real-Time Object Detection",
-      "verified_title": null,
+      "verified_title": "AKCMamba-YOLO: Selective State Space Models For Real-Time Object Detection",
       "source_pages": [
         29
       ],
@@ -5008,8 +5760,12 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-210"
+      ]
     },
     {
       "id": "DLI-187",
@@ -5033,12 +5789,15 @@
       "other_urls": [],
       "arxiv_id": "2412.2006",
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-211"
+      ]
     },
     {
       "id": "DLI-188",
       "title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
-      "verified_title": null,
+      "verified_title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
       "source_pages": [
         29,
         31
@@ -5061,13 +5820,19 @@
         "https://github.com/lewandofskee/MobileMamba"
       ],
       "arxiv_id": "2411.15941",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-213",
+        "SRC-214",
+        "SRC-228"
+      ]
     },
     {
       "id": "DLI-189",
       "title": "MambaHSI:Spatial-Spectral Mamba for Hyperspectral Image Classification",
-      "verified_title": null,
+      "verified_title": "MambaHSI: Spatial-Spectral Mamba for Hyperspectral Image Classification",
       "source_pages": [
         29
       ],
@@ -5087,13 +5852,17 @@
         "https://github.com/li-yapeng/MambaHSI"
       ],
       "arxiv_id": "2501.04944",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-215"
+      ]
     },
     {
       "id": "DLI-190",
       "title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
-      "verified_title": null,
+      "verified_title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
       "source_pages": [
         29,
         31
@@ -5114,8 +5883,13 @@
         "https://github.com/mlvlab/EfficientViM"
       ],
       "arxiv_id": "2411.15241",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-216",
+        "SRC-231"
+      ]
     },
     {
       "id": "DLI-191",
@@ -5139,12 +5913,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-217"
+      ]
     },
     {
       "id": "DLI-192",
       "title": "Convolutional State Space Models for Long-Range Spatiotemporal Modeling",
-      "verified_title": null,
+      "verified_title": "Convolutional State Space Models for Long-Range Spatiotemporal Modeling",
       "source_pages": [
         29,
         30
@@ -5166,13 +5943,17 @@
         "https://github.com/NVlabs/ConvSSM"
       ],
       "arxiv_id": "2310.19694",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-218"
+      ]
     },
     {
       "id": "DLI-193",
       "title": "nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model",
-      "verified_title": null,
+      "verified_title": "nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model",
       "source_pages": [
         30
       ],
@@ -5192,13 +5973,17 @@
         "https://github.com/lhaof/nnMamba"
       ],
       "arxiv_id": "2402.03526",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-219"
+      ]
     },
     {
       "id": "DLI-194",
       "title": "TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting",
-      "verified_title": null,
+      "verified_title": "TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting",
       "source_pages": [
         30
       ],
@@ -5218,13 +6003,17 @@
         "https://github.com/Atik-Ahamed/TimeMachine"
       ],
       "arxiv_id": "2403.09898",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-220"
+      ]
     },
     {
       "id": "DLI-195",
       "title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
-      "verified_title": null,
+      "verified_title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
       "source_pages": [
         30
       ],
@@ -5245,13 +6034,18 @@
         "https://github.com/csguoh/MambaIR"
       ],
       "arxiv_id": "2402.15648",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-221",
+        "SRC-223"
+      ]
     },
     {
       "id": "DLI-196",
       "title": "RSCaMa: Remote Sensing Image Change Captioning with State Space Model",
-      "verified_title": null,
+      "verified_title": "RSCaMa: Remote Sensing Image Change Captioning with State Space Model",
       "source_pages": [
         30
       ],
@@ -5273,13 +6067,17 @@
         "https://github.com/Chen-Yang-Liu/RSCaMa"
       ],
       "arxiv_id": "2404.18895",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-222"
+      ]
     },
     {
       "id": "DLI-197",
       "title": "Jamba: A Hybrid Transformer-Mamba Language Model",
-      "verified_title": null,
+      "verified_title": "Jamba: A Hybrid Transformer-Mamba Language Model",
       "source_pages": [
         30
       ],
@@ -5300,13 +6098,17 @@
         "https://huggingface.co/ai21labs/Jamba-v0.1"
       ],
       "arxiv_id": "2403.19887",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-224"
+      ]
     },
     {
       "id": "DLI-198",
       "title": "VMamba: Visual State Space Model",
-      "verified_title": null,
+      "verified_title": "VMamba: Visual State Space Model",
       "source_pages": [
         30
       ],
@@ -5325,13 +6127,17 @@
         "https://github.com/MzeroMiko/VMamba"
       ],
       "arxiv_id": "2401.10166",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-225"
+      ]
     },
     {
       "id": "DLI-199",
       "title": "CM-UNet: Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation",
-      "verified_title": null,
+      "verified_title": "CM-UNet: Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation",
       "source_pages": [
         30,
         31
@@ -5352,13 +6158,17 @@
         "https://github.com/XiaoBuL/CM-UNet"
       ],
       "arxiv_id": "2405.10530",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-226"
+      ]
     },
     {
       "id": "DLI-200",
       "title": "SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation",
       "source_pages": [
         31
       ],
@@ -5378,13 +6188,17 @@
         "https://github.com/ge-xing/SegMamba"
       ],
       "arxiv_id": "2401.13560",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-227"
+      ]
     },
     {
       "id": "DLI-201",
       "title": "Wavelet-based Mamba with Fourier Adjustment for Low-light Image Enhancement",
-      "verified_title": null,
+      "verified_title": "Wavelet-based Mamba with Fourier Adjustment for Low-light Image Enhancement",
       "source_pages": [
         31
       ],
@@ -5405,8 +6219,12 @@
         "https://github.com/mcpaulgeorge/WalMaFa/tree/master"
       ],
       "arxiv_id": "2410.20314",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-229"
+      ]
     },
     {
       "id": "DLI-202",
@@ -5433,12 +6251,16 @@
       "evidence_status": "verified_metadata",
       "quality_notes": [
         "官方摘要讨论任务特性与 SSM 必要性，不能外推为所有视觉任务都不需要 Mamba。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-230"
       ]
     },
     {
       "id": "DLI-203",
       "title": "KAN: Kolmogorov–Arnold Networks",
-      "verified_title": null,
+      "verified_title": "KAN: Kolmogorov-Arnold Networks",
       "source_pages": [
         31
       ],
@@ -5457,13 +6279,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2404.19756",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-232"
+      ]
     },
     {
       "id": "DLI-204",
-      "title": "KAN+SCConv | SCKansformer",
-      "verified_title": null,
+      "title": "SCKansformer: Fine-Grained Classification of Bone Marrow Cells via Kansformer Backbone and Hierarchical Attention Mechanisms",
+      "verified_title": "SCKansformer: Fine-Grained Classification of Bone Marrow Cells via Kansformer Backbone and Hierarchical Attention Mechanisms",
       "source_pages": [
         31
       ],
@@ -5474,7 +6300,9 @@
         "其他/待归类"
       ],
       "tag_basis": "题名与原目录栏目推断，仅用于检索，不代表已核实方法或可迁移性",
-      "source_aliases": [],
+      "source_aliases": [
+        "KAN+SCConv | SCKansformer"
+      ],
       "paper_urls": [
         "https://arxiv.org/abs/2406.09931"
       ],
@@ -5482,13 +6310,18 @@
         "https://github.com/JustlfC03/SCKansformer"
       ],
       "arxiv_id": "2406.09931",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-233",
+        "SRC-234"
+      ]
     },
     {
       "id": "DLI-205",
       "title": "MobileNetV4 - Universal Models for the Mobile Ecosystem",
-      "verified_title": null,
+      "verified_title": "MobileNetV4 -- Universal Models for the Mobile Ecosystem",
       "source_pages": [
         32
       ],
@@ -5507,13 +6340,17 @@
         "https://github.com/tensorflow/models/blob/master/official/vision/modeling/backbones/mobilenet.py"
       ],
       "arxiv_id": "2404.10518",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-236"
+      ]
     },
     {
       "id": "DLI-206",
       "title": "FMViT:Amultiple-frequencymixingVisionTransformer",
-      "verified_title": null,
+      "verified_title": "FMViT: A multiple-frequency mixing Vision Transformer",
       "source_pages": [
         32
       ],
@@ -5534,13 +6371,17 @@
         "https://github.com/tany0699/FMViT"
       ],
       "arxiv_id": "2311.05707",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-237"
+      ]
     },
     {
       "id": "DLI-207",
       "title": "Rethinking Attention: Exploring Shallow Feed-Forward Neural Networks as an Alternative to Attention Layers in Transformers",
-      "verified_title": null,
+      "verified_title": "Rethinking Attention: Exploring Shallow Feed-Forward Neural Networks as an Alternative to Attention Layers in Transformers",
       "source_pages": [
         32
       ],
@@ -5560,8 +6401,12 @@
         "https://github.com/vulus98/Rethinking-attention"
       ],
       "arxiv_id": "2311.10642",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-238"
+      ]
     },
     {
       "id": "DLI-208",
@@ -5585,7 +6430,10 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-239"
+      ]
     },
     {
       "id": "DLI-209",
@@ -5612,12 +6460,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-240"
+      ]
     },
     {
       "id": "DLI-210",
       "title": "Skip-Attention: Improving Vision Transformers by Paying Less Attention",
-      "verified_title": null,
+      "verified_title": "Skip-Attention: Improving Vision Transformers by Paying Less Attention",
       "source_pages": [
         32
       ],
@@ -5635,13 +6486,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2301.02240",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-241"
+      ]
     },
     {
       "id": "DLI-211",
       "title": "SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design",
-      "verified_title": null,
+      "verified_title": "SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design",
       "source_pages": [
         32
       ],
@@ -5659,13 +6514,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2401.16456",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-242"
+      ]
     },
     {
       "id": "DLI-212",
       "title": "To Perceive or Not to Perceive: Lightweight Stacked Hourglass Network",
-      "verified_title": null,
+      "verified_title": "To Perceive or Not to Perceive: Lightweight Stacked Hourglass Network",
       "source_pages": [
         32
       ],
@@ -5684,13 +6543,17 @@
         "https://github.com/jameelhassan/PoseEstimation"
       ],
       "arxiv_id": "2302.04815",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-243"
+      ]
     },
     {
       "id": "DLI-213",
       "title": "EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention",
-      "verified_title": null,
+      "verified_title": "EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention",
       "source_pages": [
         33
       ],
@@ -5710,13 +6573,17 @@
         "https://github.com/microsoft/Cream/tree/main/EfficientViT"
       ],
       "arxiv_id": "2305.07027",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-244"
+      ]
     },
     {
       "id": "DLI-214",
       "title": "Less is More: Focus Attention for Efficient DETR",
-      "verified_title": null,
+      "verified_title": "Less is More: Focus Attention for Efficient DETR",
       "source_pages": [
         33
       ],
@@ -5739,13 +6606,17 @@
         "https://github.com/huawei-noah/noah-research/tree/master/Focus-DETR"
       ],
       "arxiv_id": "2307.12612",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-245"
+      ]
     },
     {
       "id": "DLI-215",
       "title": "FalconNet: Factorization for the Light-weight ConvNets",
-      "verified_title": null,
+      "verified_title": "FalconNet: Factorization for the Light-weight ConvNets",
       "source_pages": [
         33
       ],
@@ -5762,13 +6633,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2306.06365",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-246"
+      ]
     },
     {
       "id": "DLI-216",
       "title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
-      "verified_title": null,
+      "verified_title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
       "source_pages": [
         33
       ],
@@ -5788,13 +6663,17 @@
         "https://github.com/apple/ml-cvnets"
       ],
       "arxiv_id": "2110.02178",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-247"
+      ]
     },
     {
       "id": "DLI-217",
       "title": "EdgeNeXt: EfcientlyAmalgamated CNN-Transformer Architecture forMobile Vision Applications",
-      "verified_title": null,
+      "verified_title": "EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications",
       "source_pages": [
         33
       ],
@@ -5815,13 +6694,17 @@
         "https://github.com/mmaaz60/EdgeNeXt"
       ],
       "arxiv_id": "2206.10589",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-248"
+      ]
     },
     {
       "id": "DLI-218",
       "title": "EfficientFormer: Vision Transformers at MobileNet Speed",
-      "verified_title": null,
+      "verified_title": "EfficientFormer: Vision Transformers at MobileNet Speed",
       "source_pages": [
         33
       ],
@@ -5841,13 +6724,17 @@
         "https://github.com/huggingface/pytorch-image-models"
       ],
       "arxiv_id": "2206.01191",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-249"
+      ]
     },
     {
       "id": "DLI-219",
       "title": "TinyViT: Fast Pretraining Distillation for Small Vision Transformers",
-      "verified_title": null,
+      "verified_title": "TinyViT: Fast Pretraining Distillation for Small Vision Transformers",
       "source_pages": [
         33
       ],
@@ -5867,13 +6754,17 @@
         "https://github.com/microsoft/Cream/tree/main/TinyViT"
       ],
       "arxiv_id": "2207.10666",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-250"
+      ]
     },
     {
       "id": "DLI-220",
       "title": "An Improved One millisecond Mobile Backbone",
-      "verified_title": null,
+      "verified_title": "MobileOne: An Improved One millisecond Mobile Backbone",
       "source_pages": [
         33
       ],
@@ -5895,13 +6786,17 @@
         "https://github.com/open-mmlab/mmclassification/tree/1.x/configs/mobileone"
       ],
       "arxiv_id": "2206.04040",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-251"
+      ]
     },
     {
       "id": "DLI-221",
       "title": "Learning to Upsample by Learning to Sample",
-      "verified_title": null,
+      "verified_title": "Learning to Upsample by Learning to Sample",
       "source_pages": [
         34
       ],
@@ -5920,8 +6815,12 @@
         "https://github.com/tiny-smart/dysample"
       ],
       "arxiv_id": "2308.15085",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-252"
+      ]
     },
     {
       "id": "DLI-222",
@@ -5947,12 +6846,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-253"
+      ]
     },
     {
       "id": "DLI-223",
       "title": "DBCFS-Net: Dynamic Blocks and Cross-Domain Feature Synergy for Remote Sensing Object Detection",
-      "verified_title": null,
+      "verified_title": "DBCFS-Net: Dynamic Blocks and Cross-Domain Feature Synergy for Remote Sensing Object Detection | IEEE Journals & Magazine | IEEE Xplore",
       "source_pages": [
         34
       ],
@@ -5971,13 +6873,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-254"
+      ]
     },
     {
       "id": "DLI-224",
       "title": "NOT ALL ROLLOUTS ARE USEFUL: DOWN-SAMPLING ROLLOUTS IN LLM REINFORCEMENT LEARNING",
-      "verified_title": null,
+      "verified_title": "Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning",
       "source_pages": [
         34
       ],
@@ -5995,13 +6901,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2504.13818",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-255"
+      ]
     },
     {
       "id": "DLI-225",
       "title": "DABI: Evaluation of Data Augmentation Methods Using Downsampling in Bilateral Control-Based Imitation Learning with Images",
-      "verified_title": null,
+      "verified_title": "DABI: Evaluation of Data Augmentation Methods Using Downsampling in Bilateral Control-Based Imitation Learning with Images",
       "source_pages": [
         34
       ],
@@ -6020,13 +6930,17 @@
         "https://mertcookimg.github.io/dabi/"
       ],
       "arxiv_id": "2410.04370",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-256"
+      ]
     },
     {
       "id": "DLI-226",
       "title": "GROUP DOWNSAMPLING WITH EQUIVARIANT ANTI ALIASING",
-      "verified_title": null,
+      "verified_title": "Group Downsampling with Equivariant Anti-aliasing",
       "source_pages": [
         34
       ],
@@ -6043,13 +6957,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2504.17258",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-257"
+      ]
     },
     {
       "id": "DLI-227",
       "title": "DS-Pnet: FM-Based Positioning via Downsampling",
-      "verified_title": null,
+      "verified_title": "DS-Pnet: FM-Based Positioning via Downsampling",
       "source_pages": [
         34
       ],
@@ -6066,13 +6984,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2504.07429",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-258"
+      ]
     },
     {
       "id": "DLI-228",
       "title": "ADAPTOR: Adaptive Token Reduction for Video Diffusion Transformers",
-      "verified_title": null,
+      "verified_title": "ADAPTOR: Adaptive Token Reduction for Video Diffusion Transformers",
       "source_pages": [
         34
       ],
@@ -6092,13 +7014,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-259"
+      ]
     },
     {
       "id": "DLI-229",
       "title": "Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation",
-      "verified_title": null,
+      "verified_title": "Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation",
       "source_pages": [
         34
       ],
@@ -6118,13 +7044,17 @@
         "https://github.com/sotiraslab/DynamicUNet"
       ],
       "arxiv_id": "2403.07303",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-260"
+      ]
     },
     {
       "id": "DLI-230",
       "title": "UAV-DETR: Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery",
-      "verified_title": null,
+      "verified_title": "UAV-DETR: Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery",
       "source_pages": [
         34
       ],
@@ -6145,13 +7075,17 @@
         "https://github.com/ValiantDiligent/UAV-DETR"
       ],
       "arxiv_id": "2501.01855",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-261"
+      ]
     },
     {
       "id": "DLI-231",
       "title": "Leveraging Multispectral Sensors for Color Correction in Mobile Cameras",
-      "verified_title": null,
+      "verified_title": "Leveraging Multispectral Sensors for Color Correction in Mobile Cameras",
       "source_pages": [
         35
       ],
@@ -6172,13 +7106,17 @@
         "https://github.com/lern-to-write/STC"
       ],
       "arxiv_id": "2512.08441",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-262"
+      ]
     },
     {
       "id": "DLI-232",
       "title": "Reliable Thinking with Images",
-      "verified_title": null,
+      "verified_title": "Reliable Thinking with Images",
       "source_pages": [
         35
       ],
@@ -6195,13 +7133,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2602.12916",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-263"
+      ]
     },
     {
       "id": "DLI-233",
       "title": "DashFusion: Dual-stream Alignment with Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis",
-      "verified_title": null,
+      "verified_title": "DashFusion: Dual-stream Alignment with Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis",
       "source_pages": [
         35
       ],
@@ -6221,8 +7163,12 @@
         "https://github.com/ultramarineX/DashFusion"
       ],
       "arxiv_id": "2512.05515",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-265"
+      ]
     },
     {
       "id": "DLI-234",
@@ -6248,7 +7194,10 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-266"
+      ]
     },
     {
       "id": "DLI-235",
@@ -6274,12 +7223,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-267"
+      ]
     },
     {
       "id": "DLI-236",
       "title": "FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration",
-      "verified_title": null,
+      "verified_title": "FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration",
       "source_pages": [
         35
       ],
@@ -6300,13 +7252,17 @@
         "https://github.com/bociic/FusionRegister"
       ],
       "arxiv_id": "2603.07667",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-268"
+      ]
     },
     {
       "id": "DLI-237",
       "title": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
-      "verified_title": null,
+      "verified_title": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
       "source_pages": [
         35,
         36
@@ -6328,8 +7284,12 @@
         "https://github.com/lern-to-write/STC（已开源"
       ],
       "arxiv_id": "2512.00891",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-269"
+      ]
     },
     {
       "id": "DLI-238",
@@ -6350,14 +7310,17 @@
       "tag_basis": "题名与原目录栏目推断，仅用于检索，不代表已核实方法或可迁移性",
       "source_aliases": [],
       "paper_urls": [
-        "https://www.sciencedirect.com/science/article/pii/S1361841526000502",
-        "https://arxiv.org/pdf/2406.03751"
+        "https://www.sciencedirect.com/science/article/pii/S1361841526000502"
       ],
       "other_urls": [],
-      "arxiv_id": "2406.03751",
+      "arxiv_id": null,
       "evidence_status": "source_only",
       "quality_notes": [
-        "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-150, DLI-238"
+        "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-150, DLI-238",
+        "2.1.0：依据原目录逐段边界移除误归入的下一篇论文链接，保留当前论文自身链接。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-271"
       ]
     },
     {
@@ -6380,16 +7343,19 @@
         "TransformerswithoutNormalization"
       ],
       "paper_urls": [
-        "https://openreview.net/pdf?id=GhTdNOMfOD",
-        "https://arxiv.org/pdf/2503.10622"
+        "https://openreview.net/forum?id=GhTdNOMfOD"
       ],
       "other_urls": [
-        "https://github.com/hqh0728/TimeBase",
-        "https://jiachenzhu.github.io/DyT/"
+        "https://github.com/hqh0728/TimeBase"
       ],
-      "arxiv_id": "2503.10622",
+      "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [
+        "2.1.0：依据原目录逐段边界移除误归入的下一篇论文链接，保留当前论文自身链接。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-272"
+      ]
     },
     {
       "id": "DLI-240",
@@ -6418,12 +7384,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-273"
+      ]
     },
     {
       "id": "DLI-241",
       "title": "MLOW: Interpretable Low-Rank Frequency Magnitude Decomposition of Multiple Effects for Time Series Forecasting",
-      "verified_title": null,
+      "verified_title": "MLOW: Interpretable Low-Rank Frequency Magnitude Decomposition of Multiple Effects for Time Series Forecasting",
       "source_pages": [
         36
       ],
@@ -6441,8 +7410,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2603.18432",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-274"
+      ]
     },
     {
       "id": "DLI-242",
@@ -6467,12 +7440,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-275"
+      ]
     },
     {
       "id": "DLI-243",
       "title": "CORA: COVARIATE-AWARE ADAPTATION OF TIME SERIES FOUNDATION MODELS",
-      "verified_title": null,
+      "verified_title": "CoRA: Covariate-Aware Adaptation of Time Series Foundation Models",
       "source_pages": [
         36,
         37
@@ -6490,13 +7466,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2510.12681",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-276"
+      ]
     },
     {
       "id": "DLI-244",
       "title": "FITS: MODELING TIME SERIES WITH 10k PARAME TERS",
-      "verified_title": null,
+      "verified_title": "FITS: Modeling Time Series with $10k$ Parameters",
       "source_pages": [
         37
       ],
@@ -6519,13 +7499,18 @@
         "https://anonymous.4open.science/r/FITS/README.md"
       ],
       "arxiv_id": "2307.03756",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-278",
+        "SRC-282"
+      ]
     },
     {
       "id": "DLI-245",
       "title": "SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting",
-      "verified_title": null,
+      "verified_title": "SST: Multi-Scale Hybrid Mamba-Transformer Experts for Time Series Forecasting",
       "source_pages": [
         37
       ],
@@ -6548,13 +7533,17 @@
         "https://github.com/XiongxiaoXu/SST"
       ],
       "arxiv_id": "2404.14757",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-279"
+      ]
     },
     {
       "id": "DLI-246",
       "title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
-      "verified_title": null,
+      "verified_title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
       "source_pages": [
         37
       ],
@@ -6573,13 +7562,17 @@
         "https://github.com/mumiao2000/CrossLinear"
       ],
       "arxiv_id": "2505.23116",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-281"
+      ]
     },
     {
       "id": "DLI-247",
       "title": "MSGNet: Learning Multi-Scale Inter-Series Correlations for Multivariate Time Series Forecasting",
-      "verified_title": null,
+      "verified_title": "MSGNet: Learning Multi-Scale Inter-Series Correlations for Multivariate Time Series Forecasting",
       "source_pages": [
         37
       ],
@@ -6596,13 +7589,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2401.00423",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-284"
+      ]
     },
     {
       "id": "DLI-248",
       "title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
-      "verified_title": null,
+      "verified_title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
       "source_pages": [
         37,
         38
@@ -6624,13 +7621,17 @@
         "https://github.com/yuqinie98/patchtst"
       ],
       "arxiv_id": "2211.14730",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-285"
+      ]
     },
     {
       "id": "DLI-249",
       "title": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
-      "verified_title": null,
+      "verified_title": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
       "source_pages": [
         38
       ],
@@ -6650,13 +7651,17 @@
         "https://github.com/plemeri/UACANet"
       ],
       "arxiv_id": "2107.02368",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-286"
+      ]
     },
     {
       "id": "DLI-250",
       "title": "SFFNet: A Wavelet-Based Spatial and Frequency Domain Fusion Network for Remote Sensing Segmentation",
-      "verified_title": null,
+      "verified_title": "SFFNet: A Wavelet-Based Spatial and Frequency Domain Fusion Network for Remote Sensing Segmentation",
       "source_pages": [
         38
       ],
@@ -6678,13 +7683,17 @@
         "https://github.com/yysdck/SFFNet"
       ],
       "arxiv_id": "2405.01992",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-287"
+      ]
     },
     {
       "id": "DLI-251",
       "title": "SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes",
-      "verified_title": null,
+      "verified_title": "SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes",
       "source_pages": [
         38
       ],
@@ -6708,13 +7717,17 @@
         "https://github.com/VoyageWang/SAM2LOVE"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-289"
+      ]
     },
     {
       "id": "DLI-252",
       "title": "CRISP-SAM2 : SAM2 with Cross-Modal Interaction and Semantic Prompting for Multi- Organ Segmentation",
-      "verified_title": null,
+      "verified_title": "CRISP-SAM2: SAM2 with Cross-Modal Interaction and Semantic Prompting for Multi-Organ Segmentation",
       "source_pages": [
         38
       ],
@@ -6734,13 +7747,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2506.23121",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-290"
+      ]
     },
     {
       "id": "DLI-253",
       "title": "SAM2-SGP: Enhancing SAM2 for Medical Image Segmentation via Support-Set Guided Prompting",
-      "verified_title": null,
+      "verified_title": "SAM2-SGP: Enhancing SAM2 for Medical Image Segmentation via Support-Set Guided Prompting",
       "source_pages": [
         38
       ],
@@ -6759,13 +7776,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2506.19658",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-291"
+      ]
     },
     {
       "id": "DLI-254",
       "title": "SAMba-UNet: Synergizing SAM2 and Mamba in UNet with Heterogeneous Aggregation for Cardiac MRI Segmentation",
-      "verified_title": null,
+      "verified_title": "SAMba-UNet: SAM2-Mamba UNet for Cardiac MRI in Medical Robotic Perception",
       "source_pages": [
         39
       ],
@@ -6790,13 +7811,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2505.16304",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-292"
+      ]
     },
     {
       "id": "DLI-255",
       "title": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
       "source_pages": [
         39
       ],
@@ -6818,13 +7843,17 @@
         "https://github.com/WZH0120/SAM2-UNet"
       ],
       "arxiv_id": "2408.08870",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-293"
+      ]
     },
     {
       "id": "DLI-256",
       "title": "SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to DownstreamSegmentationTasks",
-      "verified_title": null,
+      "verified_title": "SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks",
       "source_pages": [
         39
       ],
@@ -6848,13 +7877,17 @@
         "https://github.com/WZH0120/SAM2-UNeXT"
       ],
       "arxiv_id": "2508.03566",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-294"
+      ]
     },
     {
       "id": "DLI-257",
       "title": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
-      "verified_title": null,
+      "verified_title": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
       "source_pages": [
         39
       ],
@@ -6875,13 +7908,17 @@
         "https://github.com/bowang-lab/MedSAM2/blob/main/README.md"
       ],
       "arxiv_id": "2504.03600",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-295"
+      ]
     },
     {
       "id": "DLI-258",
       "title": "DyCON:Dynamic Uncertainty-aware Consistency and Contrastive Learning for Semi- supervised Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "DyCON: Dynamic Uncertainty-aware Consistency and Contrastive Learning for Semi-supervised Medical Image Segmentation",
       "source_pages": [
         40
       ],
@@ -6904,13 +7941,17 @@
         "https://github.com/KU-CVML/DyCON"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-296"
+      ]
     },
     {
       "id": "DLI-259",
       "title": "Show and Segment: Universal Medical Image Segmentation via In-Context Learning",
-      "verified_title": null,
+      "verified_title": "Show and Segment: Universal Medical Image Segmentation via In-Context Learning",
       "source_pages": [
         40
       ],
@@ -6930,13 +7971,17 @@
         "https://github.com/mister-weeden/et-al-Masapeta-Dhakal-Ravula-Zhang"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-297"
+      ]
     },
     {
       "id": "DLI-260",
       "title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
-      "verified_title": null,
+      "verified_title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
       "source_pages": [
         40
       ],
@@ -6955,8 +8000,12 @@
         "https://github.com/Ferenas/ConText"
       ],
       "arxiv_id": "2506.03799",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-298"
+      ]
     },
     {
       "id": "DLI-261",
@@ -6983,12 +8032,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-299"
+      ]
     },
     {
       "id": "DLI-262",
       "title": "Hybrid Global-Local Representation with Augmented Spatial Guidance for Zero-Shot Referring Image Segmentation",
-      "verified_title": null,
+      "verified_title": "Hybrid Global-Local Representation with Augmented Spatial Guidance for Zero-Shot Referring Image Segmentation",
       "source_pages": [
         40
       ],
@@ -7008,13 +8060,17 @@
         "https://github.com/fhgyuanshen/HybridGL"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-300"
+      ]
     },
     {
       "id": "DLI-263",
       "title": "TBConvL-Net: A Hybrid Deep Learning Architecture for Robust Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "TBConvL-Net: A Hybrid Deep Learning Architecture for Robust Medical Image Segmentation",
       "source_pages": [
         41
       ],
@@ -7031,13 +8087,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2409.03367",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-301"
+      ]
     },
     {
       "id": "DLI-264",
       "title": "HResFormer: Hybrid Residual Transformer for Volumetric Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "HResFormer: Hybrid Residual Transformer for Volumetric Medical Image Segmentation",
       "source_pages": [
         41
       ],
@@ -7055,13 +8115,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2412.11458",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-302"
+      ]
     },
     {
       "id": "DLI-265",
       "title": "ScribFormer: Transformer Makes CNN Work Better for Scribble-based Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "ScribFormer: Transformer Makes CNN Work Better for Scribble-based Medical Image Segmentation",
       "source_pages": [
         41
       ],
@@ -7082,8 +8146,12 @@
         "https://github.com/HUANGLIZI/ScribFormer"
       ],
       "arxiv_id": "2402.02029",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-303"
+      ]
     },
     {
       "id": "DLI-266",
@@ -7108,12 +8176,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-305"
+      ]
     },
     {
       "id": "DLI-267",
       "title": "RepViT-SAM: Towards Real-Time Segmenting Anything",
-      "verified_title": null,
+      "verified_title": "RepViT-SAM: Towards Real-Time Segmenting Anything",
       "source_pages": [
         41
       ],
@@ -7132,8 +8203,12 @@
         "https://github.com/THU-MIG/RepViT"
       ],
       "arxiv_id": "2312.05760",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-306"
+      ]
     },
     {
       "id": "DLI-268",
@@ -7158,12 +8233,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-307"
+      ]
     },
     {
       "id": "DLI-269",
       "title": "FFCA-YOLO for Small Object Detection in Remote Sensing Images",
-      "verified_title": null,
+      "verified_title": "FFCA-YOLO for Small Object Detection in Remote Sensing Images | IEEE Journals & Magazine | IEEE Xplore",
       "source_pages": [
         41
       ],
@@ -7184,8 +8262,12 @@
         "https://github.com/yemu1138178251/FFCA-YOLO"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-308"
+      ]
     },
     {
       "id": "DLI-270",
@@ -7214,12 +8296,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-309"
+      ]
     },
     {
       "id": "DLI-271",
       "title": "RemoteDet-Mamba: A Hybrid Mamba-CNN Network for Multi-modal Object Detection in Remote Sensing Images",
-      "verified_title": null,
+      "verified_title": "RemoteDet-Mamba: A Hybrid Mamba-CNN Network for Multi-modal Object Detection in Remote Sensing Images",
       "source_pages": [
         42
       ],
@@ -7238,13 +8323,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2410.13532",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-310"
+      ]
     },
     {
       "id": "DLI-272",
       "title": "U-DECN: End-to-End Underwater Object Detection ConvNet with Improved DeNoising Training",
-      "verified_title": null,
+      "verified_title": "U-DECN: End-to-End Underwater Object Detection ConvNet with Improved DeNoising Training",
       "source_pages": [
         42
       ],
@@ -7261,13 +8350,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2408.05780",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-311"
+      ]
     },
     {
       "id": "DLI-273",
       "title": "Low-light Object Detection",
-      "verified_title": null,
+      "verified_title": "Low-light Object Detection",
       "source_pages": [
         42
       ],
@@ -7284,13 +8377,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2405.03519",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-312"
+      ]
     },
     {
       "id": "DLI-274",
       "title": "DRPCA-Net: Make Robust PCA Great Again for Infrared Small Target Detection",
-      "verified_title": null,
+      "verified_title": "DRPCA-Net: Make Robust PCA Great Again for Infrared Small Target Detection",
       "source_pages": [
         42
       ],
@@ -7307,13 +8404,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2507.09541",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-313"
+      ]
     },
     {
       "id": "DLI-275",
       "title": "Rethinking Generalizable Infrared Small Target Detection: A Real-scene Benchmark and Cross-view Representation Learning",
-      "verified_title": null,
+      "verified_title": "Rethinking Generalizable Infrared Small Target Detection: A Real-scene Benchmark and Cross-view Representation Learning",
       "source_pages": [
         42
       ],
@@ -7330,13 +8431,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2504.16487",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-314"
+      ]
     },
     {
       "id": "DLI-276",
       "title": "CROWn: A Unified Framework for Anti-Aliased Downsampling and Phase-Calibrated Fusion in 3D Medical Segmentation",
-      "verified_title": null,
+      "verified_title": "CROWn: A Unified Framework for Anti-Aliased Downsampling and Phase-Calibrated Fusion in 3D Medical Segmentation",
       "source_pages": [
         42
       ],
@@ -7355,13 +8460,17 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-315"
+      ]
     },
     {
       "id": "DLI-277",
       "title": "CLEEGN: A Convolutional Neural Network for Plug-and-Play Automatic EEG Reconstruction",
-      "verified_title": null,
+      "verified_title": "CLEEGN: A Convolutional Neural Network for Plug-and-Play Automatic EEG Reconstruction",
       "source_pages": [
         42
       ],
@@ -7382,8 +8491,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2210.05988",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-316"
+      ]
     },
     {
       "id": "DLI-278",
@@ -7411,12 +8524,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-317"
+      ]
     },
     {
       "id": "DLI-279",
       "title": "SvANet: A Scale-variant Attention-based Network for Small Medical Object Segmentation",
-      "verified_title": null,
+      "verified_title": "Exploiting Scale-Variant Attention for Segmenting Small Medical Objects",
       "source_pages": [
         42
       ],
@@ -7436,13 +8552,17 @@
         "https://github.com/anthonyweidai/SvANet"
       ],
       "arxiv_id": "2407.07720",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-318"
+      ]
     },
     {
       "id": "DLI-280",
       "title": "EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation",
       "source_pages": [
         42
       ],
@@ -7464,13 +8584,17 @@
         "https://github.com/SLDGroup/EMCAD"
       ],
       "arxiv_id": "2405.06880",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-319"
+      ]
     },
     {
       "id": "DLI-281",
       "title": "DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation",
-      "verified_title": null,
+      "verified_title": "DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation",
       "source_pages": [
         43
       ],
@@ -7493,13 +8617,17 @@
         "https://github.com/IMOP-lab/DEFN-pytorch"
       ],
       "arxiv_id": "2311.00483",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-320"
+      ]
     },
     {
       "id": "DLI-282",
       "title": "MSA2Net: Multi-scale Adaptive Attention-guided Network for Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "MSA$^2$Net: Multi-scale Adaptive Attention-guided Network for Medical Image Segmentation",
       "source_pages": [
         43
       ],
@@ -7521,13 +8649,17 @@
         "https://github.com/xmindflow/MSA-2Net"
       ],
       "arxiv_id": "2407.21640",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-321"
+      ]
     },
     {
       "id": "DLI-283",
       "title": "Vision-LSTM: xLSTM as Generic Vision Backbone",
-      "verified_title": null,
+      "verified_title": "Vision-LSTM: xLSTM as Generic Vision Backbone",
       "source_pages": [
         43
       ],
@@ -7546,8 +8678,12 @@
         "https://nx-ai.github.io/vision-lstm/"
       ],
       "arxiv_id": "2406.04303",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-322"
+      ]
     },
     {
       "id": "DLI-284",
@@ -7573,12 +8709,15 @@
       "other_urls": [],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-323"
+      ]
     },
     {
       "id": "DLI-285",
       "title": "RFAConv: Innovating Spatial Attention and Standard Convolutional Operation",
-      "verified_title": null,
+      "verified_title": "RFAConv: Receptive-Field Attention Convolution for Improving Convolutional Neural Networks",
       "source_pages": [
         43
       ],
@@ -7598,13 +8737,17 @@
         "https://github.com/Liuchen1997/RFAConv"
       ],
       "arxiv_id": "2304.03198",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-324"
+      ]
     },
     {
       "id": "DLI-286",
       "title": "Salient Positions based Attention Network for Image Classification",
-      "verified_title": null,
+      "verified_title": "Salient Positions based Attention Network for Image Classification",
       "source_pages": [
         43
       ],
@@ -7625,8 +8768,12 @@
         "https://github.com/likyoo/SPANet"
       ],
       "arxiv_id": "2106.04996",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-325"
+      ]
     },
     {
       "id": "DLI-287",
@@ -7656,12 +8803,16 @@
         "官方题名、摘要已核对；目录第6页将同一链接误配给 LDConv。",
         "包含二手笔记或短链接，不能作为论文事实的唯一证据。",
         "同一 arXiv 编号关联多个题名/别名；选用前核对：DLI-044, DLI-287"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-326"
       ]
     },
     {
       "id": "DLI-288",
       "title": "CoordGate: Efficiently Computing Spatially-Varying Convolutions in Convolutional Neural Networks",
-      "verified_title": null,
+      "verified_title": "CoordGate: Efficiently Computing Spatially-Varying Convolutions in Convolutional Neural Networks",
       "source_pages": [
         44
       ],
@@ -7681,13 +8832,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2401.04680",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-327"
+      ]
     },
     {
       "id": "DLI-289",
       "title": "Efficient Multi-Scale Attention Module with Cross-Spatial Learning",
-      "verified_title": null,
+      "verified_title": "Efficient Multi-Scale Attention Module with Cross-Spatial Learning",
       "source_pages": [
         44
       ],
@@ -7709,13 +8864,17 @@
         "https://github.com/YOLOonMe/EMA-attention-module"
       ],
       "arxiv_id": "2305.13563",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-328"
+      ]
     },
     {
       "id": "DLI-290",
       "title": "Context-Aware Crowd Counting",
-      "verified_title": null,
+      "verified_title": "Context-Aware Crowd Counting",
       "source_pages": [
         44
       ],
@@ -7736,13 +8895,17 @@
         "https://sites.google.com/view/weizheliu/home/projects/context-aware-crowd-counting"
       ],
       "arxiv_id": "1811.10452",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-329"
+      ]
     },
     {
       "id": "DLI-291",
       "title": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
-      "verified_title": null,
+      "verified_title": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
       "source_pages": [
         44
       ],
@@ -7764,13 +8927,17 @@
         "https://github.com/ristea/sspcab"
       ],
       "arxiv_id": "2111.09099",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-330"
+      ]
     },
     {
       "id": "DLI-292",
       "title": "Dynamic Filter Networks",
-      "verified_title": null,
+      "verified_title": "Dynamic Filter Networks",
       "source_pages": [
         44
       ],
@@ -7789,8 +8956,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "1605.09673",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-331"
+      ]
     },
     {
       "id": "DLI-293",
@@ -7817,12 +8988,16 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "原目录把机器人操作基准当成图像超分模块。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-332"
       ]
     },
     {
       "id": "DLI-294",
       "title": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
       "source_pages": [
         44
       ],
@@ -7842,13 +9017,17 @@
         "https://github.com/sunny2109/SAFMN"
       ],
       "arxiv_id": "2302.13800",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-333"
+      ]
     },
     {
       "id": "DLI-295",
       "title": "Efficient Long-Range Attention Network for Image Super-resolution",
-      "verified_title": null,
+      "verified_title": "Efficient Long-Range Attention Network for Image Super-resolution",
       "source_pages": [
         44,
         45
@@ -7871,13 +9050,17 @@
         "https://github.com/xindongzhang/ELAN"
       ],
       "arxiv_id": "2203.06697",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-334"
+      ]
     },
     {
       "id": "DLI-296",
       "title": "Dual Aggregation Transformer for Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "Dual Aggregation Transformer for Image Super-Resolution",
       "source_pages": [
         45
       ],
@@ -7899,13 +9082,17 @@
         "https://github.com/zhengchen1999/DAT"
       ],
       "arxiv_id": "2308.03364",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-335"
+      ]
     },
     {
       "id": "DLI-297",
       "title": "Adaptive Graph Convolution for Point Cloud Analysis",
-      "verified_title": null,
+      "verified_title": "Adaptive Graph Convolution for Point Cloud Analysis",
       "source_pages": [
         45
       ],
@@ -7925,13 +9112,17 @@
         "https://github.com/hrzhou2/AdaptConv-master"
       ],
       "arxiv_id": "2108.08035",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-336"
+      ]
     },
     {
       "id": "DLI-298",
       "title": "GeoConv: Geodesic Guided Convolution for Facial Action Unit Recognition",
-      "verified_title": null,
+      "verified_title": "GeoConv: Geodesic Guided Convolution for Facial Action Unit Recognition",
       "source_pages": [
         45
       ],
@@ -7951,13 +9142,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2003.03055",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-337"
+      ]
     },
     {
       "id": "DLI-299",
       "title": "PnP-3D: A Plug-and-Play for 3D Point Clouds",
-      "verified_title": null,
+      "verified_title": "PnP-3D: A Plug-and-Play for 3D Point Clouds",
       "source_pages": [
         45
       ],
@@ -7978,13 +9173,17 @@
         "https://github.com/ShiQiu0419/pnp-3d"
       ],
       "arxiv_id": "2108.07378",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-338"
+      ]
     },
     {
       "id": "DLI-300",
       "title": "Parameter is Not All You Need, Starting from Non-parametric Networks for 3D Point Cloud Analysis",
-      "verified_title": null,
+      "verified_title": "Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis",
       "source_pages": [
         45
       ],
@@ -8003,13 +9202,17 @@
         "https://github.com/ZrrSkywalker/Point-NN"
       ],
       "arxiv_id": "2303.08134",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-339"
+      ]
     },
     {
       "id": "DLI-301",
       "title": "PF-Net: Point Fractal Network for 3D Point Cloud Completion",
-      "verified_title": null,
+      "verified_title": "PF-Net: Point Fractal Network for 3D Point Cloud Completion",
       "source_pages": [
         45
       ],
@@ -8028,13 +9231,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2003.00410",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-340"
+      ]
     },
     {
       "id": "DLI-302",
       "title": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
-      "verified_title": null,
+      "verified_title": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
       "source_pages": [
         45
       ],
@@ -8055,13 +9262,17 @@
         "https://github.com/XiwuChen/PRA-Net"
       ],
       "arxiv_id": "2112.04903",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-341"
+      ]
     },
     {
       "id": "DLI-303",
       "title": "KPConv: Flexible and Deformable Convolution for Point Clouds",
-      "verified_title": null,
+      "verified_title": "KPConv: Flexible and Deformable Convolution for Point Clouds",
       "source_pages": [
         45
       ],
@@ -8083,13 +9294,17 @@
         "https://github.com/HuguesTHOMAS/KPConv"
       ],
       "arxiv_id": "1904.08889",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-342"
+      ]
     },
     {
       "id": "DLI-304",
       "title": "SimVP: Simpler yet Better Video Prediction",
-      "verified_title": null,
+      "verified_title": "SimVP: Simpler Yet Better Video Prediction",
       "source_pages": [
         46
       ],
@@ -8108,13 +9323,17 @@
         "https://github.com/ryok/SimVP-Simpler-yet-Better-Video-Prediction"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-343"
+      ]
     },
     {
       "id": "DLI-305",
       "title": "PoseBERT: A Generic Transformer Module for Temporal 3D Human Modeling",
-      "verified_title": null,
+      "verified_title": "PoseBERT: A Generic Transformer Module for Temporal 3D Human Modeling",
       "source_pages": [
         46
       ],
@@ -8134,8 +9353,12 @@
         "https://github.com/naver/posebert"
       ],
       "arxiv_id": "2208.10211",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-344"
+      ]
     },
     {
       "id": "DLI-306",
@@ -8160,12 +9383,15 @@
       ],
       "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [],
+      "source_occurrence_refs": [
+        "SRC-345"
+      ]
     },
     {
       "id": "DLI-307",
       "title": "Beyond Self-Attention: Deformable Large Kernel Attention for Medical Image Segmentation",
-      "verified_title": null,
+      "verified_title": "Beyond Self-Attention: Deformable Large Kernel Attention for Medical Image Segmentation",
       "source_pages": [
         46
       ],
@@ -8185,13 +9411,17 @@
         "https://github.com/xmindflow/deformableLKA"
       ],
       "arxiv_id": "2309.00121",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-346"
+      ]
     },
     {
       "id": "DLI-308",
       "title": "MoE3D: AMixture-of-Experts Module for 3D Reconstruction",
-      "verified_title": null,
+      "verified_title": "MoE3D: A Mixture-of-Experts Module for 3D Reconstruction",
       "source_pages": [
         46
       ],
@@ -8208,8 +9438,12 @@
       ],
       "other_urls": [],
       "arxiv_id": "2601.05208",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-347"
+      ]
     },
     {
       "id": "DLI-309",
@@ -8236,12 +9470,15 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "题名是心率估计，目录却称 NLP 标签相关性模块；存在缩写误配。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-348"
       ]
     },
     {
       "id": "DLI-310",
       "title": "FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information",
-      "verified_title": null,
+      "verified_title": "FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information",
       "source_pages": [
         46
       ],
@@ -8260,13 +9497,17 @@
       ],
       "other_urls": [],
       "arxiv_id": "2405.12807",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-349"
+      ]
     },
     {
       "id": "DLI-311",
       "title": "SmoothNet: A Plug-and-Play Network for Refining Human Poses in Videos",
-      "verified_title": null,
+      "verified_title": "SmoothNet: A Plug-and-Play Network for Refining Human Poses in Videos",
       "source_pages": [
         47
       ],
@@ -8287,13 +9528,17 @@
         "https://github.com/cure-lab/SmoothNet"
       ],
       "arxiv_id": "2112.13715",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-350"
+      ]
     },
     {
       "id": "DLI-312",
       "title": "Dual Attention Network for Scene Segmentation",
-      "verified_title": null,
+      "verified_title": "Dual Attention Network for Scene Segmentation",
       "source_pages": [
         47
       ],
@@ -8312,13 +9557,17 @@
         "https://github.com/junfu1115/DANet"
       ],
       "arxiv_id": "1809.02983",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-351"
+      ]
     },
     {
       "id": "DLI-313",
       "title": "Simple Baselines for Image Restoration",
-      "verified_title": null,
+      "verified_title": "Simple Baselines for Image Restoration",
       "source_pages": [
         47
       ],
@@ -8339,13 +9588,17 @@
         "https://github.com/megvii-research/NAFNet"
       ],
       "arxiv_id": "2204.04676",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-352"
+      ]
     },
     {
       "id": "DLI-314",
       "title": "DSAM: A Deep Learning Framework for Analyzing Temporal and Spatial Dynamics in Brain Networks",
-      "verified_title": null,
+      "verified_title": "DSAM: A Deep Learning Framework for Analyzing Temporal and Spatial Dynamics in Brain Networks",
       "source_pages": [
         47
       ],
@@ -8368,12 +9621,16 @@
       "evidence_status": "quarantine",
       "quality_notes": [
         "题名是脑网络时空分析，目录却称图像恢复注意力；需重新查明模块来源。"
+      ],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-353"
       ]
     },
     {
       "id": "DLI-315",
       "title": "Restoring Images in Adverse Weather Conditions via Histogram Transformer",
-      "verified_title": null,
+      "verified_title": "Restoring Images in Adverse Weather Conditions via Histogram Transformer",
       "source_pages": [
         47
       ],
@@ -8393,13 +9650,17 @@
         "https://github.com/shangquan-sun/Histoformer"
       ],
       "arxiv_id": "2407.10172",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-354"
+      ]
     },
     {
       "id": "DLI-316",
       "title": "Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature Refinement for Image Restoration",
-      "verified_title": null,
+      "verified_title": "Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature Refinement for Image Restoration",
       "source_pages": [
         47
       ],
@@ -8419,13 +9680,17 @@
         "https://github.com/joshyZhou/AST"
       ],
       "arxiv_id": null,
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-355"
+      ]
     },
     {
       "id": "DLI-317",
       "title": "Context-Guided Spatial Feature Reconstruction for Efficient Semantic Segmentation",
-      "verified_title": null,
+      "verified_title": "Context-Guided Spatial Feature Reconstruction for Efficient Semantic Segmentation",
       "source_pages": [
         47,
         48
@@ -8445,13 +9710,17 @@
         "https://github.com/nizhenliang/CGRSeg"
       ],
       "arxiv_id": "2405.06228",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-356"
+      ]
     },
     {
       "id": "DLI-318",
       "title": "SCTNet: Single-Branch CNN with Transformer Semantic Information for Real-Time Segmentation",
-      "verified_title": null,
+      "verified_title": "SCTNet: Single-Branch CNN with Transformer Semantic Information for Real-Time Segmentation",
       "source_pages": [
         48
       ],
@@ -8470,13 +9739,17 @@
         "https://github.com/xzz777/SCTNet"
       ],
       "arxiv_id": "2312.17071",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-357"
+      ]
     },
     {
       "id": "DLI-319",
       "title": "Burstormer: Burst Image Restoration and Enhancement Transformer",
-      "verified_title": null,
+      "verified_title": "Burstormer: Burst Image Restoration and Enhancement Transformer",
       "source_pages": [
         48
       ],
@@ -8496,13 +9769,17 @@
         "https://github.com/akshaydudhane16/Burstormer"
       ],
       "arxiv_id": "2304.01194",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-358"
+      ]
     },
     {
       "id": "DLI-320",
       "title": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
-      "verified_title": null,
+      "verified_title": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
       "source_pages": [
         48
       ],
@@ -8524,13 +9801,17 @@
         "https://github.com/lbc12345/SeD"
       ],
       "arxiv_id": "2402.19387",
-      "evidence_status": "source_only",
-      "quality_notes": []
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-359"
+      ]
     },
     {
       "id": "DLI-321",
       "title": "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images",
-      "verified_title": null,
+      "verified_title": "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images | IEEE Journals & Magazine | IEEE Xplore",
       "source_pages": [
         48
       ],
@@ -8547,8 +9828,45 @@
       ],
       "other_urls": [],
       "arxiv_id": null,
+      "evidence_status": "verified_metadata",
+      "quality_notes": [],
+      "metadata_checked": "2026-10-27",
+      "source_occurrence_refs": [
+        "SRC-360"
+      ]
+    },
+    {
+      "id": "DLI-322",
+      "title": "Align Images Before You Generate",
+      "verified_title": null,
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "tags": [
+        "扩散/生成",
+        "融合/对齐"
+      ],
+      "tag_basis": "原目录题名与栏目；原文身份和机制继续核实。",
+      "source_aliases": [
+        "CorrAdapter"
+      ],
+      "paper_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Align_Images_Before_You_Generate_CVPR_2026_paper.html"
+      ],
+      "other_urls": [
+        "https://github.com/SuhZhang/CorrAdapter"
+      ],
+      "arxiv_id": null,
       "evidence_status": "source_only",
-      "quality_notes": []
+      "quality_notes": [
+        "2.1.0补入：旧解析器把标题后的会议信息和中文说明合并，导致跳过标题。"
+      ],
+      "source_occurrence_refs": [
+        "SRC-361"
+      ]
     }
   ]
 }

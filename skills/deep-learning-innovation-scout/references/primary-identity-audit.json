@@ -1,0 +1,2452 @@
+{
+  "records": [
+    {
+      "lead_id": "DLI-001",
+      "source_title": "UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration",
+      "official_title": "UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration",
+      "url": "https://arxiv.org/abs/2604.00381v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-002",
+      "source_title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
+      "official_title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
+      "url": "https://arxiv.org/abs/2503.23359v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-003",
+      "source_title": "It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal",
+      "official_title": "It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal",
+      "url": "https://arxiv.org/abs/2603.22794v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-004",
+      "source_title": "Vision Transformers are Circulant Attention Learners",
+      "official_title": "Vision Transformers are Circulant Attention Learners",
+      "url": "https://arxiv.org/abs/2512.21542v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-005",
+      "source_title": "Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation",
+      "official_title": "Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2512.05494v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-007",
+      "source_title": "ABDUCTIVEMLLM: Boosting Visual Abductive Reasoning Within MLLMs",
+      "official_title": "AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs",
+      "url": "https://arxiv.org/abs/2601.02771v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-008",
+      "source_title": "MODA: The First Challenging Benchmark for Multispectral Object Detection in Aerial Images",
+      "official_title": "MODA: The First Challenging Benchmark for Multispectral Object Detection in Aerial Images",
+      "url": "https://arxiv.org/abs/2512.09489v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-009",
+      "source_title": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
+      "official_title": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2604.07994v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-010",
+      "source_title": "Revisiting Network Inertia: Dynamic Inertia Inhibition Coupled Multidimensional Periodicity for Infrared and Visible Image Fusion",
+      "official_title": "A Triple-Branch Architecture With Multiscale Attention for Spatiotemporal Remote Sensing Fusion | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11371373",
+      "identity_status": "conflict",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-011",
+      "source_title": "Freqformer: Image-Demoiréing Transformer via Effective Frequency Decomposition",
+      "official_title": "Freqformer: Image-Demoiréing Transformer via Effective Frequency Decomposition",
+      "url": "https://arxiv.org/abs/2505.19120v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-013",
+      "source_title": "HVI: ANewColor Space for Low-light Image Enhancement",
+      "official_title": "HVI: A New Color Space for Low-light Image Enhancement",
+      "url": "https://arxiv.org/abs/2502.20272v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-014",
+      "source_title": "U-RWKV: Lightweight medical image segmentation with direction-adaptive",
+      "official_title": "U-RWKV: Lightweight medical image segmentation with direction-adaptive RWKV",
+      "url": "https://arxiv.org/abs/2507.11415v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-015",
+      "source_title": "Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics",
+      "official_title": "Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics",
+      "url": "https://arxiv.org/abs/2507.02748v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-017",
+      "source_title": "CTOD: Cross-Attentive Task-Alignment for One-Stage Object Detection",
+      "official_title": "CTOD: Cross-Attentive Task-Alignment for One-Stage Object Detection | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10583896",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-018",
+      "source_title": "A Universal Scale-Adaptive Deformable Transformer for Image Restoration across Diverse Artifacts",
+      "official_title": "A Universal Scale-Adaptive Deformable Transformer for Image Restoration across Diverse Artifacts",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/He_A_Universal_Scale-Adaptive_Deformable_Transformer_for_Image_Restoration_across_Diverse_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-020",
+      "source_title": "Deep Fourier-embedded Network for RGB and Thermal Salient Object Detection",
+      "official_title": "Deep Fourier-embedded Network for RGB and Thermal Salient Object Detection",
+      "url": "https://arxiv.org/abs/2411.18409v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-021",
+      "source_title": "VolFormer: Explore More Comprehensive Cube Interaction for Hyperspectral Image Restoration and Beyond",
+      "official_title": "VolFormer: Explore More Comprehensive Cube Interaction for Hyperspectral Image Restoration and Beyond",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_VolFormer_Explore_More_Comprehensive_Cube_Interaction_for_Hyperspectral_Image_Restoration_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-022",
+      "source_title": "Rethinking Transformer-Based Blind-Spot Network for Self-Supervised Image Denoising",
+      "official_title": "Rethinking Transformer-Based Blind-Spot Network for Self-Supervised Image Denoising",
+      "url": "https://arxiv.org/abs/2404.07846v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-024",
+      "source_title": "MCANet: Medical Image Segmentation withMulti-Scale Cross-Axis Attention",
+      "official_title": "MCANet: Medical Image Segmentation with Multi-Scale Cross-Axis Attention",
+      "url": "https://arxiv.org/abs/2312.08866v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-025",
+      "source_title": "Recursive Generalization Transformer for Image Super-Resolution",
+      "official_title": "Recursive Generalization Transformer for Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2303.06373v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-026",
+      "source_title": "Energy-Based Cross Attention for Bayesian Context Update in Text-to-Image Diffusion Models",
+      "official_title": "Energy-Based Cross Attention for Bayesian Context Update in Text-to-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2306.09869v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-027",
+      "source_title": "Fast Vision Transformers with HiLo Attention",
+      "official_title": "Fast Vision Transformers with HiLo Attention",
+      "url": "https://arxiv.org/abs/2205.13213v5",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-028",
+      "source_title": "HCF-Net: Hierarchical Context Fusion Network for Infrared Small Object Detection",
+      "official_title": "HCF-Net: Hierarchical Context Fusion Network for Infrared Small Object Detection",
+      "url": "https://arxiv.org/abs/2403.10778v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-030",
+      "source_title": "Relation-Aware Global Attention for Person Re-identification",
+      "official_title": "Relation-Aware Global Attention for Person Re-identification",
+      "url": "https://arxiv.org/abs/1904.02998v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-032",
+      "source_title": "Agent Attention: On the Integration of Softmax and Linear Attention",
+      "official_title": "Agent Attention: On the Integration of Softmax and Linear Attention",
+      "url": "https://arxiv.org/abs/2312.08874v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-033",
+      "source_title": "Squeeze-and-Excitation Networks",
+      "official_title": "Squeeze-and-Excitation Networks",
+      "url": "https://arxiv.org/abs/1709.01507v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-034",
+      "source_title": "Ultra-Lightweight Subspace Attention Module for Compact Convolutional Neural Networks",
+      "official_title": "ULSAM: Ultra-Lightweight Subspace Attention Module for Compact Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/2006.15102v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-035",
+      "source_title": "Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks",
+      "official_title": "Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks",
+      "url": "https://arxiv.org/abs/1803.02579v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-036",
+      "source_title": "Gated Channel Transformation for Visual Recognition",
+      "official_title": "Gated Channel Transformation for Visual Recognition",
+      "url": "https://arxiv.org/abs/1909.11519v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-038",
+      "source_title": "AAU-net: An Adaptive Attention U-net for Breast Lesions Segmentation in Ultrasound Images",
+      "official_title": "AAU-net: An Adaptive Attention U-net for Breast Lesions Segmentation in Ultrasound Images",
+      "url": "https://arxiv.org/abs/2204.12077v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-039",
+      "source_title": "HALF WAVELET ATTENTION ON M-NET+ FOR LOW-LIGHT IMAGE ENHANCEMENT",
+      "official_title": "Half Wavelet Attention on M-Net+ for Low-Light Image Enhancement",
+      "url": "https://arxiv.org/abs/2203.01296v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-041",
+      "source_title": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
+      "official_title": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
+      "url": "https://arxiv.org/abs/2407.05128v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-042",
+      "source_title": "Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields",
+      "official_title": "Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields",
+      "url": "https://arxiv.org/abs/2406.14052v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-043",
+      "source_title": "Demystify Mamba in Vision: A Linear Attention Perspective",
+      "official_title": "Demystify Mamba in Vision: A Linear Attention Perspective",
+      "url": "https://arxiv.org/abs/2405.16605v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-044",
+      "source_title": "LDConv: Linear deformable convolution for improving convolutional neural networks",
+      "official_title": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+      "url": "https://arxiv.org/abs/2303.15446v2",
+      "identity_status": "conflict",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-046",
+      "source_title": "LGAG-Net: Lesion-Guided Adaptive Graph Network for Bone Abnormality Detection from Musculoskeletal Radiograph",
+      "official_title": "LGAG-Net: Lesion-Guided Adaptive Graph Network for Bone Abnormality Detection From Musculoskeletal Radiograph | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10371282",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-047",
+      "source_title": "CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation",
+      "official_title": "CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2311.04942v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-048",
+      "source_title": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+      "official_title": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+      "url": "https://arxiv.org/abs/2311.17132v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-049",
+      "source_title": "Multi-scale Attention Network for Single Image Super-Resolution",
+      "official_title": "Multi-scale Attention Network for Single Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2209.14145v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-050",
+      "source_title": "Vision Transformer with Deformable Attention",
+      "official_title": "Vision Transformer with Deformable Attention",
+      "url": "https://arxiv.org/abs/2201.00520v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-051",
+      "source_title": "FECAM: Frequency Enhanced Channel Attention Mechanism for Time Series Forecasting",
+      "official_title": "FECAM: Frequency Enhanced Channel Attention Mechanism for Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2212.01209v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-054",
+      "source_title": "DCT-Former: Efficient Self-Attention with Discrete Cosine Transform",
+      "official_title": "DCT-Former: Efficient Self-Attention with Discrete Cosine Transform",
+      "url": "https://arxiv.org/abs/2203.01178v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-055",
+      "source_title": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer- GCNFormer Network",
+      "official_title": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer-GCNFormer Network",
+      "url": "https://arxiv.org/abs/2310.16288v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-056",
+      "source_title": "RMT: Retentive Networks Meet Vision Transformers",
+      "official_title": "RMT: Retentive Networks Meet Vision Transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Fan_RMT_Retentive_Networks_Meet_Vision_Transformers_CVPR_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-057",
+      "source_title": "CATANet: Efficient Content-Aware Token Aggregation for Lightweight Image Super-Resolution",
+      "official_title": "CATANet: Efficient Content-Aware Token Aggregation for Lightweight Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2503.06896v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-058",
+      "source_title": "FSTA-SNN:Frequency-based Spatial-Temporal Attention Module for Spiking Neural Networks",
+      "official_title": "FSTA-SNN:Frequency-based Spatial-Temporal Attention Module for Spiking Neural Networks",
+      "url": "https://arxiv.org/abs/2501.14744v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-059",
+      "source_title": "High-Similarity-Pass Attention for Single Image Super-Resolution",
+      "official_title": "High-Similarity-Pass Attention for Single Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2305.15768v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-060",
+      "source_title": "PMFSNet: Polarized Multi-scale Feature Self-attention Network For Lightweight Medical Image Segmentation",
+      "official_title": "PMFSNet: Polarized Multi-scale Feature Self-attention Network For Lightweight Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2401.07579v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-061",
+      "source_title": "Fourier Angle Alignment for Oriented Object Detection in Remote Sensing",
+      "official_title": "Fourier Angle Alignment for Oriented Object Detection in Remote Sensing",
+      "url": "https://arxiv.org/abs/2602.23790v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-062",
+      "source_title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
+      "official_title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
+      "url": "https://arxiv.org/abs/2601.17468v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-063",
+      "source_title": "MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention",
+      "official_title": "MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention",
+      "url": "https://arxiv.org/abs/2603.01361v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-064",
+      "source_title": "Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection",
+      "official_title": "Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yan_Wavelet_and_Prototype_Augmented_Query-based_Transformer_for_Pixel-level_Surface_Defect_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-065",
+      "source_title": "Dual-Stage Cross-Modal Network with Dynamic Feature Fusion for Emotional Mimicry Intensity Estimation",
+      "official_title": "Dual-Stage Cross-Modal Network with Dynamic Feature Fusion for Emotional Mimicry Intensity Estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025W/ABAW/html/Yu_Dual-Stage_Cross-Modal_Network_with_Dynamic_Feature_Fusion_for_Emotional_Mimicry_CVPRW_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-066",
+      "source_title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
+      "official_title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
+      "url": "https://arxiv.org/abs/2412.08345v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-067",
+      "source_title": "Dynamic Feature Fusion for Semantic Edge Detection",
+      "official_title": "Dynamic Feature Fusion for Semantic Edge Detection",
+      "url": "https://arxiv.org/abs/1902.09104v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-068",
+      "source_title": "PnPNet: Unified Network for Precise Boundary Segmentation of Volumetric Images",
+      "official_title": "PnPNet: Pull-and-Push Networks for Volumetric Segmentation with Boundary Confusion",
+      "url": "https://arxiv.org/abs/2312.08323v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-069",
+      "source_title": "DS-TransUNet: Dual Swin Transformer U-Net for Medical Image Segmentation",
+      "official_title": "DS-TransUNet:Dual Swin Transformer U-Net for Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2106.06716v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-071",
+      "source_title": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content- Guided Attention",
+      "official_title": "DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention",
+      "url": "https://arxiv.org/abs/2301.04805v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-072",
+      "source_title": "DuAT: Dual-Aggregation Transformer Network for Medical Image Segmentation",
+      "official_title": "DuAT: Dual-Aggregation Transformer Network for Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2212.11677v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-074",
+      "source_title": "Hilbert Curve-Based Attention Enabling Topology-Preserving Image Tensor Representation for Semantic Segmentation Network",
+      "official_title": "Hilbert Curve-Based Attention Enabling Topology-Preserving Image Tensor Representation for Semantic Segmentation Network",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Hilbert_Curve-Based_Attention_Enabling_Topology-Preserving_Image_Tensor_Representation_for_Semantic_CVPR_2026_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-075",
+      "source_title": "FreDFT: Frequency Domain Fusion Transformer for Visible-Infrared Object Detection",
+      "official_title": "FreDFT: Frequency Domain Fusion Transformer for Visible-Infrared Object Detection",
+      "url": "https://arxiv.org/abs/2511.10046v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-076",
+      "source_title": "BCN: Batch Channel Normalization for Image Classification",
+      "official_title": "BCN: Batch Channel Normalization for Image Classification",
+      "url": "https://arxiv.org/abs/2312.00596v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-077",
+      "source_title": "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks",
+      "official_title": "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2103.04886v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-078",
+      "source_title": "SelfNorm and CrossNorm for Out-of-Distribution Robustness",
+      "official_title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+      "url": "https://arxiv.org/abs/2102.02811v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-079",
+      "source_title": "CONTRANORM: A CONTRASTIVE LEARNING PERSPECTIVE ON OVERSMOOTHING AND BEYOND",
+      "official_title": "ContraNorm: A Contrastive Learning Perspective on Oversmoothing and Beyond",
+      "url": "https://arxiv.org/abs/2303.06562v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-080",
+      "source_title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+      "official_title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+      "url": "https://arxiv.org/abs/2102.02811v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-081",
+      "source_title": "Transformers without Normalization",
+      "official_title": "Transformers without Normalization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_Transformers_without_Normalization_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-083",
+      "source_title": "Towards Real-World Test-Time Adaptation: Tri-net Self-Training with Balanced Normalization",
+      "official_title": "Towards Real-World Test-Time Adaptation: Tri-Net Self-Training with Balanced Normalization",
+      "url": "https://arxiv.org/abs/2309.14949v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-084",
+      "source_title": "Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization",
+      "official_title": "Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization",
+      "url": "https://arxiv.org/abs/2312.10165v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-085",
+      "source_title": "Spectral Normalization and Dual Contrastive Regularization for Image-to-Image Translation",
+      "official_title": "Spectral Normalization and Dual Contrastive Regularization for Image-to-Image Translation",
+      "url": "https://arxiv.org/abs/2304.11319v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-086",
+      "source_title": "Hyperspherical Normalization for Scalable Deep Reinforcement Learning",
+      "official_title": "Hyperspherical Normalization for Scalable Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2502.15280v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-088",
+      "source_title": "Partial Channel Network: Compute Fewer, Perform Better",
+      "official_title": "Partial Channel Network: Compute Fewer, Perform Better",
+      "url": "https://arxiv.org/abs/2502.01303v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-089",
+      "source_title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+      "official_title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+      "url": "https://arxiv.org/abs/2501.03775v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-090",
+      "source_title": "TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising",
+      "official_title": "TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising",
+      "url": "https://arxiv.org/abs/2604.04484v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-091",
+      "source_title": "Remote Sensing Forestry Similarity Convolution",
+      "official_title": "Remote Sensing Forestry Similarity Convolution",
+      "url": "https://openaccess.thecvf.com/content/WACV2026/html/Wang_Remote_Sensing_Forestry_Similarity_Convolution_WACV_2026_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-094",
+      "source_title": "MobileIE: An Extremely Lightweight and Effective ConvNet for Real-Time Image Enhancement on Mobile Devices",
+      "official_title": "MobileIE: An Extremely Lightweight and Effective ConvNet for Real-Time Image Enhancement on Mobile Devices",
+      "url": "https://arxiv.org/abs/2507.01838v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-095",
+      "source_title": "Adaptive Rectangular Convolution for Remote Sensing Pansharpening",
+      "official_title": "Adaptive Rectangular Convolution for Remote Sensing Pansharpening",
+      "url": "https://arxiv.org/abs/2503.00467v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-096",
+      "source_title": "Reverse Convolution and Its Applications to Image Restoration",
+      "official_title": "Reverse Convolution and Its Applications to Image Restoration",
+      "url": "https://arxiv.org/abs/2508.09824v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-097",
+      "source_title": "Pinwheel-shaped Convolution and Scale-based Dynamic Loss for Infrared Small Target Detection",
+      "official_title": "Pinwheel-shaped Convolution and Scale-based Dynamic Loss for Infrared Small Target Detection",
+      "url": "https://arxiv.org/abs/2412.16986v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-098",
+      "source_title": "Channel-wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
+      "official_title": "Channel-wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
+      "url": "https://arxiv.org/abs/2107.12213v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-099",
+      "source_title": "Wavelet Convolutions for Large Receptive Fields",
+      "official_title": "Wavelet Convolutions for Large Receptive Fields",
+      "url": "https://arxiv.org/abs/2407.05848v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-100",
+      "source_title": "TVConv: Efficient Translation Variant Convolution for Layout-aware Visual Processing",
+      "official_title": "TVConv: Efficient Translation Variant Convolution for Layout-aware Visual Processing",
+      "url": "https://arxiv.org/abs/2203.10489v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-101",
+      "source_title": "Dynamic Convolution: Attention over Convolution Kernels",
+      "official_title": "Dynamic Convolution: Attention over Convolution Kernels",
+      "url": "https://arxiv.org/abs/1912.03458v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-102",
+      "source_title": "Pyramidal Convolution: Rethinking Convolutional Neural Networks for Visual Recognition",
+      "official_title": "Pyramidal Convolution: Rethinking Convolutional Neural Networks for Visual Recognition",
+      "url": "https://arxiv.org/abs/2006.11538v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-103",
+      "source_title": "MDCR: A Dataset for Multi-Document Conditional Reasoning",
+      "official_title": "MDCR: A Dataset for Multi-Document Conditional Reasoning",
+      "url": "https://arxiv.org/abs/2406.11784v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-104",
+      "source_title": "CondConv: Conditionally Parameterized Convolutions for Efficient Inference",
+      "official_title": "CondConv: Conditionally Parameterized Convolutions for Efficient Inference",
+      "url": "https://arxiv.org/abs/1904.04971v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-105",
+      "source_title": "DO-Conv: Depthwise Over-parameterized Convolutional Layer",
+      "official_title": "DO-Conv: Depthwise Over-parameterized Convolutional Layer",
+      "url": "https://arxiv.org/abs/2006.12030v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-106",
+      "source_title": "Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks",
+      "official_title": "Run, Don't Walk: Chasing Higher FLOPS for Faster Neural Networks",
+      "url": "https://arxiv.org/abs/2303.03667v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-107",
+      "source_title": "Complex Matrix Inversion via Real Matrix Inversions",
+      "official_title": "Complex matrix inversion via real matrix inversions",
+      "url": "https://arxiv.org/abs/2208.01239v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-108",
+      "source_title": "AKConv: Convolutional Kernel with Arbitrary Sampled Shapes and Arbitrary Number of Parameters",
+      "official_title": "LDConv: Linear deformable convolution for improving convolutional neural networks",
+      "url": "https://arxiv.org/abs/2311.11587v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-109",
+      "source_title": "BHViT: Binarized Hybrid Vision Transformer",
+      "official_title": "BHViT: Binarized Hybrid Vision Transformer",
+      "url": "https://arxiv.org/abs/2503.02394v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-112",
+      "source_title": "SFS-DETR: Spatial-Frequency Selection for UAV Object Detection",
+      "official_title": "SFS-DETR: Spatial-Frequency Selection for UAV Object Detection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Jia_SFS-DETR_Spatial-Frequency_Selection_for_UAV_Object_Detection_CVPRF_2026_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-113",
+      "source_title": "Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization",
+      "official_title": "Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization",
+      "url": "https://arxiv.org/abs/2412.13753v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-115",
+      "source_title": "Real-World Remote Sensing Image Dehazing: Benchmark and Baseline",
+      "official_title": "Real-World Remote Sensing Image Dehazing: Benchmark and Baseline",
+      "url": "https://arxiv.org/abs/2503.17966v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-117",
+      "source_title": "MixDehazeNet : Mix Structure Block For Image Dehazing Network",
+      "official_title": "MixDehazeNet : Mix Structure Block For Image Dehazing Network",
+      "url": "https://arxiv.org/abs/2305.17654v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-118",
+      "source_title": "SCConv: Spatial and Channel Reconstruction Convolution for Feature Redundancy",
+      "official_title": "SCConv: Spatial and Channel Reconstruction Convolution for Feature Redundancy",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Li_SCConv_Spatial_and_Channel_Reconstruction_Convolution_for_Feature_Redundancy_CVPR_2023_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-119",
+      "source_title": "SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures",
+      "official_title": "SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures",
+      "url": "https://arxiv.org/abs/2503.01113v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-120",
+      "source_title": "Depth Information Assisted Collaborative Mutual Promotion Network for Single Image Dehazing",
+      "official_title": "Depth Information Assisted Collaborative Mutual Promotion Network for Single Image Dehazing",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Depth_Information_Assisted_Collaborative_Mutual_Promotion_Network_for_Single_Image_CVPR_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-121",
+      "source_title": "OTTER:A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
+      "official_title": "OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
+      "url": "https://arxiv.org/abs/2503.03734v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-124",
+      "source_title": "Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers",
+      "official_title": "Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Koley_Text-to-Image_Diffusion_Models_are_Great_Sketch-Photo_Matchmakers_CVPR_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-125",
+      "source_title": "Latent Feature-Guided Diffusion Models for Shadow Removal",
+      "official_title": "Latent Feature-Guided Diffusion Models for Shadow Removal",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/html/Mei_Latent_Feature-Guided_Diffusion_Models_for_Shadow_Removal_WACV_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-126",
+      "source_title": "Weak-Mamba-UNet: Visual Mamba Makes CNN and ViT Work Better for Scribble-based Medical Image Segmentation",
+      "official_title": "Weak-Mamba-UNet: Visual Mamba Makes CNN and ViT Work Better for Scribble-based Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2402.10887v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-127",
+      "source_title": "BEFUnet: A Hybrid CNN-Transformer Architecture for Precise Medical Image Segmentation",
+      "official_title": "BEFUnet: A Hybrid CNN-Transformer Architecture for Precise Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2402.08793v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-128",
+      "source_title": "Multimodal Deep Learning for Remote Stress Estimation Using CCT-LSTM",
+      "official_title": "Multimodal Deep Learning for Remote Stress Estimation Using CCT-LSTM",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/html/Ziaratnia_Multimodal_Deep_Learning_for_Remote_Stress_Estimation_Using_CCT-LSTM_WACV_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-129",
+      "source_title": "T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews",
+      "official_title": "T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews",
+      "url": "https://arxiv.org/abs/2401.03833v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-131",
+      "source_title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+      "official_title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+      "url": "https://arxiv.org/abs/2407.08083v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-133",
+      "source_title": "Tri-VAE: Triplet Variational Autoencoder for Unsupervised Anomaly Detection in Brain Tumor MRI",
+      "official_title": "Tri-VAE: Triplet Variational Autoencoder for Unsupervised Anomaly Detection in Brain Tumor MRI",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Wijanarko_Tri-VAE_Triplet_Variational_Autoencoder_for_Unsupervised_Anomaly_Detection_in_Brain_CVPRW_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-134",
+      "source_title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
+      "official_title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
+      "url": "https://arxiv.org/abs/2404.08472v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-135",
+      "source_title": "GraphKAN: Enhancing Feature Extraction with Graph Kolmogorov Arnold Networks",
+      "official_title": "GraphKAN: Enhancing Feature Extraction with Graph Kolmogorov Arnold Networks",
+      "url": "https://arxiv.org/abs/2406.13597v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-136",
+      "source_title": "Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases",
+      "official_title": "Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases",
+      "url": "https://arxiv.org/abs/2401.00926v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-137",
+      "source_title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
+      "official_title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Efficient_LoFTR_Semi-Dense_Local_Feature_Matching_with_Sparse-Like_Speed_CVPR_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-138",
+      "source_title": "XFeat: Accelerated Features for Lightweight Image Matching",
+      "official_title": "XFeat: Accelerated Features for Lightweight Image Matching",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Potje_XFeat_Accelerated_Features_for_Lightweight_Image_Matching_CVPR_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-139",
+      "source_title": "FourierKAN-GCF: Fourier Kolmogorov-Arnold Network- An Effective and Efficient Feature Transformation for Graph Collaborative Filtering",
+      "official_title": "Enhancing Graph Collaborative Filtering with FourierKAN Feature Transformation",
+      "url": "https://arxiv.org/abs/2406.01034v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-140",
+      "source_title": "Infrared Image Super-Resolution via Lightweight Information Split Network",
+      "official_title": "Infrared Image Super-Resolution via Lightweight Information Split Network",
+      "url": "https://arxiv.org/abs/2405.10561v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-141",
+      "source_title": "WaveNet-SF: A Hybrid Network for Retinal Disease Detection Based on Wavelet Transform in the Spatial-Frequency Domain",
+      "official_title": "WaveNet-SF: A Hybrid Network for Retinal Disease Detection Based on Wavelet Transform in Spatial-Frequency Domain",
+      "url": "https://arxiv.org/abs/2501.11854v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-142",
+      "source_title": "MLP-KAN: UNIFYING DEEP REPRESENTATION AND FUNCTION LEARNING",
+      "official_title": "MLP-KAN: Unifying Deep Representation and Function Learning",
+      "url": "https://arxiv.org/abs/2410.03027v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-143",
+      "source_title": "Exploring State Space Model in Wavelet Domain: An Infrared and Visible Image Fusion Network via Wavelet Transform and State Space Model",
+      "official_title": "Exploring State Space Model in Wavelet Domain: An Infrared and Visible Image Fusion Network via Wavelet Transform and State Space Model",
+      "url": "https://arxiv.org/abs/2503.18378v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-145",
+      "source_title": "Dual-Path Learning based on Frequency StructuralDecoupling and Regional-Aware Fusion forLow- Light Image Super-Resolution",
+      "official_title": "Dual-Path Learning based on Frequency Structural Decoupling and Regional-Aware Fusion for Low-Light Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2603.27301v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-146",
+      "source_title": "FBRT-YOLO: Faster and Better for Real-Time Aerial Image Detection",
+      "official_title": "FBRT-YOLO: Faster and Better for Real-Time Aerial Image Detection",
+      "url": "https://arxiv.org/abs/2504.20670v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-148",
+      "source_title": "HISRCNet: Super-resolution And Classification Network For Low-resolution Breast Cancer Histopathology Image",
+      "official_title": "SHISRCNet: Super-resolution And Classification Network For Low-resolution Breast Cancer Histopathology Image",
+      "url": "https://arxiv.org/abs/2306.14119v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-149",
+      "source_title": "CEDNET: A CASCADE ENCODER-DECODER NET WORK FOR DENSE PREDICTION",
+      "official_title": "CEDNet: A Cascade Encoder-Decoder Network for Dense Prediction",
+      "url": "https://arxiv.org/abs/2302.06052v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-150",
+      "source_title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
+      "official_title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2406.03751v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-152",
+      "source_title": "MDFM: Multi-Decision Fusing Model for Few-Shot Learning",
+      "official_title": "MDFM: Multi-Decision Fusing Model for Few-Shot Learning",
+      "url": "https://arxiv.org/abs/2112.00690v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-153",
+      "source_title": "D-Net: Dynamic Large Kernel with Dynamic Feature Fusion for Volumetric Medical Image Segmentation",
+      "official_title": "D-Net: Dynamic Large Kernel with Dynamic Feature Fusion for Volumetric Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2403.10674v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-154",
+      "source_title": "DETRs Beat YOLOs on Real-time Object Detection",
+      "official_title": "DETRs Beat YOLOs on Real-time Object Detection",
+      "url": "https://arxiv.org/abs/2304.08069v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-155",
+      "source_title": "Spatial Frequency Modulation for Semantic Segmentation",
+      "official_title": "Spatial Frequency Modulation for Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2507.11893v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-156",
+      "source_title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
+      "official_title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
+      "url": "https://arxiv.org/abs/2604.14884v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-157",
+      "source_title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
+      "official_title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2604.27326v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-158",
+      "source_title": "DF2Net: A Differential-Feature Dynamic-Fusion Network for Building Change Detection in Remote Sensing Images",
+      "official_title": "PQGNet: Perceptual Query Guided Network for Infrared Small Target Detection | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11352975",
+      "identity_status": "conflict",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-159",
+      "source_title": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+      "official_title": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+      "url": "https://arxiv.org/abs/2603.26425v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-160",
+      "source_title": "Rewrite the Stars",
+      "official_title": "Rewrite the Stars",
+      "url": "https://arxiv.org/abs/2403.19967v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-161",
+      "source_title": "GhostNetV2: Enhance Cheap Operation with Long-Range Attention",
+      "official_title": "GhostNetV2: Enhance Cheap Operation with Long-Range Attention",
+      "url": "https://arxiv.org/abs/2211.12905v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-162",
+      "source_title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+      "official_title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+      "url": "https://arxiv.org/abs/2505.22618v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-163",
+      "source_title": "DYNAMIC-DLLM: DYNAMIC CACHE-BUDGET AND ADAPTIVE PARALLEL DECODING FOR TRAINING FREE ACCELERATION OF DIFFUSION LLM",
+      "official_title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
+      "url": "https://arxiv.org/abs/2606.26120v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-164",
+      "source_title": "Video Compression Commander: Plug-and-PlayInference Acceleration for Video Large LanguageModels",
+      "official_title": "Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models",
+      "url": "https://arxiv.org/abs/2505.14454v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-165",
+      "source_title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
+      "official_title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
+      "url": "https://arxiv.org/abs/2508.09874v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-166",
+      "source_title": "VLSA: Vision-Language-Action Models withPlug-and-Play Safety Constraint Layer",
+      "official_title": "VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer",
+      "url": "https://arxiv.org/abs/2512.11891v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-167",
+      "source_title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
+      "official_title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
+      "url": "https://arxiv.org/abs/2512.03575v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-168",
+      "source_title": "SLOT: Sample-specific Language Model Optimization at Test-time",
+      "official_title": "SLOT: Sample-specific Language Model Optimization at Test-time",
+      "url": "https://arxiv.org/abs/2505.12392v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-169",
+      "source_title": "RACER:Retrieval-Augmented Contextual Rapid Speculative Decoding",
+      "official_title": "RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding",
+      "url": "https://arxiv.org/abs/2604.14885v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-171",
+      "source_title": "LLM2CLIP: Powerful Language Model Unlocks Richer Cross-Modality Representation",
+      "official_title": "LLM2CLIP: Powerful Language Model Unlocks Richer Cross-Modality Representation",
+      "url": "https://arxiv.org/abs/2411.04997v6",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-172",
+      "source_title": "In-Place Test-Time Training",
+      "official_title": "In-Place Test-Time Training",
+      "url": "https://arxiv.org/abs/2604.06169v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-173",
+      "source_title": "All-in-One Slider for Attribute Manipulation in Diffusion Models",
+      "official_title": "All-in-One Slider for Attribute Manipulation in Diffusion Models",
+      "url": "https://www.alphaxiv.org/abs/2508.19195",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-174",
+      "source_title": "BEVDiffuser: Plug-and-Play Diffusion Model for BEV Denoising with Ground-Truth Guidanc",
+      "official_title": "BEVDiffuser: Plug-and-Play Diffusion Model for BEV Denoising with Ground-Truth Guidance",
+      "url": "https://arxiv.org/abs/2502.19694v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-175",
+      "source_title": "FreeU: Free Lunch in Diffusion U-Net",
+      "official_title": "FreeU: Free Lunch in Diffusion U-Net",
+      "url": "https://arxiv.org/abs/2309.11497v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-176",
+      "source_title": "ONE STEP FURTHER WITH MONTE-CARLO SAMPLER TO GUIDE DIFFUSION BETTER",
+      "official_title": "One step further with Monte-Carlo sampler to guide diffusion better",
+      "url": "https://arxiv.org/abs/2603.06685v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-177",
+      "source_title": "PLUG-AND-PLAY DIFFUSION MODELS FOR IMAGE COMPRESSIVE SENSING WITH DATA CONSISTENCY PROJECTION",
+      "official_title": "Plug-and-play Diffusion Models for Image Compressive Sensing with Data Consistency Projection",
+      "url": "https://arxiv.org/abs/2509.09365v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-178",
+      "source_title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
+      "official_title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
+      "url": "https://arxiv.org/abs/2605.05960v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-179",
+      "source_title": "Super-Resolution and Denoising of Corneal B-Scan OCT Imaging Using Diffusion Model Plug-and-Play Priors",
+      "official_title": "Super-Resolution and Denoising of Corneal B-Scan OCT Imaging Using Diffusion Model Plug-and-Play Priors",
+      "url": "https://arxiv.org/abs/2602.02795v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-180",
+      "source_title": "Golden Noise for Diffusion Models: A Learning Framework",
+      "official_title": "Golden Noise for Diffusion Models: A Learning Framework",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Golden_Noise_for_Diffusion_Models_A_Learning_Framework_ICCV_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-181",
+      "source_title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+      "official_title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+      "url": "https://arxiv.org/abs/2605.18736v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-182",
+      "source_title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+      "official_title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Elucidating_the_SNR-t_Bias_of_Diffusion_Probabilistic_Models_CVPR_2026_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-183",
+      "source_title": "InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models",
+      "official_title": "InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2312.05849v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-184",
+      "source_title": "Beyond Illumination: Fine-Grained Detail Preservation in Extreme Dark Image Restoration",
+      "official_title": "Beyond Illumination: Fine-Grained Detail Preservation in Extreme Dark Image Restoration",
+      "url": "https://arxiv.org/abs/2508.03336v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-185",
+      "source_title": "Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for EfficientUltra-high-definition Image Restoration",
+      "official_title": "Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-high-definition Image Restoration",
+      "url": "https://arxiv.org/abs/2602.21917v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-186",
+      "source_title": "AKCMamba-YOLO: Selective State Space Models For Real-Time Object Detection",
+      "official_title": "AKCMamba-YOLO: Selective State Space Models For Real-Time Object Detection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_AKCMamba-YOLO_Selective_State_Space_Models_For_Real-Time_Object_Detection_CVPR_2026_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-188",
+      "source_title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
+      "official_title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
+      "url": "https://arxiv.org/abs/2411.15941v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-189",
+      "source_title": "MambaHSI:Spatial-Spectral Mamba for Hyperspectral Image Classification",
+      "official_title": "MambaHSI: Spatial-Spectral Mamba for Hyperspectral Image Classification",
+      "url": "https://arxiv.org/abs/2501.04944v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-190",
+      "source_title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
+      "official_title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
+      "url": "https://arxiv.org/abs/2411.15241v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-192",
+      "source_title": "Convolutional State Space Models for Long-Range Spatiotemporal Modeling",
+      "official_title": "Convolutional State Space Models for Long-Range Spatiotemporal Modeling",
+      "url": "https://arxiv.org/abs/2310.19694v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-193",
+      "source_title": "nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model",
+      "official_title": "nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model",
+      "url": "https://arxiv.org/abs/2402.03526v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-194",
+      "source_title": "TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting",
+      "official_title": "TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting",
+      "url": "https://arxiv.org/abs/2403.09898v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-195",
+      "source_title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+      "official_title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+      "url": "https://arxiv.org/abs/2402.15648v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-196",
+      "source_title": "RSCaMa: Remote Sensing Image Change Captioning with State Space Model",
+      "official_title": "RSCaMa: Remote Sensing Image Change Captioning with State Space Model",
+      "url": "https://arxiv.org/abs/2404.18895v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-197",
+      "source_title": "Jamba: A Hybrid Transformer-Mamba Language Model",
+      "official_title": "Jamba: A Hybrid Transformer-Mamba Language Model",
+      "url": "https://arxiv.org/abs/2403.19887v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-198",
+      "source_title": "VMamba: Visual State Space Model",
+      "official_title": "VMamba: Visual State Space Model",
+      "url": "https://arxiv.org/abs/2401.10166v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-199",
+      "source_title": "CM-UNet: Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation",
+      "official_title": "CM-UNet: Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2405.10530v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-200",
+      "source_title": "SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation",
+      "official_title": "SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2401.13560v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-201",
+      "source_title": "Wavelet-based Mamba with Fourier Adjustment for Low-light Image Enhancement",
+      "official_title": "Wavelet-based Mamba with Fourier Adjustment for Low-light Image Enhancement",
+      "url": "https://arxiv.org/abs/2410.20314v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-202",
+      "source_title": "MambaOut: Do We Really Need Mamba for Vision?",
+      "official_title": "MambaOut: Do We Really Need Mamba for Vision?",
+      "url": "https://arxiv.org/abs/2405.07992v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-203",
+      "source_title": "KAN: Kolmogorov–Arnold Networks",
+      "official_title": "KAN: Kolmogorov-Arnold Networks",
+      "url": "https://arxiv.org/abs/2404.19756v5",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-204",
+      "source_title": "SCKansformer: Fine-Grained Classification of Bone Marrow Cells via Kansformer Backbone and Hierarchical Attention Mechanisms",
+      "official_title": "SCKansformer: Fine-Grained Classification of Bone Marrow Cells via Kansformer Backbone and Hierarchical Attention Mechanisms",
+      "url": "https://arxiv.org/abs/2406.09931v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-205",
+      "source_title": "MobileNetV4 - Universal Models for the Mobile Ecosystem",
+      "official_title": "MobileNetV4 -- Universal Models for the Mobile Ecosystem",
+      "url": "https://arxiv.org/abs/2404.10518v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-206",
+      "source_title": "FMViT:Amultiple-frequencymixingVisionTransformer",
+      "official_title": "FMViT: A multiple-frequency mixing Vision Transformer",
+      "url": "https://arxiv.org/abs/2311.05707v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-207",
+      "source_title": "Rethinking Attention: Exploring Shallow Feed-Forward Neural Networks as an Alternative to Attention Layers in Transformers",
+      "official_title": "Rethinking Attention: Exploring Shallow Feed-Forward Neural Networks as an Alternative to Attention Layers in Transformers",
+      "url": "https://arxiv.org/abs/2311.10642v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-210",
+      "source_title": "Skip-Attention: Improving Vision Transformers by Paying Less Attention",
+      "official_title": "Skip-Attention: Improving Vision Transformers by Paying Less Attention",
+      "url": "https://arxiv.org/abs/2301.02240v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-211",
+      "source_title": "SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design",
+      "official_title": "SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design",
+      "url": "https://arxiv.org/abs/2401.16456v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-212",
+      "source_title": "To Perceive or Not to Perceive: Lightweight Stacked Hourglass Network",
+      "official_title": "To Perceive or Not to Perceive: Lightweight Stacked Hourglass Network",
+      "url": "https://arxiv.org/abs/2302.04815v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-213",
+      "source_title": "EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention",
+      "official_title": "EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention",
+      "url": "https://arxiv.org/abs/2305.07027v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-214",
+      "source_title": "Less is More: Focus Attention for Efficient DETR",
+      "official_title": "Less is More: Focus Attention for Efficient DETR",
+      "url": "https://arxiv.org/abs/2307.12612v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-215",
+      "source_title": "FalconNet: Factorization for the Light-weight ConvNets",
+      "official_title": "FalconNet: Factorization for the Light-weight ConvNets",
+      "url": "https://arxiv.org/abs/2306.06365v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-216",
+      "source_title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
+      "official_title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
+      "url": "https://arxiv.org/abs/2110.02178v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-217",
+      "source_title": "EdgeNeXt: EfcientlyAmalgamated CNN-Transformer Architecture forMobile Vision Applications",
+      "official_title": "EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications",
+      "url": "https://arxiv.org/abs/2206.10589v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-218",
+      "source_title": "EfficientFormer: Vision Transformers at MobileNet Speed",
+      "official_title": "EfficientFormer: Vision Transformers at MobileNet Speed",
+      "url": "https://arxiv.org/abs/2206.01191v5",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-219",
+      "source_title": "TinyViT: Fast Pretraining Distillation for Small Vision Transformers",
+      "official_title": "TinyViT: Fast Pretraining Distillation for Small Vision Transformers",
+      "url": "https://arxiv.org/abs/2207.10666v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-220",
+      "source_title": "An Improved One millisecond Mobile Backbone",
+      "official_title": "MobileOne: An Improved One millisecond Mobile Backbone",
+      "url": "https://arxiv.org/abs/2206.04040v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-221",
+      "source_title": "Learning to Upsample by Learning to Sample",
+      "official_title": "Learning to Upsample by Learning to Sample",
+      "url": "https://arxiv.org/abs/2308.15085v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-223",
+      "source_title": "DBCFS-Net: Dynamic Blocks and Cross-Domain Feature Synergy for Remote Sensing Object Detection",
+      "official_title": "DBCFS-Net: Dynamic Blocks and Cross-Domain Feature Synergy for Remote Sensing Object Detection | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11303973/",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-224",
+      "source_title": "NOT ALL ROLLOUTS ARE USEFUL: DOWN-SAMPLING ROLLOUTS IN LLM REINFORCEMENT LEARNING",
+      "official_title": "Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2504.13818v5",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-225",
+      "source_title": "DABI: Evaluation of Data Augmentation Methods Using Downsampling in Bilateral Control-Based Imitation Learning with Images",
+      "official_title": "DABI: Evaluation of Data Augmentation Methods Using Downsampling in Bilateral Control-Based Imitation Learning with Images",
+      "url": "https://arxiv.org/abs/2410.04370v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-226",
+      "source_title": "GROUP DOWNSAMPLING WITH EQUIVARIANT ANTI ALIASING",
+      "official_title": "Group Downsampling with Equivariant Anti-aliasing",
+      "url": "https://arxiv.org/abs/2504.17258v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-227",
+      "source_title": "DS-Pnet: FM-Based Positioning via Downsampling",
+      "official_title": "DS-Pnet: FM-Based Positioning via Downsampling",
+      "url": "https://arxiv.org/abs/2504.07429v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-228",
+      "source_title": "ADAPTOR: Adaptive Token Reduction for Video Diffusion Transformers",
+      "official_title": "ADAPTOR: Adaptive Token Reduction for Video Diffusion Transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025W/EDGE/html/Peruzzo_ADAPTOR_Adaptive_Token_Reduction_for_Video_Diffusion_Transformers_CVPRW_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-229",
+      "source_title": "Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation",
+      "official_title": "Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation",
+      "url": "https://arxiv.org/abs/2403.07303v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-230",
+      "source_title": "UAV-DETR: Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery",
+      "official_title": "UAV-DETR: Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery",
+      "url": "https://arxiv.org/abs/2501.01855v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-231",
+      "source_title": "Leveraging Multispectral Sensors for Color Correction in Mobile Cameras",
+      "official_title": "Leveraging Multispectral Sensors for Color Correction in Mobile Cameras",
+      "url": "https://arxiv.org/abs/2512.08441v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-232",
+      "source_title": "Reliable Thinking with Images",
+      "official_title": "Reliable Thinking with Images",
+      "url": "https://arxiv.org/abs/2602.12916v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-233",
+      "source_title": "DashFusion: Dual-stream Alignment with Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis",
+      "official_title": "DashFusion: Dual-stream Alignment with Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis",
+      "url": "https://arxiv.org/abs/2512.05515v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-236",
+      "source_title": "FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration",
+      "official_title": "FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration",
+      "url": "https://arxiv.org/abs/2603.07667v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-237",
+      "source_title": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
+      "official_title": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
+      "url": "https://arxiv.org/abs/2512.00891v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-241",
+      "source_title": "MLOW: Interpretable Low-Rank Frequency Magnitude Decomposition of Multiple Effects for Time Series Forecasting",
+      "official_title": "MLOW: Interpretable Low-Rank Frequency Magnitude Decomposition of Multiple Effects for Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2603.18432v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-243",
+      "source_title": "CORA: COVARIATE-AWARE ADAPTATION OF TIME SERIES FOUNDATION MODELS",
+      "official_title": "CoRA: Covariate-Aware Adaptation of Time Series Foundation Models",
+      "url": "https://arxiv.org/abs/2510.12681v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-244",
+      "source_title": "FITS: MODELING TIME SERIES WITH 10k PARAME TERS",
+      "official_title": "FITS: Modeling Time Series with $10k$ Parameters",
+      "url": "https://arxiv.org/abs/2307.03756v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-245",
+      "source_title": "SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting",
+      "official_title": "SST: Multi-Scale Hybrid Mamba-Transformer Experts for Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2404.14757v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-246",
+      "source_title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
+      "official_title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
+      "url": "https://arxiv.org/abs/2505.23116v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-247",
+      "source_title": "MSGNet: Learning Multi-Scale Inter-Series Correlations for Multivariate Time Series Forecasting",
+      "official_title": "MSGNet: Learning Multi-Scale Inter-Series Correlations for Multivariate Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2401.00423v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-248",
+      "source_title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+      "official_title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+      "url": "https://arxiv.org/abs/2211.14730v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-249",
+      "source_title": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
+      "official_title": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
+      "url": "https://arxiv.org/abs/2107.02368v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-250",
+      "source_title": "SFFNet: A Wavelet-Based Spatial and Frequency Domain Fusion Network for Remote Sensing Segmentation",
+      "official_title": "SFFNet: A Wavelet-Based Spatial and Frequency Domain Fusion Network for Remote Sensing Segmentation",
+      "url": "https://arxiv.org/abs/2405.01992v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-251",
+      "source_title": "SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes",
+      "official_title": "SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SAM2-LOVE_Segment_Anything_Model_2_in_Language-aided_Audio-Visual_Scenes_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-252",
+      "source_title": "CRISP-SAM2 : SAM2 with Cross-Modal Interaction and Semantic Prompting for Multi- Organ Segmentation",
+      "official_title": "CRISP-SAM2: SAM2 with Cross-Modal Interaction and Semantic Prompting for Multi-Organ Segmentation",
+      "url": "https://arxiv.org/abs/2506.23121v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-253",
+      "source_title": "SAM2-SGP: Enhancing SAM2 for Medical Image Segmentation via Support-Set Guided Prompting",
+      "official_title": "SAM2-SGP: Enhancing SAM2 for Medical Image Segmentation via Support-Set Guided Prompting",
+      "url": "https://arxiv.org/abs/2506.19658v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-254",
+      "source_title": "SAMba-UNet: Synergizing SAM2 and Mamba in UNet with Heterogeneous Aggregation for Cardiac MRI Segmentation",
+      "official_title": "SAMba-UNet: SAM2-Mamba UNet for Cardiac MRI in Medical Robotic Perception",
+      "url": "https://arxiv.org/abs/2505.16304v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-255",
+      "source_title": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
+      "official_title": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2408.08870v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-256",
+      "source_title": "SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to DownstreamSegmentationTasks",
+      "official_title": "SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks",
+      "url": "https://arxiv.org/abs/2508.03566v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-257",
+      "source_title": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
+      "official_title": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
+      "url": "https://arxiv.org/abs/2504.03600v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-258",
+      "source_title": "DyCON:Dynamic Uncertainty-aware Consistency and Contrastive Learning for Semi- supervised Medical Image Segmentation",
+      "official_title": "DyCON: Dynamic Uncertainty-aware Consistency and Contrastive Learning for Semi-supervised Medical Image Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Assefa_DyCON_Dynamic_Uncertainty-aware_Consistency_and_Contrastive_Learning_for_Semi-supervised_Medical_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-259",
+      "source_title": "Show and Segment: Universal Medical Image Segmentation via In-Context Learning",
+      "official_title": "Show and Segment: Universal Medical Image Segmentation via In-Context Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gao_Show_and_Segment_Universal_Medical_Image_Segmentation_via_In-Context_Learning_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-260",
+      "source_title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
+      "official_title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
+      "url": "https://arxiv.org/abs/2506.03799v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-262",
+      "source_title": "Hybrid Global-Local Representation with Augmented Spatial Guidance for Zero-Shot Referring Image Segmentation",
+      "official_title": "Hybrid Global-Local Representation with Augmented Spatial Guidance for Zero-Shot Referring Image Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Hybrid_Global-Local_Representation_with_Augmented_Spatial_Guidance_for_Zero-Shot_Referring_CVPR_2025_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-263",
+      "source_title": "TBConvL-Net: A Hybrid Deep Learning Architecture for Robust Medical Image Segmentation",
+      "official_title": "TBConvL-Net: A Hybrid Deep Learning Architecture for Robust Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2409.03367v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-264",
+      "source_title": "HResFormer: Hybrid Residual Transformer for Volumetric Medical Image Segmentation",
+      "official_title": "HResFormer: Hybrid Residual Transformer for Volumetric Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2412.11458v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-265",
+      "source_title": "ScribFormer: Transformer Makes CNN Work Better for Scribble-based Medical Image Segmentation",
+      "official_title": "ScribFormer: Transformer Makes CNN Work Better for Scribble-based Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2402.02029v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-267",
+      "source_title": "RepViT-SAM: Towards Real-Time Segmenting Anything",
+      "official_title": "RepViT-SAM: Towards Real-Time Segmenting Anything",
+      "url": "https://arxiv.org/abs/2312.05760v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-269",
+      "source_title": "FFCA-YOLO for Small Object Detection in Remote Sensing Images",
+      "official_title": "FFCA-YOLO for Small Object Detection in Remote Sensing Images | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10423050",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-271",
+      "source_title": "RemoteDet-Mamba: A Hybrid Mamba-CNN Network for Multi-modal Object Detection in Remote Sensing Images",
+      "official_title": "RemoteDet-Mamba: A Hybrid Mamba-CNN Network for Multi-modal Object Detection in Remote Sensing Images",
+      "url": "https://arxiv.org/abs/2410.13532v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-272",
+      "source_title": "U-DECN: End-to-End Underwater Object Detection ConvNet with Improved DeNoising Training",
+      "official_title": "U-DECN: End-to-End Underwater Object Detection ConvNet with Improved DeNoising Training",
+      "url": "https://arxiv.org/abs/2408.05780v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-273",
+      "source_title": "Low-light Object Detection",
+      "official_title": "Low-light Object Detection",
+      "url": "https://arxiv.org/abs/2405.03519v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-274",
+      "source_title": "DRPCA-Net: Make Robust PCA Great Again for Infrared Small Target Detection",
+      "official_title": "DRPCA-Net: Make Robust PCA Great Again for Infrared Small Target Detection",
+      "url": "https://arxiv.org/abs/2507.09541v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-275",
+      "source_title": "Rethinking Generalizable Infrared Small Target Detection: A Real-scene Benchmark and Cross-view Representation Learning",
+      "official_title": "Rethinking Generalizable Infrared Small Target Detection: A Real-scene Benchmark and Cross-view Representation Learning",
+      "url": "https://arxiv.org/abs/2504.16487v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-276",
+      "source_title": "CROWn: A Unified Framework for Anti-Aliased Downsampling and Phase-Calibrated Fusion in 3D Medical Segmentation",
+      "official_title": "CROWn: A Unified Framework for Anti-Aliased Downsampling and Phase-Calibrated Fusion in 3D Medical Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_CROWn_A_Unified_Framework_for_Anti-Aliased_Downsampling_and_Phase-Calibrated_Fusion_CVPR_2026_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-277",
+      "source_title": "CLEEGN: A Convolutional Neural Network for Plug-and-Play Automatic EEG Reconstruction",
+      "official_title": "CLEEGN: A Convolutional Neural Network for Plug-and-Play Automatic EEG Reconstruction",
+      "url": "https://arxiv.org/abs/2210.05988v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-279",
+      "source_title": "SvANet: A Scale-variant Attention-based Network for Small Medical Object Segmentation",
+      "official_title": "Exploiting Scale-Variant Attention for Segmenting Small Medical Objects",
+      "url": "https://arxiv.org/abs/2407.07720v5",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-280",
+      "source_title": "EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation",
+      "official_title": "EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2405.06880v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-281",
+      "source_title": "DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation",
+      "official_title": "DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation",
+      "url": "https://arxiv.org/abs/2311.00483v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-282",
+      "source_title": "MSA2Net: Multi-scale Adaptive Attention-guided Network for Medical Image Segmentation",
+      "official_title": "MSA$^2$Net: Multi-scale Adaptive Attention-guided Network for Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2407.21640v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-283",
+      "source_title": "Vision-LSTM: xLSTM as Generic Vision Backbone",
+      "official_title": "Vision-LSTM: xLSTM as Generic Vision Backbone",
+      "url": "https://arxiv.org/abs/2406.04303v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-285",
+      "source_title": "RFAConv: Innovating Spatial Attention and Standard Convolutional Operation",
+      "official_title": "RFAConv: Receptive-Field Attention Convolution for Improving Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/2304.03198v7",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-286",
+      "source_title": "Salient Positions based Attention Network for Image Classification",
+      "official_title": "Salient Positions based Attention Network for Image Classification",
+      "url": "https://arxiv.org/abs/2106.04996v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-287",
+      "source_title": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+      "official_title": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+      "url": "https://arxiv.org/abs/2303.15446v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-288",
+      "source_title": "CoordGate: Efficiently Computing Spatially-Varying Convolutions in Convolutional Neural Networks",
+      "official_title": "CoordGate: Efficiently Computing Spatially-Varying Convolutions in Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/2401.04680v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-289",
+      "source_title": "Efficient Multi-Scale Attention Module with Cross-Spatial Learning",
+      "official_title": "Efficient Multi-Scale Attention Module with Cross-Spatial Learning",
+      "url": "https://arxiv.org/abs/2305.13563v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-290",
+      "source_title": "Context-Aware Crowd Counting",
+      "official_title": "Context-Aware Crowd Counting",
+      "url": "https://arxiv.org/abs/1811.10452v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-291",
+      "source_title": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
+      "official_title": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
+      "url": "https://arxiv.org/abs/2111.09099v6",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-292",
+      "source_title": "Dynamic Filter Networks",
+      "official_title": "Dynamic Filter Networks",
+      "url": "https://arxiv.org/abs/1605.09673v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-293",
+      "source_title": "FMB: a Functional Manipulation Benchmark for Generalizable Robotic Learning",
+      "official_title": "FMB: a Functional Manipulation Benchmark for Generalizable Robotic Learning",
+      "url": "https://arxiv.org/abs/2401.08553v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-294",
+      "source_title": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
+      "official_title": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2302.13800v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-295",
+      "source_title": "Efficient Long-Range Attention Network for Image Super-resolution",
+      "official_title": "Efficient Long-Range Attention Network for Image Super-resolution",
+      "url": "https://arxiv.org/abs/2203.06697v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-296",
+      "source_title": "Dual Aggregation Transformer for Image Super-Resolution",
+      "official_title": "Dual Aggregation Transformer for Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2308.03364v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-297",
+      "source_title": "Adaptive Graph Convolution for Point Cloud Analysis",
+      "official_title": "Adaptive Graph Convolution for Point Cloud Analysis",
+      "url": "https://arxiv.org/abs/2108.08035v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-298",
+      "source_title": "GeoConv: Geodesic Guided Convolution for Facial Action Unit Recognition",
+      "official_title": "GeoConv: Geodesic Guided Convolution for Facial Action Unit Recognition",
+      "url": "https://arxiv.org/abs/2003.03055v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-299",
+      "source_title": "PnP-3D: A Plug-and-Play for 3D Point Clouds",
+      "official_title": "PnP-3D: A Plug-and-Play for 3D Point Clouds",
+      "url": "https://arxiv.org/abs/2108.07378v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-300",
+      "source_title": "Parameter is Not All You Need, Starting from Non-parametric Networks for 3D Point Cloud Analysis",
+      "official_title": "Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis",
+      "url": "https://arxiv.org/abs/2303.08134v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-301",
+      "source_title": "PF-Net: Point Fractal Network for 3D Point Cloud Completion",
+      "official_title": "PF-Net: Point Fractal Network for 3D Point Cloud Completion",
+      "url": "https://arxiv.org/abs/2003.00410v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-302",
+      "source_title": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
+      "official_title": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
+      "url": "https://arxiv.org/abs/2112.04903v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-303",
+      "source_title": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+      "official_title": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+      "url": "https://arxiv.org/abs/1904.08889v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-304",
+      "source_title": "SimVP: Simpler yet Better Video Prediction",
+      "official_title": "SimVP: Simpler Yet Better Video Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Gao_SimVP_Simpler_Yet_Better_Video_Prediction_CVPR_2022_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-305",
+      "source_title": "PoseBERT: A Generic Transformer Module for Temporal 3D Human Modeling",
+      "official_title": "PoseBERT: A Generic Transformer Module for Temporal 3D Human Modeling",
+      "url": "https://arxiv.org/abs/2208.10211v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-307",
+      "source_title": "Beyond Self-Attention: Deformable Large Kernel Attention for Medical Image Segmentation",
+      "official_title": "Beyond Self-Attention: Deformable Large Kernel Attention for Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2309.00121v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-308",
+      "source_title": "MoE3D: AMixture-of-Experts Module for 3D Reconstruction",
+      "official_title": "MoE3D: A Mixture-of-Experts Module for 3D Reconstruction",
+      "url": "https://arxiv.org/abs/2601.05208v3",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-310",
+      "source_title": "FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information",
+      "official_title": "FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information",
+      "url": "https://arxiv.org/abs/2405.12807v11",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-311",
+      "source_title": "SmoothNet: A Plug-and-Play Network for Refining Human Poses in Videos",
+      "official_title": "SmoothNet: A Plug-and-Play Network for Refining Human Poses in Videos",
+      "url": "https://arxiv.org/abs/2112.13715v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-312",
+      "source_title": "Dual Attention Network for Scene Segmentation",
+      "official_title": "Dual Attention Network for Scene Segmentation",
+      "url": "https://arxiv.org/abs/1809.02983v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-313",
+      "source_title": "Simple Baselines for Image Restoration",
+      "official_title": "Simple Baselines for Image Restoration",
+      "url": "https://arxiv.org/abs/2204.04676v4",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-314",
+      "source_title": "DSAM: A Deep Learning Framework for Analyzing Temporal and Spatial Dynamics in Brain Networks",
+      "official_title": "DSAM: A Deep Learning Framework for Analyzing Temporal and Spatial Dynamics in Brain Networks",
+      "url": "https://arxiv.org/abs/2405.15805v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-315",
+      "source_title": "Restoring Images in Adverse Weather Conditions via Histogram Transformer",
+      "official_title": "Restoring Images in Adverse Weather Conditions via Histogram Transformer",
+      "url": "https://arxiv.org/abs/2407.10172v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-316",
+      "source_title": "Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature Refinement for Image Restoration",
+      "official_title": "Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature Refinement for Image Restoration",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Adapt_or_Perish_Adaptive_Sparse_Transformer_with_Attentive_Feature_Refinement_CVPR_2024_paper.html",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-317",
+      "source_title": "Context-Guided Spatial Feature Reconstruction for Efficient Semantic Segmentation",
+      "official_title": "Context-Guided Spatial Feature Reconstruction for Efficient Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2405.06228v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-318",
+      "source_title": "SCTNet: Single-Branch CNN with Transformer Semantic Information for Real-Time Segmentation",
+      "official_title": "SCTNet: Single-Branch CNN with Transformer Semantic Information for Real-Time Segmentation",
+      "url": "https://arxiv.org/abs/2312.17071v2",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-319",
+      "source_title": "Burstormer: Burst Image Restoration and Enhancement Transformer",
+      "official_title": "Burstormer: Burst Image Restoration and Enhancement Transformer",
+      "url": "https://arxiv.org/abs/2304.01194v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-320",
+      "source_title": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
+      "official_title": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2402.19387v1",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    },
+    {
+      "lead_id": "DLI-321",
+      "source_title": "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images",
+      "official_title": "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images | IEEE Journals & Magazine | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11427018",
+      "identity_status": "matched",
+      "checked": "2026-10-27",
+      "read_scope": "官方题名与摘要；非全文或复现实验"
+    }
+  ]
+}

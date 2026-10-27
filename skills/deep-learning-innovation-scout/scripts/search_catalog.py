@@ -44,7 +44,7 @@ ALIASES.update({
 
 def all_records():
     records = []
-    for name in ['modules', 'papers', 'code-interfaces', 'datasets', 'recipes']:
+    for name in ['modules', 'papers', 'code-interfaces', 'datasets', 'recipes', 'research-cards', 'source-items']:
         file = LIBRARY / (name + '.json')
         if file.exists():
             records.extend(json.loads(file.read_text(encoding='utf-8'))['records'])
@@ -60,6 +60,8 @@ def search_library(query, *, limit=8, include_quarantined=False, tag=None, kind=
             terms.update(v.casefold() for v in values)
     results = []
     for record in all_records():
+        if record['kind']=='source' and kind!='source':
+            continue
         if record.get('exclude_from_recommendation') and not include_quarantined:
             continue
         if kind and record['kind'] != kind:
@@ -75,7 +77,8 @@ def search_library(query, *, limit=8, include_quarantined=False, tag=None, kind=
         title = ' '.join(names).casefold()
         detail_keys = ['mechanism', 'integration', 'risks', 'minimal_experiment', 'topic_label', 'method_summary',
                        'research_use', 'group', 'task', 'selection_notes', 'search_terms',
-                       'failure', 'hypothesis', 'decision', 'source_categories', 'source_aliases']
+                       'failure', 'hypothesis', 'decision', 'source_categories', 'source_aliases',
+                       'mechanism_summary', 'research_question', 'reading_level']
         detail = ' '.join(str(record.get(key, '')) for key in detail_keys).casefold()
         tag_text = ' '.join(tags).casefold()
         score = 0
@@ -103,7 +106,7 @@ def search_library(query, *, limit=8, include_quarantined=False, tag=None, kind=
             if record.get('family') == 'volumetric' and not any(w in q for w in ['三维', '3d', '体数据', '体素', '切片']):
                 score *= 0.65
         if score:
-            score *= {'module': 1.8, 'recipe': 1.6, 'dataset': 1.0, 'paper': 0.8, 'guide': 0.5, 'code': 0.5, 'lead': 0.6}[record['kind']]
+            score *= {'module': 1.8, 'recipe': 1.6, 'dataset': 1.0, 'paper': 0.8, 'guide': 0.5, 'code': 0.5, 'lead': 0.6, 'research': 1.1, 'source': 0.3}[record['kind']]
         results.append(dict(record, retrieval_score=round(score, 3), matched_terms=sorted(matches)))
     return sorted(results, key=lambda r: (-r['retrieval_score'], r['id']))[:limit]
 
@@ -146,7 +149,7 @@ def main():
     parser.add_argument('query', nargs='*')
     parser.add_argument('--limit', type=int, default=8)
     parser.add_argument('--tag')
-    parser.add_argument('--kind', choices=['module', 'paper', 'guide', 'code', 'dataset', 'lead', 'recipe'])
+    parser.add_argument('--kind', choices=['module', 'paper', 'guide', 'code', 'dataset', 'lead', 'recipe', 'research', 'source'])
     parser.add_argument('--family', help='机制族，例如 frequency / fusion / normalization')
     parser.add_argument('--stats', action='store_true')
     parser.add_argument('--inspect', metavar='ID')
@@ -178,7 +181,7 @@ def main():
         for r in result:
             print(f'\n{r["id"]} | {r["kind"]} | {r["title"]}')
             print(f'  状态：{r["evidence_status"]}；分数：{r.get("retrieval_score", "精确ID") }')
-            for key, label in [('mechanism', '机制'), ('method_summary', '研究线索'), ('integration', '接入'), ('risks', '风险'), ('minimal_experiment', '最小实验'), ('task', '任务'), ('selection_notes', '选择依据'), ('failure', '失败现象'), ('hypothesis', '假设'), ('decision', '判定')]:
+            for key, label in [('reading_level','完成程度'),('mechanism_summary','关联机制'),('research_question','研究问题'),('controls','控制条件'),('simple_comparison','简单对照'),('next_reading','后续阅读'),('mechanism', '机制'), ('method_summary', '研究线索'), ('integration', '接入'), ('risks', '风险'), ('minimal_experiment', '最小实验'), ('task', '任务'), ('selection_notes', '选择依据'), ('failure', '失败现象'), ('hypothesis', '假设'), ('decision', '判定')]:
                 if r.get(key):
                     print(f'  {label}：{r[key]}')
             if r.get('source_pages'):

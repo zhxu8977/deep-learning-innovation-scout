@@ -1,0 +1,7289 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "SRC-001",
+      "kind": "source",
+      "title": "UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration",
+      "source_pages": [
+        1
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-001"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-002",
+      "kind": "source",
+      "title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
+      "source_pages": [
+        1
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-002"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-003",
+      "kind": "source",
+      "title": "It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal",
+      "source_pages": [
+        1
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-003"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-004",
+      "kind": "source",
+      "title": "Vision Transformers are Circulant Attention Learners",
+      "source_pages": [
+        1
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-004"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-005",
+      "kind": "source",
+      "title": "Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation",
+      "source_pages": [
+        1,
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-005"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-006",
+      "kind": "source",
+      "title": "DCMM-Transformer: Degree-Corrected Mixed-Membership Attention for Medical Imaging",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-006"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-007",
+      "kind": "source",
+      "title": "ABDUCTIVEMLLM: Boosting Visual Abductive Reasoning Within MLLMs",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-007"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-008",
+      "kind": "source",
+      "title": "MODA: The First Challenging Benchmark for Multispectral Object Detection in Aerial Images",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-008"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-009",
+      "kind": "source",
+      "title": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-009"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-010",
+      "kind": "source",
+      "title": "Revisiting Network Inertia: Dynamic Inertia Inhibition Coupled Multidimensional Periodicity for Infrared and Visible Image Fusion",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-010"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-011",
+      "kind": "source",
+      "title": "Freqformer: Image-Demoiréing Transformer via Effective Frequency Decomposition",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-011"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-012",
+      "kind": "source",
+      "title": "MobileFusion: Mobile-Friendly Infrared and Visible Image Fusion via Structural Re-parameterization",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-012"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-013",
+      "kind": "source",
+      "title": "HVI: ANewColor Space for Low-light Image Enhancement",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-013"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-014",
+      "kind": "source",
+      "title": "U-RWKV: Lightweight medical image segmentation with direction-adaptive",
+      "source_pages": [
+        2
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-014"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-015",
+      "kind": "source",
+      "title": "Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics",
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-015"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-016",
+      "kind": "source",
+      "title": "Probability-Guided Edge Enhancement Network for Remote Sensing Image Semantic Segmentation",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-016"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-017",
+      "kind": "source",
+      "title": "CTOD: Cross-Attentive Task-Alignment for One-Stage Object Detection",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-017"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-018",
+      "kind": "source",
+      "title": "A Universal Scale-Adaptive Deformable Transformer for Image Restoration across Diverse Artifacts",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-018"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-019",
+      "kind": "source",
+      "title": "Wavelet and Adaptive Coordinate Attention Guided Fine-Grained Residual Network for Image Denoising",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-019"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-020",
+      "kind": "source",
+      "title": "Deep Fourier-embedded Network for RGB and Thermal Salient Object Detection",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-020"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-021",
+      "kind": "source",
+      "title": "VolFormer: Explore More Comprehensive Cube Interaction for Hyperspectral Image Restoration and Beyond",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-021"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-022",
+      "kind": "source",
+      "title": "Rethinking Transformer-Based Blind-Spot Network for Self-Supervised Image Denoising",
+      "source_pages": [
+        3
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-022"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-023",
+      "kind": "source",
+      "title": "MCA: Multidimensional collaborative attention in deep convolutio",
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-023"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-024",
+      "kind": "source",
+      "title": "MCANet: Medical Image Segmentation withMulti-Scale Cross-Axis Attention",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-024"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-025",
+      "kind": "source",
+      "title": "Recursive Generalization Transformer for Image Super-Resolution",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-025"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-026",
+      "kind": "source",
+      "title": "Energy-Based Cross Attention for Bayesian Context Update in Text-to-Image Diffusion Models",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-026"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-027",
+      "kind": "source",
+      "title": "Fast Vision Transformers with HiLo Attention",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-027"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-028",
+      "kind": "source",
+      "title": "HCF-Net: Hierarchical Context Fusion Network for Infrared Small Object Detection",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-028"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-029",
+      "kind": "source",
+      "title": "AGCA: An Adaptive Graph Channel Attention Module for Steel Surface Defect Detection",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-029"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-030",
+      "kind": "source",
+      "title": "Relation-Aware Global Attention for Person Re-identification",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-030"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-031",
+      "kind": "source",
+      "title": "Edge-Enhanced GCIFFNet: A Multiclass Semantic Segmentation Network Based on Edge Enhancement and Multiscale Attention Mechanism",
+      "source_pages": [
+        4
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-031"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-032",
+      "kind": "source",
+      "title": "Agent Attention: On the Integration of Softmax and Linear Attention",
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-032"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-033",
+      "kind": "source",
+      "title": "Squeeze-and-Excitation Networks",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-033"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-034",
+      "kind": "source",
+      "title": "Ultra-Lightweight Subspace Attention Module for Compact Convolutional Neural Networks",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-034"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-035",
+      "kind": "source",
+      "title": "Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-035"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-036",
+      "kind": "source",
+      "title": "Gated Channel Transformation for Visual Recognition",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-036"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-037",
+      "kind": "source",
+      "title": "DICAM promotes T(H)17 lymphocyte trafficking across the blood-brain barrier during autoimmune neuroinflammation",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-037"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-038",
+      "kind": "source",
+      "title": "AAU-net: An Adaptive Attention U-net for Breast Lesions Segmentation in Ultrasound Images",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-038"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-039",
+      "kind": "source",
+      "title": "HALF WAVELET ATTENTION ON M-NET+ FOR LOW-LIGHT IMAGE ENHANCEMENT",
+      "source_pages": [
+        5
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-039"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-040",
+      "kind": "source",
+      "title": "Unsupervised Bidirectional Contrastive Reconstruction and Adaptive Fine-Grained Channel Attention Networks for image dehazing",
+      "source_pages": [
+        5,
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-040"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-041",
+      "kind": "source",
+      "title": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-041"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-042",
+      "kind": "source",
+      "title": "Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-042"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-043",
+      "kind": "source",
+      "title": "Demystify Mamba in Vision: A Linear Attention Perspective",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-043"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-044",
+      "kind": "source",
+      "title": "LDConv: Linear deformable convolution for improving convolutional neural networks",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-044"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-045",
+      "kind": "source",
+      "title": "A dual encoder crack segmentation network with Haar wavelet-based high-low frequency attention",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-045"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-046",
+      "kind": "source",
+      "title": "LGAG-Net: Lesion-Guided Adaptive Graph Network for Bone Abnormality Detection from Musculoskeletal Radiograph",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-046"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-047",
+      "kind": "source",
+      "title": "CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation",
+      "source_pages": [
+        6
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-047"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-048",
+      "kind": "source",
+      "title": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-048"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-049",
+      "kind": "source",
+      "title": "Probability-Guided Edge Enhancement Network for Remote Sensing Image Semantic Segmentation",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-016"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-050",
+      "kind": "source",
+      "title": "Multi-scale Attention Network for Single Image Super-Resolution",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-049"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-051",
+      "kind": "source",
+      "title": "Vision Transformer with Deformable Attention",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-050"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-052",
+      "kind": "source",
+      "title": "FECAM: Frequency Enhanced Channel Attention Mechanism for Time Series Forecasting",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-051"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-053",
+      "kind": "source",
+      "title": "DSANet: Dual Self-Attention Network for Multivariate Time Series Forecasting",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-052"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-054",
+      "kind": "source",
+      "title": "Interpretable local flow attention for multi-step traffic flow prediction",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-053"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-055",
+      "kind": "source",
+      "title": "DCT-Former: Efficient Self-Attention with Discrete Cosine Transform",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-054"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-056",
+      "kind": "source",
+      "title": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer- GCNFormer Network",
+      "source_pages": [
+        7
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-055"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-057",
+      "kind": "source",
+      "title": "Rethinking Transformer-Based Blind-Spot Network for Self-Supervised Image Denoising",
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-022"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-058",
+      "kind": "source",
+      "title": "Unsupervised Bidirectional Contrastive Reconstruction and Adaptive Fine-Grained Channel Attention Networks for image dehazing",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-040"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-059",
+      "kind": "source",
+      "title": "RMT: Retentive Networks Meet Vision Transformers",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-056"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-060",
+      "kind": "source",
+      "title": "CATANet: Efficient Content-Aware Token Aggregation for Lightweight Image Super-Resolution",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-057"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-061",
+      "kind": "source",
+      "title": "FSTA-SNN:Frequency-based Spatial-Temporal Attention Module for Spiking Neural Networks",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-058"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-062",
+      "kind": "source",
+      "title": "High-Similarity-Pass Attention for Single Image Super-Resolution",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-059"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-063",
+      "kind": "source",
+      "title": "PMFSNet: Polarized Multi-scale Feature Self-attention Network For Lightweight Medical Image Segmentation",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "注意力机制"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-060"
+      ],
+      "tags": [
+        "注意力机制"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-064",
+      "kind": "source",
+      "title": "Fourier Angle Alignment for Oriented Object Detection in Remote Sensing",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-061"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-065",
+      "kind": "source",
+      "title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
+      "source_pages": [
+        8
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-062"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-066",
+      "kind": "source",
+      "title": "MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-063"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-067",
+      "kind": "source",
+      "title": "Fourier Angle Alignment for Oriented Object Detection in Remote Sensing",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-061"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-068",
+      "kind": "source",
+      "title": "Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-064"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-069",
+      "kind": "source",
+      "title": "Dual-Stage Cross-Modal Network with Dynamic Feature Fusion for Emotional Mimicry Intensity Estimation",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-065"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-070",
+      "kind": "source",
+      "title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-066"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-071",
+      "kind": "source",
+      "title": "A dual encoder crack segmentation network with Haar wavelet-based high-low frequency attention",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-045"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-072",
+      "kind": "source",
+      "title": "Dynamic Feature Fusion for Semantic Edge Detection",
+      "source_pages": [
+        9
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-067"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-073",
+      "kind": "source",
+      "title": "HCF-Net: Hierarchical Context Fusion Network for Infrared Small Object Detection",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-028"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-074",
+      "kind": "source",
+      "title": "PnPNet: Unified Network for Precise Boundary Segmentation of Volumetric Images",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-068"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-075",
+      "kind": "source",
+      "title": "DS-TransUNet: Dual Swin Transformer U-Net for Medical Image Segmentation",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-069"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-076",
+      "kind": "source",
+      "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-070"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-077",
+      "kind": "source",
+      "title": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content- Guided Attention",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-071"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-078",
+      "kind": "source",
+      "title": "DuAT: Dual-Aggregation Transformer Network for Medical Image Segmentation",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-072"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-079",
+      "kind": "source",
+      "title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
+      "source_pages": [
+        10
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-066"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-080",
+      "kind": "source",
+      "title": "Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection",
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_categories": [
+        "特征融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-064"
+      ],
+      "tags": [
+        "特征融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-081",
+      "kind": "source",
+      "title": "MARSS: Radar Semantic Segmentation via Modular Attention and State Space Models",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "特征增强"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-073"
+      ],
+      "tags": [
+        "特征增强"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-082",
+      "kind": "source",
+      "title": "Hilbert Curve-Based Attention Enabling Topology-Preserving Image Tensor Representation for Semantic Segmentation Network",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "特征增强"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-074"
+      ],
+      "tags": [
+        "特征增强"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-083",
+      "kind": "source",
+      "title": "FreDFT: Frequency Domain Fusion Transformer for Visible-Infrared Object Detection",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "特征增强"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-075"
+      ],
+      "tags": [
+        "特征增强"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-084",
+      "kind": "source",
+      "title": "BCN: Batch Channel Normalization for Image Classification",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-076"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-085",
+      "kind": "source",
+      "title": "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-077"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-086",
+      "kind": "source",
+      "title": "SelfNorm and CrossNorm for Out-of-Distribution Robustness",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-078"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-087",
+      "kind": "source",
+      "title": "CONTRANORM: A CONTRASTIVE LEARNING PERSPECTIVE ON OVERSMOOTHING AND BEYOND",
+      "source_pages": [
+        11
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-079"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-088",
+      "kind": "source",
+      "title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-080"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-089",
+      "kind": "source",
+      "title": "Transformers without Normalization",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-081"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-090",
+      "kind": "source",
+      "title": "Alleviating Distortion in Image Generation via Multi-Resolution Diffusion Models and Time-Dependent Layer Normalization",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-082"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-091",
+      "kind": "source",
+      "title": "Towards Real-World Test-Time Adaptation: Tri-net Self-Training with Balanced Normalization",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-083"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-092",
+      "kind": "source",
+      "title": "Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-084"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-093",
+      "kind": "source",
+      "title": "BCN: Batch Channel Normalization for Image Classification",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-076"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-094",
+      "kind": "source",
+      "title": "Spectral Normalization and Dual Contrastive Regularization for Image-to-Image Translation",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-085"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-095",
+      "kind": "source",
+      "title": "Hyperspherical Normalization for Scalable Deep Reinforcement Learning",
+      "source_pages": [
+        12
+      ],
+      "source_categories": [
+        "归一化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-086"
+      ],
+      "tags": [
+        "归一化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-096",
+      "kind": "source",
+      "title": "A Novel Perspective on Low-Light Image Enhancement: Leveraging Artifact Regularization and Walsh- Hadamard Transform",
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_categories": [
+        "损失函数"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-087"
+      ],
+      "tags": [
+        "损失函数"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-097",
+      "kind": "source",
+      "title": "Partial Channel Network: Compute Fewer, Perform Better",
+      "source_pages": [
+        13
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-088"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-098",
+      "kind": "source",
+      "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+      "source_pages": [
+        13
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-089"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-099",
+      "kind": "source",
+      "title": "TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising",
+      "source_pages": [
+        13
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-090"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-100",
+      "kind": "source",
+      "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+      "source_pages": [
+        13
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-089"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-101",
+      "kind": "source",
+      "title": "Remote Sensing Forestry Similarity Convolution",
+      "source_pages": [
+        13
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-091"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-102",
+      "kind": "source",
+      "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+      "source_pages": [
+        13
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-089"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-103",
+      "kind": "source",
+      "title": "A synergistic CNN-transformer network with pooling attention fusion for hyperspectral image classification",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-092"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-104",
+      "kind": "source",
+      "title": "Hyperspectral Image Classification via Dynamic Adaptive Graph Convolutional Network",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-093"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-105",
+      "kind": "source",
+      "title": "MobileIE: An Extremely Lightweight and Effective ConvNet for Real-Time Image Enhancement on Mobile Devices",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-094"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-106",
+      "kind": "source",
+      "title": "Adaptive Rectangular Convolution for Remote Sensing Pansharpening",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-095"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-107",
+      "kind": "source",
+      "title": "Reverse Convolution and Its Applications to Image Restoration",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-096"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-108",
+      "kind": "source",
+      "title": "Pinwheel-shaped Convolution and Scale-based Dynamic Loss for Infrared Small Target Detection",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-097"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-109",
+      "kind": "source",
+      "title": "DEA-Net: Single image dehazing based on detail-enhanced convolution and content- guided attention",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-071"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-110",
+      "kind": "source",
+      "title": "Channel-wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
+      "source_pages": [
+        14
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-098"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-111",
+      "kind": "source",
+      "title": "Wavelet Convolutions for Large Receptive Fields",
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-099"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-112",
+      "kind": "source",
+      "title": "TVConv: Efficient Translation Variant Convolution for Layout-aware Visual Processing",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-100"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-113",
+      "kind": "source",
+      "title": "Dynamic Convolution: Attention over Convolution Kernels",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-101"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-114",
+      "kind": "source",
+      "title": "Pyramidal Convolution: Rethinking Convolutional Neural Networks for Visual Recognition",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-102"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-115",
+      "kind": "source",
+      "title": "MDCR: A Dataset for Multi-Document Conditional Reasoning",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-103"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-116",
+      "kind": "source",
+      "title": "CondConv: Conditionally Parameterized Convolutions for Efficient Inference",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-104"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-117",
+      "kind": "source",
+      "title": "DO-Conv: Depthwise Over-parameterized Convolutional Layer",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-105"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-118",
+      "kind": "source",
+      "title": "Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-106"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-119",
+      "kind": "source",
+      "title": "Complex Matrix Inversion via Real Matrix Inversions",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-107"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-120",
+      "kind": "source",
+      "title": "Wavelet Convolutions for Large Receptive Fields",
+      "source_pages": [
+        15
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-099"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-121",
+      "kind": "source",
+      "title": "Dynamic Convolution: Attention over Convolution Kernels",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-101"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-122",
+      "kind": "source",
+      "title": "LDConv: Linear deformable convolution for improving convolutional neural networks",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-044"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-123",
+      "kind": "source",
+      "title": "AKConv: Convolutional Kernel with Arbitrary Sampled Shapes and Arbitrary Number of Parameters",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-108"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-124",
+      "kind": "source",
+      "title": "Adaptive Rectangular Convolution for Remote Sensing Pansharpening",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-095"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-125",
+      "kind": "source",
+      "title": "Pinwheel-shaped Convolution and Scale-based Dynamic Loss for Infrared Small Target Detection",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-097"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-126",
+      "kind": "source",
+      "title": "BHViT: Binarized Hybrid Vision Transformer",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-109"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-127",
+      "kind": "source",
+      "title": "Efficient Frequency-Domain Image Deraining with Contrastive Regularization",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "卷积模块"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-110"
+      ],
+      "tags": [
+        "卷积模块"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-128",
+      "kind": "source",
+      "title": "A Cross-Modality Feature Adaptive Interaction Approach for RGB-Infrared Object Detection in Aerial Imagery",
+      "source_pages": [
+        16
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-111"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-129",
+      "kind": "source",
+      "title": "SFS-DETR: Spatial-Frequency Selection for UAV Object Detection",
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-112"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-130",
+      "kind": "source",
+      "title": "Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-113"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-131",
+      "kind": "source",
+      "title": "Flora-NET: Integrating dual coordinate attention with adaptive kernel based convolution networkformedicinalfloweridentification",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-114"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-132",
+      "kind": "source",
+      "title": "Real-World Remote Sensing Image Dehazing: Benchmark and Baseline",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-115"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-133",
+      "kind": "source",
+      "title": "Remote Sensing Forestry Similarity Convolution",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-091"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-134",
+      "kind": "source",
+      "title": "Real-World Remote Sensing Image Dehazing:Benchmark and Baseline",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-115"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-135",
+      "kind": "source",
+      "title": "I2U-Net: A dual-path U-Net with rich information interaction for medical image segmentation",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-116"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-136",
+      "kind": "source",
+      "title": "MixDehazeNet : Mix Structure Block For Image Dehazing Network",
+      "source_pages": [
+        17
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-117"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-137",
+      "kind": "source",
+      "title": "SCConv: Spatial and Channel Reconstruction Convolution for Feature Redundancy",
+      "source_pages": [
+        17,
+        18
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-118"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-138",
+      "kind": "source",
+      "title": "SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures",
+      "source_pages": [
+        18
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-119"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-139",
+      "kind": "source",
+      "title": "Depth Information Assisted Collaborative Mutual Promotion Network for Single Image Dehazing",
+      "source_pages": [
+        18
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-120"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-140",
+      "kind": "source",
+      "title": "OTTER:A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
+      "source_pages": [
+        18
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-121"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-141",
+      "kind": "source",
+      "title": "LogicAD: Explainable Anomaly Detection via VLM-based Text Feature Extraction",
+      "source_pages": [
+        18
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-122"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-142",
+      "kind": "source",
+      "title": "A synergistic CNN-transformer network with pooling attention fusion for hyperspectral image classification",
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-092"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-143",
+      "kind": "source",
+      "title": "Deconstructing Denoising Diffusion Models for Self-Supervised Learning",
+      "source_pages": [
+        19
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-123"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-144",
+      "kind": "source",
+      "title": "Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers",
+      "source_pages": [
+        19
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-124"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-145",
+      "kind": "source",
+      "title": "Latent Feature-Guided Diffusion Models for Shadow Removal",
+      "source_pages": [
+        19
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-125"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-146",
+      "kind": "source",
+      "title": "Weak-Mamba-UNet: Visual Mamba Makes CNN and ViT Work Better for Scribble-based Medical Image Segmentation",
+      "source_pages": [
+        19
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-126"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-147",
+      "kind": "source",
+      "title": "BEFUnet: A Hybrid CNN-Transformer Architecture for Precise Medical Image Segmentation",
+      "source_pages": [
+        20
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-127"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-148",
+      "kind": "source",
+      "title": "Multimodal Deep Learning for Remote Stress Estimation Using CCT-LSTM",
+      "source_pages": [
+        20
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-128"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-149",
+      "kind": "source",
+      "title": "T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews",
+      "source_pages": [
+        20
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-129"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-150",
+      "kind": "source",
+      "title": "TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection",
+      "source_pages": [
+        20
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-130"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-151",
+      "kind": "source",
+      "title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+      "source_pages": [
+        20
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-131"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-152",
+      "kind": "source",
+      "title": "Transformer-Based No-Reference Image Quality Assessment via Supervised Contrastive Learning",
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-132"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-153",
+      "kind": "source",
+      "title": "Tri-VAE: Triplet Variational Autoencoder for Unsupervised Anomaly Detection in Brain Tumor MRI",
+      "source_pages": [
+        21
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-133"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-154",
+      "kind": "source",
+      "title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
+      "source_pages": [
+        21
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-134"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-155",
+      "kind": "source",
+      "title": "GraphKAN: Enhancing Feature Extraction with Graph Kolmogorov Arnold Networks",
+      "source_pages": [
+        21
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-135"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-156",
+      "kind": "source",
+      "title": "Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases",
+      "source_pages": [
+        21
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-136"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-157",
+      "kind": "source",
+      "title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
+      "source_pages": [
+        22
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-137"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-158",
+      "kind": "source",
+      "title": "XFeat: Accelerated Features for Lightweight Image Matching",
+      "source_pages": [
+        22
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-138"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-159",
+      "kind": "source",
+      "title": "FourierKAN-GCF: Fourier Kolmogorov-Arnold Network- An Effective and Efficient Feature Transformation for Graph Collaborative Filtering",
+      "source_pages": [
+        22
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-139"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-160",
+      "kind": "source",
+      "title": "Infrared Image Super-Resolution via Lightweight Information Split Network",
+      "source_pages": [
+        22
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-140"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-161",
+      "kind": "source",
+      "title": "WaveNet-SF: A Hybrid Network for Retinal Disease Detection Based on Wavelet Transform in the Spatial-Frequency Domain",
+      "source_pages": [
+        22
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-141"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-162",
+      "kind": "source",
+      "title": "MLP-KAN: UNIFYING DEEP REPRESENTATION AND FUNCTION LEARNING",
+      "source_pages": [
+        23
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-142"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-163",
+      "kind": "source",
+      "title": "Exploring State Space Model in Wavelet Domain: An Infrared and Visible Image Fusion Network via Wavelet Transform and State Space Model",
+      "source_pages": [
+        23
+      ],
+      "source_categories": [
+        "特征提取"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-143"
+      ],
+      "tags": [
+        "特征提取"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-164",
+      "kind": "source",
+      "title": "DCCS-Det: Directional Context andCross-Scale-Aware Detector forInfrared Small Target",
+      "source_pages": [
+        23
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-144"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-165",
+      "kind": "source",
+      "title": "Dual-Path Learning based on Frequency StructuralDecoupling and Regional-Aware Fusion forLow- Light Image Super-Resolution",
+      "source_pages": [
+        23
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-145"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-166",
+      "kind": "source",
+      "title": "FBRT-YOLO: Faster and Better for Real-Time Aerial Image Detection",
+      "source_pages": [
+        23
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-146"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-167",
+      "kind": "source",
+      "title": "Lightweight Multiscale Feature Fusion and Multireceptive Field Feature Enhancement for Small Object Detection in the Aerial Images",
+      "source_pages": [
+        23
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-147"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-168",
+      "kind": "source",
+      "title": "HISRCNet: Super-resolution And Classification Network For Low-resolution Breast Cancer Histopathology Image",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-148"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-169",
+      "kind": "source",
+      "title": "ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-066"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-170",
+      "kind": "source",
+      "title": "CEDNET: A CASCADE ENCODER-DECODER NET WORK FOR DENSE PREDICTION",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-149"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-171",
+      "kind": "source",
+      "title": "BHViT: Binarized Hybrid Vision Transformer",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-109"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-172",
+      "kind": "source",
+      "title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-150"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-173",
+      "kind": "source",
+      "title": "MF-Mamba: Multiscale Convolution and MambaFusion Model for Semantic Segmentation ofRemote Sensing Imagery",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-151"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-174",
+      "kind": "source",
+      "title": "MDFM: Multi-Decision Fusing Model for Few-Shot Learning",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-152"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-175",
+      "kind": "source",
+      "title": "D-Net: Dynamic Large Kernel with Dynamic Feature Fusion for Volumetric Medical Image Segmentation",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-153"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-176",
+      "kind": "source",
+      "title": "DETRs Beat YOLOs on Real-time Object Detection",
+      "source_pages": [
+        24
+      ],
+      "source_categories": [
+        "多尺度融合"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-154"
+      ],
+      "tags": [
+        "多尺度融合"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-177",
+      "kind": "source",
+      "title": "Spatial Frequency Modulation for Semantic Segmentation",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "频域"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-155"
+      ],
+      "tags": [
+        "频域"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-178",
+      "kind": "source",
+      "title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "频域"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-156"
+      ],
+      "tags": [
+        "频域"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-179",
+      "kind": "source",
+      "title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "频域"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-157"
+      ],
+      "tags": [
+        "频域"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-180",
+      "kind": "source",
+      "title": "DF2Net: A Differential-Feature Dynamic-Fusion Network for Building Change Detection in Remote Sensing Images",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "频域"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-158"
+      ],
+      "tags": [
+        "频域"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-181",
+      "kind": "source",
+      "title": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "backbone"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-159"
+      ],
+      "tags": [
+        "backbone"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-182",
+      "kind": "source",
+      "title": "Rewrite the Stars",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "backbone"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-160"
+      ],
+      "tags": [
+        "backbone"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-183",
+      "kind": "source",
+      "title": "GhostNetV2: Enhance Cheap Operation with Long-Range Attention",
+      "source_pages": [
+        25
+      ],
+      "source_categories": [
+        "backbone"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-161"
+      ],
+      "tags": [
+        "backbone"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-184",
+      "kind": "source",
+      "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+      "source_pages": [
+        25,
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-162"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-185",
+      "kind": "source",
+      "title": "DYNAMIC-DLLM: DYNAMIC CACHE-BUDGET AND ADAPTIVE PARALLEL DECODING FOR TRAINING FREE ACCELERATION OF DIFFUSION LLM",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-163"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-186",
+      "kind": "source",
+      "title": "Video Compression Commander: Plug-and-PlayInference Acceleration for Video Large LanguageModels",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-164"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-187",
+      "kind": "source",
+      "title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-165"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-188",
+      "kind": "source",
+      "title": "VLSA: Vision-Language-Action Models withPlug-and-Play Safety Constraint Layer",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-166"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-189",
+      "kind": "source",
+      "title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-167"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-190",
+      "kind": "source",
+      "title": "SLOT: Sample-specific Language Model Optimization at Test-time",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-168"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-191",
+      "kind": "source",
+      "title": "RACER:Retrieval-Augmented Contextual Rapid Speculative Decoding",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-169"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-192",
+      "kind": "source",
+      "title": "Policy Contrastive Decoding for Robotic Foundation Models",
+      "source_pages": [
+        26
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-170"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-193",
+      "kind": "source",
+      "title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
+      "source_pages": [
+        26,
+        27
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-165"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-194",
+      "kind": "source",
+      "title": "ABDUCTIVEMLLM: Boosting Visual Abductive Reasoning Within MLLMs",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-007"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-195",
+      "kind": "source",
+      "title": "LLM2CLIP: Powerful Language Model Unlocks Richer Cross-Modality Representation",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-171"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-196",
+      "kind": "source",
+      "title": "In-Place Test-Time Training",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "LLM"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-172"
+      ],
+      "tags": [
+        "LLM"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-197",
+      "kind": "source",
+      "title": "All-in-One Slider for Attribute Manipulation in Diffusion Models",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-173"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-198",
+      "kind": "source",
+      "title": "BEVDiffuser: Plug-and-Play Diffusion Model for BEV Denoising with Ground-Truth Guidanc",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-174"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-199",
+      "kind": "source",
+      "title": "FreeU: Free Lunch in Diffusion U-Net",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-175"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-200",
+      "kind": "source",
+      "title": "ONE STEP FURTHER WITH MONTE-CARLO SAMPLER TO GUIDE DIFFUSION BETTER",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-176"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-201",
+      "kind": "source",
+      "title": "PLUG-AND-PLAY DIFFUSION MODELS FOR IMAGE COMPRESSIVE SENSING WITH DATA CONSISTENCY PROJECTION",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-177"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-202",
+      "kind": "source",
+      "title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
+      "source_pages": [
+        27
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-178"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-203",
+      "kind": "source",
+      "title": "Super-Resolution and Denoising of Corneal B-Scan OCT Imaging Using Diffusion Model Plug-and-Play Priors",
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-179"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-204",
+      "kind": "source",
+      "title": "Golden Noise for Diffusion Models: A Learning Framework",
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-180"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-205",
+      "kind": "source",
+      "title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-181"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-206",
+      "kind": "source",
+      "title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-182"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-207",
+      "kind": "source",
+      "title": "InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models",
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-183"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-208",
+      "kind": "source",
+      "title": "Beyond Illumination: Fine-Grained Detail Preservation in Extreme Dark Image Restoration",
+      "source_pages": [
+        28,
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-184"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-209",
+      "kind": "source",
+      "title": "Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for EfficientUltra-high-definition Image Restoration",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-185"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-210",
+      "kind": "source",
+      "title": "AKCMamba-YOLO: Selective State Space Models For Real-Time Object Detection",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-186"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-211",
+      "kind": "source",
+      "title": "MaIR: ALocality- and Continuity-Preserving Mamba for Image Restoration",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-187"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-212",
+      "kind": "source",
+      "title": "SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-119"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-213",
+      "kind": "source",
+      "title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-188"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-214",
+      "kind": "source",
+      "title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-188"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-215",
+      "kind": "source",
+      "title": "MambaHSI:Spatial-Spectral Mamba for Hyperspectral Image Classification",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-189"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-216",
+      "kind": "source",
+      "title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-190"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-217",
+      "kind": "source",
+      "title": "GLVMamba: A Global–Local Visual State-Space Model for Remote Sensing Image Segmentation",
+      "source_pages": [
+        29
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-191"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-218",
+      "kind": "source",
+      "title": "Convolutional State Space Models for Long-Range Spatiotemporal Modeling",
+      "source_pages": [
+        29,
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-192"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-219",
+      "kind": "source",
+      "title": "nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-193"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-220",
+      "kind": "source",
+      "title": "TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-194"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-221",
+      "kind": "source",
+      "title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-195"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-222",
+      "kind": "source",
+      "title": "RSCaMa: Remote Sensing Image Change Captioning with State Space Model",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-196"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-223",
+      "kind": "source",
+      "title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-195"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-224",
+      "kind": "source",
+      "title": "Jamba: A Hybrid Transformer-Mamba Language Model",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-197"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-225",
+      "kind": "source",
+      "title": "VMamba: Visual State Space Model",
+      "source_pages": [
+        30
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-198"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-226",
+      "kind": "source",
+      "title": "CM-UNet: Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation",
+      "source_pages": [
+        30,
+        31
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-199"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-227",
+      "kind": "source",
+      "title": "SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-200"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-228",
+      "kind": "source",
+      "title": "MobileMamba: Lightweight Multi-Receptive Visual Mamba Network",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-188"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-229",
+      "kind": "source",
+      "title": "Wavelet-based Mamba with Fourier Adjustment for Low-light Image Enhancement",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-201"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-230",
+      "kind": "source",
+      "title": "MambaOut: Do We Really Need Mamba for Vision?",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-202"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-231",
+      "kind": "source",
+      "title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "Mamba"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-190"
+      ],
+      "tags": [
+        "Mamba"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-232",
+      "kind": "source",
+      "title": "KAN: Kolmogorov–Arnold Networks",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "KAN"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-203"
+      ],
+      "tags": [
+        "KAN"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-233",
+      "kind": "source",
+      "title": "SCKansformer: Fine-Grained Classification of Bone Marrow Cells via Kansformer Backbone and Hierarchical Attention Mechanisms",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "KAN"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-204"
+      ],
+      "tags": [
+        "KAN"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-234",
+      "kind": "source",
+      "title": "KAN+SCConv | SCKansformer",
+      "source_pages": [
+        31
+      ],
+      "source_categories": [
+        "KAN"
+      ],
+      "item_type": "alias_line",
+      "lead_refs": [
+        "DLI-204"
+      ],
+      "tags": [
+        "KAN"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "栏目或别名行，保留追溯但不计为独立方法出现。"
+    },
+    {
+      "id": "SRC-235",
+      "kind": "source",
+      "title": "Spatial Frequency Modulation for Semantic Segmentation",
+      "source_pages": [
+        31,
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-155"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-236",
+      "kind": "source",
+      "title": "MobileNetV4 - Universal Models for the Mobile Ecosystem",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-205"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-237",
+      "kind": "source",
+      "title": "FMViT:Amultiple-frequencymixingVisionTransformer",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-206"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-238",
+      "kind": "source",
+      "title": "Rethinking Attention: Exploring Shallow Feed-Forward Neural Networks as an Alternative to Attention Layers in Transformers",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-207"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-239",
+      "kind": "source",
+      "title": "Learning an Inference-accelerated Network from a Pre-trainedLearning an Inference-accelModel with Frequencyenhanced Feature Distillation",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-208"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-240",
+      "kind": "source",
+      "title": "MobileDenseNet: A new approach to object detection onmobile devices",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-209"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-241",
+      "kind": "source",
+      "title": "Skip-Attention: Improving Vision Transformers by Paying Less Attention",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-210"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-242",
+      "kind": "source",
+      "title": "SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-211"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-243",
+      "kind": "source",
+      "title": "To Perceive or Not to Perceive: Lightweight Stacked Hourglass Network",
+      "source_pages": [
+        32
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-212"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-244",
+      "kind": "source",
+      "title": "EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-213"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-245",
+      "kind": "source",
+      "title": "Less is More: Focus Attention for Efficient DETR",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-214"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-246",
+      "kind": "source",
+      "title": "FalconNet: Factorization for the Light-weight ConvNets",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-215"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-247",
+      "kind": "source",
+      "title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-216"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-248",
+      "kind": "source",
+      "title": "EdgeNeXt: EfcientlyAmalgamated CNN-Transformer Architecture forMobile Vision Applications",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-217"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-249",
+      "kind": "source",
+      "title": "EfficientFormer: Vision Transformers at MobileNet Speed",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-218"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-250",
+      "kind": "source",
+      "title": "TinyViT: Fast Pretraining Distillation for Small Vision Transformers",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-219"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-251",
+      "kind": "source",
+      "title": "An Improved One millisecond Mobile Backbone",
+      "source_pages": [
+        33
+      ],
+      "source_categories": [
+        "轻量化"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-220"
+      ],
+      "tags": [
+        "轻量化"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-252",
+      "kind": "source",
+      "title": "Learning to Upsample by Learning to Sample",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "上采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-221"
+      ],
+      "tags": [
+        "上采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-253",
+      "kind": "source",
+      "title": "ASCNet: Asymmetric Sampling Correction Network for Infrared Image Destriping",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-222"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-254",
+      "kind": "source",
+      "title": "DBCFS-Net: Dynamic Blocks and Cross-Domain Feature Synergy for Remote Sensing Object Detection",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-223"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-255",
+      "kind": "source",
+      "title": "NOT ALL ROLLOUTS ARE USEFUL: DOWN-SAMPLING ROLLOUTS IN LLM REINFORCEMENT LEARNING",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-224"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-256",
+      "kind": "source",
+      "title": "DABI: Evaluation of Data Augmentation Methods Using Downsampling in Bilateral Control-Based Imitation Learning with Images",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-225"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-257",
+      "kind": "source",
+      "title": "GROUP DOWNSAMPLING WITH EQUIVARIANT ANTI ALIASING",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-226"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-258",
+      "kind": "source",
+      "title": "DS-Pnet: FM-Based Positioning via Downsampling",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-227"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-259",
+      "kind": "source",
+      "title": "ADAPTOR: Adaptive Token Reduction for Video Diffusion Transformers",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-228"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-260",
+      "kind": "source",
+      "title": "Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-229"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-261",
+      "kind": "source",
+      "title": "UAV-DETR: Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery",
+      "source_pages": [
+        34
+      ],
+      "source_categories": [
+        "下采样"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-230"
+      ],
+      "tags": [
+        "下采样"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-262",
+      "kind": "source",
+      "title": "Leveraging Multispectral Sensors for Color Correction in Mobile Cameras",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "多模态"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-231"
+      ],
+      "tags": [
+        "多模态"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-263",
+      "kind": "source",
+      "title": "Reliable Thinking with Images",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "多模态"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-232"
+      ],
+      "tags": [
+        "多模态"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-264",
+      "kind": "source",
+      "title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "多模态"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-002"
+      ],
+      "tags": [
+        "多模态"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-265",
+      "kind": "source",
+      "title": "DashFusion: Dual-stream Alignment with Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "多模态"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-233"
+      ],
+      "tags": [
+        "多模态"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-266",
+      "kind": "source",
+      "title": "ZUMA: Training-free Zero-shot Unified Multimodal Anomaly Detection",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "多模态"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-234"
+      ],
+      "tags": [
+        "多模态"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-267",
+      "kind": "source",
+      "title": "Boosting Medical Visual Understanding From Multi-Granular Language Learning",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "多模态"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-235"
+      ],
+      "tags": [
+        "多模态"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-268",
+      "kind": "source",
+      "title": "FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration",
+      "source_pages": [
+        35
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-236"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-269",
+      "kind": "source",
+      "title": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
+      "source_pages": [
+        35,
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-237"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-270",
+      "kind": "source",
+      "title": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-159"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-271",
+      "kind": "source",
+      "title": "An efficient, scalable, and adaptable plug-and-play temporal attention module for motion-guided cardiac segmentation with sparse temporal labels",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-238"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-272",
+      "kind": "source",
+      "title": "TimeBase: The Power of Minimalism in Efficient Long-term Time Series Forecasting",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-239"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-273",
+      "kind": "source",
+      "title": "Temporal Restoration and Spatial Rewiring for Source-Free Multivariate Time Series Domain Adaptation",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-240"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-274",
+      "kind": "source",
+      "title": "MLOW: Interpretable Low-Rank Frequency Magnitude Decomposition of Multiple Effects for Time Series Forecasting",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-241"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-275",
+      "kind": "source",
+      "title": "FreqEvo: Enhancing Time Series Forecasting With Multi-Level Frequency Domain Feature Extraction",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-242"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-276",
+      "kind": "source",
+      "title": "CORA: COVARIATE-AWARE ADAPTATION OF TIME SERIES FOUNDATION MODELS",
+      "source_pages": [
+        36,
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-243"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-277",
+      "kind": "source",
+      "title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-150"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-278",
+      "kind": "source",
+      "title": "FITS: MODELING TIME SERIES WITH 10k PARAME TERS",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-244"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-279",
+      "kind": "source",
+      "title": "SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-245"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-280",
+      "kind": "source",
+      "title": "FSTA-SNN:Frequency-Based Spatial-Temporal Attention Module for SpikingNeural Networks",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-058"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-281",
+      "kind": "source",
+      "title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-246"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-282",
+      "kind": "source",
+      "title": "FITS: Modeling Time Series with 10k Parameters",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-244"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-283",
+      "kind": "source",
+      "title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-134"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-284",
+      "kind": "source",
+      "title": "MSGNet: Learning Multi-Scale Inter-Series Correlations for Multivariate Time Series Forecasting",
+      "source_pages": [
+        37
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-247"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-285",
+      "kind": "source",
+      "title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+      "source_pages": [
+        37,
+        38
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-248"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-286",
+      "kind": "source",
+      "title": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
+      "source_pages": [
+        38
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-249"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-287",
+      "kind": "source",
+      "title": "SFFNet: A Wavelet-Based Spatial and Frequency Domain Fusion Network for Remote Sensing Segmentation",
+      "source_pages": [
+        38
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-250"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-288",
+      "kind": "source",
+      "title": "SAM2 - Segment Anything Model 2",
+      "source_pages": [
+        38
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "section_heading",
+      "lead_refs": [],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "栏目或别名行，保留追溯但不计为独立方法出现。"
+    },
+    {
+      "id": "SRC-289",
+      "kind": "source",
+      "title": "SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes",
+      "source_pages": [
+        38
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-251"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-290",
+      "kind": "source",
+      "title": "CRISP-SAM2 : SAM2 with Cross-Modal Interaction and Semantic Prompting for Multi- Organ Segmentation",
+      "source_pages": [
+        38
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-252"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-291",
+      "kind": "source",
+      "title": "SAM2-SGP: Enhancing SAM2 for Medical Image Segmentation via Support-Set Guided Prompting",
+      "source_pages": [
+        38
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-253"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-292",
+      "kind": "source",
+      "title": "SAMba-UNet: Synergizing SAM2 and Mamba in UNet with Heterogeneous Aggregation for Cardiac MRI Segmentation",
+      "source_pages": [
+        39
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-254"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-293",
+      "kind": "source",
+      "title": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
+      "source_pages": [
+        39
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-255"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-294",
+      "kind": "source",
+      "title": "SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to DownstreamSegmentationTasks",
+      "source_pages": [
+        39
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-256"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-295",
+      "kind": "source",
+      "title": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
+      "source_pages": [
+        39
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-257"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-296",
+      "kind": "source",
+      "title": "DyCON:Dynamic Uncertainty-aware Consistency and Contrastive Learning for Semi- supervised Medical Image Segmentation",
+      "source_pages": [
+        40
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-258"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-297",
+      "kind": "source",
+      "title": "Show and Segment: Universal Medical Image Segmentation via In-Context Learning",
+      "source_pages": [
+        40
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-259"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-298",
+      "kind": "source",
+      "title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
+      "source_pages": [
+        40
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-260"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-299",
+      "kind": "source",
+      "title": "Explore In-Context Segmentation via Latent Diffusion Models",
+      "source_pages": [
+        40
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-261"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-300",
+      "kind": "source",
+      "title": "Hybrid Global-Local Representation with Augmented Spatial Guidance for Zero-Shot Referring Image Segmentation",
+      "source_pages": [
+        40
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-262"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-301",
+      "kind": "source",
+      "title": "TBConvL-Net: A Hybrid Deep Learning Architecture for Robust Medical Image Segmentation",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-263"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-302",
+      "kind": "source",
+      "title": "HResFormer: Hybrid Residual Transformer for Volumetric Medical Image Segmentation",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-264"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-303",
+      "kind": "source",
+      "title": "ScribFormer: Transformer Makes CNN Work Better for Scribble-based Medical Image Segmentation",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-265"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-304",
+      "kind": "source",
+      "title": "BEFUnet: A Hybrid CNN-Transformer Architecture for Precise Medical Image Segmentation",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-127"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-305",
+      "kind": "source",
+      "title": "Efficient Vision Foundation Models for High-Resolution Generation and Perception",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-266"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-306",
+      "kind": "source",
+      "title": "RepViT-SAM: Towards Real-Time Segmenting Anything",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-267"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-307",
+      "kind": "source",
+      "title": "TinySAM: Pushing the Envelope for Efficient Segment Anything Model",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "图像分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-268"
+      ],
+      "tags": [
+        "图像分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-308",
+      "kind": "source",
+      "title": "FFCA-YOLO for Small Object Detection in Remote Sensing Images",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-269"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-309",
+      "kind": "source",
+      "title": "MAGNet: Multi-scale Awareness and Global fusion Network for RGB-D salient object detection",
+      "source_pages": [
+        41
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-270"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-310",
+      "kind": "source",
+      "title": "RemoteDet-Mamba: A Hybrid Mamba-CNN Network for Multi-modal Object Detection in Remote Sensing Images",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-271"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-311",
+      "kind": "source",
+      "title": "U-DECN: End-to-End Underwater Object Detection ConvNet with Improved DeNoising Training",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-272"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-312",
+      "kind": "source",
+      "title": "Low-light Object Detection",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-273"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-313",
+      "kind": "source",
+      "title": "DRPCA-Net: Make Robust PCA Great Again for Infrared Small Target Detection",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-274"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-314",
+      "kind": "source",
+      "title": "Rethinking Generalizable Infrared Small Target Detection: A Real-scene Benchmark and Cross-view Representation Learning",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "目标检测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-275"
+      ],
+      "tags": [
+        "目标检测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-315",
+      "kind": "source",
+      "title": "CROWn: A Unified Framework for Anti-Aliased Downsampling and Phase-Calibrated Fusion in 3D Medical Segmentation",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-276"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-316",
+      "kind": "source",
+      "title": "CLEEGN: A Convolutional Neural Network for Plug-and-Play Automatic EEG Reconstruction",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-277"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-317",
+      "kind": "source",
+      "title": "GLSANet: Global-Local Self-Attention Network for Remote Sensing Image Semantic Segmentation",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-278"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-318",
+      "kind": "source",
+      "title": "SvANet: A Scale-variant Attention-based Network for Small Medical Object Segmentation",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-279"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-319",
+      "kind": "source",
+      "title": "EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation",
+      "source_pages": [
+        42
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-280"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-320",
+      "kind": "source",
+      "title": "DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-281"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-321",
+      "kind": "source",
+      "title": "MSA2Net: Multi-scale Adaptive Attention-guided Network for Medical Image Segmentation",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-282"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-322",
+      "kind": "source",
+      "title": "Vision-LSTM: xLSTM as Generic Vision Backbone",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "AI+医学"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-283"
+      ],
+      "tags": [
+        "AI+医学"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-323",
+      "kind": "source",
+      "title": "Generative Information-guided Heterogeneous Cross-fusion Network with Contrastive Learning for Multimodal Remote Sensing Image Classification",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "CV所有任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-284"
+      ],
+      "tags": [
+        "CV所有任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-324",
+      "kind": "source",
+      "title": "RFAConv: Innovating Spatial Attention and Standard Convolutional Operation",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "CV所有任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-285"
+      ],
+      "tags": [
+        "CV所有任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-325",
+      "kind": "source",
+      "title": "Salient Positions based Attention Network for Image Classification",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "CV所有任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-286"
+      ],
+      "tags": [
+        "CV所有任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-326",
+      "kind": "source",
+      "title": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+      "source_pages": [
+        43
+      ],
+      "source_categories": [
+        "CV所有任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-287"
+      ],
+      "tags": [
+        "CV所有任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-327",
+      "kind": "source",
+      "title": "CoordGate: Efficiently Computing Spatially-Varying Convolutions in Convolutional Neural Networks",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "CV二维任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-288"
+      ],
+      "tags": [
+        "CV二维任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-328",
+      "kind": "source",
+      "title": "Efficient Multi-Scale Attention Module with Cross-Spatial Learning",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "CV二维任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-289"
+      ],
+      "tags": [
+        "CV二维任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-329",
+      "kind": "source",
+      "title": "Context-Aware Crowd Counting",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "CV二维任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-290"
+      ],
+      "tags": [
+        "CV二维任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-330",
+      "kind": "source",
+      "title": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "CV二维任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-291"
+      ],
+      "tags": [
+        "CV二维任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-331",
+      "kind": "source",
+      "title": "Dynamic Filter Networks",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "CV二维任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-292"
+      ],
+      "tags": [
+        "CV二维任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-332",
+      "kind": "source",
+      "title": "FMB: a Functional Manipulation Benchmark for Generalizable Robotic Learning",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "图像超分"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-293"
+      ],
+      "tags": [
+        "图像超分"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-333",
+      "kind": "source",
+      "title": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
+      "source_pages": [
+        44
+      ],
+      "source_categories": [
+        "图像超分"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-294"
+      ],
+      "tags": [
+        "图像超分"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-334",
+      "kind": "source",
+      "title": "Efficient Long-Range Attention Network for Image Super-resolution",
+      "source_pages": [
+        44,
+        45
+      ],
+      "source_categories": [
+        "图像超分"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-295"
+      ],
+      "tags": [
+        "图像超分"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-335",
+      "kind": "source",
+      "title": "Dual Aggregation Transformer for Image Super-Resolution",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "图像超分"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-296"
+      ],
+      "tags": [
+        "图像超分"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-336",
+      "kind": "source",
+      "title": "Adaptive Graph Convolution for Point Cloud Analysis",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-297"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-337",
+      "kind": "source",
+      "title": "GeoConv: Geodesic Guided Convolution for Facial Action Unit Recognition",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-298"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-338",
+      "kind": "source",
+      "title": "PnP-3D: A Plug-and-Play for 3D Point Clouds",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-299"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-339",
+      "kind": "source",
+      "title": "Parameter is Not All You Need, Starting from Non-parametric Networks for 3D Point Cloud Analysis",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-300"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-340",
+      "kind": "source",
+      "title": "PF-Net: Point Fractal Network for 3D Point Cloud Completion",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-301"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-341",
+      "kind": "source",
+      "title": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-302"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-342",
+      "kind": "source",
+      "title": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+      "source_pages": [
+        45
+      ],
+      "source_categories": [
+        "点云"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-303"
+      ],
+      "tags": [
+        "点云"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-343",
+      "kind": "source",
+      "title": "SimVP: Simpler yet Better Video Prediction",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "视频预测"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-304"
+      ],
+      "tags": [
+        "视频预测"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-344",
+      "kind": "source",
+      "title": "PoseBERT: A Generic Transformer Module for Temporal 3D Human Modeling",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "3D任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-305"
+      ],
+      "tags": [
+        "3D任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-345",
+      "kind": "source",
+      "title": "A Geometric Knowledge Oriented Single-Frame 2D-to-3D Human Absolute Pose Estimation Method",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "3D任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-306"
+      ],
+      "tags": [
+        "3D任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-346",
+      "kind": "source",
+      "title": "Beyond Self-Attention: Deformable Large Kernel Attention for Medical Image Segmentation",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "3D任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-307"
+      ],
+      "tags": [
+        "3D任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-347",
+      "kind": "source",
+      "title": "MoE3D: AMixture-of-Experts Module for 3D Reconstruction",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "3D任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-308"
+      ],
+      "tags": [
+        "3D任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-348",
+      "kind": "source",
+      "title": "CorNET Deep Learning Framework for Heart Rate Estimation and Biometric Identification",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "NLP"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-309"
+      ],
+      "tags": [
+        "NLP"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-349",
+      "kind": "source",
+      "title": "FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information",
+      "source_pages": [
+        46
+      ],
+      "source_categories": [
+        "语音识别"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-310"
+      ],
+      "tags": [
+        "语音识别"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-350",
+      "kind": "source",
+      "title": "SmoothNet: A Plug-and-Play Network for Refining Human Poses in Videos",
+      "source_pages": [
+        47
+      ],
+      "source_categories": [
+        "人体姿态估计"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-311"
+      ],
+      "tags": [
+        "人体姿态估计"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-351",
+      "kind": "source",
+      "title": "Dual Attention Network for Scene Segmentation",
+      "source_pages": [
+        47
+      ],
+      "source_categories": [
+        "transformer或unet中用"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-312"
+      ],
+      "tags": [
+        "transformer或unet中用"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-352",
+      "kind": "source",
+      "title": "Simple Baselines for Image Restoration",
+      "source_pages": [
+        47
+      ],
+      "source_categories": [
+        "图像恢复"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-313"
+      ],
+      "tags": [
+        "图像恢复"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-353",
+      "kind": "source",
+      "title": "DSAM: A Deep Learning Framework for Analyzing Temporal and Spatial Dynamics in Brain Networks",
+      "source_pages": [
+        47
+      ],
+      "source_categories": [
+        "图像恢复"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-314"
+      ],
+      "tags": [
+        "图像恢复"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-354",
+      "kind": "source",
+      "title": "Restoring Images in Adverse Weather Conditions via Histogram Transformer",
+      "source_pages": [
+        47
+      ],
+      "source_categories": [
+        "图像恢复"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-315"
+      ],
+      "tags": [
+        "图像恢复"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-355",
+      "kind": "source",
+      "title": "Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature Refinement for Image Restoration",
+      "source_pages": [
+        47
+      ],
+      "source_categories": [
+        "图像恢复"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-316"
+      ],
+      "tags": [
+        "图像恢复"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-356",
+      "kind": "source",
+      "title": "Context-Guided Spatial Feature Reconstruction for Efficient Semantic Segmentation",
+      "source_pages": [
+        47,
+        48
+      ],
+      "source_categories": [
+        "语义分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-317"
+      ],
+      "tags": [
+        "语义分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-357",
+      "kind": "source",
+      "title": "SCTNet: Single-Branch CNN with Transformer Semantic Information for Real-Time Segmentation",
+      "source_pages": [
+        48
+      ],
+      "source_categories": [
+        "语义分割"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-318"
+      ],
+      "tags": [
+        "语义分割"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-358",
+      "kind": "source",
+      "title": "Burstormer: Burst Image Restoration and Enhancement Transformer",
+      "source_pages": [
+        48
+      ],
+      "source_categories": [
+        "图像增强任务"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-319"
+      ],
+      "tags": [
+        "图像增强任务"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-359",
+      "kind": "source",
+      "title": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
+      "source_pages": [
+        48
+      ],
+      "source_categories": [
+        "图像生成"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-320"
+      ],
+      "tags": [
+        "图像生成"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-360",
+      "kind": "source",
+      "title": "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images",
+      "source_pages": [
+        48
+      ],
+      "source_categories": [
+        "高光谱图像"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-321"
+      ],
+      "tags": [
+        "高光谱图像"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "重复出现保留；不是新增独立算法。"
+    },
+    {
+      "id": "SRC-361",
+      "kind": "source",
+      "title": "Align Images Before You Generate",
+      "source_pages": [
+        28
+      ],
+      "source_categories": [
+        "扩散模型"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-322"
+      ],
+      "tags": [
+        "扩散模型"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "2.1.0补入：旧标题边界规则漏识别。"
+    },
+    {
+      "id": "SRC-362",
+      "kind": "source",
+      "title": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-150"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "2.1.0补入：旧标题边界规则漏识别。"
+    },
+    {
+      "id": "SRC-363",
+      "kind": "source",
+      "title": "Transformers without Normalization",
+      "source_pages": [
+        36
+      ],
+      "source_categories": [
+        "时间序列"
+      ],
+      "item_type": "method_occurrence",
+      "lead_refs": [
+        "DLI-081"
+      ],
+      "tags": [
+        "时间序列"
+      ],
+      "evidence_status": "source_occurrence",
+      "note": "2.1.0补入：旧标题边界规则漏识别。"
+    }
+  ]
+}

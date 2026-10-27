@@ -65,7 +65,7 @@ class SkillTests(unittest.TestCase):
             self.assertEqual((dsh / 'SKILL.md').read_bytes(), original + b'\nlocal change\n')
 
     def test_public_zip_excludes_private_material(self):
-        archive = ROOT / 'dist/deep-learning-innovation-scout-v2.0.0.zip'
+        archive = ROOT / 'dist/deep-learning-innovation-scout-v2.1.0.zip'
         with zipfile.ZipFile(archive) as z:
             names = z.namelist()
             self.assertTrue(any(n.endswith('/install.py') for n in names))
@@ -124,7 +124,7 @@ class SkillTests(unittest.TestCase):
             self.assertEqual((backups[0] / 'SKILL.md').read_text(encoding='utf-8'), 'previous version')
 
     def test_release_has_no_collector_prose_or_private_paths(self):
-        archive = ROOT / 'dist/deep-learning-innovation-scout-v2.0.0.zip'
+        archive = ROOT / 'dist/deep-learning-innovation-scout-v2.1.0.zip'
         with zipfile.ZipFile(archive) as z:
             for name in z.namelist():
                 if not name.endswith(('.md', '.json', '.yaml', '.py')):
@@ -174,6 +174,48 @@ class SkillTests(unittest.TestCase):
             self.assertTrue(paper['method_summary'])
             self.assertNotIn('尚无逐篇', paper['summary_basis'])
             self.assertTrue(set(paper['related_module_ids']) <= ids)
+
+    def test_source_occurrences_are_accounted_without_inflating_methods(self):
+        records = search_module.all_records()
+        byid = {r['id']:r for r in records}
+        sources = [r for r in records if r['kind']=='source']
+        leads = [r for r in records if r['kind']=='lead']
+        self.assertEqual(len(sources),363)
+        self.assertEqual(sum(r['item_type']=='method_occurrence' for r in sources),361)
+        self.assertEqual({p for r in sources for p in r['source_pages']},set(range(1,49)))
+        for lead in leads:
+            self.assertTrue(lead['source_occurrence_refs'])
+            self.assertTrue(all(lead['id'] in byid[s]['lead_refs'] for s in lead['source_occurrence_refs']))
+        for source in sources:
+            if source['item_type']=='method_occurrence':self.assertTrue(source['lead_refs'])
+            self.assertTrue(set(source['lead_refs'])<=set(byid))
+
+    def test_corrected_neighbors_and_recovered_title_do_not_mix_sources(self):
+        byid={r['id']:r for r in search_module.all_records()}
+        self.assertEqual(byid['DLI-238']['arxiv_id'],None)
+        self.assertFalse(any('2406.03751' in u for u in byid['DLI-238']['paper_urls']))
+        self.assertFalse(any('2503.10622' in u for u in byid['DLI-239']['paper_urls']))
+        self.assertEqual(byid['DLI-322']['title'],'Align Images Before You Generate')
+        self.assertIn(28,byid['DLI-322']['source_pages'])
+
+    def test_research_cards_show_reading_level_and_sources_stay_out_of_default_ranking(self):
+        records=search_module.all_records();byid={r['id']:r for r in records}
+        cards=[r for r in records if r['kind']=='research']
+        self.assertEqual(len(cards),322)
+        self.assertTrue(all(r['reading_level'] and r['lead_refs'] for r in cards))
+        self.assertTrue(all(set(r['module_refs'])<=set(byid) for r in cards))
+        self.assertTrue(any(not r['module_refs'] and '待核实' in r['mechanism_summary'] or not r['module_refs'] and '未写出' in r['mechanism_summary'] for r in cards))
+        self.assertFalse(any(r['kind']=='source' for r in search_module.search_library('VideoFusion',limit=100)))
+        self.assertTrue(search_module.search_library('VideoFusion',kind='source',limit=100))
+        result=search_module.search_library('WTConv',kind='module')
+        self.assertTrue(any(r['title']=='WTConv' and r['primary_urls'] and not r['runtime_verified'] for r in result))
+
+    def test_new_identity_conflicts_are_excluded(self):
+        for ident in ['DLI-010','DLI-152','DLI-158']:
+            rows=search_module.search_library('',kind='lead',limit=1000)
+            self.assertNotIn(ident,{r['id'] for r in rows})
+            audit=search_module.search_library('',kind='lead',limit=1000,include_quarantined=True)
+            self.assertIn(ident,{r['id'] for r in audit})
 
 
 if __name__ == '__main__':

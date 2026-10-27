@@ -24,7 +24,7 @@ def main():
             raise RuntimeError(f'Unexpected symlink in source skill: {relative}')
         if file.is_file() and not excluded(relative) and relative.as_posix() != 'manifest.json':
             files[relative.as_posix()] = hashlib.sha256(file.read_bytes()).hexdigest()
-    manifest = {'name': NAME, 'version': '2.0.0', 'files': files}
+    manifest = {'name': NAME, 'version': '2.1.0', 'files': files}
     (SKILL / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     allowed_files = {'README.md', 'NOTICE.md', 'LICENSE', '.gitignore', 'install.py'}
     allowed_dirs = {'skills', 'docs', 'tools', 'tests'}
@@ -39,7 +39,7 @@ def main():
             release_files.append(file)
     dist = ROOT / 'dist'
     dist.mkdir(exist_ok=True)
-    output = dist / (NAME + '-v2.0.0.zip')
+    output = dist / (NAME + '-v2.1.0.zip')
     with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
         for file in release_files:
             archive.write(file, arcname=NAME + '/' + file.relative_to(ROOT).as_posix())

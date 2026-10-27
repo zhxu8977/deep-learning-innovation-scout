@@ -1,0 +1,244 @@
+{
+  "version": "2.1.0",
+  "source_name": "用户提供的模块目录PDF",
+  "source_sha256": "815b51697ab2dff772cfd335adbedae9fd0f6a5012ca2a92d16f5eb77e025c91",
+  "pages": 48,
+  "category_advertised_sum": 366,
+  "source_candidates_preserved": 363,
+  "method_occurrences_including_repeats": 361,
+  "non_method_lines": 2,
+  "bibliography_records": 322,
+  "curated_mechanism_cards": 268,
+  "new_curated_cards": 101,
+  "research_cards": 322,
+  "research_cards_linked_to_mechanisms": 131,
+  "research_cards_without_mechanism_analysis": 189,
+  "primary_identity_checked": 272,
+  "primary_identity_matched": 269,
+  "quarantined_bibliography_records": 11,
+  "categories": [
+    {
+      "category": "注意力机制",
+      "advertised": 63,
+      "observed_method_occurrences": 63,
+      "difference": 0
+    },
+    {
+      "category": "特征融合",
+      "advertised": 17,
+      "observed_method_occurrences": 17,
+      "difference": 0
+    },
+    {
+      "category": "特征增强",
+      "advertised": 3,
+      "observed_method_occurrences": 3,
+      "difference": 0
+    },
+    {
+      "category": "归一化",
+      "advertised": 12,
+      "observed_method_occurrences": 12,
+      "difference": 0
+    },
+    {
+      "category": "损失函数",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "卷积模块",
+      "advertised": 41,
+      "observed_method_occurrences": 31,
+      "difference": -10
+    },
+    {
+      "category": "特征提取",
+      "advertised": 36,
+      "observed_method_occurrences": 36,
+      "difference": 0
+    },
+    {
+      "category": "多尺度融合",
+      "advertised": 11,
+      "observed_method_occurrences": 13,
+      "difference": 2
+    },
+    {
+      "category": "频域",
+      "advertised": 4,
+      "observed_method_occurrences": 4,
+      "difference": 0
+    },
+    {
+      "category": "backbone",
+      "advertised": 3,
+      "observed_method_occurrences": 3,
+      "difference": 0
+    },
+    {
+      "category": "LLM",
+      "advertised": 13,
+      "observed_method_occurrences": 13,
+      "difference": 0
+    },
+    {
+      "category": "扩散模型",
+      "advertised": 12,
+      "observed_method_occurrences": 12,
+      "difference": 0
+    },
+    {
+      "category": "Mamba",
+      "advertised": 23,
+      "observed_method_occurrences": 24,
+      "difference": 1
+    },
+    {
+      "category": "KAN",
+      "advertised": 2,
+      "observed_method_occurrences": 2,
+      "difference": 0
+    },
+    {
+      "category": "轻量化",
+      "advertised": 16,
+      "observed_method_occurrences": 17,
+      "difference": 1
+    },
+    {
+      "category": "上采样",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "下采样",
+      "advertised": 9,
+      "observed_method_occurrences": 9,
+      "difference": 0
+    },
+    {
+      "category": "多模态",
+      "advertised": 6,
+      "observed_method_occurrences": 6,
+      "difference": 0
+    },
+    {
+      "category": "时间序列",
+      "advertised": 19,
+      "observed_method_occurrences": 20,
+      "difference": 1
+    },
+    {
+      "category": "图像分割",
+      "advertised": 21,
+      "observed_method_occurrences": 21,
+      "difference": 0
+    },
+    {
+      "category": "目标检测",
+      "advertised": 7,
+      "observed_method_occurrences": 7,
+      "difference": 0
+    },
+    {
+      "category": "AI+医学",
+      "advertised": 8,
+      "observed_method_occurrences": 8,
+      "difference": 0
+    },
+    {
+      "category": "CV所有任务",
+      "advertised": 4,
+      "observed_method_occurrences": 4,
+      "difference": 0
+    },
+    {
+      "category": "CV二维任务",
+      "advertised": 5,
+      "observed_method_occurrences": 5,
+      "difference": 0
+    },
+    {
+      "category": "图像超分",
+      "advertised": 4,
+      "observed_method_occurrences": 4,
+      "difference": 0
+    },
+    {
+      "category": "点云",
+      "advertised": 7,
+      "observed_method_occurrences": 7,
+      "difference": 0
+    },
+    {
+      "category": "视频预测",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "3D任务",
+      "advertised": 4,
+      "observed_method_occurrences": 4,
+      "difference": 0
+    },
+    {
+      "category": "NLP",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "语音识别",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "人体姿态估计",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "transformer或unet中用",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "图像恢复",
+      "advertised": 4,
+      "observed_method_occurrences": 4,
+      "difference": 0
+    },
+    {
+      "category": "语义分割",
+      "advertised": 2,
+      "observed_method_occurrences": 2,
+      "difference": 0
+    },
+    {
+      "category": "图像增强任务",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "图像生成",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    },
+    {
+      "category": "高光谱图像",
+      "advertised": 1,
+      "observed_method_occurrences": 1,
+      "difference": 0
+    }
+  ],
+  "boundary": "366为各栏目标称合计；逐项记录保留重复和非模块论文。方法出现次数、书目数、研究卡数、机制卡数均不是全部独立算法数。研究卡没有机制摘要时明确待核实。"
+}
