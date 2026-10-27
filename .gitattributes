@@ -1,0 +1,2 @@
+# Preserve release manifest hashes when cloning on Windows and other systems.
+* -text

@@ -1,0 +1,33 @@
+{
+  "name": "deep-learning-innovation-scout",
+  "version": "2.0.0",
+  "files": {
+    "agents/openai.yaml": "acf27401da763d47a37c4579becd8e7d251e848de8952ca86def6cc6be66cdb5",
+    "LICENSE": "ff68db2444ee6c00a1941c059f14e8c69f4ae294c92acc1f18f6fe3cb700107c",
+    "NOTICE.md": "dfdac1ee50f1e275dfe4e29badedfdc93d07de575a3f068ce6d9de22360f0bbe",
+    "references/bottleneck-playbook.md": "36253cc0fe657f48a1dab032787dddcbbec5fab787e39a530a25a66b660b1c41",
+    "references/catalog.json": "1545dc42751084b2cd3bbb9c494bf0dffbdc4a547d66dd3390e2560951392a9e",
+    "references/catalog.md": "28dbc9098bded0397c15ee1a14e5a6f3b0253472916909f5f2ca1c52c1dbe025",
+    "references/coverage.json": "543012110e40218247bf3dca5aec86b5e357b160cc59bbff43ecfc2c8b187c33",
+    "references/domain-playbooks.md": "2838a891b9c70b278d3411aa7399cfd260b465aa821a63c6d49f140a6178e408",
+    "references/example-case.md": "6531b3ac2b0717c6c5ccddf1fe5f5754ed4268e470af7fe08066bcb8a90127b8",
+    "references/experiment-recipes.md": "0db45c81ee745082d0372fdcaf5cc335cf30cc13f4a3f05ecf1aa427aa2c8892",
+    "references/innovation-workflow.md": "7951d6a792d617422c144129aa84a9ee0371fa4451123b7c9062498937592b51",
+    "references/integration-guide.md": "a70649521f6920876b849fa3d012c4b4654f8845eefcceae0ff4596b51505d6d",
+    "references/library/code-interfaces.json": "a21a5afb087b83a670de5486a4485d005aa59db185bc1dfc47b0b7eec774622d",
+    "references/library/datasets.json": "bfa6d717ae27dbdec27bee3e2243e4df05793185066aaca71d58296447f4c505",
+    "references/library/modules.json": "18bceed2b058fb50abe37eafb1415654b8234bfad7094ce25bd3f89f6c9b4b12",
+    "references/library/papers.json": "afa2b56ed1236123c97d5aa450f532a7d8e56eb1fe07237d9d01b37962b8c061",
+    "references/library/README.md": "32690bd972750934b556acd62a68bab8b6bf792154533ddbbe8bc70456e9b3e5",
+    "references/library/recipes.json": "3fcb7035fed764781bc1c961c36b2f4f5fb198574ec67b950d28d03daba8e4da",
+    "references/material-coverage.json": "65a2af33cf4685253270987a393ce73b1e563b427c83af74b618e677b2c230c0",
+    "references/module-handbook.md": "feaa5900ed7286a75f670b93df3b26c6f12ad7df906a77130692ff474495efa9",
+    "references/paper-notes.md": "8e74f7f823d4f4ecac65fc95eac3feefac51497c4bc941bdc518fcefdf1cd898",
+    "references/research-card-template.md": "aba4e4e4b6afcedf3f7df20033523640e83a02c9c09346c46e4eef2ec0026320",
+    "references/source-audit.md": "d362357636e0d4a0a9f0b7584f2cc7a80c1a7a8cfa4ec7eafe5ee85d7a5a6f0f",
+    "references/workflow-cases.md": "03b5d3415a2e2a4b3e3b5f6693f369eb8b24df010f760ab2c408e3f5b3d35dcc",
+    "scripts/read_source.py": "51e91022eca0ff577466bed1d3ce223caff233283529963af3e290891fcd5a44",
+    "scripts/search_catalog.py": "af986d05312613f824d6493035a40fadd7eaa38455bf04a9cf07621a150445b9",
+    "SKILL.md": "8e9a04922dc33b8d12833436b01551f6327d8a28ed4bcc6efeb961a6fdbf2e6d"
+  }
+}

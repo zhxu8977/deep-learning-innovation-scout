@@ -1,0 +1,1539 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "id": "DATA-001",
+      "kind": "dataset",
+      "title": "AI-TOD 航空图像数据集",
+      "group": "小目标与遥感",
+      "task": "航拍微小目标框检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        1
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "AI-TOD"
+    },
+    {
+      "id": "DATA-002",
+      "kind": "dataset",
+      "title": "iSAID 航空图像大规模数据集",
+      "group": "小目标与遥感",
+      "task": "高分辨率航拍实例分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        1
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "Earth Vision"
+    },
+    {
+      "id": "DATA-003",
+      "kind": "dataset",
+      "title": "TinyPerson 数据集",
+      "group": "小目标与遥感",
+      "task": "微小行人检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        2
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "TinyPerson"
+    },
+    {
+      "id": "DATA-004",
+      "kind": "dataset",
+      "title": "Deepscores 数据集",
+      "group": "小目标与遥感",
+      "task": "乐谱符号检测/识别，标注版本需核对",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        2
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "DeepScores OMR"
+    },
+    {
+      "id": "DATA-005",
+      "kind": "dataset",
+      "title": "密集行人检测数据集",
+      "group": "小目标与遥感",
+      "task": "密集行人检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        2
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "WiderPerson CityPersons WIDER FACE"
+    },
+    {
+      "id": "DATA-006",
+      "kind": "dataset",
+      "title": "加州理工学院行人检测数据集",
+      "group": "小目标与遥感",
+      "task": "视频行人检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        3
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-007",
+      "kind": "dataset",
+      "title": "NWPU VHR-10 卫星图像数据集",
+      "group": "小目标与遥感",
+      "task": "遥感多类别目标检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        3
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "NWPU VHR-10 Dataset Multi-class Learningrotation-invariant VHRoptical"
+    },
+    {
+      "id": "DATA-008",
+      "kind": "dataset",
+      "title": "Inria 航空影像数据集",
+      "group": "小目标与遥感",
+      "task": "航空建筑物语义分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        4
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "Inria Lienz"
+    },
+    {
+      "id": "DATA-009",
+      "kind": "dataset",
+      "title": "RSOD 遥感图像数据集",
+      "group": "小目标与遥感",
+      "task": "遥感目标检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        4
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "PASCAL VOC"
+    },
+    {
+      "id": "DATA-010",
+      "kind": "dataset",
+      "title": "小目标检测数据集",
+      "group": "小目标与遥感",
+      "task": "飞虫/蜜蜂/海鸥/鱼等密集小目标，集合与划分需核实",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        5
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "Internet YouTube Google"
+    },
+    {
+      "id": "DATA-011",
+      "kind": "dataset",
+      "title": "COCO2017 数据集",
+      "group": "目标与场景",
+      "task": "通用目标检测/实例分割/关键点/全景任务，按COCO版本区分",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        5
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "COCO2017 COCO"
+    },
+    {
+      "id": "DATA-012",
+      "kind": "dataset",
+      "title": "火焰和烟雾图像数据集",
+      "group": "目标与场景",
+      "task": "火焰与烟雾图像识别/检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        5
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-013",
+      "kind": "dataset",
+      "title": "DOTA 航拍图像数据集",
+      "group": "目标与场景",
+      "task": "航拍旋转目标检测，注意四边形标注",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        6
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "DOTA"
+    },
+    {
+      "id": "DATA-014",
+      "kind": "dataset",
+      "title": "AITEX 数据集",
+      "group": "工业缺陷",
+      "task": "织物缺陷定位与像素标注，按AITEX发布核实",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        6
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-015",
+      "kind": "dataset",
+      "title": "T-LESS 数据集",
+      "group": "目标与场景",
+      "task": "低纹理工业物体6D位姿估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        7
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "RGBD RGBsensor CAD"
+    },
+    {
+      "id": "DATA-016",
+      "kind": "dataset",
+      "title": "H²O 行人交互检测数据集",
+      "group": "目标与场景",
+      "task": "人-物及人-人交互检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        7
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "V-COCO"
+    },
+    {
+      "id": "DATA-017",
+      "kind": "dataset",
+      "title": "SpotGarbage 垃圾识别数据集",
+      "group": "目标与场景",
+      "task": "垃圾识别与定位",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        8
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "GINI"
+    },
+    {
+      "id": "DATA-018",
+      "kind": "dataset",
+      "title": "NAO 自然界对抗样本数据集",
+      "group": "目标与场景",
+      "task": "自然困难样本上的检测鲁棒性评估",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        8
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "NAO MSCOCO EfficientDet-D7"
+    },
+    {
+      "id": "DATA-019",
+      "kind": "dataset",
+      "title": "Labelme 图像数据集",
+      "group": "目标与场景",
+      "task": "目标识别与图像标注，需区分数据与标注工具",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        8
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "Labelme Dataset LabelMe"
+    },
+    {
+      "id": "DATA-020",
+      "kind": "dataset",
+      "title": "印度车辆数据集",
+      "group": "目标与场景",
+      "task": "车辆分类/检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        9
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "Autorikshaw Tempo"
+    },
+    {
+      "id": "DATA-021",
+      "kind": "dataset",
+      "title": "Seeing 3D chairs 椅子检测模型",
+      "group": "目标与场景",
+      "task": "三维椅子模型与渲染图像识别",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        9
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-022",
+      "kind": "dataset",
+      "title": "SUN09 场景理解数据集",
+      "group": "目标与场景",
+      "task": "场景理解/目标识别，SUN09与其他SUN版本分开",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        9
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "SUN09 SUN Database Large Scene Recognition Abbey Zoo SUN Database Exploring Large Collection Scene Categories"
+    },
+    {
+      "id": "DATA-023",
+      "kind": "dataset",
+      "title": "Unsplash 图片检索数据集",
+      "group": "目标与场景",
+      "task": "图像检索意图与图片元数据",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        10
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "Unsplash"
+    },
+    {
+      "id": "DATA-024",
+      "kind": "dataset",
+      "title": "HICO-DET 人物交互检测数据集",
+      "group": "目标与场景",
+      "task": "人-物交互检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        10
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "HICO-DET HOI V-COCO"
+    },
+    {
+      "id": "DATA-025",
+      "kind": "dataset",
+      "title": "上海科技大学人群统计数据集",
+      "group": "目标与场景",
+      "task": "人群计数，点标注不能直接作实例掩码",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        10
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-026",
+      "kind": "dataset",
+      "title": "生活垃圾数据集",
+      "group": "目标与场景",
+      "task": "生活垃圾识别/检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        11
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-027",
+      "kind": "dataset",
+      "title": "RMFD 口罩遮挡人脸数据集",
+      "group": "目标与场景",
+      "task": "口罩遮挡人脸检测与识别，区分子数据集",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        11
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "MFDD RMFRD SMFRD"
+    },
+    {
+      "id": "DATA-028",
+      "kind": "dataset",
+      "title": "GTSRB 德国交通标志数据集",
+      "group": "目标与场景",
+      "task": "交通标志图像分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        12
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "IJCNN"
+    },
+    {
+      "id": "DATA-029",
+      "kind": "dataset",
+      "title": "VOC2005 车辆数据集",
+      "group": "目标与场景",
+      "task": "车辆图像分类，需核对筛选版本",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        12
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "CNN PASCAL VOC2005"
+    },
+    {
+      "id": "DATA-030",
+      "kind": "dataset",
+      "title": "Winegrape 检测数据集",
+      "group": "目标与场景",
+      "task": "葡萄簇目标检测/实例分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        12
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "WGISD Wine Grape Instance Segmentation Dataset"
+    },
+    {
+      "id": "DATA-031",
+      "kind": "dataset",
+      "title": "全球小麦检测数据集",
+      "group": "目标与场景",
+      "task": "田间小麦穗检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        13
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "RGB"
+    },
+    {
+      "id": "DATA-032",
+      "kind": "dataset",
+      "title": "Linkopings 交通标志数据集",
+      "group": "目标与场景",
+      "task": "视频交通标志检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        13
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-033",
+      "kind": "dataset",
+      "title": "防护装备-头盔和背心检测",
+      "group": "目标与场景",
+      "task": "安全帽与背心等防护装备检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        14
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-034",
+      "kind": "dataset",
+      "title": "加州理工学院相机陷阱数据集",
+      "group": "目标与场景",
+      "task": "相机陷阱动物检测/分类与跨地点泛化",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        14
+      ],
+      "primary_urls": [
+        "https://beerys.github.io/CaltechCameraTraps/"
+      ],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "CaltechCameraTraps"
+    },
+    {
+      "id": "DATA-035",
+      "kind": "dataset",
+      "title": "水下垃圾检测数据集",
+      "group": "目标与场景",
+      "task": "水下海洋垃圾框检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        14
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。遥感按地理场景划分、视频按序列划分，避免切块或相邻帧泄漏。",
+      "quality_notes": [],
+      "search_terms": "J-EDI ROV"
+    },
+    {
+      "id": "DATA-036",
+      "kind": "dataset",
+      "title": "坑洼检测数据集",
+      "group": "工业缺陷",
+      "task": "路面坑洼框检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        15
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-037",
+      "kind": "dataset",
+      "title": "天池铝型材表面缺陷数据集",
+      "group": "工业缺陷",
+      "task": "铝型材表面瑕疵识别/定位，标注类型需核实",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        15
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-038",
+      "kind": "dataset",
+      "title": "Kylberg 纹理数据集",
+      "group": "工业缺陷",
+      "task": "条目名与织物瑕疵正文疑似不一致，任务暂不确定",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        15
+      ],
+      "primary_urls": [],
+      "evidence_status": "quarantine",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [
+        "名称指向纹理数据集，正文却描述另一类织物瑕疵规模；未确认身份前不据此选实验。"
+      ],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-039",
+      "kind": "dataset",
+      "title": "东北大学带钢表面缺陷数据集",
+      "group": "工业缺陷",
+      "task": "带钢缺陷分类/检测，注意两种标注版本",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        16
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-040",
+      "kind": "dataset",
+      "title": "Severstal 带钢缺陷数据集",
+      "group": "工业缺陷",
+      "task": "带钢缺陷分割，核对掩码编码及版本",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        16
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-041",
+      "kind": "dataset",
+      "title": "UCI 带钢缺陷数据集",
+      "group": "工业缺陷",
+      "task": "钢板缺陷的结构化特征分类，非原始图像数据",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        16
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-042",
+      "kind": "dataset",
+      "title": "DAGM 2007 数据集",
+      "group": "工业缺陷",
+      "task": "合成纹理缺陷检测与弱定位，不能将粗标签当精确掩码",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        17
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": "PNG"
+    },
+    {
+      "id": "DATA-043",
+      "kind": "dataset",
+      "title": "磁瓦缺陷数据集",
+      "group": "工业缺陷",
+      "task": "磁瓦表面缺陷分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        17
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": "Saliency"
+    },
+    {
+      "id": "DATA-044",
+      "kind": "dataset",
+      "title": "RSDDs 铁轨表面缺陷数据集",
+      "group": "工业缺陷",
+      "task": "铁轨表面缺陷定位/分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        17
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": "RSDDs"
+    },
+    {
+      "id": "DATA-045",
+      "kind": "dataset",
+      "title": "KTH-TIPS 纹理图像数据集",
+      "group": "工业缺陷",
+      "task": "不同光照/尺度下的材质纹理分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        18
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": "KTH-TIPS"
+    },
+    {
+      "id": "DATA-046",
+      "kind": "dataset",
+      "title": "印刷电路板（PCB）瑕疵数据集",
+      "group": "工业缺陷",
+      "task": "合成PCB缺陷检测/分类/配准",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        18
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按工件/批次划分；检测标注不自动等于正常样本训练的异常检测协议。",
+      "quality_notes": [],
+      "search_terms": "PCB"
+    },
+    {
+      "id": "DATA-047",
+      "kind": "dataset",
+      "title": "IMDB-WIKI 人脸数据集",
+      "group": "人脸",
+      "task": "人脸年龄/性别等属性估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        19
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "IMDB-WIKI IMDB WiKi"
+    },
+    {
+      "id": "DATA-048",
+      "kind": "dataset",
+      "title": "WiderFace 人脸检测数据集",
+      "group": "人脸",
+      "task": "人脸框检测",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        19
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "WIDER FACE Easy Medium Hard WIDER"
+    },
+    {
+      "id": "DATA-049",
+      "kind": "dataset",
+      "title": "LFW 人像图像数据集",
+      "group": "人脸",
+      "task": "人脸验证，按官方身份协议",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        19
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-050",
+      "kind": "dataset",
+      "title": "GENKI 人脸图像数据集",
+      "group": "人脸",
+      "task": "笑脸识别及人脸图像任务，区分GENKI子集",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        20
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "GENKI GENKI-R2009a GENKI-4K GENKI-SZSL SZSL"
+    },
+    {
+      "id": "DATA-051",
+      "kind": "dataset",
+      "title": "哥伦比亚大学公众人物脸部数据库",
+      "group": "人脸",
+      "task": "公众人物人脸验证/属性",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        20
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "PubFig Dataset UMass-Amherst LFW Attribute Simile Classifiers Face Verification"
+    },
+    {
+      "id": "DATA-052",
+      "kind": "dataset",
+      "title": "CelebA 人脸数据集",
+      "group": "人脸",
+      "task": "人脸属性及相关定位任务，身份隔离依任务设置",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        20
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "CelebFaces Attributes Dataset CelebA"
+    },
+    {
+      "id": "DATA-053",
+      "kind": "dataset",
+      "title": "美国国防部人脸库",
+      "group": "人脸",
+      "task": "人脸识别/验证",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        21
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "Technology Transfer Program CTTP Face Recognition Technology FERET"
+    },
+    {
+      "id": "DATA-054",
+      "kind": "dataset",
+      "title": "MTFL 人脸识别数据集",
+      "group": "人脸",
+      "task": "面部关键点与属性多任务学习",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        21
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-055",
+      "kind": "dataset",
+      "title": "BioID 人脸数据集",
+      "group": "人脸",
+      "task": "人脸/眼部定位",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        22
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "BioID_xxxx"
+    },
+    {
+      "id": "DATA-056",
+      "kind": "dataset",
+      "title": "PersonID 人脸识别数据集",
+      "group": "人脸",
+      "task": "电视剧视频人脸识别",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        22
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-057",
+      "kind": "dataset",
+      "title": "CMU PIE 人脸库",
+      "group": "人脸",
+      "task": "多姿态/光照/表情的人脸识别",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        22
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "CMU PIE"
+    },
+    {
+      "id": "DATA-058",
+      "kind": "dataset",
+      "title": "Youtube 视频人脸数据集",
+      "group": "人脸",
+      "task": "视频人脸验证",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        22
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "YouTube"
+    },
+    {
+      "id": "DATA-059",
+      "kind": "dataset",
+      "title": "CASIA 人脸图像数据集",
+      "group": "人脸",
+      "task": "人脸识别，明确CASIA-FaceV5而非其他CASIA库",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        23
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": "CASIA CASIA-FaceV5 USB BMP"
+    },
+    {
+      "id": "DATA-060",
+      "kind": "dataset",
+      "title": "Caltech 人脸数据库",
+      "group": "人脸",
+      "task": "网络人脸检测与关键点定位，核实具体版本",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        23
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按身份与采集序列隔离；识别、属性与检测不能共享含混指标。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-061",
+      "kind": "dataset",
+      "title": "MPII 人体模型数据集",
+      "group": "姿态与交互",
+      "task": "三维人体形状建模，不等于MPII人体姿态数据",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        24
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "MPII Human Shape CAESAR"
+    },
+    {
+      "id": "DATA-062",
+      "kind": "dataset",
+      "title": "MPII 人类姿态数据集",
+      "group": "姿态与交互",
+      "task": "二维人体关键点估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        24
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "MPII YouTube"
+    },
+    {
+      "id": "DATA-063",
+      "kind": "dataset",
+      "title": "KTH 多视图足球数据集",
+      "group": "姿态与交互",
+      "task": "多视图人体关键点与重建",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        24
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-064",
+      "kind": "dataset",
+      "title": "宾夕法尼亚动作数据集",
+      "group": "姿态与交互",
+      "task": "动作与人体姿态估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        25
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "Penn Action Dataset"
+    },
+    {
+      "id": "DATA-065",
+      "kind": "dataset",
+      "title": "BBC 姿态数据集",
+      "group": "姿态与交互",
+      "task": "视频人体姿态估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        25
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "BBC Pose BBC"
+    },
+    {
+      "id": "DATA-066",
+      "kind": "dataset",
+      "title": "Poser 数据集",
+      "group": "姿态与交互",
+      "task": "合成人体姿态估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        25
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "Poser"
+    },
+    {
+      "id": "DATA-067",
+      "kind": "dataset",
+      "title": "野外 3D 姿势数据集",
+      "group": "姿态与交互",
+      "task": "野外三维人体姿态与形状估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        25
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "IMU"
+    },
+    {
+      "id": "DATA-068",
+      "kind": "dataset",
+      "title": "V-COCO 数据集",
+      "group": "姿态与交互",
+      "task": "人-物交互/动作角色检测，核对角色标注",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        26
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "V-COCO COCO"
+    },
+    {
+      "id": "DATA-069",
+      "kind": "dataset",
+      "title": "宜家 ASM 数据集",
+      "group": "姿态与交互",
+      "task": "多视图多模态家具装配动作与姿态理解",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        26
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "ASM RGB"
+    },
+    {
+      "id": "DATA-070",
+      "kind": "dataset",
+      "title": "立体人体姿势估计数据集",
+      "group": "姿态与交互",
+      "task": "立体上身人体姿态估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        27
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "SHPED YouTube"
+    },
+    {
+      "id": "DATA-071",
+      "kind": "dataset",
+      "title": "AIST++ 舞蹈动作数据集",
+      "group": "姿态与交互",
+      "task": "舞蹈三维动作与音乐关联",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        27
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "AIST"
+    },
+    {
+      "id": "DATA-072",
+      "kind": "dataset",
+      "title": "HiEve 数据集",
+      "group": "姿态与交互",
+      "task": "密集人群中的人体与事件分析",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        28
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-073",
+      "kind": "dataset",
+      "title": "KITTI 道路数据集",
+      "group": "自动驾驶",
+      "task": "道路/车道场景分割与估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        28
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-074",
+      "kind": "dataset",
+      "title": "CrackForest 数据集",
+      "group": "自动驾驶",
+      "task": "道路裂缝分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        28
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "CrackForest"
+    },
+    {
+      "id": "DATA-075",
+      "kind": "dataset",
+      "title": "KITTI-2015 立体声数据集",
+      "group": "自动驾驶",
+      "task": "动态场景立体匹配",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        29
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-076",
+      "kind": "dataset",
+      "title": "KITTI-2015 光流数据集",
+      "group": "自动驾驶",
+      "task": "动态场景光流估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        29
+      ],
+      "primary_urls": [
+        "http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow"
+      ],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "TI-2015 Flow"
+    },
+    {
+      "id": "DATA-077",
+      "kind": "dataset",
+      "title": "KITTI-2015 场景流数据集",
+      "group": "自动驾驶",
+      "task": "动态场景三维场景流估计",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        29
+      ],
+      "primary_urls": [
+        "http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php"
+      ],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "Sceneflow"
+    },
+    {
+      "id": "DATA-078",
+      "kind": "dataset",
+      "title": "KITTI 深度数据集",
+      "group": "自动驾驶",
+      "task": "深度补全/单目深度，分别核对协议",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        30
+      ],
+      "primary_urls": [
+        "http://www.cvlibs.net/datasets/kitti/eval_depth_all.php"
+      ],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "KITTI-depth LiDaR RGB"
+    },
+    {
+      "id": "DATA-079",
+      "kind": "dataset",
+      "title": "ALOV300++跟踪数据集",
+      "group": "跟踪",
+      "task": "视频单目标跟踪",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        30
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "ALOV Amsterdam Library Ordinary Videos"
+    },
+    {
+      "id": "DATA-080",
+      "kind": "dataset",
+      "title": "HMDB 人类动作视频数据集",
+      "group": "动作",
+      "task": "视频动作分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        30
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "YouTube"
+    },
+    {
+      "id": "DATA-081",
+      "kind": "dataset",
+      "title": "UCF50 动作识别数据集",
+      "group": "动作",
+      "task": "视频动作分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        31
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "UCF50"
+    },
+    {
+      "id": "DATA-082",
+      "kind": "dataset",
+      "title": "SBU Kinect 交互数据集",
+      "group": "动作",
+      "task": "双人交互识别，含深度与骨架信息",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        31
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。按受试者/视频/路线等独立单位划分，核对时间或相机信息泄漏。",
+      "quality_notes": [],
+      "search_terms": "SBU Kinect"
+    },
+    {
+      "id": "DATA-083",
+      "kind": "dataset",
+      "title": "宠物图像数据集",
+      "group": "分类与识别",
+      "task": "宠物细粒度分类及trimap分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        31
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "ROI"
+    },
+    {
+      "id": "DATA-084",
+      "kind": "dataset",
+      "title": "猫咪数据集",
+      "group": "分类与识别",
+      "task": "猫脸关键点定位",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        32
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "CAT"
+    },
+    {
+      "id": "DATA-085",
+      "kind": "dataset",
+      "title": "斯坦福狗狗数据集",
+      "group": "分类与识别",
+      "task": "犬种细粒度图像分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        32
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "ImageNet"
+    },
+    {
+      "id": "DATA-086",
+      "kind": "dataset",
+      "title": "CBCL 街道场景数据",
+      "group": "分类与识别",
+      "task": "街景目标检测与像素场景标注",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        32
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "StreetScenes Challenge Framework DSC-F717"
+    },
+    {
+      "id": "DATA-087",
+      "kind": "dataset",
+      "title": "Stanford 汽车图片数据",
+      "group": "分类与识别",
+      "task": "汽车细粒度图像分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        33
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "Cars Tesla Model BMW"
+    },
+    {
+      "id": "DATA-088",
+      "kind": "dataset",
+      "title": "MNIST 手写数字图像数据集",
+      "group": "分类与识别",
+      "task": "手写数字图像分类",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        33
+      ],
+      "primary_urls": [
+        "https://www.tensorflow.org/datasets/catalog/mnist"
+      ],
+      "evidence_status": "corrected_metadata",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [
+        "资料把图像写成20×20；官方TensorFlow Datasets定义为28×28×1。"
+      ],
+      "search_terms": "MNIST"
+    },
+    {
+      "id": "DATA-089",
+      "kind": "dataset",
+      "title": "Kaggle 垃圾分类图片数据集",
+      "group": "分类与识别",
+      "task": "有机/可回收垃圾二类分类，核对具体Kaggle项目",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        33
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "Train Test Organic Recycle"
+    },
+    {
+      "id": "DATA-090",
+      "kind": "dataset",
+      "title": "街景门牌号 (SVHN) 数据集",
+      "group": "分类与识别",
+      "task": "街景门牌数字识别",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        33
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "SVHN MNIST"
+    },
+    {
+      "id": "DATA-091",
+      "kind": "dataset",
+      "title": "3D MNIST 数字识别图像数据",
+      "group": "分类与识别",
+      "task": "三维数字形状识别",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        34
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": ""
+    },
+    {
+      "id": "DATA-092",
+      "kind": "dataset",
+      "title": "LVIS 数据集",
+      "group": "分割",
+      "task": "长尾大词汇实例分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        34
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "LVIS"
+    },
+    {
+      "id": "DATA-093",
+      "kind": "dataset",
+      "title": "高密度人群及移动物体视频数据集",
+      "group": "分割",
+      "task": "人群/运动目标视频分割",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        34
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "Crowd Segmentation Dataset BBC Motion Gallery Getty Images"
+    },
+    {
+      "id": "DATA-094",
+      "kind": "dataset",
+      "title": "DAVIS 视频分割数据集",
+      "group": "分割",
+      "task": "视频物体分割，区分DAVIS版本",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        34
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "Densely Annotated Video Segmentation NLP"
+    },
+    {
+      "id": "DATA-095",
+      "kind": "dataset",
+      "title": "文档影印和内容数据",
+      "group": "文档",
+      "task": "文档图像与文档内容识别",
+      "source_doc": "DOC-c7f08bc05602",
+      "source_pages": [
+        35
+      ],
+      "primary_urls": [],
+      "evidence_status": "dataset_lead",
+      "selection_notes": "先核验原始发布页、版本、许可证与官方划分；资料中的短链接未作为可验证下载入口。",
+      "quality_notes": [],
+      "search_terms": "MediaTeam Oulu Document"
+    }
+  ]
+}

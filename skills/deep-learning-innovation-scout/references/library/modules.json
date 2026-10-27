@@ -1,0 +1,5739 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "id": "MOD-001",
+      "kind": "module",
+      "title": "SE",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "SENet",
+        "SEAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "全局空间统计压缩为通道描述，再经瓶颈映射生成通道门控；适合检验通道选择是否不足。",
+      "integration": "卷积块末尾，保持原通道与空间大小。",
+      "risks": "通道压缩可能损失细小目标信号；小通道数不能使隐藏层为零。",
+      "minimal_experiment": "与无门控、同参数1×1映射比较，按目标大小分桶。",
+      "code_refs": [
+        "CODE-674179a301a0",
+        "CODE-94ba5199413c"
+      ],
+      "paper_refs": [
+        "DOC-d6e451c492c7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-01"
+      ]
+    },
+    {
+      "id": "MOD-002",
+      "kind": "module",
+      "title": "CBAM",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "ChannelAttention",
+        "SpatialAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "顺序生成通道和空间权重，用两个粒度筛选特征；适合背景干扰与响应散乱。",
+      "integration": "编码器后部或融合后，先只选一个位置。",
+      "risks": "空间门可能压制低对比目标；重复门控不一定互补。",
+      "minimal_experiment": "通道单独、空间单独、串联三组比较，并看漏检。",
+      "code_refs": [
+        "CODE-598563493755",
+        "CODE-68259c11203b",
+        "CODE-687ee11567dd",
+        "CODE-69ccc125c6a3",
+        "CODE-6eb6b8c68920",
+        "CODE-9cc375bd4d7c",
+        "CODE-9fc75ac05354",
+        "CODE-de18f062c10c"
+      ],
+      "paper_refs": [
+        "DOC-8fd75f994928",
+        "DOC-40bdff61acdd"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-02"
+      ]
+    },
+    {
+      "id": "MOD-003",
+      "kind": "module",
+      "title": "ECA",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "ECAAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "对池化后的通道描述做局部一维卷积，减少显式通道降维。",
+      "integration": "替换SE类门控，保持特征形状。",
+      "risks": "一维卷积沿通道而非时间；核大小规则与实现可能不同。",
+      "minimal_experiment": "与SE在同训练配置下比延迟、精度和通道敏感性。",
+      "code_refs": [
+        "CODE-15841dc0f6b4",
+        "CODE-c24b70fcd74e",
+        "CODE-ef5a3f2d3e79"
+      ],
+      "paper_refs": [
+        "DOC-da52fa676a74"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-03"
+      ]
+    },
+    {
+      "id": "MOD-004",
+      "kind": "module",
+      "title": "Coordinate Attention",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "CoordAtt",
+        "CoordAttention",
+        "CA"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "分解水平与垂直聚合，在通道门控中保留方向位置信息。",
+      "integration": "移动骨干或高分辨率中间层。",
+      "risks": "输入轴顺序不能混淆；方向先验不一定适合旋转目标。",
+      "minimal_experiment": "增加旋转与长条目标分桶，对照SE及普通条带卷积。",
+      "code_refs": [
+        "CODE-01545aba1a0b",
+        "CODE-3f12f23c4b5e",
+        "CODE-bbaf2b075d50"
+      ],
+      "paper_refs": [
+        "DOC-cd832870901f"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-04"
+      ]
+    },
+    {
+      "id": "MOD-005",
+      "kind": "module",
+      "title": "SimAM",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "simam_module"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "利用局部响应与统计量的差异计算逐元素权重，无额外可学习门控参数。",
+      "integration": "同形状残差分支中。",
+      "risks": "无参数仍有运算和访存；退化空间尺寸需检查分母。",
+      "minimal_experiment": "与恒等映射及简单标准化门控比较，报告实际耗时。",
+      "code_refs": [
+        "CODE-478ed656ed04",
+        "CODE-b9ac69b2e2dd"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-05"
+      ]
+    },
+    {
+      "id": "MOD-006",
+      "kind": "module",
+      "title": "Triplet Attention",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "TripletAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "通过不同维度排列建立跨维度门控，聚合多个方向的响应。",
+      "integration": "卷积块后，保持NCHW输出。",
+      "risks": "permute和连续化可能有真实延迟；各方向不代表三个模态。",
+      "minimal_experiment": "逐分支去除，检查收益来自何种方向。",
+      "code_refs": [
+        "CODE-3a3ffdf66c6c",
+        "CODE-5a0cc8adb89b"
+      ],
+      "paper_refs": [
+        "DOC-beafaa16bdb9"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-09"
+      ]
+    },
+    {
+      "id": "MOD-007",
+      "kind": "module",
+      "title": "Shuffle Attention",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "ShuffleAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "按组分别建模通道和空间权重，再进行通道混洗。",
+      "integration": "有足够通道的中间块。",
+      "risks": "通道必须满足分组和分支划分约束；小C不宜照搬默认组数。",
+      "minimal_experiment": "扫少量组数并与相同分组的无注意力版本比较。",
+      "code_refs": [
+        "CODE-adc64407d6fe",
+        "CODE-fdf09017e215"
+      ],
+      "paper_refs": [
+        "DOC-d0ca785c50d1"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-28"
+      ]
+    },
+    {
+      "id": "MOD-008",
+      "kind": "module",
+      "title": "SGE",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "SpatialGroupEnhance"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "在通道分组内用全局描述与局部特征的一致性生成空间增强权重。",
+      "integration": "分组语义较清晰的卷积阶段。",
+      "risks": "小分辨率下统计量不稳定；组数影响语义划分。",
+      "minimal_experiment": "对照分组归一化与固定空间权重。",
+      "code_refs": [
+        "CODE-93165a33c8ab"
+      ],
+      "paper_refs": [
+        "DOC-e3cdfecd4127"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-009",
+      "kind": "module",
+      "title": "scSE",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "SCSE",
+        "ChannelSpatialSELayer3D"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "并行通道激励与空间激励，再合并两路重标定特征。",
+      "integration": "分割解码块；2D与3D版本分开选择。",
+      "risks": "相加、最大值等融合变体不能混为同一实现。",
+      "minimal_experiment": "cSE、sSE、并行融合逐项消融，比较边界与区域指标。",
+      "code_refs": [
+        "CODE-0cef0c7fa23a",
+        "CODE-bc63f13ff0a9",
+        "CODE-c1756cb2e75e"
+      ],
+      "paper_refs": [
+        "DOC-7fbefe6b903b"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-15"
+      ]
+    },
+    {
+      "id": "MOD-010",
+      "kind": "module",
+      "title": "SK",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "SKAttention",
+        "SelectiveKernel"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "以不同感受野分支提特征，再按输入选择分支权重。",
+      "integration": "尺度变化明显的编码器块。",
+      "risks": "多分支带来额外内存和延迟；权重选择不等于真实形变。",
+      "minimal_experiment": "与单大核及多分支均匀平均比较。",
+      "code_refs": [
+        "CODE-b294b98b5620",
+        "CODE-b9ce6f39c9b7"
+      ],
+      "paper_refs": [
+        "DOC-7e4b68be4db7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-14",
+        "NOTE-5586a134-25"
+      ]
+    },
+    {
+      "id": "MOD-011",
+      "kind": "module",
+      "title": "PSA-EPSA",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "PSA",
+        "PSAModule",
+        "PyramidSplitAttention",
+        "PyramidSqueeze"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "分组多尺度卷积与通道权重组合，用不同核覆盖尺度差异。",
+      "integration": "替换瓶颈的空间卷积。",
+      "risks": "PSA还可指Polarized Self-Attention；须用全名及类名区分。",
+      "minimal_experiment": "比较分支数、核尺度和固定平均融合。",
+      "code_refs": [
+        "CODE-38c71d08e36f",
+        "CODE-eab16bcd6fae"
+      ],
+      "paper_refs": [
+        "DOC-b302635087b5"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-22"
+      ]
+    },
+    {
+      "id": "MOD-012",
+      "kind": "module",
+      "title": "Polarized Self-Attention",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "PolarizedSelfAttention",
+        "SequentialPolarizedSelfAttention",
+        "ParallelPolarizedSelfAttention"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "分别保持通道或空间的高分辨率建模，增强像素级回归特征。",
+      "integration": "关键点或分割特征头。",
+      "risks": "不能与金字塔PSA混用论文和接口；并行与串行版本有别。",
+      "minimal_experiment": "比较两种极化路径及串并联，在高分辨率测显存。",
+      "code_refs": [
+        "CODE-5a02688dc9db"
+      ],
+      "paper_refs": [
+        "DOC-49e34f84f3d7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-013",
+      "kind": "module",
+      "title": "BAM",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "BAMBlock",
+        "BottleneckAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "结合通道路径与空间路径生成瓶颈处的注意力调制。",
+      "integration": "阶段之间的瓶颈位置。",
+      "risks": "放置位置与通道压缩影响开销；不保证所有层都获益。",
+      "minimal_experiment": "同一位置对照SE、CBAM和无门控。",
+      "code_refs": [
+        "CODE-598563493755"
+      ],
+      "paper_refs": [
+        "DOC-56235ca53612"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-014",
+      "kind": "module",
+      "title": "GAM",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "GAM_Attention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "通道映射与空间卷积联合调制，尝试保留跨维度交互。",
+      "integration": "中低分辨率阶段。",
+      "risks": "通道MLP与大核空间卷积可能较重，不能直接称近乎免费。",
+      "minimal_experiment": "固定预算对照CBAM，报告峰值显存和延迟。",
+      "code_refs": [
+        "CODE-9978d44bb647"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-21"
+      ]
+    },
+    {
+      "id": "MOD-015",
+      "kind": "module",
+      "title": "GCT-Gated",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "GCT",
+        "GatedChannelTransformation"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "以通道响应嵌入、归一化和可学习门控控制通道竞争与协作。",
+      "integration": "卷积层附近的同形状调制。",
+      "risks": "与Gaussian Context Transformer同名缩写不同；核对公式与来源。",
+      "minimal_experiment": "观察门控分布，对照仅归一化及SE。",
+      "code_refs": [
+        "CODE-3be6d034d60d"
+      ],
+      "paper_refs": [
+        "DOC-2c8ec1236df0",
+        "DOC-729d700d250c"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-016",
+      "kind": "module",
+      "title": "FcaNet",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [
+        "MultiSpectralAttentionLayer",
+        "fcanet"
+      ],
+      "tags": [
+        "频域",
+        "周期",
+        "噪声",
+        "小波",
+        "frequency",
+        "spectral",
+        "wavelet",
+        "fourier",
+        "dct"
+      ],
+      "mechanism": "用多频率DCT分量构造通道描述，扩展仅用全局平均统计的表示。",
+      "integration": "替换通道注意力的压缩环节。",
+      "risks": "不是FFT后IFFT重建；频率索引及预设分辨率应匹配实现。",
+      "minimal_experiment": "固定门控网络，只改变GAP、低频DCT、多频DCT。",
+      "code_refs": [
+        "CODE-ef41202441ad"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-38"
+      ]
+    },
+    {
+      "id": "MOD-017",
+      "kind": "module",
+      "title": "ACmix",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "ACmix"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "共享投影特征，分别用于局部注意力与卷积聚合，再融合输出。",
+      "integration": "局部关系与卷积先验都重要的中间块。",
+      "risks": "此实现的注意力范围应由kernel_att核实，不能一律称全局注意力。",
+      "minimal_experiment": "卷积分支、注意力分支、共享与不共享投影比较。",
+      "code_refs": [
+        "CODE-3b81dcb95849",
+        "CODE-555bdaf54dbd"
+      ],
+      "paper_refs": [
+        "DOC-7ae12bb7e8ec"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-06"
+      ]
+    },
+    {
+      "id": "MOD-018",
+      "kind": "module",
+      "title": "CoT",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "CoTAttention",
+        "ContextualTransformer"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "先用局部卷积编码键的上下文，再生成动态聚合并融合静态上下文。",
+      "integration": "替换部分空间卷积。",
+      "risks": "简化实现不必然等价原文完整聚合；检查分组约束。",
+      "minimal_experiment": "静态上下文、动态路径及二者组合对照。",
+      "code_refs": [
+        "CODE-5120a8f70241",
+        "CODE-8747aa1cbc39"
+      ],
+      "paper_refs": [
+        "DOC-8f5778f89a8b"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-08"
+      ]
+    },
+    {
+      "id": "MOD-019",
+      "kind": "module",
+      "title": "Non-local",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "NONLocalBlock",
+        "NLBlock",
+        "_NonLocalBlockND",
+        "_NonLocalBlock1D"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "显式计算远距离位置关系并聚合上下文。",
+      "integration": "先试低分辨率瓶颈，控制位置数N。",
+      "risks": "空间亲和矩阵可能按N平方增长；不要在高分辨率盲加。",
+      "minimal_experiment": "与大核卷积、GC及下采样键值版本比较。",
+      "code_refs": [
+        "CODE-044dddc2a045",
+        "CODE-95947b9ef54e"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-47"
+      ]
+    },
+    {
+      "id": "MOD-020",
+      "kind": "module",
+      "title": "GCNet",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "ContextBlock",
+        "GlobalContext"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "用查询无关的全局上下文摘要，经变换后回注入局部特征。",
+      "integration": "需全局场景提示但预算有限的阶段。",
+      "risks": "共享上下文不能表达任意位置的独立配对关系。",
+      "minimal_experiment": "与均值池化、Non-local及SE对照。",
+      "code_refs": [
+        "CODE-27b575161bbf"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-18"
+      ]
+    },
+    {
+      "id": "MOD-021",
+      "kind": "module",
+      "title": "A2",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "DoubleAttention",
+        "DoubleAttentionLayer",
+        "A2Atttention"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "先聚集紧凑全局特征，再按位置进行分配。",
+      "integration": "需要全局语义补充的视觉或视频块。",
+      "risks": "两次注意力的归一化轴与隐通道需要核对。",
+      "minimal_experiment": "分别移除聚集和分配选择，比较均匀广播。",
+      "code_refs": [
+        "CODE-1500d6f0f484",
+        "CODE-9a599862642d",
+        "CODE-ec0aeae4f4cd"
+      ],
+      "paper_refs": [
+        "DOC-f3132d9ea831"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-37"
+      ]
+    },
+    {
+      "id": "MOD-022",
+      "kind": "module",
+      "title": "Criss-Cross",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "CrissCrossAttention",
+        "CCNet"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "沿当前像素所在行列聚合信息，循环应用以扩大可达上下文。",
+      "integration": "分割中低分辨率特征。",
+      "risks": "不同于CrossFormer的跨尺度嵌入；实现中硬编码CUDA要检查。",
+      "minimal_experiment": "比较一次与循环应用、轴向及普通大核卷积。",
+      "code_refs": [
+        "CODE-18d774ae924e",
+        "CODE-1fc65b880be0",
+        "CODE-45ec4b67680b",
+        "CODE-7f93429985ef",
+        "CODE-a54023fd5e30"
+      ],
+      "paper_refs": [
+        "DOC-65c3ee040be7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-36",
+        "NOTE-5586a134-50"
+      ]
+    },
+    {
+      "id": "MOD-023",
+      "kind": "module",
+      "title": "Axial Attention",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "AxialAttention",
+        "axial_attention"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "把多维注意力按空间轴分解，逐轴建模长程依赖。",
+      "integration": "保留H/W或D/H/W轴含义的特征。",
+      "risks": "一维序列不能凭空变成二维网格；不同轴顺序可能改变结果。",
+      "minimal_experiment": "逐轴消融，比较完整注意力和相同预算卷积。",
+      "code_refs": [
+        "CODE-162a16cf2657",
+        "CODE-276aa7d1dbe9",
+        "CODE-52a088959675",
+        "CODE-7fe62e27eca8"
+      ],
+      "paper_refs": [
+        "DOC-5786c091440a",
+        "DOC-e35bc167344b",
+        "DOC-580748c8608b"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-07"
+      ]
+    },
+    {
+      "id": "MOD-024",
+      "kind": "module",
+      "title": "Halo",
+      "family": "local",
+      "family_label": "局部与窗口关系",
+      "aliases": [
+        "HaloAttention",
+        "HaloNet"
+      ],
+      "tags": [
+        "局部",
+        "窗口",
+        "邻域",
+        "local",
+        "window",
+        "neighborhood"
+      ],
+      "mechanism": "分块计算注意力，并在块边缘加入邻域扩展以交换局部信息。",
+      "integration": "较高分辨率特征的局部关系建模。",
+      "risks": "块大小、halo范围、padding与相对位置编码必须一致。",
+      "minimal_experiment": "比较无halo、不同范围及平移边界表现。",
+      "code_refs": [
+        "CODE-6f536d82776f"
+      ],
+      "paper_refs": [
+        "DOC-1fd30e092e35"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-23"
+      ]
+    },
+    {
+      "id": "MOD-025",
+      "kind": "module",
+      "title": "EMSA-ResT",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "EMSA",
+        "ResT"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "压缩键值空间采样并进行多头交互，以减少注意力资源需求。",
+      "integration": "金字塔骨干或长视觉序列。",
+      "risks": "下采样会丢细节；head维与空间缩减比例是独立参数。",
+      "minimal_experiment": "按小目标和大目标分桶比较不同缩减率。",
+      "code_refs": [
+        "CODE-10283126e707",
+        "CODE-bdfbcd6e13ed"
+      ],
+      "paper_refs": [
+        "DOC-08dff229bf9d"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-16"
+      ]
+    },
+    {
+      "id": "MOD-026",
+      "kind": "module",
+      "title": "External Attention",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "ExternalAttention"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "以共享可学习记忆作为低维交互介质，替代所有位置的成对关联。",
+      "integration": "BNC序列或经过明确转换的视觉特征。",
+      "risks": "共享参数记忆不是运行时检索库；不要声称当前批次跨样本交换。",
+      "minimal_experiment": "记忆大小消融，对照同宽MLP和自注意力。",
+      "code_refs": [
+        "CODE-671ea00daedd",
+        "CODE-7e14682a3f88"
+      ],
+      "paper_refs": [
+        "DOC-13902c2e731e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-17"
+      ]
+    },
+    {
+      "id": "MOD-027",
+      "kind": "module",
+      "title": "AFT",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "AFT_FULL",
+        "AttentionFreeTransformer"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "将键值与位置偏置聚合后通过查询门控输出，避开标准点积注意力形式。",
+      "integration": "长度与位置建模规则明确的序列。",
+      "risks": "某些完整位置偏置实现仍有N×N张量，不能笼统保证线性成本。",
+      "minimal_experiment": "测不同长度的内存曲线，并与局部AFT及注意力比较。",
+      "code_refs": [
+        "CODE-b52521f7281a",
+        "CODE-d3f4c0e130ca"
+      ],
+      "paper_refs": [
+        "DOC-662324aace31"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-35"
+      ]
+    },
+    {
+      "id": "MOD-028",
+      "kind": "module",
+      "title": "UFO",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "UFOAttention",
+        "XNorm"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "通过矩阵乘法重排和归一化构造无softmax的特征交互。",
+      "integration": "长序列的效率候选。",
+      "risks": "归一化轴、数值稳定性和秩限制需核实；不是等价替代softmax。",
+      "minimal_experiment": "长序列、混合精度、低范数输入三类测试。",
+      "code_refs": [
+        "CODE-19225ee712ba",
+        "CODE-23e734805273"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-26"
+      ]
+    },
+    {
+      "id": "MOD-029",
+      "kind": "module",
+      "title": "MobileViTv2 Attention",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "MobileViTv2Attention"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "用较简洁的可分离注意力交互服务移动端表示。",
+      "integration": "移动视觉序列模块。",
+      "risks": "模型名相近不代表与MobileViT原块接口相同。",
+      "minimal_experiment": "同设备对照MobileViT及纯卷积，固定输入批量。",
+      "code_refs": [
+        "CODE-412422bcfe78"
+      ],
+      "paper_refs": [
+        "DOC-ca134b596dda"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-030",
+      "kind": "module",
+      "title": "BiFormer",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "BiLevelRoutingAttention",
+        "TopkRouting"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "先选相关区域，再在选中区域中做细粒度令牌交互。",
+      "integration": "稀疏关联且区域结构有意义的视觉特征。",
+      "risks": "top-k路由、gather和padding有实际代价，不能只报理论FLOPs。",
+      "minimal_experiment": "与随机路由、固定邻域、全路由对比。",
+      "code_refs": [
+        "CODE-86e2cf2baaad"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-32"
+      ]
+    },
+    {
+      "id": "MOD-031",
+      "kind": "module",
+      "title": "STViT",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "StokenAttention",
+        "SuperToken"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "以较少的超级令牌建模关系，再将结果传播回细粒度特征。",
+      "integration": "希望压缩空间冗余的视觉骨干。",
+      "risks": "聚类或映射可能抹掉微小目标；迭代次数影响速度。",
+      "minimal_experiment": "按目标大小评估，比较池化令牌与学习映射。",
+      "code_refs": [
+        "CODE-04d13b08ef12"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-33"
+      ]
+    },
+    {
+      "id": "MOD-032",
+      "kind": "module",
+      "title": "CloFormer",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "EfficientAttention",
+        "AttnConv",
+        "Cloattention"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "结合局部内容相关聚合与较低成本全局分支，分工处理局部和长程线索。",
+      "integration": "局部细节与全局语义需要兼顾时。",
+      "risks": "不同分支的head划分和窗口参数存在整除约束。",
+      "minimal_experiment": "关闭局部或全局路径，检查两者是否互补。",
+      "code_refs": [
+        "CODE-98ecf2f269f2"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-31"
+      ]
+    },
+    {
+      "id": "MOD-033",
+      "kind": "module",
+      "title": "iRMB",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "IRMB",
+        "iRMB",
+        "EMO"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "把倒残差、局部空间操作与可选注意力整合为移动视觉块。",
+      "integration": "受限算力骨干的局部替换。",
+      "risks": "stride与残差条件必须检查；SE和注意力可能是可选配置。",
+      "minimal_experiment": "与相同扩展率的倒残差块比较真实延迟。",
+      "code_refs": [],
+      "paper_refs": [],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-34"
+      ]
+    },
+    {
+      "id": "MOD-034",
+      "kind": "module",
+      "title": "S2-MLPv2",
+      "family": "mlp",
+      "family_label": "空间混合与MLP",
+      "aliases": [
+        "S2Attention",
+        "spatial_shift1",
+        "spatial_shift2"
+      ],
+      "tags": [
+        "token",
+        "mixing",
+        "空间混合",
+        "MLP",
+        "注意力替代"
+      ],
+      "mechanism": "按通道分支做不同方向的空间位移，并学习融合这些分支。",
+      "integration": "规则网格视觉特征的空间混合。",
+      "risks": "移位不等于完整全局注意力；原位操作和维度排列需检查。",
+      "minimal_experiment": "位移、分支融合及普通深度卷积三者对照。",
+      "code_refs": [
+        "CODE-badd797decb7",
+        "CODE-cba1705d3682"
+      ],
+      "paper_refs": [
+        "DOC-cb4a9a315144"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-10"
+      ]
+    },
+    {
+      "id": "MOD-035",
+      "kind": "module",
+      "title": "ViP",
+      "family": "mlp",
+      "family_label": "空间混合与MLP",
+      "aliases": [
+        "WeightedPermuteMLP",
+        "VisionPermutator"
+      ],
+      "tags": [
+        "token",
+        "mixing",
+        "空间混合",
+        "MLP",
+        "注意力替代"
+      ],
+      "mechanism": "分别沿高、宽、通道混合，并对不同方向分支加权。",
+      "integration": "固定网格分辨率的视觉令牌。",
+      "risks": "某些映射尺寸绑定H/W，改变分辨率未必可用。",
+      "minimal_experiment": "改变输入尺寸和长宽比，比较轴向MLP与卷积。",
+      "code_refs": [
+        "CODE-4cd9fab13c25",
+        "CODE-de1fc71b9184",
+        "CODE-fe50ea257a27"
+      ],
+      "paper_refs": [
+        "DOC-d7373da7581d"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-24"
+      ]
+    },
+    {
+      "id": "MOD-036",
+      "kind": "module",
+      "title": "GFNet",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [
+        "GlobalFilter"
+      ],
+      "tags": [
+        "频域",
+        "周期",
+        "噪声",
+        "小波",
+        "frequency",
+        "spectral",
+        "wavelet",
+        "fourier",
+        "dct"
+      ],
+      "mechanism": "以可学习频域滤波混合空间信息。",
+      "integration": "周期纹理或全局空间混合候选。",
+      "risks": "复数权重、输入分辨率和FFT精度会影响迁移。",
+      "minimal_experiment": "与固定频率滤波及大核卷积比较频谱响应。",
+      "code_refs": [
+        "CODE-d25eb1b029da"
+      ],
+      "paper_refs": [
+        "DOC-37956c205869"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-037",
+      "kind": "module",
+      "title": "SAFM",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "SpatiallyAdaptiveFeatureModulation"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "在多个空间尺度提取和聚合特征，再生成空间调制。",
+      "integration": "轻量超分或恢复的特征块。",
+      "risks": "池化尺度不能超过特征可用尺寸；跨任务效果未验证。",
+      "minimal_experiment": "相同通道预算比较单尺度、均匀融合及自适应融合。",
+      "code_refs": [
+        "CODE-453a200fd718"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-19"
+      ]
+    },
+    {
+      "id": "MOD-038",
+      "kind": "module",
+      "title": "PPM",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "PyramidPooling",
+        "PSPNet"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "多种池化尺度形成上下文摘要，恢复到同一分辨率再融合。",
+      "integration": "分割编码器末端。",
+      "risks": "全局池化分支在小批量训练时需关注归一化。",
+      "minimal_experiment": "与单全局池化、ASPP及同参数卷积比较。",
+      "code_refs": [
+        "CODE-7cceb46f5385",
+        "CODE-8788367019e3",
+        "CODE-966c186250d2",
+        "CODE-f61bd47c40ba"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-20"
+      ]
+    },
+    {
+      "id": "MOD-039",
+      "kind": "module",
+      "title": "ASPP",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "AtrousSpatialPyramidPooling"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "并行不同膨胀率卷积与可选图像级分支，聚合不同尺度上下文。",
+      "integration": "分割瓶颈或多尺度语义头。",
+      "risks": "膨胀率应随输出步长变化；小特征可能退化到大量padding。",
+      "minimal_experiment": "按目标尺度分桶，单独改变膨胀率组合。",
+      "code_refs": [
+        "CODE-023ab5aee410",
+        "CODE-35d8eadd1e0c",
+        "CODE-57d16280384f",
+        "CODE-8788367019e3"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-27"
+      ]
+    },
+    {
+      "id": "MOD-040",
+      "kind": "module",
+      "title": "ResNeSt Split-Attention",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "SplitAttn",
+        "RadixSoftmax"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "分组内对多个子分支做内容自适应加权，形成分裂注意力。",
+      "integration": "ResNet风格的瓶颈块。",
+      "risks": "radix、cardinality和channel整除关系需核对。",
+      "minimal_experiment": "固定分组数比较均匀求和与学习权重。",
+      "code_refs": [
+        "CODE-1ea10e147957"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-29"
+      ]
+    },
+    {
+      "id": "MOD-041",
+      "kind": "module",
+      "title": "ParNet Attention",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "ParNetAttention",
+        "Partnet"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "并行空间卷积与压缩激励路径聚合，作为浅层并行结构的组件。",
+      "integration": "同形状局部特征精炼。",
+      "risks": "ParNet不是PartNet点云模型；单注意力块不等于完整并行网络。",
+      "minimal_experiment": "对照纯卷积及单激励路径，测关键路径延迟。",
+      "code_refs": [
+        "CODE-5676e74f0171",
+        "CODE-604dbae00bee"
+      ],
+      "paper_refs": [
+        "DOC-b8b796f99847"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-30"
+      ]
+    },
+    {
+      "id": "MOD-042",
+      "kind": "module",
+      "title": "CFP-EVC",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "EVCBlock",
+        "LightMLPBlock",
+        "LVC",
+        "CFPNet"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "聚合局部编码和轻量混合特征，服务集中式金字塔信息交换。",
+      "integration": "检测颈部或中心融合层。",
+      "risks": "EVC块与完整CFP网络应分别归因；代码中外部工具依赖需处理。",
+      "minimal_experiment": "普通FPN、仅编码、仅混合及完整块消融。",
+      "code_refs": [
+        "CODE-4ad6fe41c235"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-39"
+      ]
+    },
+    {
+      "id": "MOD-043",
+      "kind": "module",
+      "title": "ScConv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "SRU",
+        "CRU",
+        "ScConv"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "先进行空间冗余重构，再用通道分割转换融合减少冗余。",
+      "integration": "替换部分同形状空间卷积。",
+      "risks": "与SCConv自校准卷积同名相似；归一化权重和阈值需稳定。",
+      "minimal_experiment": "SRU、CRU单独消融，与等预算卷积比较。",
+      "code_refs": [
+        "CODE-1f16ec2c3ff0"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-40"
+      ]
+    },
+    {
+      "id": "MOD-044",
+      "kind": "module",
+      "title": "PConv-FasterNet",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "Partial_conv3",
+        "EnhancedPartialConv2d"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "仅对部分通道做空间卷积，再通过通道混合利用保留分支。",
+      "integration": "以设备延迟为目标的空间混合块。",
+      "risks": "不是图像修补的masked partial convolution；资料中的Enhanced版本含前向新建层风险。",
+      "minimal_experiment": "先修复或换用可训练实现，再比较输出稳定性、参数注册和延迟。",
+      "code_refs": [
+        "CODE-69cf598f29ab",
+        "CODE-ba5dd26193de"
+      ],
+      "paper_refs": [
+        "DOC-813f38400dff"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-41"
+      ]
+    },
+    {
+      "id": "MOD-045",
+      "kind": "module",
+      "title": "Dilated Conv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "AtrousConv",
+        "空洞卷积"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "以膨胀采样扩大卷积覆盖范围，保持输出网格密度。",
+      "integration": "需要上下文但不能继续下采样的阶段。",
+      "risks": "可能产生栅格效应；相同参数量不意味着相同真实延迟。",
+      "minimal_experiment": "与连续大核、不同互质膨胀率比较细边界。",
+      "code_refs": [],
+      "paper_refs": [],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-42"
+      ]
+    },
+    {
+      "id": "MOD-046",
+      "kind": "module",
+      "title": "Deformable Conv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "DCN",
+        "DAT",
+        "DAttentionBaseline"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "通过学习偏移改变采样位置；注意卷积变形与注意力变形不是同一个算子。",
+      "integration": "形状变化或跨尺度定位困难的空间块。",
+      "risks": "依赖自定义算子版本、padding、offset稳定性和设备支持。",
+      "minimal_experiment": "固定采样、仅偏移、调制分支分别消融。",
+      "code_refs": [
+        "CODE-324b68dadd44",
+        "CODE-72f41d12b278",
+        "CODE-8858ed12e88f",
+        "CODE-f430f2bb7fd9"
+      ],
+      "paper_refs": [
+        "DOC-92c3f6bba2aa"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-43"
+      ]
+    },
+    {
+      "id": "MOD-047",
+      "kind": "module",
+      "title": "Dynamic Snake Conv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "DSConv",
+        "DSC"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "对采样形状施加连续结构约束以跟随弯曲细长目标。",
+      "integration": "血管、道路或细管状结构的空间特征。",
+      "risks": "DSConv也常指depthwise separable conv；必须以类内容区分。",
+      "minimal_experiment": "与普通DCN及条带卷积比较连通性和断裂率。",
+      "code_refs": [
+        "CODE-27199d833f85"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-44"
+      ]
+    },
+    {
+      "id": "MOD-048",
+      "kind": "module",
+      "title": "Depthwise Separable Conv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "DWConv",
+        "DepthWiseConv2d",
+        "SeparableConv"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "空间逐通道卷积与逐点通道混合解耦。",
+      "integration": "轻量局部表示或卷积FFN。",
+      "risks": "FLOPs下降未必带来设备延迟下降；通道混合不能省略比较。",
+      "minimal_experiment": "测同设备吞吐、访存和精度，与普通卷积对照。",
+      "code_refs": [
+        "CODE-1a8c1701654d",
+        "CODE-429c53b6c15b",
+        "CODE-4ad6fe41c235",
+        "CODE-61d22ad1fa98",
+        "CODE-8fdd9f15d988",
+        "CODE-a989260f679f",
+        "CODE-ba2f843bce8a",
+        "CODE-ba54a9777b1d",
+        "CODE-fe773b222e4d"
+      ],
+      "paper_refs": [
+        "DOC-6de4937e4a78",
+        "DOC-9fd87b02ecc9"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-45"
+      ]
+    },
+    {
+      "id": "MOD-049",
+      "kind": "module",
+      "title": "ODConv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "ODConv2d",
+        "OmniDimensionalDynamicConvolution"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "沿卷积核的多个维度生成输入相关权重，增加条件化表达。",
+      "integration": "输入差异明显的卷积层。",
+      "risks": "核数、温度与分组影响训练和开销；动态核不一定可静态融合。",
+      "minimal_experiment": "各注意力维度及单核、多核分别消融。",
+      "code_refs": [
+        "CODE-f85eb97bbe57"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-46"
+      ]
+    },
+    {
+      "id": "MOD-050",
+      "kind": "module",
+      "title": "gnConv-HorNet",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "GNConv",
+        "gnconv",
+        "RecursiveGatedConv"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "投影与深度卷积后递归门控，建立更高阶空间交互。",
+      "integration": "替换部分空间混合块。",
+      "risks": "不同于GCNet；递归阶数、分通道与缩放稳定性需要检查。",
+      "minimal_experiment": "逐阶比较，并与相同大核及门控次数的简单基线比较。",
+      "code_refs": [
+        "CODE-897e64830795",
+        "CODE-cf14b8a10236"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-48"
+      ]
+    },
+    {
+      "id": "MOD-051",
+      "kind": "module",
+      "title": "AKConv-LDConv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "AKConv",
+        "LDConv"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "以非规则初始采样点和学习偏移改变采样形状与参数配置。",
+      "integration": "目标形状变化明显且有可用实现时。",
+      "risks": "两个名称与版本关联需核对，不能靠缩写自动认定完全等价。",
+      "minimal_experiment": "固定点集、学习偏移和普通DCN对照，报告插值开销。",
+      "code_refs": [
+        "CODE-627970b29103"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-49"
+      ]
+    },
+    {
+      "id": "MOD-052",
+      "kind": "module",
+      "title": "CondConv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "CondConv2D"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "为每个样本生成专家卷积核的组合系数。",
+      "integration": "样本分布存在可利用条件差异的骨干。",
+      "risks": "按样本聚合的实现可能影响批量效率；专家数增加参数。",
+      "minimal_experiment": "专家数量、均匀系数与静态卷积对照。",
+      "code_refs": [
+        "CODE-14140c8372f7",
+        "CODE-fba645f25c62"
+      ],
+      "paper_refs": [
+        "DOC-15eb1162441b"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-053",
+      "kind": "module",
+      "title": "Dynamic Convolution",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "Dynamic_conv1d",
+        "Dynamic_conv2d",
+        "Dynamic_conv3d"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "从多组卷积核生成输入相关的核组合。",
+      "integration": "受限宽深度但需要条件表达时。",
+      "risks": "1D/2D/3D版本不同；温度调度和动态batch实现需检查。",
+      "minimal_experiment": "固定总预算比较专家数及静态权重混合。",
+      "code_refs": [
+        "CODE-d087dd6a57d4"
+      ],
+      "paper_refs": [
+        "DOC-a1d43004ffc1"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-054",
+      "kind": "module",
+      "title": "DO-Conv",
+      "family": "reparameter",
+      "family_label": "结构重参数化",
+      "aliases": [
+        "DOConv2d"
+      ],
+      "tags": [
+        "部署",
+        "折叠",
+        "等价融合",
+        "reparameterization",
+        "deploy"
+      ],
+      "mechanism": "训练时引入额外深度卷积参数化，线性组成在适用条件下可折叠。",
+      "integration": "希望增加训练表达但保持部署算子形式的卷积。",
+      "risks": "只有满足线性及核组合条件才能等价折叠。",
+      "minimal_experiment": "在eval模式验证折叠前后数值误差与推理时延。",
+      "code_refs": [
+        "CODE-2cfe2f49e02a"
+      ],
+      "paper_refs": [
+        "DOC-b6bbdec18e8a"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-055",
+      "kind": "module",
+      "title": "Ghost",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "GhostModule",
+        "GhostModuleV2"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "先生成较少本征特征，再用便宜变换扩展特征；V2增加长程建模设计。",
+      "integration": "移动骨干通道扩展块。",
+      "risks": "相似特征扩展可能损失独立表达；V1/V2不能混为一个实验。",
+      "minimal_experiment": "与同输出通道的普通及深度可分离卷积比较。",
+      "code_refs": [
+        "CODE-070a5b97d448",
+        "CODE-68fb515edcba"
+      ],
+      "paper_refs": [
+        "DOC-bdec5241b8e1",
+        "DOC-2f7e2ffb57d8"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-056",
+      "kind": "module",
+      "title": "PyConv",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "PyConv2d"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "不同核尺度与不同分组深度的金字塔卷积并行提取特征。",
+      "integration": "尺度跨度大的卷积阶段。",
+      "risks": "通道拆分、分组和各层核大小应共同匹配。",
+      "minimal_experiment": "单尺度、均匀多尺度与金字塔分组对照。",
+      "code_refs": [
+        "CODE-3d4e8a9097ac"
+      ],
+      "paper_refs": [
+        "DOC-2c149f11afc8"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-057",
+      "kind": "module",
+      "title": "SPConv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "SPConv_3x3"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "利用部分通道提主要空间信息，再融合其余廉价处理分支。",
+      "integration": "希望减少重复空间模式的卷积阶段。",
+      "risks": "与PConv机制及实际旁路不同；不能只按名字归并。",
+      "minimal_experiment": "主分支比例、旁路处理及等预算卷积消融。",
+      "code_refs": [
+        "CODE-05fdebb10d20",
+        "CODE-0ce9fe74f682",
+        "CODE-33b5ab1cdfee"
+      ],
+      "paper_refs": [
+        "DOC-c92b2f10abb7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-058",
+      "kind": "module",
+      "title": "TVConv",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "TVConvInvertedResidual"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "利用任务相关的空间布局先验构造位置相关卷积。",
+      "integration": "人脸或器官布局较稳定的任务。",
+      "risks": "布局固定假设对旋转、位移与跨域可能脆弱。",
+      "minimal_experiment": "做位移、旋转和跨布局测试，并比共享卷积。",
+      "code_refs": [
+        "CODE-c19b2562bfe4"
+      ],
+      "paper_refs": [
+        "DOC-c4de802b6697"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-059",
+      "kind": "module",
+      "title": "RepVGG",
+      "family": "reparameter",
+      "family_label": "结构重参数化",
+      "aliases": [
+        "RepVGGBlock"
+      ],
+      "tags": [
+        "部署",
+        "折叠",
+        "等价融合",
+        "reparameterization",
+        "deploy"
+      ],
+      "mechanism": "训练多分支、部署折叠到单一卷积的结构重参数化。",
+      "integration": "需要简单部署图的卷积骨干。",
+      "risks": "BN统计与eval模式影响折叠；不能跨非线性随意相加。",
+      "minimal_experiment": "验证折叠等价性、实际延迟和训练成本。",
+      "code_refs": [
+        "CODE-199201fcad17"
+      ],
+      "paper_refs": [
+        "DOC-3a3c24c0d3b7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-060",
+      "kind": "module",
+      "title": "ACNet",
+      "family": "reparameter",
+      "family_label": "结构重参数化",
+      "aliases": [
+        "ACBlock",
+        "AsymmetricConv"
+      ],
+      "tags": [
+        "部署",
+        "折叠",
+        "等价融合",
+        "reparameterization",
+        "deploy"
+      ],
+      "mechanism": "训练时用非对称卷积分支补充空间结构，满足条件时合并。",
+      "integration": "卷积核方向结构探索。",
+      "risks": "分支padding与输出尺寸必须对齐。",
+      "minimal_experiment": "横、竖分支各自消融，并做旋转测试。",
+      "code_refs": [
+        "CODE-43f5556815ba"
+      ],
+      "paper_refs": [
+        "DOC-ec7de76541d5"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-061",
+      "kind": "module",
+      "title": "DBB",
+      "family": "reparameter",
+      "family_label": "结构重参数化",
+      "aliases": [
+        "DiverseBranchBlock"
+      ],
+      "tags": [
+        "部署",
+        "折叠",
+        "等价融合",
+        "reparameterization",
+        "deploy"
+      ],
+      "mechanism": "多种线性空间分支增加训练期表示，再转换成部署卷积。",
+      "integration": "希望提高训练容量的标准卷积替换。",
+      "risks": "分支等价融合有严格边界条件；不适合任意动态算子。",
+      "minimal_experiment": "逐分支消融并验证部署输出误差。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-62b165139917"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-062",
+      "kind": "module",
+      "title": "DySample",
+      "family": "sampling",
+      "family_label": "分辨率变换",
+      "aliases": [
+        "Dysample"
+      ],
+      "tags": [
+        "上采样",
+        "下采样",
+        "边界",
+        "细节",
+        "upsampling",
+        "downsampling",
+        "sampling"
+      ],
+      "mechanism": "预测采样偏移，通过grid_sample等操作生成更高分辨率特征。",
+      "integration": "替换解码器或FPN某个上采样。",
+      "risks": "lp/pl两种路径均是上采样；groups和scale有整除约束。",
+      "minimal_experiment": "双线性、转置卷积、固定偏移与学习偏移比较边界及延迟。",
+      "code_refs": [
+        "CODE-96d280f19b64",
+        "CODE-cfb35db23da4"
+      ],
+      "paper_refs": [
+        "DOC-a2ea0056d492"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-063",
+      "kind": "module",
+      "title": "HWD",
+      "family": "sampling",
+      "family_label": "分辨率变换",
+      "aliases": [
+        "Down_wt",
+        "HaarWaveletDownsampling"
+      ],
+      "tags": [
+        "上采样",
+        "下采样",
+        "边界",
+        "细节",
+        "upsampling",
+        "downsampling",
+        "sampling"
+      ],
+      "mechanism": "分解低频和方向高频子带，拼接后投影以完成下采样。",
+      "integration": "细节容易在下采样丢失的编码器。",
+      "risks": "小波库依赖、奇数尺寸padding及子带通道增长要核对。",
+      "minimal_experiment": "步长卷积、仅低频、全部子带对照。",
+      "code_refs": [
+        "CODE-67123178e2e2",
+        "CODE-8fe52159ddc5"
+      ],
+      "paper_refs": [
+        "DOC-d76b5e47b0ea"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-064",
+      "kind": "module",
+      "title": "FeatUp",
+      "family": "sampling",
+      "family_label": "分辨率变换",
+      "aliases": [
+        "JBUStack",
+        "JBULearnedRange",
+        "IFA"
+      ],
+      "tags": [
+        "上采样",
+        "下采样",
+        "边界",
+        "细节",
+        "upsampling",
+        "downsampling",
+        "sampling"
+      ],
+      "mechanism": "以高分辨率引导或隐式表示恢复特征空间分辨率。",
+      "integration": "已有强预训练特征但空间粒度不足时。",
+      "risks": "多种上采样器训练方式不同；不能把整个框架当一个免训练层。",
+      "minimal_experiment": "与双线性及同预算解码器比较特征对齐和任务表现。",
+      "code_refs": [
+        "CODE-ffa3e491c52b"
+      ],
+      "paper_refs": [
+        "DOC-cfae0cf90cc1"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-065",
+      "kind": "module",
+      "title": "AFF-iAFF",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "AFF",
+        "iAFF",
+        "MS_CAM"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "利用局部与全局上下文生成融合权重；迭代版本细化初始融合。",
+      "integration": "同形状两分支或跳跃连接融合。",
+      "risks": "两输入通道和分辨率须先对齐；权重相加关系应按实现确认。",
+      "minimal_experiment": "sum、concat投影、单轮及迭代融合比较。",
+      "code_refs": [
+        "CODE-f202a88d5ff0"
+      ],
+      "paper_refs": [
+        "DOC-45069dfb5714"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-066",
+      "kind": "module",
+      "title": "ASFF",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "ASFF"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "把金字塔各尺度对齐，并在空间位置上选择融合比例。",
+      "integration": "检测颈部跨尺度融合。",
+      "risks": "重采样可能改变小目标对齐；额外分支不能忽略成本。",
+      "minimal_experiment": "固定平均权重与学习权重比较不同尺度AP。",
+      "code_refs": [
+        "CODE-80882b50ac32"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-11"
+      ]
+    },
+    {
+      "id": "MOD-067",
+      "kind": "module",
+      "title": "CGA Fusion",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "CGAFusion",
+        "PixelAttention"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "结合通道、空间和像素条件生成融合权重。",
+      "integration": "两个已配准特征的细粒度融合。",
+      "risks": "注意力不能自动修复未知几何错位；输入配对要可靠。",
+      "minimal_experiment": "控制平移错位、模态缺失，与简单融合比较。",
+      "code_refs": [
+        "CODE-9fc75ac05354"
+      ],
+      "paper_refs": [
+        "DOC-dc6bae778856"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-068",
+      "kind": "module",
+      "title": "FFA",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "FFA",
+        "PALayer",
+        "CALayer"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "在恢复网络中结合通道和像素注意力，并融合多级残差特征。",
+      "integration": "去雾或非均匀退化恢复。",
+      "risks": "完整网络和单FA模块应区别比较；不能将去雾收益直接外推。",
+      "minimal_experiment": "局部模块与整网络分开评估，分退化强度统计。",
+      "code_refs": [
+        "CODE-6eb6b8c68920",
+        "CODE-77f34c0e3d4d"
+      ],
+      "paper_refs": [
+        "DOC-39326da30e4e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-069",
+      "kind": "module",
+      "title": "EFF",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "Efficient_Attention_Gate",
+        "EFF3D"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "对跳跃连接施加注意力筛选并增强通道与空间表示。",
+      "integration": "U形网络解码端的多尺度融合。",
+      "risks": "2D与3D实现依赖、输入数和门控通道有区别。",
+      "minimal_experiment": "无门、单通道门、单空间门及完整融合比较。",
+      "code_refs": [
+        "CODE-69ccc125c6a3",
+        "CODE-77e3cc7c0a9a"
+      ],
+      "paper_refs": [
+        "DOC-3d6935b01e84"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-070",
+      "kind": "module",
+      "title": "DFF",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "DFF2d",
+        "DFF3d"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "以通道及空间条件联合选择两路特征，缓解融合后的冗余。",
+      "integration": "配对的编码解码特征。",
+      "risks": "2D/3D版本不互换；需要核对forward参数及空间对齐。",
+      "minimal_experiment": "sum和concat投影对照，分支打乱测试互补性。",
+      "code_refs": [
+        "CODE-3c76d4edca27",
+        "CODE-b3c1f3f31d2c"
+      ],
+      "paper_refs": [
+        "DOC-48f2c7854ee4"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-071",
+      "kind": "module",
+      "title": "SE Fusion Add",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "SqueezeAndExciteFusionAdd",
+        "SqueezeAndExcitation3D"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "先重标定各输入的通道响应，再相加融合。",
+      "integration": "RGB-D或跳跃连接的轻量基线。",
+      "risks": "两路同形状要求与归一化尺度需满足。",
+      "minimal_experiment": "比较不加权相加、共享门和独立门。",
+      "code_refs": [
+        "CODE-6c2fd120a648",
+        "CODE-af10f4b1b17c"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-072",
+      "kind": "module",
+      "title": "GHPA",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "Grouped_multi_axis_Hadamard_Product_Attention"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "在分组多轴特征上进行Hadamard乘积调制。",
+      "integration": "轻量医学分割的中间特征。",
+      "risks": "轴排列和参数插值需匹配输入；乘法路径会改变幅值。",
+      "minimal_experiment": "单轴、固定乘法权重及多轴组合比较。",
+      "code_refs": [
+        "CODE-30e5698a2a38"
+      ],
+      "paper_refs": [
+        "DOC-0f7a8ec36aca"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-073",
+      "kind": "module",
+      "title": "GAB",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "group_aggregation_bridge"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "分组聚合多尺度与可选预测引导信息，连接编码解码特征。",
+      "integration": "轻量U形网络的桥接。",
+      "risks": "需要特定多路输入；不能当作任意单输入同形状块。",
+      "minimal_experiment": "移除引导、减少输入尺度、普通跳跃连接对照。",
+      "code_refs": [
+        "CODE-3370280ff1ff"
+      ],
+      "paper_refs": [
+        "DOC-0f7a8ec36aca"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-074",
+      "kind": "module",
+      "title": "CPCA",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "CPCABlock",
+        "CPCABlock3D"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "先形成通道先验，再用多尺度深度卷积产生空间注意力。",
+      "integration": "低对比器官分割或多尺度结构表征。",
+      "risks": "2D与3D条带卷积不同，不能机械升维。",
+      "minimal_experiment": "通道先验、空间多尺度单独消融。",
+      "code_refs": [
+        "CODE-46dba4ae948f",
+        "CODE-de18f062c10c"
+      ],
+      "paper_refs": [
+        "DOC-021cd0d15942"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-075",
+      "kind": "module",
+      "title": "HAAM",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "Channelblock",
+        "Spatialblock",
+        "HAAM"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "联合自适应通道与空间路径，适应超声病灶形态和低对比特征。",
+      "integration": "超声分割卷积块。",
+      "risks": "材料中的单模块与论文完整网络需要分别核验。",
+      "minimal_experiment": "按模糊边界、病灶大小和噪声水平分层评估。",
+      "code_refs": [
+        "CODE-fdfa69fd1b4d"
+      ],
+      "paper_refs": [
+        "DOC-0895b649c3ff"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-076",
+      "kind": "module",
+      "title": "SDM",
+      "family": "boundary",
+      "family_label": "边界与形状",
+      "aliases": [
+        "SDC",
+        "SDM2d",
+        "SDM3d"
+      ],
+      "tags": [
+        "边界",
+        "连通",
+        "结构",
+        "小病灶",
+        "boundary",
+        "topology",
+        "shape"
+      ],
+      "mechanism": "引入差异或形状相关特征以辅助边界辨别。",
+      "integration": "边界混淆的解码阶段。",
+      "risks": "需要依据具体SDM实现核对输入及约束，缩写不唯一。",
+      "minimal_experiment": "比较边界F-score、区域指标及标注噪声敏感性。",
+      "code_refs": [
+        "CODE-8836770974dd",
+        "CODE-b5d381996946"
+      ],
+      "paper_refs": [
+        "DOC-4ef0471d53d5"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-077",
+      "kind": "module",
+      "title": "PPA",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "ParallelizedPatchAwareAttention",
+        "LocalGlobalAttention"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "并行局部卷积与分块感知特征，增强红外微小目标的上下文。",
+      "integration": "红外小目标编码块。",
+      "risks": "patch大小与输入整除约束，强背景响应也可能被放大。",
+      "minimal_experiment": "按信杂比及目标尺寸比较检测率和虚警。",
+      "code_refs": [
+        "CODE-ef5a3f2d3e79"
+      ],
+      "paper_refs": [
+        "DOC-38721263f386"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-078",
+      "kind": "module",
+      "title": "DASI",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "DimensionAwareSelectiveIntegration",
+        "DASI"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "按维度选择并整合不同层级信息，服务小目标多尺度融合。",
+      "integration": "HCF风格的层间融合位置。",
+      "risks": "forward可能需要当前、浅层和深层多路特征。",
+      "minimal_experiment": "逐路删除，与对齐后sum及concat比较。",
+      "code_refs": [
+        "CODE-9dadd8690a99"
+      ],
+      "paper_refs": [
+        "DOC-38721263f386"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-079",
+      "kind": "module",
+      "title": "MDCR-HCF",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "MultiDilatedChannelRefiner",
+        "MDCR"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "多膨胀率通道细化补充红外小目标上下文。",
+      "integration": "具有合适通道划分的低分辨率特征。",
+      "risks": "与同名文本数据集无关；旧书目误配保留隔离，使用本地原文绑定。",
+      "minimal_experiment": "各膨胀率单独对照，重点检查背景虚警。",
+      "code_refs": [
+        "CODE-03b14c7a3863"
+      ],
+      "paper_refs": [
+        "DOC-38721263f386"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-080",
+      "kind": "module",
+      "title": "DICAM-Underwater",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [
+        "DICAM",
+        "Inc",
+        "CAM"
+      ],
+      "tags": [
+        "去噪",
+        "去雾",
+        "去模糊",
+        "水下",
+        "restoration",
+        "dehazing",
+        "denoising"
+      ],
+      "mechanism": "多分支感受野和通道调制用于水下图像颜色与细节恢复。",
+      "integration": "水下增强特征网络。",
+      "risks": "与同名其他学科论文无关；颜色失真和过增强需分别评估。",
+      "minimal_experiment": "按浑浊度、颜色偏移测试，避免只看无参考质量分数。",
+      "code_refs": [
+        "CODE-6fb52ff01b92",
+        "CODE-8788367019e3",
+        "CODE-8fdd9f15d988",
+        "CODE-f202a88d5ff0"
+      ],
+      "paper_refs": [
+        "DOC-5f2cedbd8a89"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-081",
+      "kind": "module",
+      "title": "DSAM-Restoration",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [
+        "DSAMBlock",
+        "DualDomainStripAttention"
+      ],
+      "tags": [
+        "去噪",
+        "去雾",
+        "去模糊",
+        "水下",
+        "restoration",
+        "dehazing",
+        "denoising"
+      ],
+      "mechanism": "在不同域与条带方向聚合恢复特征，兼顾局部与长距离信息。",
+      "integration": "图像恢复中间块。",
+      "risks": "与脑网络同缩写论文分开；条带方向可能引入方向偏差。",
+      "minimal_experiment": "空间域、另一域与两个方向分别消融。",
+      "code_refs": [
+        "CODE-26da992a7819"
+      ],
+      "paper_refs": [
+        "DOC-6d3eff54657e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-082",
+      "kind": "module",
+      "title": "MDTA",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [
+        "MultiDConvHeadTransposedSelfAttention"
+      ],
+      "tags": [
+        "去噪",
+        "去雾",
+        "去模糊",
+        "水下",
+        "restoration",
+        "dehazing",
+        "denoising"
+      ],
+      "mechanism": "先以卷积生成QKV，再在每个head的通道维形成注意力矩阵。",
+      "integration": "高分辨率图像恢复。",
+      "risks": "矩阵是每头通道×通道而非HW×HW；通道必须整除head数。",
+      "minimal_experiment": "固定投影比较空间注意力、通道注意力与无深度卷积。",
+      "code_refs": [
+        "CODE-cd86ce2d5891"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-083",
+      "kind": "module",
+      "title": "NAFBlock",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [
+        "SimpleGate",
+        "LayerNorm2d",
+        "NAF"
+      ],
+      "tags": [
+        "去噪",
+        "去雾",
+        "去模糊",
+        "水下",
+        "restoration",
+        "dehazing",
+        "denoising"
+      ],
+      "mechanism": "以简单门控和残差组织恢复特征，检验复杂激活是否必要。",
+      "integration": "图像去噪、去模糊等恢复块。",
+      "risks": "完整网络去激活结论不能外推所有任务；SimpleGate要求合适通道数。",
+      "minimal_experiment": "门控、简化注意力、激活形式分开比较。",
+      "code_refs": [
+        "CODE-f4e8b8224780"
+      ],
+      "paper_refs": [
+        "DOC-18c5926879e4"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-084",
+      "kind": "module",
+      "title": "PromptIR-PGM",
+      "family": "restoration",
+      "family_label": "图像恢复与退化适应",
+      "aliases": [
+        "PromptGenBlock",
+        "PGM"
+      ],
+      "tags": [
+        "去噪",
+        "去雾",
+        "去模糊",
+        "水下",
+        "restoration",
+        "dehazing",
+        "denoising"
+      ],
+      "mechanism": "根据输入生成退化条件提示，引导共享恢复网络。",
+      "integration": "多退化混合训练的恢复网络。",
+      "risks": "提示不等同自然语言prompt；需避免退化类别信息泄漏。",
+      "minimal_experiment": "已知退化与未知组合分开，比较固定提示和自适应提示。",
+      "code_refs": [
+        "CODE-1c149a8eeb12"
+      ],
+      "paper_refs": [
+        "DOC-864f6546fefc"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-085",
+      "kind": "module",
+      "title": "FACMA-WCMF",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "FACMA",
+        "FCABlock",
+        "SFCA",
+        "WCMF"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "利用频率感知通道交互并学习模态间融合，服务RGB-D显著性。",
+      "integration": "两种模态已同步且配准的特征。",
+      "risks": "深度质量与模态噪声影响门控，不能假定深度总有益。",
+      "minimal_experiment": "按深度质量、模态缺失和错位程度分桶。",
+      "code_refs": [
+        "CODE-011ba23a94d3",
+        "CODE-c5358b3f405b"
+      ],
+      "paper_refs": [
+        "DOC-03b197ba4eda"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-086",
+      "kind": "module",
+      "title": "TIAM",
+      "family": "multimodal",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [
+        "SpatiotemporalAttentionFull",
+        "SpatiotemporalAttentionBase"
+      ],
+      "tags": [
+        "多模态",
+        "配准",
+        "变化检测",
+        "multimodal",
+        "temporal",
+        "alignment"
+      ],
+      "mechanism": "用时空交互注意力比较双时相遥感特征。",
+      "integration": "变化检测的成对时相分支。",
+      "risks": "配准误差、季节与光照变化可能形成伪变化。",
+      "minimal_experiment": "真实变化、季节变化、人工位移分组验证。",
+      "code_refs": [
+        "CODE-6fdc50a502ef"
+      ],
+      "paper_refs": [
+        "DOC-92cd454a0b67"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-087",
+      "kind": "module",
+      "title": "Project-and-Excite",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [
+        "ProjectExciteLayer",
+        "PE3d"
+      ],
+      "tags": [
+        "医学",
+        "分割",
+        "三维",
+        "体素",
+        "volumetric",
+        "3d",
+        "segmentation"
+      ],
+      "mechanism": "沿不同体数据切片方向汇聚描述，再激励三维特征。",
+      "integration": "B,C,D,H,W体分割特征。",
+      "risks": "空间轴与层厚各向异性需要明确；不是2D门控简单复制。",
+      "minimal_experiment": "与3D-SE、轴向单分支比较体积和小病灶指标。",
+      "code_refs": [
+        "CODE-0cef0c7fa23a"
+      ],
+      "paper_refs": [
+        "DOC-817cef961d94"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-088",
+      "kind": "module",
+      "title": "EPA",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [
+        "EPA3d",
+        "EfficientPairedAttention"
+      ],
+      "tags": [
+        "医学",
+        "分割",
+        "三维",
+        "体素",
+        "volumetric",
+        "3d",
+        "segmentation"
+      ],
+      "mechanism": "以配对注意力结构处理体分割的空间与通道依赖。",
+      "integration": "UNETR类体分割序列块。",
+      "risks": "序列长度、投影维度与头数有实现约束。",
+      "minimal_experiment": "空间与通道路径单独比较，测随体素数增长的显存。",
+      "code_refs": [
+        "CODE-68871ca4ec44"
+      ],
+      "paper_refs": [
+        "DOC-0a46bf1654b5"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-089",
+      "kind": "module",
+      "title": "Recurrent Slice Attention",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [
+        "rsaBlock",
+        "saAxialBlock",
+        "saCoronalBlock",
+        "saSagittalBlock"
+      ],
+      "tags": [
+        "医学",
+        "分割",
+        "三维",
+        "体素",
+        "volumetric",
+        "3d",
+        "segmentation"
+      ],
+      "mechanism": "沿切片方向传播上下文，以序列式关系支持三维病灶分割。",
+      "integration": "具有切片顺序意义的医学体数据。",
+      "risks": "各向异性与切片间距改变可迁移性；不应随机重排切片。",
+      "minimal_experiment": "逐轴对照、切片间距分层及3D卷积基线。",
+      "code_refs": [
+        "CODE-1d84f96111d9"
+      ],
+      "paper_refs": [
+        "DOC-49cf4ed5113b"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-090",
+      "kind": "module",
+      "title": "PnP-3D",
+      "family": "pointcloud",
+      "family_label": "点云与几何",
+      "aliases": [
+        "PnP3D"
+      ],
+      "tags": [
+        "点云",
+        "检测",
+        "坐标",
+        "point",
+        "cloud",
+        "geometry",
+        "3d",
+        "detection"
+      ],
+      "mechanism": "融合点坐标局部上下文与全局特征响应，细化点云表征。",
+      "integration": "有坐标与点特征双输入的点云骨干。",
+      "risks": "不是3D体素块；邻域搜索和点数影响成本。",
+      "minimal_experiment": "坐标路径、特征路径、邻域范围单独消融。",
+      "code_refs": [
+        "CODE-f2f87bae86e9"
+      ],
+      "paper_refs": [
+        "DOC-b5ae08317668"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-091",
+      "kind": "module",
+      "title": "CLEEGN",
+      "family": "timeseries",
+      "family_label": "时间序列与信号",
+      "aliases": [
+        "CLEEGN",
+        "Permute2d"
+      ],
+      "tags": [
+        "时序",
+        "周期",
+        "脑电",
+        "抖动",
+        "time",
+        "series",
+        "eeg",
+        "forecasting"
+      ],
+      "mechanism": "卷积重建用于脑电伪迹去除，关注跨受试者迁移。",
+      "integration": "明确通道和时间轴的EEG重建。",
+      "risks": "传感器布局与采样率需匹配；不能把所有高频都当伪迹。",
+      "minimal_experiment": "按受试者留出，按伪迹类型测试，并保留生理信号指标。",
+      "code_refs": [
+        "CODE-6b4dd7136aa0"
+      ],
+      "paper_refs": [
+        "DOC-d5c830d9d1d7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-092",
+      "kind": "module",
+      "title": "SmoothNet",
+      "family": "timeseries",
+      "family_label": "时间序列与信号",
+      "aliases": [
+        "SmoothNetResBlock"
+      ],
+      "tags": [
+        "时序",
+        "周期",
+        "脑电",
+        "抖动",
+        "time",
+        "series",
+        "eeg",
+        "forecasting"
+      ],
+      "mechanism": "对姿态轨迹进行时序平滑，抑制持续或偶发抖动。",
+      "integration": "姿态估计后的序列处理。",
+      "risks": "非因果窗口可能不适合实时；平滑与响应延迟要权衡。",
+      "minimal_experiment": "逐帧误差、加速度误差、动作转折延迟联合评估。",
+      "code_refs": [
+        "CODE-4eef9a3dabc4"
+      ],
+      "paper_refs": [
+        "DOC-ab26b56e4d6a"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-093",
+      "kind": "module",
+      "title": "RevIN",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [
+        "ReversibleInstanceNormalization"
+      ],
+      "tags": [
+        "归一化",
+        "跨域",
+        "漂移",
+        "normalization",
+        "distribution",
+        "shift"
+      ],
+      "mechanism": "使用历史输入自身的统计量归一化，再以对应统计量还原预测尺度。",
+      "integration": "多变量预测的输入和输出两端。",
+      "risks": "此实现预期特征在最后一轴；不能用未来真值估计统计量，状态需与同批输入对应。",
+      "minimal_experiment": "仅归一化、可逆还原及全局标准化对照，按时段测试漂移。",
+      "code_refs": [
+        "CODE-d699e42aa1c2"
+      ],
+      "paper_refs": [
+        "DOC-f535747f34dc"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-094",
+      "kind": "module",
+      "title": "FECAM",
+      "family": "frequency",
+      "family_label": "频域与周期结构",
+      "aliases": [
+        "dct_channel_block",
+        "FECAttention"
+      ],
+      "tags": [
+        "频域",
+        "周期",
+        "噪声",
+        "小波",
+        "frequency",
+        "spectral",
+        "wavelet",
+        "fourier",
+        "dct"
+      ],
+      "mechanism": "以DCT频率描述增强时序通道交互。",
+      "integration": "时序预测特征块。",
+      "risks": "与FcaNet或FFT滤波器不同；变换轴需确认是时间轴。",
+      "minimal_experiment": "固定频率基、可学习门控及无频率分支对照。",
+      "code_refs": [
+        "CODE-269645be66ef"
+      ],
+      "paper_refs": [
+        "DOC-a21dd4c93d94"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-095",
+      "kind": "module",
+      "title": "TSLANet-ASB-ICB",
+      "family": "timeseries",
+      "family_label": "时间序列与信号",
+      "aliases": [
+        "Adaptive_Spectral_Block",
+        "ICB",
+        "ASB"
+      ],
+      "tags": [
+        "时序",
+        "周期",
+        "脑电",
+        "抖动",
+        "time",
+        "series",
+        "eeg",
+        "forecasting"
+      ],
+      "mechanism": "自适应频谱处理与交互卷积块分别处理长短依赖和噪声。",
+      "integration": "时间序列分类、预测等的特征建模。",
+      "risks": "分类与预测的掩码和预训练目标不同；FFT轴及复数精度需核验。",
+      "minimal_experiment": "ASB、ICB、仅频谱滤波及简单TCN分别比较。",
+      "code_refs": [
+        "CODE-fb6513ccdcdc"
+      ],
+      "paper_refs": [
+        "DOC-1ca7fcd7a44c"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-096",
+      "kind": "module",
+      "title": "GRN",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [
+        "GlobalResponseNormalization"
+      ],
+      "tags": [
+        "归一化",
+        "跨域",
+        "漂移",
+        "normalization",
+        "distribution",
+        "shift"
+      ],
+      "mechanism": "利用空间响应范数形成通道间响应归一化，并以残差缩放调制。",
+      "integration": "ConvNeXt风格的通道末轴特征。",
+      "risks": "提供的实现是NHWC；直接喂NCHW会归一化错误轴。",
+      "minimal_experiment": "恒等初始化、去GRN与普通归一化比较响应多样性。",
+      "code_refs": [
+        "CODE-ccdb3581c05c",
+        "CODE-dd9e00adc4b5"
+      ],
+      "paper_refs": [
+        "DOC-5159ce5ca776"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-097",
+      "kind": "module",
+      "title": "SLAB-LinearNorm",
+      "family": "normalization",
+      "family_label": "归一化与分布漂移",
+      "aliases": [
+        "RepBN",
+        "LinearNorm",
+        "SlabLinearAttention"
+      ],
+      "tags": [
+        "归一化",
+        "跨域",
+        "漂移",
+        "normalization",
+        "distribution",
+        "shift"
+      ],
+      "mechanism": "把归一化与注意力效率作为共同设计因素，包含过渡归一化与线性交互组件。",
+      "integration": "受限设备的Transformer块替换。",
+      "risks": "RepBN折叠条件、训练计数器与推理状态要核对；不能只替换类名。",
+      "minimal_experiment": "分别替换归一化及注意力，报告训练稳定性与部署耗时。",
+      "code_refs": [
+        "CODE-491879ac89be",
+        "CODE-d08c3699937c",
+        "CODE-f5e7df664d04"
+      ],
+      "paper_refs": [
+        "DOC-d93cfdf1776c"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-098",
+      "kind": "module",
+      "title": "LMF Loss",
+      "family": "objective",
+      "family_label": "目标函数与长尾",
+      "aliases": [
+        "LMFLoss",
+        "LDAMLoss",
+        "FocalLoss"
+      ],
+      "tags": [
+        "损失",
+        "长尾",
+        "不平衡",
+        "少数类",
+        "loss",
+        "imbalance",
+        "long-tail"
+      ],
+      "mechanism": "将长尾边际或难例权重机制组合，处理类别不平衡。",
+      "integration": "类别分布不均的分类训练目标。",
+      "risks": "类频数只可来自训练集；标签格式、权重设备及损失尺度需检查。",
+      "minimal_experiment": "交叉熵、仅Focal、仅边际损失及组合，比较少数类召回与校准。",
+      "code_refs": [
+        "CODE-4449dd6538e7",
+        "CODE-51ee65f55064",
+        "CODE-75b7b9c279bd",
+        "CODE-b053e35be7a5"
+      ],
+      "paper_refs": [
+        "DOC-2e399ddecd04"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-099",
+      "kind": "module",
+      "title": "CR-MSA",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "CrossRegionAttntion",
+        "InnerAttention",
+        "CRMSA"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "以区域关系建模辅助多实例病理特征聚合。",
+      "integration": "病理切片patch序列或有区域含义的MIL特征。",
+      "risks": "不能把切片分成随机patch后再跨病人划分；区域布局信息要可恢复。",
+      "minimal_experiment": "病人级留出，对比普通MIL池化和打乱区域位置。",
+      "code_refs": [
+        "CODE-a0609a231553"
+      ],
+      "paper_refs": [
+        "DOC-73675a9b39f0"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-100",
+      "kind": "module",
+      "title": "ML Attention",
+      "family": "multilabel",
+      "family_label": "多标签与标签关系",
+      "aliases": [
+        "MLAttention",
+        "FastMLAttention"
+      ],
+      "tags": [
+        "多标签",
+        "文本",
+        "标签依赖",
+        "multi-label",
+        "text",
+        "classification"
+      ],
+      "mechanism": "本地简化实现以线性映射产生沿序列的权重，再施加掩码；可作为多标签聚合的接口线索。",
+      "integration": "B,L,C文本特征，需另核实完整分类头。",
+      "risks": "不能等同AttentionXML完整标签树；掩码在softmax之后且未重归一化，Fast版本参数有未使用项。",
+      "minimal_experiment": "与独立线性标签头比较；用不同padding长度测试预测是否稳定。",
+      "code_refs": [
+        "CODE-f5098a5a66fb"
+      ],
+      "paper_refs": [
+        "DOC-fc359a8d76a1"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-101",
+      "kind": "module",
+      "title": "DA-Dual Attention",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "DA_Block",
+        "PAM_Module",
+        "CAM_Module",
+        "DANet"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "并行位置与通道关系建模，服务场景分割。",
+      "integration": "分割高层语义特征。",
+      "risks": "与A2 Double Attention不是同一模块；位置分支可能二次显存。",
+      "minimal_experiment": "位置、通道和组合逐项消融。",
+      "code_refs": [
+        "CODE-3777d4597c53",
+        "CODE-8788367019e3",
+        "CODE-88ae97bd8da7",
+        "CODE-8fdd9f15d988"
+      ],
+      "paper_refs": [
+        "DOC-02fb2316e7f3",
+        "DOC-bde4620631ec"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-102",
+      "kind": "module",
+      "title": "LocalViT",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "LocalityFeedForward",
+        "LocalVisionTransformer"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "在Transformer的前馈路径引入局部空间操作，补充网格邻域信息。",
+      "integration": "能恢复H/W布局的视觉令牌。",
+      "risks": "特殊token不能直接当图像像素；卷积FFN接口需要明确网格尺寸。",
+      "minimal_experiment": "保留注意力，只改FFN局部机制，对照同参数MLP。",
+      "code_refs": [
+        "CODE-a5d08c25ea36"
+      ],
+      "paper_refs": [
+        "DOC-8ee2f3a20c6f"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-103",
+      "kind": "module",
+      "title": "CCT",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "CompactConvolutionalTransformer",
+        "Tokenizer",
+        "TransformerClassifier"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "用卷积tokenizer及较紧凑的编码结构服务小数据视觉任务。",
+      "integration": "从头训练数据有限的视觉骨干。",
+      "risks": "完整分类器不是即插即用特征块；3D改版需重新验证。",
+      "minimal_experiment": "相同训练与增强预算比较tokenizer和普通patch嵌入。",
+      "code_refs": [
+        "CODE-02aaf8d4f9be",
+        "CODE-c5285aefd2ef"
+      ],
+      "paper_refs": [
+        "DOC-741c10e43c97"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-104",
+      "kind": "module",
+      "title": "RegionViT",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "RegionViT",
+        "R2LTransformer"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "通过区域和局部令牌交互组织分层视觉信息。",
+      "integration": "需要保留局部细节的层次骨干。",
+      "risks": "局部窗口与区域令牌对应关系不能破坏。",
+      "minimal_experiment": "区域到局部路径、纯窗口及全局池化对照。",
+      "code_refs": [
+        "CODE-9221a4eca63d"
+      ],
+      "paper_refs": [
+        "DOC-594957b3d9dd"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-105",
+      "kind": "module",
+      "title": "Parallel ViT",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "Parallel",
+        "ViT"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "并行组织部分变换路径，探索网络深度与宽度的替代关系。",
+      "integration": "有明确对照预算的骨干结构探索。",
+      "risks": "完整骨干改变会混入容量和优化因素。",
+      "minimal_experiment": "同参数、同计算与同训练预算分别对照顺序结构。",
+      "code_refs": [
+        "CODE-3dd1346a420b",
+        "CODE-b361ffb192f3"
+      ],
+      "paper_refs": [
+        "DOC-a9e28f275467"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-106",
+      "kind": "module",
+      "title": "Star Block",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "StarBlocks",
+        "Block",
+        "StarNet"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "利用逐元素乘法构成非线性特征交互，并结合卷积空间混合。",
+      "integration": "轻量卷积骨干块。",
+      "risks": "乘法可能放大或抑制幅值，需看残差与归一化。",
+      "minimal_experiment": "乘法改加法、改常见激活及同宽卷积对照。",
+      "code_refs": [
+        "CODE-b36fa0c6d120"
+      ],
+      "paper_refs": [
+        "DOC-62709d5ed6eb"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-107",
+      "kind": "module",
+      "title": "GSC",
+      "family": "convolution",
+      "family_label": "空间卷积与动态采样",
+      "aliases": [
+        "GSC2d",
+        "GSC3d",
+        "SegMamba"
+      ],
+      "tags": [
+        "卷积",
+        "形变",
+        "局部",
+        "动态",
+        "convolution",
+        "deformable",
+        "dynamic"
+      ],
+      "mechanism": "局部卷积路径辅助体分割全局序列建模。",
+      "integration": "Mamba类骨干周边的局部表示。",
+      "risks": "GSC单块不是Mamba核心算子；2D版本需独立验证。",
+      "minimal_experiment": "局部GSC、SSM及组合消融，控制训练与扫描策略。",
+      "code_refs": [
+        "CODE-0c48173e91de",
+        "CODE-899430aef110"
+      ],
+      "paper_refs": [
+        "DOC-f8c50a5c16cc"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-108",
+      "kind": "module",
+      "title": "UIB",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "UniversalInvertedBottleneckBlock",
+        "MobileNetV4"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "统一组织倒瓶颈与可选深度卷积位置，适应移动算子设计。",
+      "integration": "移动骨干局部替换。",
+      "risks": "不同DW位置、stride与通道扩展影响延迟，默认设置非普适最优。",
+      "minimal_experiment": "固定宽度比较DW布置并实测目标设备。",
+      "code_refs": [
+        "CODE-102c1726654a"
+      ],
+      "paper_refs": [
+        "DOC-0add346d067d"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-109",
+      "kind": "module",
+      "title": "TIF",
+      "family": "fusion",
+      "family_label": "多层特征融合",
+      "aliases": [
+        "TIF",
+        "CrossAttention"
+      ],
+      "tags": [
+        "融合",
+        "跳跃连接",
+        "尺度",
+        "fusion",
+        "skip",
+        "connection",
+        "alignment"
+      ],
+      "mechanism": "用跨分支交互融合局部卷积与全局Transformer特征。",
+      "integration": "双分支医学分割特征融合。",
+      "risks": "类别token处理、空间网格和通道投影应对齐。",
+      "minimal_experiment": "简单concat、单向交互与双向交互对照。",
+      "code_refs": [
+        "CODE-3d8d939a6b31"
+      ],
+      "paper_refs": [
+        "DOC-251563d71b51"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-110",
+      "kind": "module",
+      "title": "Outlook Attention",
+      "family": "local",
+      "family_label": "局部与窗口关系",
+      "aliases": [
+        "OutlookAttention",
+        "VOLO"
+      ],
+      "tags": [
+        "局部",
+        "窗口",
+        "邻域",
+        "local",
+        "window",
+        "neighborhood"
+      ],
+      "mechanism": "按局部邻域预测聚合权重并折叠回空间网格。",
+      "integration": "高分辨率局部结构编码。",
+      "risks": "unfold/fold开销、padding与重叠聚合必须核对。",
+      "minimal_experiment": "与相同核宽动态卷积及窗口注意力比较。",
+      "code_refs": [
+        "CODE-5740132f266b",
+        "CODE-6b918b59541d"
+      ],
+      "paper_refs": [
+        "DOC-e6bc0fcdb85e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-111",
+      "kind": "module",
+      "title": "MUSE",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "MUSEAttention"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "并行组合不同尺度或类型的序列特征交互。",
+      "integration": "序列到序列或视觉token混合的候选。",
+      "risks": "适配视觉不能忽略位置语义和局部卷积轴。",
+      "minimal_experiment": "分支单独及等预算加宽注意力对照。",
+      "code_refs": [
+        "CODE-508a507eccda"
+      ],
+      "paper_refs": [
+        "DOC-0b8d50e8f782"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-112",
+      "kind": "module",
+      "title": "DAT",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "DAttentionBaseline",
+        "DeformableAttention"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "以学习采样位置减少注意力对固定窗口的依赖。",
+      "integration": "几何变化明显的视觉特征。",
+      "risks": "与Deformable DETR及DCN算子不能仅凭名称互换。",
+      "minimal_experiment": "固定采样、学习偏移和常规窗口注意力比较。",
+      "code_refs": [
+        "CODE-8858ed12e88f"
+      ],
+      "paper_refs": [
+        "DOC-92c3f6bba2aa"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-113",
+      "kind": "module",
+      "title": "CrossFormer",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "CrossFormer",
+        "CrossFormerBlock"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "结合跨尺度嵌入和长短距离交互组织视觉令牌。",
+      "integration": "尺度跨度大且需局部全局关系的骨干。",
+      "risks": "不同于Criss-Cross；动态位置偏置也需输入尺寸约束检查。",
+      "minimal_experiment": "单尺度嵌入、仅短距、仅长距和完整结构对照。",
+      "code_refs": [
+        "CODE-9d7903842719"
+      ],
+      "paper_refs": [
+        "DOC-c26b3f2611c7"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-114",
+      "kind": "module",
+      "title": "MOA Transformer",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "MOATransformer",
+        "MOA"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "跨窗口或多尺度信息交互的视觉Transformer候选。",
+      "integration": "窗口隔离导致语义不连贯时。",
+      "risks": "先核对实际MOA类与论文，避免与同缩写其他架构合并。",
+      "minimal_experiment": "与窗口移位、简单池化全局token比较。",
+      "code_refs": [
+        "CODE-db8dccd1002e"
+      ],
+      "paper_refs": [
+        "DOC-0f1eec301105"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-115",
+      "kind": "module",
+      "title": "MLP-Mixer",
+      "family": "mlp",
+      "family_label": "空间混合与MLP",
+      "aliases": [
+        "MlpMixer",
+        "MixerBlock"
+      ],
+      "tags": [
+        "token",
+        "mixing",
+        "空间混合",
+        "MLP",
+        "注意力替代"
+      ],
+      "mechanism": "交替做token混合和通道混合，构造无注意力视觉基线。",
+      "integration": "固定patch网格的视觉骨干对照。",
+      "risks": "token线性层常绑定输入分辨率。",
+      "minimal_experiment": "保持训练配方，比较token混合器和参数匹配卷积。",
+      "code_refs": [
+        "CODE-10530246017b"
+      ],
+      "paper_refs": [
+        "DOC-e35cd320326c"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-116",
+      "kind": "module",
+      "title": "ResMLP",
+      "family": "mlp",
+      "family_label": "空间混合与MLP",
+      "aliases": [
+        "ResMLP"
+      ],
+      "tags": [
+        "token",
+        "mixing",
+        "空间混合",
+        "MLP",
+        "注意力替代"
+      ],
+      "mechanism": "以残差MLP交替混合patch与通道。",
+      "integration": "验证任务是否确需注意力的骨干对照。",
+      "risks": "归一化和训练配方会显著影响结果。",
+      "minimal_experiment": "固定骨架，只替换空间混合和归一化方式。",
+      "code_refs": [
+        "CODE-dff02d7fd846"
+      ],
+      "paper_refs": [
+        "DOC-1f71603ad966"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-117",
+      "kind": "module",
+      "title": "gMLP",
+      "family": "mlp",
+      "family_label": "空间混合与MLP",
+      "aliases": [
+        "gMLP",
+        "SpatialGatingUnit"
+      ],
+      "tags": [
+        "token",
+        "mixing",
+        "空间混合",
+        "MLP",
+        "注意力替代"
+      ],
+      "mechanism": "通过空间门控单元建立token间信息交互。",
+      "integration": "规则序列与视觉token混合。",
+      "risks": "固定长度参数及非因果全序列交互不适合直接做在线预测。",
+      "minimal_experiment": "门控变恒等、线性混合及自注意力对照。",
+      "code_refs": [
+        "CODE-6f195c87af5d"
+      ],
+      "paper_refs": [
+        "DOC-1e46c5a5c926"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-118",
+      "kind": "module",
+      "title": "sMLP",
+      "family": "mlp",
+      "family_label": "空间混合与MLP",
+      "aliases": [
+        "sMLPBlock"
+      ],
+      "tags": [
+        "token",
+        "mixing",
+        "空间混合",
+        "MLP",
+        "注意力替代"
+      ],
+      "mechanism": "沿空间轴进行稀疏MLP混合，并保留通道路径。",
+      "integration": "降低全token密集MLP的开销。",
+      "risks": "高宽绑定的权重影响可变分辨率。",
+      "minimal_experiment": "不同长宽比与输入尺寸泛化测试。",
+      "code_refs": [
+        "CODE-d6e544f2362f"
+      ],
+      "paper_refs": [
+        "DOC-5cd1a0cf4f6a"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-119",
+      "kind": "module",
+      "title": "RepMLP",
+      "family": "reparameter",
+      "family_label": "结构重参数化",
+      "aliases": [
+        "RepMLPBlock"
+      ],
+      "tags": [
+        "部署",
+        "折叠",
+        "等价融合",
+        "reparameterization",
+        "deploy"
+      ],
+      "mechanism": "训练阶段结合局部卷积先验与全连接混合，部署时按条件合并。",
+      "integration": "规则布局下的局部全局表示。",
+      "risks": "分区大小、BN和转换方法决定可部署性。",
+      "minimal_experiment": "核对转换前后输出，再比较延迟与跨分辨率。",
+      "code_refs": [
+        "CODE-c97038a83d96"
+      ],
+      "paper_refs": [
+        "DOC-323c7c40fb0d",
+        "DOC-4daffb5bd39a"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-120",
+      "kind": "module",
+      "title": "ConvMixer",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "ConvMixer"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "以patch嵌入、深度空间卷积和逐点混合构成简洁视觉骨干。",
+      "integration": "用于检验复杂Transformer是否必要的基线。",
+      "risks": "简单结构仍依赖训练与增强，不可直接据此判定无注意力更好。",
+      "minimal_experiment": "同训练配方比较不同空间混合算子。",
+      "code_refs": [
+        "CODE-2c554c4cba5a"
+      ],
+      "paper_refs": [
+        "DOC-35736a322640"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-121",
+      "kind": "module",
+      "title": "PVT",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "PyramidVisionTransformer",
+        "PVTv2"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "金字塔层次与空间缩减注意力支持密集预测特征。",
+      "integration": "检测或分割需要多尺度输出时。",
+      "risks": "PVT版本、输出步长与预训练设置应对齐。",
+      "minimal_experiment": "固定颈部与预训练，比较缩减率及重叠嵌入。",
+      "code_refs": [
+        "CODE-1c3e2153052a",
+        "CODE-2003a0304d9c",
+        "CODE-5b069d21ae0c",
+        "CODE-6b7a500fb663",
+        "CODE-6f3a0d307ad3",
+        "CODE-7a6d6ce45533",
+        "CODE-7cdc0990825b",
+        "CODE-ba54a9777b1d",
+        "CODE-be268681ce09"
+      ],
+      "paper_refs": [
+        "DOC-e4bf7494b386"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-122",
+      "kind": "module",
+      "title": "CPVT",
+      "family": "position",
+      "family_label": "位置与网格编码",
+      "aliases": [
+        "CPVT",
+        "PEG",
+        "ConditionalPositionEncoding"
+      ],
+      "tags": [
+        "位置",
+        "网格",
+        "变分辨率",
+        "positional",
+        "encoding"
+      ],
+      "mechanism": "从局部邻域生成条件位置编码，补充视觉空间先验。",
+      "integration": "需要位置感知又希望适应输入变化的token骨干。",
+      "risks": "特殊token、padding及网格恢复方式要检查。",
+      "minimal_experiment": "无位置编码、固定位置编码和条件编码比较。",
+      "code_refs": [
+        "CODE-5b069d21ae0c",
+        "CODE-9221a4eca63d"
+      ],
+      "paper_refs": [
+        "DOC-a56f19d3e15c"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-123",
+      "kind": "module",
+      "title": "PiT",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "PoolingTransformer",
+        "PIT"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "通过池化组织层次化视觉Transformer。",
+      "integration": "需要逐级缩小token数的骨干。",
+      "risks": "池化可能损失小目标；输出尺度需要匹配下游头。",
+      "minimal_experiment": "不同池化位置和不池化版本对照。",
+      "code_refs": [
+        "CODE-49785d69ba2f"
+      ],
+      "paper_refs": [
+        "DOC-7aea8b36aa7b"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-124",
+      "kind": "module",
+      "title": "CrossViT",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "CrossViT"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "不同patch尺度分支通过跨注意力交换信息。",
+      "integration": "同图像的细粒度和粗粒度语义需要互补时。",
+      "risks": "双分支容量和额外token数量是潜在混杂。",
+      "minimal_experiment": "同预算单分支、无跨交互及完整结构比较。",
+      "code_refs": [
+        "CODE-506da471736b"
+      ],
+      "paper_refs": [
+        "DOC-c733f2896531"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-125",
+      "kind": "module",
+      "title": "TNT",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "TNT",
+        "TnT",
+        "TransformerInTransformer"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "嵌套建模patch内部与patch之间的关系。",
+      "integration": "patch内细节不足的视觉分类骨干。",
+      "risks": "细粒度token显存与计算不能忽略。",
+      "minimal_experiment": "只增加patch细度的普通ViT作为公平对照。",
+      "code_refs": [
+        "CODE-2c39f2f790e7"
+      ],
+      "paper_refs": [
+        "DOC-9100e100bf55"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-126",
+      "kind": "module",
+      "title": "DeepViT",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "DeepViT",
+        "DViT",
+        "ReAttention"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "调整跨层或跨头注意力交互，缓解深层ViT中的注意力退化。",
+      "integration": "深度增加却不提升的ViT。",
+      "risks": "先排查训练不稳定和正则配置，不能默认是注意力塌缩。",
+      "minimal_experiment": "测头间相似度、层间差异与梯度，再做机制替换。",
+      "code_refs": [
+        "CODE-992558deb227"
+      ],
+      "paper_refs": [
+        "DOC-245dd0f916f3"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-127",
+      "kind": "module",
+      "title": "CeiT",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "CeiT"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "将卷积先验和局部交互引入视觉Transformer。",
+      "integration": "小数据或局部结构重要的分类基线。",
+      "risks": "卷积引入位置及预训练不同会混淆归因。",
+      "minimal_experiment": "仅嵌入、仅局部FFN、完整配置比较。",
+      "code_refs": [
+        "CODE-41d5893952ef"
+      ],
+      "paper_refs": [
+        "DOC-7269af2efd40"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-128",
+      "kind": "module",
+      "title": "ConViT",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "ConViT",
+        "GPSA"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "用可调的局部归纳偏置逐步过渡到更灵活注意力。",
+      "integration": "希望兼顾小数据效率和全局学习的ViT。",
+      "risks": "门控与位置分量的初始化需保留。",
+      "minimal_experiment": "固定局部、固定全局、可学习过渡三组对照。",
+      "code_refs": [
+        "CODE-45424f798791",
+        "CODE-e8e5c8e473f5"
+      ],
+      "paper_refs": [
+        "DOC-e401adb5c525"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-129",
+      "kind": "module",
+      "title": "CaiT",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "CaiT",
+        "LayerScale",
+        "ClassAttention"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "将深层token处理与分类交互分开，并结合残差缩放设计。",
+      "integration": "深层视觉分类网络的优化研究。",
+      "risks": "class-attention不能直接当成像素级输出模块。",
+      "minimal_experiment": "分开消融残差缩放、分类交互及深度。",
+      "code_refs": [
+        "CODE-4b51c33f8d92",
+        "CODE-5740132f266b"
+      ],
+      "paper_refs": [
+        "DOC-1b19d6662fa4"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-130",
+      "kind": "module",
+      "title": "DeiT",
+      "family": "training",
+      "family_label": "训练配方与蒸馏",
+      "aliases": [
+        "DeiT",
+        "DistilledVisionTransformer"
+      ],
+      "tags": [
+        "优化",
+        "蒸馏",
+        "小数据",
+        "training",
+        "distillation",
+        "optimization"
+      ],
+      "mechanism": "以训练配方和蒸馏设计提高视觉Transformer的数据效率。",
+      "integration": "样本与训练预算有限的视觉分类。",
+      "risks": "教师、增强、训练时长与结构贡献要分开。",
+      "minimal_experiment": "同配方普通ViT、无蒸馏及相同教师蒸馏对照。",
+      "code_refs": [
+        "CODE-007f193a8335",
+        "CODE-181fb320d597",
+        "CODE-18c3339e2af2",
+        "CODE-1a8dfe086ef4",
+        "CODE-2db7d814ec9c",
+        "CODE-6341592273c8",
+        "CODE-72acda2d71d1",
+        "CODE-7be91140ef37",
+        "CODE-821af6214335",
+        "CODE-9693c608220d",
+        "CODE-98981b249c02",
+        "CODE-adf8a0d755df",
+        "CODE-b70781dfee50",
+        "CODE-bf4672b660eb",
+        "CODE-ce2352504729"
+      ],
+      "paper_refs": [
+        "DOC-a0fbdd27c115"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-131",
+      "kind": "module",
+      "title": "LeViT",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "LeViT"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "围绕实际速度设计混合视觉结构与分阶段注意力。",
+      "integration": "低延迟视觉分类或特征提取。",
+      "risks": "理论操作量不能替代CPU或端侧实际测速。",
+      "minimal_experiment": "固定批量、输入和线程数比较延迟分布。",
+      "code_refs": [
+        "CODE-396c89f04031"
+      ],
+      "paper_refs": [
+        "DOC-e22a2b01258e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-132",
+      "kind": "module",
+      "title": "Shuffle Transformer",
+      "family": "local",
+      "family_label": "局部与窗口关系",
+      "aliases": [
+        "ShuffleTransformer"
+      ],
+      "tags": [
+        "局部",
+        "窗口",
+        "邻域",
+        "local",
+        "window",
+        "neighborhood"
+      ],
+      "mechanism": "通过空间混洗促进局部窗口之间的信息交流。",
+      "integration": "窗口分离导致跨区关系不足的视觉骨干。",
+      "risks": "混洗及逆变换需保持位置对应。",
+      "minimal_experiment": "无混洗、窗口移位和空间混洗比较。",
+      "code_refs": [
+        "CODE-7fe141d2b983"
+      ],
+      "paper_refs": [
+        "DOC-c6d695530dfb"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-133",
+      "kind": "module",
+      "title": "ConTNet",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "ConTNet"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "组合卷积局部表示与Transformer较长程交互。",
+      "integration": "密集预测需要局部与全局线索时。",
+      "risks": "整网络不同于一个可替换卷积，检查多尺度输出。",
+      "minimal_experiment": "纯卷积、纯Transformer和混合结构等预算对照。",
+      "code_refs": [
+        "CODE-07a1520a2e3a"
+      ],
+      "paper_refs": [
+        "DOC-ba28f7b4d174"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-134",
+      "kind": "module",
+      "title": "HATNet",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "HATNet",
+        "HierarchicalMHSA"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "以层次化多头交互减少高分辨率全局注意力成本。",
+      "integration": "较大输入图像的骨干。",
+      "risks": "不同层级的token汇聚可能影响细节。",
+      "minimal_experiment": "层级数、局部窗口和全局分支分别消融。",
+      "code_refs": [
+        "CODE-b4ab6fdcfee4"
+      ],
+      "paper_refs": [
+        "DOC-7a4417b4e5eb"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-135",
+      "kind": "module",
+      "title": "CoaT",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "CoaT",
+        "CoScaleConvAttentional"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "在多个尺度之间交换表示，并结合卷积式注意力。",
+      "integration": "需要多尺度协调的视觉骨干。",
+      "risks": "CoaT与CoAtNet是不同方法；参数和来源分开。",
+      "minimal_experiment": "单尺度、无跨尺度交互及完整结构比较。",
+      "code_refs": [
+        "CODE-243387f1adf2"
+      ],
+      "paper_refs": [
+        "DOC-26b6140a1ec6"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-136",
+      "kind": "module",
+      "title": "CoAtNet",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "CoAtNet"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "按阶段结合卷积与注意力的归纳偏置和建模能力。",
+      "integration": "预算允许的通用视觉骨干比较。",
+      "risks": "大规模预训练带来的收益不能归因于单模块。",
+      "minimal_experiment": "控制预训练数据及模型容量后比较组合位置。",
+      "code_refs": [
+        "CODE-c89925a35ce3"
+      ],
+      "paper_refs": [
+        "DOC-1d468281fe59"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-137",
+      "kind": "module",
+      "title": "MBConv",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "MBConv",
+        "InvertedResidual"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "倒残差结构配合深度卷积和通道扩展实现高效局部编码。",
+      "integration": "移动骨干的强简单基线。",
+      "risks": "扩展率、SE及stride影响公平对照。",
+      "minimal_experiment": "固定输出宽度比较扩展率与普通瓶颈。",
+      "code_refs": [
+        "CODE-87b8694772bf",
+        "CODE-b4ab6fdcfee4",
+        "CODE-b842ba165f6b",
+        "CODE-c19b2562bfe4"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-138",
+      "kind": "module",
+      "title": "NAT",
+      "family": "local",
+      "family_label": "局部与窗口关系",
+      "aliases": [
+        "NeighborhoodAttention"
+      ],
+      "tags": [
+        "局部",
+        "窗口",
+        "邻域",
+        "local",
+        "window",
+        "neighborhood"
+      ],
+      "mechanism": "对每个查询的近邻像素做局部注意力，构造滑动邻域视觉层。",
+      "integration": "需要连续局部感受野的密集特征。",
+      "risks": "通常需要NATTEN等算子依赖，版本兼容和部署支持须实查。",
+      "minimal_experiment": "同范围卷积、非重叠窗口和邻域注意力比较。",
+      "code_refs": [
+        "CODE-107f9e4a4991",
+        "CODE-1982237895b1",
+        "CODE-1a53b07798c2",
+        "CODE-1c0e98a05ca6",
+        "CODE-69c91c86ca03",
+        "CODE-6e5edb0f46c2",
+        "CODE-723c707fa265",
+        "CODE-78812e09e745",
+        "CODE-81c36ec7bf4e",
+        "CODE-835a4a77aa56",
+        "CODE-a96d8459598d",
+        "CODE-ab19095c4739",
+        "CODE-bdaf46bbae58",
+        "CODE-d8587052d42e",
+        "CODE-daa571ac34c6",
+        "CODE-ddb2e0da65fd",
+        "CODE-e973ba1f7b20",
+        "CODE-fa2d76551978"
+      ],
+      "paper_refs": [
+        "DOC-94dedcffb60e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-139",
+      "kind": "module",
+      "title": "Focal Modulation",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "FocalNet",
+        "FocalModulation"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "分层局部上下文聚合后，用内容相关调制进行token交互。",
+      "integration": "局部到全局层次信息的视觉骨干。",
+      "risks": "调制不能自动等价全局成对注意力。",
+      "minimal_experiment": "上下文尺度、门控与卷积基线对照。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-32c54e109554"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-140",
+      "kind": "module",
+      "title": "Perceiver",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "Perceiver",
+        "LatentArray"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "以较短潜变量序列承接高维输入，再在潜变量内交互。",
+      "integration": "高维或多模态输入的压缩表示。",
+      "risks": "潜变量瓶颈可能丢细节，输出解码方式需与任务相配。",
+      "minimal_experiment": "潜变量数量、均匀池化和直接编码对照。",
+      "code_refs": [
+        "CODE-615872c277e0"
+      ],
+      "paper_refs": [
+        "DOC-edbfd63c8bac"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-141",
+      "kind": "module",
+      "title": "ViT Adapter",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "ViTAdapter",
+        "SpatialPriorModule"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "给已有ViT补充空间先验与多尺度交互以支持密集预测。",
+      "integration": "复用预训练ViT做检测或分割。",
+      "risks": "适配器与骨干冻结策略、预训练强度必须说明。",
+      "minimal_experiment": "仅多尺度解码头、冻结/微调及完整适配器比较。",
+      "code_refs": [
+        "CODE-1052e5ba7e93",
+        "CODE-1a8c1701654d",
+        "CODE-2cd149cb49eb",
+        "CODE-429c53b6c15b"
+      ],
+      "paper_refs": [
+        "DOC-9159ea8c8a67"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-142",
+      "kind": "module",
+      "title": "DETR-DINO Detection",
+      "family": "detection",
+      "family_label": "检测查询与收敛",
+      "aliases": [
+        "DINO",
+        "DeNoisingAnchorBoxes"
+      ],
+      "tags": [
+        "检测",
+        "小目标",
+        "查询",
+        "收敛",
+        "detection",
+        "query",
+        "detr"
+      ],
+      "mechanism": "围绕检测查询初始化、去噪训练与框预测提高集合式检测学习。",
+      "integration": "DETR类检测器训练或收敛瓶颈。",
+      "risks": "与自监督DINO同名不同；训练策略不能当单一注意力块。",
+      "minimal_experiment": "控制训练轮数、数据增强和查询数，分别消融去噪与初始化。",
+      "code_refs": [
+        "CODE-1b2b02a9561a",
+        "CODE-534e4b157a05",
+        "CODE-5982b3ea1778",
+        "CODE-e5815eb424bf",
+        "CODE-fbe67771c6e9"
+      ],
+      "paper_refs": [
+        "DOC-2cda48e74a49"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-143",
+      "kind": "module",
+      "title": "AdaMixer",
+      "family": "detection",
+      "family_label": "检测查询与收敛",
+      "aliases": [
+        "AdaMixer"
+      ],
+      "tags": [
+        "检测",
+        "小目标",
+        "查询",
+        "收敛",
+        "detection",
+        "query",
+        "detr"
+      ],
+      "mechanism": "利用查询自适应采样和特征混合改进查询式检测。",
+      "integration": "检测解码器的空间尺度适配问题。",
+      "risks": "采样器、颈部和解码器改动须拆开比较。",
+      "minimal_experiment": "固定采样、固定混合、常规颈部与完整结构对照。",
+      "code_refs": [
+        "CODE-01024f25df69",
+        "CODE-078d16ee3de8",
+        "CODE-2a68b449766a",
+        "CODE-4a33abfc9cfc",
+        "CODE-4f57c9147e66",
+        "CODE-86d5bdc504a8",
+        "CODE-adde63973603",
+        "CODE-e7f2f4331ed2",
+        "CODE-ea114d206dd1"
+      ],
+      "paper_refs": [
+        "DOC-57cef796bcf6"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-144",
+      "kind": "module",
+      "title": "PnP-DETR",
+      "family": "detection",
+      "family_label": "检测查询与收敛",
+      "aliases": [
+        "PollAndPool",
+        "PnP"
+      ],
+      "tags": [
+        "检测",
+        "小目标",
+        "查询",
+        "收敛",
+        "detection",
+        "query",
+        "detr"
+      ],
+      "mechanism": "通过选择重要位置与汇聚其余特征减少空间冗余。",
+      "integration": "DETR编码序列过长时。",
+      "risks": "背景压缩可能丢失微小目标；不要与PnP-3D混用。",
+      "minimal_experiment": "按尺度分桶，比较随机采样和同token数池化。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-3836c46309f6"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-145",
+      "kind": "module",
+      "title": "Mask Classification",
+      "family": "segmentation",
+      "family_label": "分割输出与对象发现",
+      "aliases": [
+        "MaskFormer",
+        "MaskClassification"
+      ],
+      "tags": [
+        "分割",
+        "实例",
+        "掩码",
+        "无监督",
+        "segmentation",
+        "mask"
+      ],
+      "mechanism": "以掩码与类别的集合预测组织分割，区别于逐像素独立分类。",
+      "integration": "实例与语义输出需要统一建模时。",
+      "risks": "匹配、损失和解码器共同构成方法，不能只替换输出层。",
+      "minimal_experiment": "逐像素头与掩码头在同骨干、同训练下比较。",
+      "code_refs": [
+        "CODE-7d202b2cc2f3",
+        "CODE-edab7950d621"
+      ],
+      "paper_refs": [
+        "DOC-9f6e06631b70"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-146",
+      "kind": "module",
+      "title": "TokenCut",
+      "family": "segmentation",
+      "family_label": "分割输出与对象发现",
+      "aliases": [
+        "TokenCut",
+        "NormalizedCut"
+      ],
+      "tags": [
+        "分割",
+        "实例",
+        "掩码",
+        "无监督",
+        "segmentation",
+        "mask"
+      ],
+      "mechanism": "在自监督特征相似图上进行图划分以提取显著对象。",
+      "integration": "少标注或无监督目标发现。",
+      "risks": "显著对象不等于用户类别；图阈值和预训练特征影响很大。",
+      "minimal_experiment": "同特征下对比简单聚类、不同图稀疏度与阈值。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-17d71f4a5e0b"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-147",
+      "kind": "module",
+      "title": "CATrans",
+      "family": "fewshot",
+      "family_label": "少样本与支持查询匹配",
+      "aliases": [
+        "CATrans",
+        "CorrelationAggregation"
+      ],
+      "tags": [
+        "少样本",
+        "少标注",
+        "few-shot",
+        "support",
+        "query"
+      ],
+      "mechanism": "利用支持与查询间的密集相关信息进行少样本分割匹配。",
+      "integration": "支持样本与查询外观差异大的少样本任务。",
+      "risks": "episode类别划分与支持集选择必须独立，避免泄漏。",
+      "minimal_experiment": "固定支持样本，比较简单原型匹配与相关聚合。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-b558d6ffb58b"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-148",
+      "kind": "module",
+      "title": "CT3D",
+      "family": "pointcloud",
+      "family_label": "点云与几何",
+      "aliases": [
+        "CT3D",
+        "ProposalRefinement"
+      ],
+      "tags": [
+        "点云",
+        "检测",
+        "坐标",
+        "point",
+        "cloud",
+        "geometry",
+        "3d",
+        "detection"
+      ],
+      "mechanism": "用Transformer关系建模细化点云3D检测候选。",
+      "integration": "两阶段点云检测的候选精修。",
+      "risks": "需要候选框与采样点，不是通用体素注意力。",
+      "minimal_experiment": "固定候选质量，比较点池化与关系建模。",
+      "code_refs": [
+        "CODE-0cfd2f802542",
+        "CODE-befae7d62e74",
+        "CODE-f1d313dfceef"
+      ],
+      "paper_refs": [
+        "DOC-9e51cf85a3f4"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-149",
+      "kind": "module",
+      "title": "PolarFormer",
+      "family": "multimodal",
+      "family_label": "跨模态与时空对齐",
+      "aliases": [
+        "PolarFormer"
+      ],
+      "tags": [
+        "多模态",
+        "配准",
+        "变化检测",
+        "multimodal",
+        "temporal",
+        "alignment"
+      ],
+      "mechanism": "利用极坐标空间表征服务多相机3D目标检测。",
+      "integration": "环视相机与BEV表示的几何建模。",
+      "risks": "坐标系统和相机标定是关键前提，非任意视觉任务可迁移。",
+      "minimal_experiment": "控制标定和输入，对比笛卡尔与极坐标表示。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-ec6298dbbc68"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-150",
+      "kind": "module",
+      "title": "MSCA",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "MSCA",
+        "MSCAN",
+        "SegNeXt"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "多尺度深度条带卷积生成空间调制，提供不同覆盖范围的上下文。",
+      "integration": "分割编码器的空间混合块。",
+      "risks": "不要与MSCAA多尺度跨轴实现直接视为完全相同；大核在小尺寸上可能受padding主导。",
+      "minimal_experiment": "单尺度、逐个条带分支及完整多尺度比较。",
+      "code_refs": [
+        "CODE-14b534b90cdd"
+      ],
+      "paper_refs": [
+        "DOC-8e3dfb6ce956"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。",
+      "note_refs": [
+        "NOTE-5586a134-12"
+      ]
+    },
+    {
+      "id": "MOD-151",
+      "kind": "module",
+      "title": "EMA-Multiscale",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "EMA",
+        "EfficientMultiScaleAttention"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "分组特征经方向聚合与局部分支交互，形成多尺度空间权重。",
+      "integration": "具有合适通道分组的视觉中间特征。",
+      "risks": "这里的EMA不是参数指数滑动平均；group数须与通道匹配。",
+      "minimal_experiment": "分组数、方向聚合和局部分支逐项消融。",
+      "code_refs": [
+        "CODE-b6978fd8eb14"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-152",
+      "kind": "module",
+      "title": "MSCAA",
+      "family": "multiscale",
+      "family_label": "多尺度与感受野",
+      "aliases": [
+        "MSCAA",
+        "MSCAAttention",
+        "MCANet"
+      ],
+      "tags": [
+        "尺度",
+        "小目标",
+        "感受野",
+        "multiscale",
+        "receptive",
+        "field",
+        "small",
+        "object"
+      ],
+      "mechanism": "以不同长度的横纵条带深度卷积组织多尺度跨轴注意力。",
+      "integration": "医学分割中同形状的二维特征。",
+      "risks": "核尺寸配置与动态注册的卷积名必须一致；与MSCA存在接近实现，创新性需专门查重。",
+      "minimal_experiment": "固定核参数量，对比MSCA与更简单条带卷积。",
+      "code_refs": [
+        "CODE-072ed8acbf1a"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-153",
+      "kind": "module",
+      "title": "GAC-Temporal-Gates",
+      "family": "timeseries",
+      "family_label": "时间序列与信号",
+      "aliases": [
+        "GAU",
+        "TA",
+        "SCA",
+        "GatedAttentionCoding"
+      ],
+      "tags": [
+        "时序",
+        "周期",
+        "脑电",
+        "抖动",
+        "time",
+        "series",
+        "eeg",
+        "forecasting"
+      ],
+      "mechanism": "在脉冲网络编码背景下组织时间与空间通道门控；本地文件提供TA与SCA子块。",
+      "integration": "B,T,C,H,W的事件或脉冲前端。",
+      "risks": "TA返回汇聚后的响应且sigmoid未在forward使用；不能当作完整GAC编码或语言模型GAU。",
+      "minimal_experiment": "检查输出是权重还是特征；逐项验证时间门、空间通道门及广播。",
+      "code_refs": [
+        "CODE-322271671d84"
+      ],
+      "paper_refs": [
+        "DOC-e96c9b748960"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-154",
+      "kind": "module",
+      "title": "EfficientViT3D-Variant",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [
+        "CascadedGroupAttention3D",
+        "EfficientViTBlock3D",
+        "PatchExpand3D"
+      ],
+      "tags": [
+        "医学",
+        "分割",
+        "三维",
+        "体素",
+        "volumetric",
+        "3d",
+        "segmentation"
+      ],
+      "mechanism": "以分组级联与局部窗口注意力组织体特征，配合三维分辨率变换。",
+      "integration": "明确D/H/W网格的三维编码解码器。",
+      "risks": "此为本地3D变体；不能把对应论文的2D或其他MIS结论直接作为该实现的验证。",
+      "minimal_experiment": "用小体积先验证奇偶尺寸和窗口边界，再比较3D卷积。",
+      "code_refs": [
+        "CODE-6865329e5109"
+      ],
+      "paper_refs": [
+        "DOC-2b8e50358086"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-155",
+      "kind": "module",
+      "title": "MobileViT",
+      "family": "hybrid",
+      "family_label": "卷积与交互混合",
+      "aliases": [
+        "MobileViT",
+        "MobileViTBlock"
+      ],
+      "tags": [
+        "局部",
+        "全局",
+        "卷积",
+        "hybrid",
+        "convolution",
+        "attention"
+      ],
+      "mechanism": "局部卷积特征变换为序列进行较长程交互，再融合回空间表示。",
+      "integration": "移动视觉的混合块。",
+      "risks": "unfold/fold可能增加实际延迟，不能以参数少替代测速。",
+      "minimal_experiment": "局部卷积、序列交互与融合分别比较。",
+      "code_refs": [
+        "CODE-1441cb03cae2"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-156",
+      "kind": "module",
+      "title": "EfficientFormer",
+      "family": "efficient",
+      "family_label": "高效交互与移动表示",
+      "aliases": [
+        "EfficientFormer"
+      ],
+      "tags": [
+        "轻量",
+        "显存",
+        "延迟",
+        "压缩",
+        "efficient",
+        "memory",
+        "latency",
+        "mobile"
+      ],
+      "mechanism": "围绕设备友好的算子与特征表示组织高效视觉骨干。",
+      "integration": "移动端低延迟骨干选择。",
+      "risks": "设备测得速度只对相应推理栈成立；模型版本需一致。",
+      "minimal_experiment": "同输入、线程、精度与批量测试，再看精度预算。",
+      "code_refs": [
+        "CODE-11226f8a925b",
+        "CODE-32e10617f322",
+        "CODE-406b5b0e33ee",
+        "CODE-a3e0210bf210",
+        "CODE-b430d41e03a7",
+        "CODE-b55bef62574f",
+        "CODE-bf6c983e2c6c",
+        "CODE-cd5c1f009749",
+        "CODE-ef36e2adaae3",
+        "CODE-f1d5b75917b1"
+      ],
+      "paper_refs": [
+        "DOC-3ef3fbd7a2ae"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-157",
+      "kind": "module",
+      "title": "EfficientNet",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "EfficientNet",
+        "MBConv"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "以复合缩放协调深度、宽度和输入分辨率。",
+      "integration": "建立精度与计算预算的骨干对照。",
+      "risks": "缩放与训练配方共同作用，不能视作单一即插即用模块。",
+      "minimal_experiment": "相同预算分别改变三种缩放轴，比较准确率与延迟。",
+      "code_refs": [
+        "CODE-b842ba165f6b"
+      ],
+      "paper_refs": [
+        "DOC-9ea360bac922"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-158",
+      "kind": "module",
+      "title": "ResNet",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "ResNet",
+        "BasicBlock",
+        "Bottleneck"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "通过残差路径组织较深卷积网络并改善优化。",
+      "integration": "可靠且易复现的骨干基线。",
+      "risks": "通用BasicBlock/Bottleneck重名很多，应按文件及完整架构绑定。",
+      "minimal_experiment": "保持训练配方比较残差、深度和宽度，而非同时替换全部结构。",
+      "code_refs": [
+        "CODE-0829a809f78b",
+        "CODE-5271ca31295a",
+        "CODE-52f39b1667c1",
+        "CODE-61178c11e780",
+        "CODE-760060cab9d3",
+        "CODE-7e8a431bbf58",
+        "CODE-cc23547e6c1b"
+      ],
+      "paper_refs": [
+        "DOC-1e0651b6810e"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-159",
+      "kind": "module",
+      "title": "ResNeXt",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "ResNeXt"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "聚合具有相似拓扑的多组变换，以cardinality扩展表示。",
+      "integration": "与加宽或加深不同的骨干容量轴。",
+      "risks": "分组数、瓶颈宽度与总通道需联动比较。",
+      "minimal_experiment": "同参数/计算下对比分组数、宽度与深度。",
+      "code_refs": [
+        "CODE-3712cd0ab7c9",
+        "CODE-4a1f6ef94da9",
+        "CODE-9fa9025e6865"
+      ],
+      "paper_refs": [
+        "DOC-8bc101f654a1"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-160",
+      "kind": "module",
+      "title": "ViT-3D-Variant",
+      "family": "volumetric",
+      "family_label": "体数据与切片关系",
+      "aliases": [
+        "ViT3D",
+        "3DViT"
+      ],
+      "tags": [
+        "医学",
+        "分割",
+        "三维",
+        "体素",
+        "volumetric",
+        "3d",
+        "segmentation"
+      ],
+      "mechanism": "把体数据分块为序列并进行Transformer编码。",
+      "integration": "需要体数据全局关系的分类或编码器。",
+      "risks": "切块顺序、位置编码与体素间距不能省略；本地变体未复现实测。",
+      "minimal_experiment": "与3D卷积及不同patch大小比较小结构丢失和显存。",
+      "code_refs": [
+        "CODE-8c36900f1215"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-161",
+      "kind": "module",
+      "title": "Swin",
+      "family": "local",
+      "family_label": "局部与窗口关系",
+      "aliases": [
+        "SwinTransformer",
+        "SwinTransformerBlock"
+      ],
+      "tags": [
+        "局部",
+        "窗口",
+        "邻域",
+        "local",
+        "window",
+        "neighborhood"
+      ],
+      "mechanism": "以局部窗口和跨窗口信息交换构造层次化视觉表示。",
+      "integration": "高分辨率密集预测骨干。",
+      "risks": "mask、窗口padding和位置偏置表在变分辨率下需要核对。",
+      "minimal_experiment": "固定训练下比较无移位、移位及普通局部卷积。",
+      "code_refs": [
+        "CODE-01024f25df69",
+        "CODE-0ccd962bda7c",
+        "CODE-111b6b11b412",
+        "CODE-26c5e6faf33f",
+        "CODE-534e4b157a05",
+        "CODE-56fc4ce32dca",
+        "CODE-60b1181443cd",
+        "CODE-6eb6b8c68920",
+        "CODE-777eddbffe6d",
+        "CODE-929ebc79ec36",
+        "CODE-d08c3699937c",
+        "CODE-f5e7df664d04"
+      ],
+      "paper_refs": [],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-162",
+      "kind": "module",
+      "title": "U-Net",
+      "family": "segmentation",
+      "family_label": "分割输出与对象发现",
+      "aliases": [
+        "UNet",
+        "U_Net",
+        "Modified3DUNet"
+      ],
+      "tags": [
+        "分割",
+        "实例",
+        "掩码",
+        "无监督",
+        "segmentation",
+        "mask"
+      ],
+      "mechanism": "编码解码多尺度结构通过跳跃连接恢复细粒度空间信息。",
+      "integration": "分割基线和模块接入位置分析。",
+      "risks": "同名UNet文件有不同拓扑与通道；3D版本和2D版本分开。",
+      "minimal_experiment": "先锁定基线实现、数据划分和训练协议，再逐点替换模块。",
+      "code_refs": [
+        "CODE-33b5ab1cdfee",
+        "CODE-5a128cd7bf5f",
+        "CODE-967a6779bce7",
+        "CODE-a92c9eee838f",
+        "CODE-ade99038fe9b",
+        "CODE-ba2f843bce8a",
+        "CODE-f61bd47c40ba",
+        "CODE-fddb4474f059"
+      ],
+      "paper_refs": [
+        "DOC-96ea3cef4630"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-163",
+      "kind": "module",
+      "title": "GCT-Gaussian",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "GaussianContextTransformer"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "以高斯式上下文变换构造通道调制线索。",
+      "integration": "比较通道门控建模方式时。",
+      "risks": "与Gated Channel Transformation同缩写但不是同一方法；公式和参数必须回读对应PDF。",
+      "minimal_experiment": "与相同输入统计的简单门控比较，不混用另一GCT的代码。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-2c8ec1236df0"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-164",
+      "kind": "module",
+      "title": "Focal-Pool-MetaFormer",
+      "family": "architecture",
+      "family_label": "骨干与结构设计",
+      "aliases": [
+        "MetaFormer",
+        "PoolFormer"
+      ],
+      "tags": [
+        "骨干",
+        "结构",
+        "预训练",
+        "backbone",
+        "architecture",
+        "transformer"
+      ],
+      "mechanism": "固定通用残差与前馈骨架，使用简单池化等token混合器作为结构对照。",
+      "integration": "检验收益来自骨架还是特定注意力机制。",
+      "risks": "资料中有同名文件装着不同论文；必须以实际题名和哈希区分。",
+      "minimal_experiment": "同一骨架内替换注意力、池化、卷积，保持训练配方。",
+      "code_refs": [],
+      "paper_refs": [
+        "DOC-e7cd3826f92e"
+      ],
+      "evidence_status": "mechanism_synthesis",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-165",
+      "kind": "module",
+      "title": "ULSAM",
+      "family": "channel",
+      "family_label": "通道与空间重标定",
+      "aliases": [
+        "ULSAM",
+        "SubSpace"
+      ],
+      "tags": [
+        "通道冗余",
+        "背景干扰",
+        "channel",
+        "spatial",
+        "attention",
+        "门控"
+      ],
+      "mechanism": "分割特征子空间并分别产生轻量注意力，选择不同子空间的空间响应。",
+      "integration": "通道可分组的紧凑卷积骨干。",
+      "risks": "各组宽度与局部注意力开销需要核对，不能将子空间名当作已证明的语义分离。",
+      "minimal_experiment": "不同分组数、固定权重及全通道共享门控比较。",
+      "code_refs": [
+        "CODE-b205ea14e4ee"
+      ],
+      "paper_refs": [
+        "DOC-ad1e8be5c993"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-166",
+      "kind": "module",
+      "title": "Stand-Alone Self-Attention",
+      "family": "local",
+      "family_label": "局部与窗口关系",
+      "aliases": [
+        "AttentionConv",
+        "AttentionStem"
+      ],
+      "tags": [
+        "局部",
+        "窗口",
+        "邻域",
+        "local",
+        "window",
+        "neighborhood"
+      ],
+      "mechanism": "以局部内容相关的关系聚合替代空间卷积，探索注意力能否作为独立视觉基础层。",
+      "integration": "具有明确网格与邻域窗口的视觉特征。",
+      "risks": "与全图标准自注意力不同；相对位置、分组和窗口padding需核实。",
+      "minimal_experiment": "固定骨架比较局部注意力与相同覆盖范围的卷积。",
+      "code_refs": [
+        "CODE-2ab088188a1e"
+      ],
+      "paper_refs": [
+        "DOC-60c2305b56f4",
+        "DOC-cc67d31674d2"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    },
+    {
+      "id": "MOD-167",
+      "kind": "module",
+      "title": "Scaled Dot-Product Attention",
+      "family": "global",
+      "family_label": "长程关系与全局上下文",
+      "aliases": [
+        "ScaledDotProductAttention",
+        "SimplifiedScaledDotProductAttention"
+      ],
+      "tags": [
+        "全局",
+        "长程",
+        "上下文",
+        "global",
+        "long-range",
+        "context",
+        "attention"
+      ],
+      "mechanism": "将查询与键的相似度归一化后聚合值，多头对不同投影子空间建模。",
+      "integration": "B,N,C序列或经过明确转换的网格特征。",
+      "risks": "查询/键长度、掩码和因果条件需匹配；简化版本可能省略投影，不等同完整Transformer块。",
+      "minimal_experiment": "固定其余骨架对比MLP、局部卷积与不同交互范围。",
+      "code_refs": [
+        "CODE-5874b1e74d41",
+        "CODE-6e8869a3eabd"
+      ],
+      "paper_refs": [
+        "DOC-bfaaec892628"
+      ],
+      "evidence_status": "synthesis_static",
+      "runtime_verified": false,
+      "evidence_boundary": "机制说明是归纳；适用性与实验为条件化研究建议。静态接口/本地原文不保证代码忠实原论文或已可运行。"
+    }
+  ]
+}

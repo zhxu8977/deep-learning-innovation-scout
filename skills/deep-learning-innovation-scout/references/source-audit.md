@@ -1,0 +1,42 @@
+# 证据与质量审计
+
+## 覆盖口径
+
+全目录440个文件，按SHA-256得到414个不同文件；230个PDF副本合并为208个不同PDF、3165页。全部PDF已提取逐页文字，代码按数据静态解析；76份旧版Word尝试只读提取，其中75份可读，1份被Office拒绝打开。74份Word含截图，结合低文字密度页面与异常编码页面，共155张图片做了本地OCR。OCR不是可运行代码，也不保证公式和标点正确。
+
+16个ZIP与1个7z都列出成员，并读取其中可用的代码/文本成员。压缩包中的示例7z与已展开代码存在重复；按代码文本哈希去重后有1708个代码单元，其中包含骨干、模块、工具、配置及训练支持代码，**不是1708个独立模块**。3个单元语法解析失败，默认不作为可用实现返回。没有导入或执行第三方模块、运行训练、下载权重。
+
+167张机制卡是经过合并与重写的研究建议；95条数据集为任务线索；原321条书目种子仍保留。各层互相重叠，不能直接相加成“模块数量”。详细计数见 [coverage.json](coverage.json)，实际条目见 [分层知识库](library/README.md)。
+
+全量提取不等于逐图逐式精读所有论文。PDF题名/摘要、讲解与静态实现用于归类，重点机制被归纳；每个具体推荐仍应回读原始方法、局限与最接近工作。实现是否忠实、是否可运行、实验是否复现均不由静态接口证明。
+
+## 证据等级
+
+| 标记 | 可支持 | 不支持 |
+|---|---|---|
+| mechanism_synthesis / synthesis_static | 机制解释、接入线索、条件化实验建议 | 保证涨点、证明创新或运行正确 |
+| local_pdf_text | 已有逐页可追溯文字与哈希 | 已理解每张图和公式、复现通过 |
+| static_ast | 类/函数/forward接口与部分静态风险 | 正确训练、忠实复现、设备兼容 |
+| dataset_lead | 存在某数据集任务线索 | 官方下载可用、许可允许、数量最新 |
+| source_only | 原书目有这条题名或链接 | 链接匹配、机制已核实 |
+| verified_metadata | 曾核对原始题名/摘要 | 全文验证或近期查新 |
+| quarantine / parse_error | 可审计的异常 | 直接推荐为可用依据 |
+| proposed_experiment | 可供用户验证的设计 | 已完成的实验结果 |
+
+## 纠正与保留的冲突
+
+- FcaNet使用多谱DCT通道描述，不采用资料所述的FFT/IFFT重建链。[原始论文](https://openaccess.thecvf.com/content/ICCV2021/papers/Qin_FcaNet_Frequency_Channel_Attention_Networks_ICCV_2021_paper.pdf)
+- gnConv是HorNet的递归门控空间交互，不能用GCNet全局摘要解释代替。[原始论文](https://arxiv.org/abs/2207.14284)
+- Criss-Cross沿行列聚合上下文，区别于CrossFormer的跨尺度设计。[原始论文](https://arxiv.org/abs/1811.15521)
+- DySample两条style路径都输出更高分辨率；本地注释把pl说成下采样，与forward输出不一致。
+- EnhancedPartialConv2d在forward创建卷积、GRN轴顺序、RevIN批统计状态、MLAttention掩码及GAU子块返回值等风险见 [接入检查](integration-guide.md)。
+- 部分文件题名与实际PDF不一致：同名“Do You Even Need Attention”文件之一是MetaFormer，压缩目录中的“AGAT”之一实际介绍PSAQ-ViT V2；索引保留不同哈希并按正文纠正主题。
+- MNIST原整理写20×20；已据官方数据定义修为28×28×1。[官方定义](https://www.tensorflow.org/datasets/catalog/mnist)
+
+原书目中8条误配继续隔离：DLI-037、044、046、103、107、293、309、314。它们分别涉及DICAM、LDConv、LGAG、MDCR、复数矩阵、FMB、CorNET和DSAM的题名/链接或机制解释冲突。新材料若提供了正确领域的同名论文，应使用新的DOC/MOD关联；不悄悄把旧错误来源当作正确证据。
+
+## 归档与发布边界
+
+个人本机保留逐页文字、原实现、原路径映射与OCR，方便追溯。公开版以重写机制、事实性题名/标识、接口与原创流程支持独立检索，不附完整原文或第三方代码。推广图片、IDE配置、缓存、空文件等只在覆盖清单记录，不作为研究机制。那1份被Office拒绝的Word保留读取失败记录，不降低Office保护设置。
+
+另有DATA-038条目名称与正文任务疑似不一致，已隔离；数据集总数包含该审计记录，正常检索不将其直接作为推荐。

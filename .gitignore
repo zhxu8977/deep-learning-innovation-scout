@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+**/local-only/
+*.pdf
+private-archive/
+*-stage-*/

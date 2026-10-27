@@ -1,0 +1,3316 @@
+{
+  "records": [
+    {
+      "id": "FILE-815b51697ab2",
+      "sha256": "815b51697ab2dff772cfd335adbedae9fd0f6a5012ca2a92d16f5eb77e025c91",
+      "suffix": ".pdf",
+      "bytes": 603219,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-de3a312c7f3e",
+      "sha256": "de3a312c7f3e86835403c96e1278716d10f5c94d3dab0b8f1c689bf69fee2fac",
+      "suffix": ".pdf",
+      "bytes": 2434984,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e2e37ed60c50",
+      "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96",
+      "suffix": "",
+      "bytes": 50,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-0173013b6d87",
+      "sha256": "0173013b6d87df9813db5517db593f34f295f9d322f7aaf4185b6e8299ab490b",
+      "suffix": ".iml",
+      "bytes": 334,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-6172c5997eeb",
+      "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46",
+      "suffix": ".xml",
+      "bytes": 174,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-18de0c1eb3fd",
+      "sha256": "18de0c1eb3fdf9433eccc769f2ba1b85a843041b6d820823b5d8dd251ca75d39",
+      "suffix": ".xml",
+      "bytes": 2476,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-1cc47db06f1e",
+      "sha256": "1cc47db06f1ede1ec8c3bfd143581c16cd6fff787817c67ac73766a2e5001535",
+      "suffix": ".xml",
+      "bytes": 198,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-e5ddde1f1c3e",
+      "sha256": "e5ddde1f1c3e954d462dffe2b9a7c7a9694a07c97ee66d3cb5e5f2fff992ac5e",
+      "suffix": ".xml",
+      "bytes": 273,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-fd9541aff397",
+      "sha256": "fd9541aff3970bb799017b0c3ba15a3e80ab30a7e8f22492a8c351309273a96f",
+      "suffix": ".xml",
+      "bytes": 5061,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-73248013d5e9",
+      "sha256": "73248013d5e9fd2e50780d25da0a2aade5008ff482227cfd5b542bb9ea7e9649",
+      "suffix": ".pyc",
+      "bytes": 4851,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-9b7c9da96f26",
+      "sha256": "9b7c9da96f26007bc95fdf3d46d488ced1f0deb6777f1afc1651b59ac09d2659",
+      "suffix": ".pyc",
+      "bytes": 3555,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-9fc75ac05354",
+      "sha256": "9fc75ac0535459f9eef144cc9031dd5f636e5b7700db76bb787d04f778a2d729",
+      "suffix": ".py",
+      "bytes": 5018,
+      "copies": 2,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-bbaf2b075d50",
+      "sha256": "bbaf2b075d5071ffa19beeab2added6a4ae392baea9000e142bd97983d2686ab",
+      "suffix": ".py",
+      "bytes": 3039,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-fddb4474f059",
+      "sha256": "fddb4474f059008ac9f2900e941b350af8f8641924abdf83fa5658dc6e1c1916",
+      "suffix": ".py",
+      "bytes": 5929,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-40d862f9d874",
+      "sha256": "40d862f9d8743bc33a93bf4af11eca71d228aa50ff9b2486330d7709e0e89667",
+      "suffix": ".7z",
+      "bytes": 7478,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-c148d6dcc132",
+      "sha256": "c148d6dcc132f6ce3b7ed32f2d8a4d77b4d64aee6cc4bc1639757f0df96664e9",
+      "suffix": ".jpg",
+      "bytes": 431425,
+      "copies": 1,
+      "status": "image_reviewed_research_or_promotion_classified"
+    },
+    {
+      "id": "FILE-64c90c83cc6c",
+      "sha256": "64c90c83cc6ce930abee3ddf51381f38de6f5274beabbaf020878890fc50d67e",
+      "suffix": ".jpg",
+      "bytes": 216299,
+      "copies": 1,
+      "status": "image_reviewed_research_or_promotion_classified"
+    },
+    {
+      "id": "FILE-963c3ed1a093",
+      "sha256": "963c3ed1a093dedf540102b4943cd96ae4bc792f7003ea7b0f96b3de49bd9a70",
+      "suffix": ".zip",
+      "bytes": 578525,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-96d280f19b64",
+      "sha256": "96d280f19b649f3425721a373063da1d60200b0be0efad06bdffbd6fad8ad636",
+      "suffix": ".py",
+      "bytes": 4484,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-69ccc125c6a3",
+      "sha256": "69ccc125c6a370eba3ca193436739ec48d2a51c043b2834f2805d05ea1db6c8e",
+      "suffix": ".py",
+      "bytes": 5873,
+      "copies": 2,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-dd44f60cbeb4",
+      "sha256": "dd44f60cbeb4c8521ec02d3759e330bee2714505932accd1d1cb37e42d573c36",
+      "suffix": ".py",
+      "bytes": 1063,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-30e5698a2a38",
+      "sha256": "30e5698a2a38b8bce625d2024919a6cda6b168e3ec701a8a7679b30a1e2b59fd",
+      "suffix": ".py",
+      "bytes": 4698,
+      "copies": 2,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-fdfa69fd1b4d",
+      "sha256": "fdfa69fd1b4d4dd937d21112d80120836522046c0d77b20555fad704456d1b1f",
+      "suffix": ".py",
+      "bytes": 6137,
+      "copies": 2,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-8fe52159ddc5",
+      "sha256": "8fe52159ddc5c6046844a4a6db610eff8ebb39b1b15da03be34fdf505b633a5b",
+      "suffix": ".py",
+      "bytes": 2479,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-072ed8acbf1a",
+      "sha256": "072ed8acbf1a3b189d9e947392ce45ae26e033c6b0211000ed4571fc48b3b73e",
+      "suffix": ".py",
+      "bytes": 4385,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-ba2f843bce8a",
+      "sha256": "ba2f843bce8aeab3ccede085543be7ea6d4d0df268949e4496630ec71979489d",
+      "suffix": ".py",
+      "bytes": 5519,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-6de4937e4a78",
+      "sha256": "6de4937e4a78156e027742aeb047a7163c6ca69888905c9419a6cb356ed5c77c",
+      "suffix": ".pdf",
+      "bytes": 804466,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-fe773b222e4d",
+      "sha256": "fe773b222e4d525f855f912e9df8b04add4771dcf10b3e3d79e9bdde34bdce2c",
+      "suffix": ".py",
+      "bytes": 6670,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-96ea3cef4630",
+      "sha256": "96ea3cef4630b4959cce052ec8c579686f0e705e7494fd68846ae26b055f7acd",
+      "suffix": ".pdf",
+      "bytes": 1977219,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8ee2f3a20c6f",
+      "sha256": "8ee2f3a20c6f411cb07d6f4d8a14d3f70342f6092c15dec7ce0f91a04247ddda",
+      "suffix": ".pdf",
+      "bytes": 794761,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-a5d08c25ea36",
+      "sha256": "a5d08c25ea3687fbd65fffc627415d32834ee95ce7322ad45ac364a00e96ee12",
+      "suffix": ".py",
+      "bytes": 14378,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-0c79d0566ce2",
+      "sha256": "0c79d0566ce2633e38f52e77387bc825501124bf4002a14dd1790d31c53eadce",
+      "suffix": ".py",
+      "bytes": 5132,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-a2ea0056d492",
+      "sha256": "a2ea0056d492318323b21c8489c3d440283d99343170c3e842b5093ed5f81071",
+      "suffix": ".pdf",
+      "bytes": 2501686,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-cfb35db23da4",
+      "sha256": "cfb35db23da4949f26eca5bbc3ad04a9fbe11f3ef3ec77be690a9dc6cfcb4f9e",
+      "suffix": ".py",
+      "bytes": 4480,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-cfae0cf90cc1",
+      "sha256": "cfae0cf90cc10d2726ff88de2489f19cdbafaadf5cf383938b8bafc7fd5462c9",
+      "suffix": ".pdf",
+      "bytes": 17082944,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1028b396c3a0",
+      "sha256": "1028b396c3a014d5b26eb04c6e758b5e139829779d5a886e74ea4d4eb05a4ed2",
+      "suffix": ".py",
+      "bytes": 5194,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-ffa3e491c52b",
+      "sha256": "ffa3e491c52b13f472086d3e343c27a3cf2ae004137eb0a7257d704b7b4f00f2",
+      "suffix": ".py",
+      "bytes": 10102,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-67123178e2e2",
+      "sha256": "67123178e2e259304f3a8a3890f241f760ca55b3722191b19282f9eff6fe8663",
+      "suffix": ".py",
+      "bytes": 2476,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-d76b5e47b0ea",
+      "sha256": "d76b5e47b0ead8bb2592bb30d143261348534a85011efb419c4f3a9b74481fc8",
+      "suffix": ".pdf",
+      "bytes": 8892486,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-15eb1162441b",
+      "sha256": "15eb1162441b258b2e427d9f0be835da88992554d0db8f2291218b70244ce340",
+      "suffix": ".pdf",
+      "bytes": 727455,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-14140c8372f7",
+      "sha256": "14140c8372f75c52330e06dcc2b7793346c9920091dc5ab1385ef66968dc311d",
+      "suffix": ".py",
+      "bytes": 7206,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-b6bbdec18e8a",
+      "sha256": "b6bbdec18e8af8032a89322f5c1bc265c60221874747bd6bfd5305d3463c1416",
+      "suffix": ".pdf",
+      "bytes": 5026102,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2cfe2f49e02a",
+      "sha256": "2cfe2f49e02ad38e1695c07cf51f973edaa094d1568cf86a3ed1c7f7f49ae7e7",
+      "suffix": ".py",
+      "bytes": 7274,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-a1d43004ffc1",
+      "sha256": "a1d43004ffc1e946a95150698d1385ae593f3ada2ca6e6e789b323342a8d7b57",
+      "suffix": ".pdf",
+      "bytes": 632031,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d087dd6a57d4",
+      "sha256": "d087dd6a57d4646f4e9abf5d0824ccc80c232fd98149e0402fc9de376e46ac09",
+      "suffix": ".py",
+      "bytes": 13516,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-bdec5241b8e1",
+      "sha256": "bdec5241b8e1ada21a25fd2c54e070fdb198f4c286ad25e759800d680f5b425e",
+      "suffix": ".pdf",
+      "bytes": 1096566,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-68fb515edcba",
+      "sha256": "68fb515edcbadf7b30cd94d1435c3a6fc85d66a28bd0c3a816283f0f82de6327",
+      "suffix": ".py",
+      "bytes": 2895,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-2f7e2ffb57d8",
+      "sha256": "2f7e2ffb57d87676d829076abbd77fa33b7b4f2ede66aafcd2b55bb1df9c5aac",
+      "suffix": ".pdf",
+      "bytes": 1274117,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-070a5b97d448",
+      "sha256": "070a5b97d448af6303036f968b944d2fb437cb5942674b5c62ec6288736f5aa3",
+      "suffix": ".py",
+      "bytes": 5290,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-813f38400dff",
+      "sha256": "813f38400dffdcc85d346c38e91f8b6310c8f03acb3b8c2682ebf0990136610e",
+      "suffix": ".pdf",
+      "bytes": 1211493,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-ba5dd26193de",
+      "sha256": "ba5dd26193ded5f6d429639bd7c6f9f5bab9828c2c01bade79e51ecab80bb649",
+      "suffix": ".py",
+      "bytes": 5009,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-2c149f11afc8",
+      "sha256": "2c149f11afc862703257ef258aa3dd92ca98c415d0144c66b69b6d7b27a29dec",
+      "suffix": ".pdf",
+      "bytes": 3856568,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3d4e8a9097ac",
+      "sha256": "3d4e8a9097ac5c26494f55cbeedb1e6bcfd4aab61fe416029db38ac272c58fab",
+      "suffix": ".py",
+      "bytes": 3411,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-c92b2f10abb7",
+      "sha256": "c92b2f10abb7d1dadeb76be7116d4cf6cb5efcb6826248f52fa8fafdccd16b80",
+      "suffix": ".pdf",
+      "bytes": 508179,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-0ce9fe74f682",
+      "sha256": "0ce9fe74f682142a5e919fd4f5330869b73665f141443917e81bcdc6391b4177",
+      "suffix": ".py",
+      "bytes": 3541,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-c4de802b6697",
+      "sha256": "c4de802b66977f5304842e6380f67c3b84c4454fde78ae03542c767c9591b0ff",
+      "suffix": ".pdf",
+      "bytes": 4491576,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c19b2562bfe4",
+      "sha256": "c19b2562bfe42501fe26653ea8cb7fb2a7681f520c9b463b70130d780aafad30",
+      "suffix": ".py",
+      "bytes": 7638,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-f8c50a5c16cc",
+      "sha256": "f8c50a5c16cc50cf23e0670165fa481b7b7f96e52d34f4ea9f36fcec43f3c7ce",
+      "suffix": ".pdf",
+      "bytes": 2040176,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-0add346d067d",
+      "sha256": "0add346d067dcd6bedcd1aabf73a314aad211a78fd66405317d49cd9ed0a6b88",
+      "suffix": ".pdf",
+      "bytes": 3453526,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8c36900f1215",
+      "sha256": "8c36900f1215fe1829b2a1ab033c058ce6228d5ef0f8cee1174145ca014b47fe",
+      "suffix": ".py",
+      "bytes": 6336,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-967a6779bce7",
+      "sha256": "967a6779bce726ea0f9ea35917f53b4978df161ce97a5fc8c1f709d7c2fa1f4f",
+      "suffix": ".py",
+      "bytes": 7842,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-0fcb1ea80aa2",
+      "sha256": "0fcb1ea80aa2c6b0e639a0a96e40217a1afbdfe21b9fbf9082581a3c1f830965",
+      "suffix": ".py",
+      "bytes": 1921,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-741c10e43c97",
+      "sha256": "741c10e43c97ce63077008c82e83b8f01f4deb2986498e7c35e41a7c59984465",
+      "suffix": ".pdf",
+      "bytes": 540139,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c5285aefd2ef",
+      "sha256": "c5285aefd2ef30f4d67e685172e99f577e573b11b92cd9ccff0423c1d310b34c",
+      "suffix": ".py",
+      "bytes": 13017,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-02aaf8d4f9be",
+      "sha256": "02aaf8d4f9be3ec4e470da0c59b54690b2364f1dd3a9f955e59af7e173795d84",
+      "suffix": ".py",
+      "bytes": 13272,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-2b8e50358086",
+      "sha256": "2b8e503580862f823905808f3f1d87657612dbb438089f73713b5e0700627aa6",
+      "suffix": ".pdf",
+      "bytes": 2242671,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6865329e5109",
+      "sha256": "6865329e5109a4c1ba672ca39707ec83e6c4162fc0fa7bb6c86b92254abccb37",
+      "suffix": ".py",
+      "bytes": 15625,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-0c48173e91de",
+      "sha256": "0c48173e91dead91f472d9a21c6fa9df831c32a9a31ebf219091cf437e9cd8f1",
+      "suffix": ".py",
+      "bytes": 1717,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-899430aef110",
+      "sha256": "899430aef11057b0c5ab951a7174d45c54b7c996d6996b69f6bb1897be9e455c",
+      "suffix": ".py",
+      "bytes": 2667,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-fb6513ccdcdc",
+      "sha256": "fb6513ccdcdc440e00d525850a3f4815961552ca21199802c9c019bd665f9fff",
+      "suffix": ".py",
+      "bytes": 5983,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-a9e28f275467",
+      "sha256": "a9e28f275467004138f471b939f94a5dffbdf4939b8f9a30edd31d8a39fcf774",
+      "suffix": ".pdf",
+      "bytes": 1854088,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3dd1346a420b",
+      "sha256": "3dd1346a420b3de2c805d72db8058122f932f7050d8b08895b145568d11ab7cd",
+      "suffix": ".py",
+      "bytes": 6681,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-594957b3d9dd",
+      "sha256": "594957b3d9dddfd1c118d6ac0184e937a680927cc2ddf65a816bd369ebd0ba0c",
+      "suffix": ".pdf",
+      "bytes": 385206,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9221a4eca63d",
+      "sha256": "9221a4eca63d253ca1a1ac6ee4d9920778d5b520be62eaf9c7575cb481a8c6b9",
+      "suffix": ".py",
+      "bytes": 11478,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-e4d3bfd9808e",
+      "sha256": "e4d3bfd9808e44960b8a8b06167c19f39658bd6856b7d37f19f62adbcc6e1952",
+      "suffix": ".py",
+      "bytes": 4941,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-ab26b56e4d6a",
+      "sha256": "ab26b56e4d6ad379ca7391f76f95209791ccc71ed4c28b219134e0472ff3bdba",
+      "suffix": ".pdf",
+      "bytes": 2098375,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-4eef9a3dabc4",
+      "sha256": "4eef9a3dabc4ff5a5c481b269c8bd061000f4bf033650d60d24bca06f17d9e74",
+      "suffix": ".py",
+      "bytes": 6927,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-62709d5ed6eb",
+      "sha256": "62709d5ed6eb21360926ce32a00c82b068199bc07fc0f2e94eab2be098e54860",
+      "suffix": ".pdf",
+      "bytes": 2812728,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-b36fa0c6d120",
+      "sha256": "b36fa0c6d1207ca189a134891ff8ecdcf5e34132ef2b1d10473dd3d089659858",
+      "suffix": ".py",
+      "bytes": 3284,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-1ca7fcd7a44c",
+      "sha256": "1ca7fcd7a44c2a466d37aa9a625538605bf9272f455fa047d0664de9686320dd",
+      "suffix": ".pdf",
+      "bytes": 1440214,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-102c1726654a",
+      "sha256": "102c1726654a33b7b5cfc1fd09a386e61bdc16e96b111c1b01aac8463d9bcd03",
+      "suffix": ".py",
+      "bytes": 8793,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-5a128cd7bf5f",
+      "sha256": "5a128cd7bf5fc3f84c36fcbd4f18096b48c8a924fe7a9b6fabab797242451d99",
+      "suffix": ".py",
+      "bytes": 5141,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-e35bc167344b",
+      "sha256": "e35bc167344b4b15ed0215bd58cbcd8e3e9b2bdeb70bc965299088b40b8429b8",
+      "suffix": ".pdf",
+      "bytes": 1514238,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-52a088959675",
+      "sha256": "52a088959675d6cbd23df8a965f43c42e85d424d964b4c857c56f1303469ede1",
+      "suffix": ".py",
+      "bytes": 6090,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-8fd75f994928",
+      "sha256": "8fd75f994928659f6f89d50ba45589627459d588f09f27e0d7b18b9925984060",
+      "suffix": ".pdf",
+      "bytes": 1942345,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-68259c11203b",
+      "sha256": "68259c11203b407f2c21b28d425d837189de22b30738abcf59e6a4a037c822f0",
+      "suffix": ".py",
+      "bytes": 4055,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-d5c830d9d1d7",
+      "sha256": "d5c830d9d1d78f8ca0e0649f892b002d2f37cc400c1d2b0f3b510248596a6a82",
+      "suffix": ".pdf",
+      "bytes": 15554997,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6b4dd7136aa0",
+      "sha256": "6b4dd7136aa0307fd55b584c43589779175ec973ff97dceba43c4dfb2f4f14e6",
+      "suffix": ".py",
+      "bytes": 2979,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-021cd0d15942",
+      "sha256": "021cd0d1594239b21ea7025e1d5b3290867423f4c4fe06065cf491e06ed102de",
+      "suffix": ".pdf",
+      "bytes": 6902780,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-de18f062c10c",
+      "sha256": "de18f062c10c3d7dd04478a5dbf7c968bf84e13ff46db5deeb063c0a596e5d1a",
+      "suffix": ".py",
+      "bytes": 6008,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-46dba4ae948f",
+      "sha256": "46dba4ae948f29517ca47e0f9adeb146e0c4c2148892c0753a72415033262693",
+      "suffix": ".py",
+      "bytes": 2595,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-73675a9b39f0",
+      "sha256": "73675a9b39f07fc9ba72bad1e682a21e75b9ddf2a8161fb6c6700d7bbb712bb7",
+      "suffix": ".pdf",
+      "bytes": 7259078,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-a0609a231553",
+      "sha256": "a0609a2315532160e629892d9db44bf99b0310be164b85c05ceb80fe272e2f01",
+      "suffix": ".py",
+      "bytes": 12031,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-f3132d9ea831",
+      "sha256": "f3132d9ea8311c1b3aa13ca70ec07c59c60b0cbe162e7bbd52b086c581acf1df",
+      "suffix": ".pdf",
+      "bytes": 826073,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-ec0aeae4f4cd",
+      "sha256": "ec0aeae4f4cdecdfdfa2b18a52aa0cf0793a66e6abb74cd950f53df86e1d94ec",
+      "suffix": ".py",
+      "bytes": 3873,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-02fb2316e7f3",
+      "sha256": "02fb2316e7f348375aa0eaa015370d36711e20c50a53aa2fcf3ce21e1f61ce73",
+      "suffix": ".pdf",
+      "bytes": 2077828,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8fdd9f15d988",
+      "sha256": "8fdd9f15d9883f298198b0425357ea5e2eccf69cafa11f70f1d0faa64705c2af",
+      "suffix": ".py",
+      "bytes": 5172,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-5f2cedbd8a89",
+      "sha256": "5f2cedbd8a89ac6e618297d3875c43d20d3fe45ecdfd55b6ed63f426cb24d92d",
+      "suffix": ".pdf",
+      "bytes": 2823945,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6fb52ff01b92",
+      "sha256": "6fb52ff01b9245853b579c85e0fb9963ef08060872babae465e1a0065d101e38",
+      "suffix": ".py",
+      "bytes": 4507,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-6d3eff54657e",
+      "sha256": "6d3eff54657e8c60c4d6dd71f542ded4e04d9cc5e04cc829b482619bbb17e924",
+      "suffix": ".pdf",
+      "bytes": 2328060,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-26da992a7819",
+      "sha256": "26da992a7819cc88518576cb97b0def52848e9301eccabd99f15a2ca2b729052",
+      "suffix": ".py",
+      "bytes": 7268,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-0a46bf1654b5",
+      "sha256": "0a46bf1654b5f51544de6a093992898a2e8870c8798d7ac2fc97f2739bfe03c1",
+      "suffix": ".pdf",
+      "bytes": 13718692,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-68871ca4ec44",
+      "sha256": "68871ca4ec44a1e5d10fcc57a79504249da69f3e54a3fd6bc18e9dc628ce2455",
+      "suffix": ".py",
+      "bytes": 3278,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-011ba23a94d3",
+      "sha256": "011ba23a94d3adb7cf3753358f084ac7524b9b6704cdfe7ca94509173874ec3e",
+      "suffix": ".py",
+      "bytes": 5175,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-a21dd4c93d94",
+      "sha256": "a21dd4c93d94419d252ef796de6c6acbce253e0ec3d6e938eae74035e688a0d8",
+      "suffix": ".pdf",
+      "bytes": 4992663,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-269645be66ef",
+      "sha256": "269645be66ef35996f840494f50a88e3e8886325b962a643bd67194e0d295d0c",
+      "suffix": ".py",
+      "bytes": 4573,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-e96c9b748960",
+      "sha256": "e96c9b748960765dfb33ca21c796563199a61ff0b99f5da6e2d7930bdb942bb1",
+      "suffix": ".pdf",
+      "bytes": 1939136,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-322271671d84",
+      "sha256": "322271671d84d8b9be33baef49f34a61bfe258043c0dfa83374a60adc2c967ac",
+      "suffix": ".py",
+      "bytes": 2986,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-729d700d250c",
+      "sha256": "729d700d250c940020a4842b03e240d7b891796c892a3132e4ed83abff45e7c2",
+      "suffix": ".pdf",
+      "bytes": 1645813,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3be6d034d60d",
+      "sha256": "3be6d034d60d445afe5471e05baa6a022b9257dc3615fa1e638fd74177627aaa",
+      "suffix": ".py",
+      "bytes": 3080,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-0895b649c3ff",
+      "sha256": "0895b649c3ff4e36f631ef926a2ed99a7cf62e6b1981f532a71254b6599e744e",
+      "suffix": ".pdf",
+      "bytes": 1455509,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-03b14c7a3863",
+      "sha256": "03b14c7a38636a2e7399de859b5fe709108691acba0a65edc0d8ac4c76f24855",
+      "suffix": ".py",
+      "bytes": 5584,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-cd86ce2d5891",
+      "sha256": "cd86ce2d5891a666c281650196ed3a389833ae88bfbbf7b7582cf41f604e9e3f",
+      "suffix": ".py",
+      "bytes": 3917,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-fc359a8d76a1",
+      "sha256": "fc359a8d76a156d8f5513db20f2c8a94c242fdfcc3f5d2d69f40668c28791e59",
+      "suffix": ".pdf",
+      "bytes": 909445,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f5098a5a66fb",
+      "sha256": "f5098a5a66fb712216fd0d00cca974f3d8c520a09f7b202b85bd599096c9ed20",
+      "suffix": ".py",
+      "bytes": 2340,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-8e3dfb6ce956",
+      "sha256": "8e3dfb6ce9561dca941cc6f779eefc76322997c78904e56d004cf7864f2c4edc",
+      "suffix": ".pdf",
+      "bytes": 534132,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-14b534b90cdd",
+      "sha256": "14b534b90cdd7cdbdb5b44a9e84eafa9ed6d36adb55c873d116261d57ada2c02",
+      "suffix": ".py",
+      "bytes": 2348,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-18c5926879e4",
+      "sha256": "18c5926879e4f2a193b4a58386a3e24075ee96a34ee22969d0b7a9c74bf538ca",
+      "suffix": ".pdf",
+      "bytes": 16772640,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f4e8b8224780",
+      "sha256": "f4e8b8224780dcaad5e9f33f478472cbde2bbc7ab21f938abd6d30e54fee0925",
+      "suffix": ".py",
+      "bytes": 4631,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-817cef961d94",
+      "sha256": "817cef961d944b07378cf10b1cf6311195eaf30ae841119b8ee85a1c4e4f3e1e",
+      "suffix": ".pdf",
+      "bytes": 4373995,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-0cef0c7fa23a",
+      "sha256": "0cef0c7fa23a8a4fdc469f541820628e31e119c9eed919f153305987871d9c0e",
+      "suffix": ".py",
+      "bytes": 8102,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-864f6546fefc",
+      "sha256": "864f6546fefc5299c48fb68a4ee75be6bfe007ec9f356bbfe068923c6dbd5c4b",
+      "suffix": ".pdf",
+      "bytes": 36375615,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1c149a8eeb12",
+      "sha256": "1c149a8eeb129589a5b9ecf2d49410815f386c848b0032c5e2d6b5ebdbeb187f",
+      "suffix": ".py",
+      "bytes": 4296,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-b5ae08317668",
+      "sha256": "b5ae083176684cd676a3cb24cd9bf7fb7a00b56627a193a94651d6e1269c6b32",
+      "suffix": ".pdf",
+      "bytes": 4057550,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f2f87bae86e9",
+      "sha256": "f2f87bae86e9861c79d9613c3cad78df63b8f2245cd2693ad7f18cd0233edd86",
+      "suffix": ".py",
+      "bytes": 5298,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-38721263f386",
+      "sha256": "38721263f386bb30bac81648cb46dc8d5a38d654cb80c09fdf319b0c2b072b86",
+      "suffix": ".pdf",
+      "bytes": 2055590,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-ef5a3f2d3e79",
+      "sha256": "ef5a3f2d3e795df8a40fe1de864a195ce8f20effb46bc1955796264e11e95f3d",
+      "suffix": ".py",
+      "bytes": 8702,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-49cf4ed5113b",
+      "sha256": "49cf4ed5113b27010e82bee956d1eef98543002ced95d56ca9aafb9dd2bcd11d",
+      "suffix": ".pdf",
+      "bytes": 1086136,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1d84f96111d9",
+      "sha256": "1d84f96111d9f7215a2fbc635513b9c946b9eb1ab41179cb16bc3083e321ba85",
+      "suffix": ".py",
+      "bytes": 6167,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-60c2305b56f4",
+      "sha256": "60c2305b56f4a6d0841e3d667b913d6ed5e51da029ad624b40dc55691d9f4854",
+      "suffix": ".pdf",
+      "bytes": 530420,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2ab088188a1e",
+      "sha256": "2ab088188a1ebbd70161b7a4d2d92d9180b6e20a4d3491d6748e047db16892c8",
+      "suffix": ".py",
+      "bytes": 6167,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-7fbefe6b903b",
+      "sha256": "7fbefe6b903bfedd33e1873805ad8f0632db200eb1f1cb51068183ff44180e79",
+      "suffix": ".pdf",
+      "bytes": 1594861,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c1756cb2e75e",
+      "sha256": "c1756cb2e75e47919a7e1c3984b3f0c130149710039752edac9db57a2dca6f1a",
+      "suffix": ".py",
+      "bytes": 2462,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-92cd454a0b67",
+      "sha256": "92cd454a0b67200004f07f7c0170dc26d10a7b77a635844f955053ca32d71833",
+      "suffix": ".pdf",
+      "bytes": 4076738,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6fdc50a502ef",
+      "sha256": "6fdc50a502eff60ca9ae58181dbab943cdf52a9510d19a0a23ecb00a917d464e",
+      "suffix": ".py",
+      "bytes": 13891,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-ad1e8be5c993",
+      "sha256": "ad1e8be5c9934e5529f5f1aea2293df8d80d45836d72d18676b6551c1d405ad5",
+      "suffix": ".pdf",
+      "bytes": 773490,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-b205ea14e4ee",
+      "sha256": "b205ea14e4ee864b89ddf0f153f16bec6e82e41f58993e0cfc8134c8f8d3aae9",
+      "suffix": ".py",
+      "bytes": 4169,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-03b197ba4eda",
+      "sha256": "03b197ba4edaa17b39ebb759178df4c38950f5885ce95551d9370d52a58f85f5",
+      "suffix": ".pdf",
+      "bytes": 2740688,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5159ce5ca776",
+      "sha256": "5159ce5ca776a93330cd5184fd2b395b9cf698d4762f8a0311785d6acfd9e3d5",
+      "suffix": ".pdf",
+      "bytes": 3975229,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-dd9e00adc4b5",
+      "sha256": "dd9e00adc4b5e66d9ce158ef88e4bd7849cfa2f86d202dfc2c3e181f20418218",
+      "suffix": ".py",
+      "bytes": 2356,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-491879ac89be",
+      "sha256": "491879ac89bef951a90168a9ef8b01abff34a909ea2d7bbe873c221f68baa39c",
+      "suffix": ".py",
+      "bytes": 5350,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-f535747f34dc",
+      "sha256": "f535747f34dc8f627e06d94cdbb603dba8436fd86331582581b7ad4f11facbe3",
+      "suffix": ".pdf",
+      "bytes": 1345710,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d699e42aa1c2",
+      "sha256": "d699e42aa1c2a17040d4b59851ca43daa140c25fcca30d2845fae458872e2f82",
+      "suffix": ".py",
+      "bytes": 3559,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-d93cfdf1776c",
+      "sha256": "d93cfdf1776c40f00d7d5a8cf18dd261b2584d4ea63502620c7e81f913d6d0f9",
+      "suffix": ".pdf",
+      "bytes": 1107707,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d08c3699937c",
+      "sha256": "d08c3699937c04c44ea4a5bf14a18183d1abdec8a0ff536926e6003b854e1e34",
+      "suffix": ".py",
+      "bytes": 30418,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-f5e7df664d04",
+      "sha256": "f5e7df664d0426e6888c8d2d0e594b5c0721b32771505fcf92eae1d4a374b752",
+      "suffix": ".py",
+      "bytes": 29745,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-2e399ddecd04",
+      "sha256": "2e399ddecd044605ec7044ef52a8a558dd946a4f509566c54fabe80f4dd03feb",
+      "suffix": ".pdf",
+      "bytes": 5610661,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-b053e35be7a5",
+      "sha256": "b053e35be7a5d371e424fc5df53c7b40fa1c3ec06606dc68780c33ca8e91b27e",
+      "suffix": ".py",
+      "bytes": 4711,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-45069dfb5714",
+      "sha256": "45069dfb571442fa918607d89cd39e5aefae7345a4bb4b9cdaac11b8ae6f8fa4",
+      "suffix": ".pdf",
+      "bytes": 2483292,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f202a88d5ff0",
+      "sha256": "f202a88d5ff0f194e825ba26f0cec1197b75b67d9eaa65e1b3f5d0b690109d42",
+      "suffix": ".py",
+      "bytes": 6229,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-dc6bae778856",
+      "sha256": "dc6bae7788568ce45dbb1efbda13c269ebcd7abf0adb68aebe35756aa2cd5098",
+      "suffix": ".pdf",
+      "bytes": 26873810,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9dadd8690a99",
+      "sha256": "9dadd8690a9964715f5dbb090733cfe3391710660bc42c68d1ab94cfb2f34589",
+      "suffix": ".py",
+      "bytes": 6982,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-48f2c7854ee4",
+      "sha256": "48f2c7854ee4d2d27ec71c5c9f9dce589845e9143e686b76f5dc7482ea135344",
+      "suffix": ".pdf",
+      "bytes": 1074602,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-b3c1f3f31d2c",
+      "sha256": "b3c1f3f31d2cc6aae6a0fcb894a4ed3a0aba4aba65e12ed735f6fa80df6c0d9b",
+      "suffix": ".py",
+      "bytes": 1619,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-3c76d4edca27",
+      "sha256": "3c76d4edca27996f2cc60f0ded18e2e244504f7ad7f3c587762b24d6fbabe870",
+      "suffix": ".py",
+      "bytes": 2557,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-3d6935b01e84",
+      "sha256": "3d6935b01e842f5c7f7dc5a62c91e9178b667b720070e5a2229bd699cd7ef01e",
+      "suffix": ".pdf",
+      "bytes": 6751989,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-77e3cc7c0a9a",
+      "sha256": "77e3cc7c0a9a9a56ae08642dd62427ce204e6d4143d3b684228359b053db6465",
+      "suffix": ".py",
+      "bytes": 3811,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-39326da30e4e",
+      "sha256": "39326da30e4e7151e934d0e5295d3695770cfff503c7a527fe02539f7a31a262",
+      "suffix": ".pdf",
+      "bytes": 8131795,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-77f34c0e3d4d",
+      "sha256": "77f34c0e3d4d1fc00fc43fdbb16fd2bcdcfc730110bc3b1e569b08b4ec4756b6",
+      "suffix": ".py",
+      "bytes": 6207,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-0f7a8ec36aca",
+      "sha256": "0f7a8ec36aca0c9dcf25b54efcbefd0f27eb46a1835342af51c3032149db54de",
+      "suffix": ".pdf",
+      "bytes": 3442509,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3370280ff1ff",
+      "sha256": "3370280ff1ff3e7e9350f21c48bdbc4e1c6b705b6d11516b4d2cfa8e1da132fe",
+      "suffix": ".py",
+      "bytes": 4354,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-4ef0471d53d5",
+      "sha256": "4ef0471d53d58660e7b1eca64cea87826808e9804d9fae3193371275a0cce5d8",
+      "suffix": ".pdf",
+      "bytes": 7892010,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8836770974dd",
+      "sha256": "8836770974ddf981afbd8308a4bf73fcfbeb9d57e5f4bc136877e186b741be1c",
+      "suffix": ".py",
+      "bytes": 6356,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-b5d381996946",
+      "sha256": "b5d3819969465bea9a06054dc1431810c7ea5143de6efdfd3dfa5cdc3c9864db",
+      "suffix": ".py",
+      "bytes": 8745,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-af10f4b1b17c",
+      "sha256": "af10f4b1b17c1312c6fc0c9d2304c864a1878d798366bc6fd2ff9b90636ebdff",
+      "suffix": ".py",
+      "bytes": 3765,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-6c2fd120a648",
+      "sha256": "6c2fd120a648af50407e9ccf8844207392c2b9c3f0509d97a1ad8bde8ef0c56c",
+      "suffix": ".py",
+      "bytes": 1955,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-251563d71b51",
+      "sha256": "251563d71b513563b1daffaf56eb4eca93f4f800d36760995096b83d7bed7230",
+      "suffix": ".pdf",
+      "bytes": 4640167,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3d8d939a6b31",
+      "sha256": "3d8d939a6b3181b1e5655db166995f0d4c2b12f83c941e0b029128d321736439",
+      "suffix": ".py",
+      "bytes": 5844,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-c5358b3f405b",
+      "sha256": "c5358b3f405b9b7e50492e7798a3f08d6e91061fe5b275a6193f012fd8a8455a",
+      "suffix": ".py",
+      "bytes": 2927,
+      "copies": 1,
+      "status": "source_statically_parsed"
+    },
+    {
+      "id": "FILE-de443297b881",
+      "sha256": "de443297b8815b9a214151cc0b2252706ef48c39c374d185b200b44f4dc7383e",
+      "suffix": ".pdf",
+      "bytes": 2753976,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1c1a3a3fe601",
+      "sha256": "1c1a3a3fe60198821ea9ea2e776e1815bc7ff0578c469f23bebf66e835afd126",
+      "suffix": ".pdf",
+      "bytes": 137798,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-053fa265b2b9",
+      "sha256": "053fa265b2b9c63e506498a6c075c0aa0231c3d08dbadb1e9fc5d1459d4aaebb",
+      "suffix": ".pptx",
+      "bytes": 6383322,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-39b9224a4378",
+      "sha256": "39b9224a4378c77ea22f27c830aa358c7adae4f2177f1a9d28aa587afeb1c078",
+      "suffix": ".pdf",
+      "bytes": 2474638,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6a71fa112489",
+      "sha256": "6a71fa1124897e90bb4a6afb2418f3fd5c8c76ac9a0568ef291b575fe2f8383a",
+      "suffix": ".pdf",
+      "bytes": 511305,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-7e733ca33571",
+      "sha256": "7e733ca335711e7b4bb8002321510b1e2454a001f849f5be8a5bdde7fc73a6f4",
+      "suffix": ".pdf",
+      "bytes": 5321951,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d027fed73e0d",
+      "sha256": "d027fed73e0d72a4ef21f64edffacd86faa18998c42dfbe25bbefb5c726bf27a",
+      "suffix": ".pdf",
+      "bytes": 551907,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-13902c2e731e",
+      "sha256": "13902c2e731ed8dfe12180a390b5c1b225bb8324702b99e651efc426c309056b",
+      "suffix": ".pdf",
+      "bytes": 10619582,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-412f0334134b",
+      "sha256": "412f0334134b3f3d9de6241bcf4b0640d1116d0f42e94bd089f8a7728eb748cb",
+      "suffix": ".doc",
+      "bytes": 138752,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-b302635087b5",
+      "sha256": "b302635087b565353136cfab806222452ba60972720985d0b76c60d7e3289115",
+      "suffix": ".pdf",
+      "bytes": 593919,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8969c591b90b",
+      "sha256": "8969c591b90bd893d3642c929ef0ade26a067ed5fcda843daefa067122eb6a4e",
+      "suffix": ".doc",
+      "bytes": 77824,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-08dff229bf9d",
+      "sha256": "08dff229bf9dc7476e7bc9c963f09039a290d6c1599b07c55f231ef256a47635",
+      "suffix": ".pdf",
+      "bytes": 5460740,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-7a353aa52581",
+      "sha256": "7a353aa5258158eff2bf53fc646c8f6675096cbdd56a4cceb0825b7c23022928",
+      "suffix": ".doc",
+      "bytes": 145408,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-d0ca785c50d1",
+      "sha256": "d0ca785c50d145a2ac366d0dc555776154974f61a76aba0ecbbf1b49fa02fe3d",
+      "suffix": ".pdf",
+      "bytes": 2239016,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-a004a479cb6d",
+      "sha256": "a004a479cb6d378d8b2b14dde4e9e798c795435f506bab9261fb273d31b31393",
+      "suffix": ".doc",
+      "bytes": 125952,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-0b8d50e8f782",
+      "sha256": "0b8d50e8f78223c8ebb1c0cd76d9f781150e1406693cbcb492867c3b4ea3d4a5",
+      "suffix": ".pdf",
+      "bytes": 380508,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-ed8f2131efa6",
+      "sha256": "ed8f2131efa600b5b2e57cb19a2ade435de0fae2733671582a8a00844e428833",
+      "suffix": ".doc",
+      "bytes": 96256,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-e3cdfecd4127",
+      "sha256": "e3cdfecd4127514185cadb9972eca665519579a772ddb4f546e338a4763fda34",
+      "suffix": ".pdf",
+      "bytes": 783223,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-16f450d19eeb",
+      "sha256": "16f450d19eeb5263b62adc9950c986e08cc3a05d1d149d4c959c26e8346421a9",
+      "suffix": ".doc",
+      "bytes": 201216,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-1a3849e0c915",
+      "sha256": "1a3849e0c9155fcdde71403ea2abebf1efc9ea293d4ccd6e586fc633cb0f7113",
+      "suffix": ".doc",
+      "bytes": 109056,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-662324aace31",
+      "sha256": "662324aace31526e0a3b3147af378d543ae341d53932ea1139ad5d4092b0bdb3",
+      "suffix": ".pdf",
+      "bytes": 5202286,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-20183e0c7d12",
+      "sha256": "20183e0c7d12f65e9c3544e37ba74bf0c5163b9587bf38aab012b721c1ff8371",
+      "suffix": ".doc",
+      "bytes": 79360,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-e6bc0fcdb85e",
+      "sha256": "e6bc0fcdb85eff283d39af0ec1dd7c2be309abce11814a618e760b947b9c83ae",
+      "suffix": ".pdf",
+      "bytes": 545060,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c80bfe8d1fac",
+      "sha256": "c80bfe8d1fac39574efa645cc8b507e9a5b9adb26ec17a93955e70c1e777d2ac",
+      "suffix": ".doc",
+      "bytes": 134144,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-d7373da7581d",
+      "sha256": "d7373da7581da9f1621753ba02a826191a86ce5ba567cfaeef87d4f2206cee4b",
+      "suffix": ".pdf",
+      "bytes": 358393,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8ef6284213fb",
+      "sha256": "8ef6284213fb9e24cda89f35475e06aec319ae05603a1b0a95a918b966498065",
+      "suffix": ".doc",
+      "bytes": 104448,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-1d468281fe59",
+      "sha256": "1d468281fe5924a616f43251fd9be5bcead36cbad7714e50849ae76a04a85056",
+      "suffix": ".pdf",
+      "bytes": 489568,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3e6c893260a0",
+      "sha256": "3e6c893260a0f555591c6fdd6ad03d86aee06177a9de938ad95122ea7ef8235c",
+      "suffix": ".doc",
+      "bytes": 36864,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-bfaaec892628",
+      "sha256": "bfaaec89262875f927cf1b38b2da2d775f3309b7bea3537f29b606ca67e79065",
+      "suffix": ".pdf",
+      "bytes": 2201700,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c023089260c1",
+      "sha256": "c023089260c194d5a9028e712ea28e705ea0359e05e6666408e7f235b6d6eac6",
+      "suffix": ".doc",
+      "bytes": 160256,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-1fd30e092e35",
+      "sha256": "1fd30e092e35678c92f45a88a97b57e41b86781fdf98f83051aaaff8757a0ab9",
+      "suffix": ".pdf",
+      "bytes": 817031,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-680d7c130fbd",
+      "sha256": "680d7c130fbda86dc655a621cafebcfc07407f0d3a49da60f7824bffe76ac773",
+      "suffix": ".doc",
+      "bytes": 100864,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-49e34f84f3d7",
+      "sha256": "49e34f84f3d7211eccff4e0c095086fbf8b8195f41dcfc0a834fca8e45034fd2",
+      "suffix": ".pdf",
+      "bytes": 5483925,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-4e36c18fcbcf",
+      "sha256": "4e36c18fcbcf4d71e61743c9bda5c19a8247b7b55380ce1a286e15015e02c15c",
+      "suffix": ".doc",
+      "bytes": 363008,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-8f5778f89a8b",
+      "sha256": "8f5778f89a8ba48db872592cf355c32f565d71597cfb8c765da08cca5017594c",
+      "suffix": ".pdf",
+      "bytes": 1292024,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9abfc74c2245",
+      "sha256": "9abfc74c2245585d98ec9770abfe563c053e82ae4d26fe6502417d6862cfce2e",
+      "suffix": ".doc",
+      "bytes": 107520,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-8db74e5b956c",
+      "sha256": "8db74e5b956c7b151e28824a66fcb3d9cc1a555589c84631f33b0aeb95ec45b7",
+      "suffix": ".pdf",
+      "bytes": 765320,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e4228f80ed9a",
+      "sha256": "e4228f80ed9aabedbf76e801663b92e0e7d0590c38d7c1b636e3104d18bc2969",
+      "suffix": ".doc",
+      "bytes": 88064,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-cb4a9a315144",
+      "sha256": "cb4a9a315144a7ec20cd16539aa267ecd836c29ee82a05867f4513a2fd385ac8",
+      "suffix": ".pdf",
+      "bytes": 516785,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-07991eacfcbe",
+      "sha256": "07991eacfcbe8a966fbd6f3c92363b47d54a80cb1289e7066ed2f57fe4e8bf13",
+      "suffix": ".doc",
+      "bytes": 137216,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-37956c205869",
+      "sha256": "37956c2058698de2709c67d71308d92b7bf5a2fb871981c747807e307b2fd9d8",
+      "suffix": ".pdf",
+      "bytes": 1263518,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f33a37696a8f",
+      "sha256": "f33a37696a8f5587e8a7d89772155f3b72f6df2a5a511206c0ce7624a427c8a7",
+      "suffix": ".doc",
+      "bytes": 245248,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-beafaa16bdb9",
+      "sha256": "beafaa16bdb9137bfae6d66ddf0f59f812a8d8fe3cea3f145d4a499bb9350f09",
+      "suffix": ".pdf",
+      "bytes": 1588006,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-64543516771b",
+      "sha256": "64543516771b411e34010c554dfbec5f3d3f2e7cbd760ac88cc085090a655ae5",
+      "suffix": ".doc",
+      "bytes": 104960,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-cd832870901f",
+      "sha256": "cd832870901f11b1fc1d469d07be0874d8ef6682ecaf96188fa00b34973b5450",
+      "suffix": ".pdf",
+      "bytes": 1122957,
+      "copies": 3,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2e73225d364d",
+      "sha256": "2e73225d364d335993cebe067cad1e00035aa034b50ed118ab2a58d8ad1957ad",
+      "suffix": ".doc",
+      "bytes": 96768,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-0c674d89ed38",
+      "sha256": "0c674d89ed385dec26873ce15ca6ee23502f71ba8c03f3f7f332fb5f350069ea",
+      "suffix": ".doc",
+      "bytes": 135168,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-b8b796f99847",
+      "sha256": "b8b796f998471bc460c05e20fa1d82d3d4d8b154c3565bf6181e1e61d80e82c2",
+      "suffix": ".pdf",
+      "bytes": 405197,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e9be05c0f6ff",
+      "sha256": "e9be05c0f6ffaca4af6b24ed4806f909b899a790a52faf17f5eb16ed81ddd9f8",
+      "suffix": ".doc",
+      "bytes": 111104,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-0421561b3642",
+      "sha256": "0421561b36428cebd035e759d4fb42bbaefc0c5b3c6ee0b5a9b0d0094d8164f7",
+      "suffix": ".doc",
+      "bytes": 118784,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-b8c81f6601f6",
+      "sha256": "b8c81f6601f6899d33f893f3575c4ac1513bb5a219f90acd5b3da98e355957e1",
+      "suffix": ".doc",
+      "bytes": 109568,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-7ae12bb7e8ec",
+      "sha256": "7ae12bb7e8ec43947c3f700f1374bd6c3226a8d97cc2dc5f98a2ad973d3c17f3",
+      "suffix": ".pdf",
+      "bytes": 1513099,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1305894af744",
+      "sha256": "1305894af7442092fa2c74758d2a110abd35ab4cbe45f723284b79587cb26398",
+      "suffix": ".doc",
+      "bytes": 30208,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-ca134b596dda",
+      "sha256": "ca134b596dda6f5d135436738a0642983d1198bf4e72d2d8ee02e4d19a603057",
+      "suffix": ".pdf",
+      "bytes": 7713337,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5afe0f5ab88c",
+      "sha256": "5afe0f5ab88c4d726b0dba0f72eb243a352937835c898f8338ae6954ae5ef388",
+      "suffix": ".doc",
+      "bytes": 86528,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-92c3f6bba2aa",
+      "sha256": "92c3f6bba2aac7c1039ee4ed386743d345db8088e88279311eb7397630cb8a60",
+      "suffix": ".pdf",
+      "bytes": 10870616,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-0d570dc810e9",
+      "sha256": "0d570dc810e9750b9d8d28e628895f29721825f6c5a5d50597915f366305f323",
+      "suffix": ".doc",
+      "bytes": 63488,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-c26b3f2611c7",
+      "sha256": "c26b3f2611c7eb44260be2b16f42a719706fc8effeed48cdbd0926a1828f7df7",
+      "suffix": ".pdf",
+      "bytes": 2627034,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5e5477becc57",
+      "sha256": "5e5477becc57d17848949915040377961ff16ad34bd4dbff384de9d7ca6d89c3",
+      "suffix": ".doc",
+      "bytes": 50688,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-0f1eec301105",
+      "sha256": "0f1eec301105299a2aeedd704c0157a2f8ea77feb0e9b210e9ba9654e75efd19",
+      "suffix": ".pdf",
+      "bytes": 353093,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8c9f30f1d88e",
+      "sha256": "8c9f30f1d88ec63c8570cc3541db7759523376c7eab3933a20eaa3912ab7d406",
+      "suffix": ".doc",
+      "bytes": 52224,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-65c3ee040be7",
+      "sha256": "65c3ee040be7b1b89f09bd973f725c66569aa3e42833d50e88af07f620bae364",
+      "suffix": ".pdf",
+      "bytes": 1882580,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-174b76ed5f8a",
+      "sha256": "174b76ed5f8a12faa542708cac820369b39eac5557de8a9a543a94b22d976b59",
+      "suffix": ".doc",
+      "bytes": 31232,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-5786c091440a",
+      "sha256": "5786c091440aa61767aa46a42e7f6586cd94453dc49c7a70e238fd29791acc6a",
+      "suffix": ".pdf",
+      "bytes": 1648508,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9824c071a457",
+      "sha256": "9824c071a45799f83c3749e3e64d04d7e87a551770688ae7436fdcaafd76de95",
+      "suffix": ".doc",
+      "bytes": 30720,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-d6e451c492c7",
+      "sha256": "d6e451c492c7c492fdcf1e40265bae9bf51fd9ecb45e624aaaeeebcdb38b2828",
+      "suffix": ".pdf",
+      "bytes": 2181079,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-4accfacbc218",
+      "sha256": "4accfacbc218daf1b66b8c9c253b56682ed3602a752199ac97ff1c09598c37be",
+      "suffix": ".doc",
+      "bytes": 112640,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-7e4b68be4db7",
+      "sha256": "7e4b68be4db7ed0c4e659bcafd3465e63cef2704d0303dd6b96ad15597a00b0c",
+      "suffix": ".pdf",
+      "bytes": 5634006,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e147018380d4",
+      "sha256": "e147018380d4e6c46e097038903f64f4091b0d2a1bd23b422e10a660f575fb40",
+      "suffix": ".doc",
+      "bytes": 110592,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-40bdff61acdd",
+      "sha256": "40bdff61acdd66859313712892c4481610edb3180750ce6aaec570a1d20235fb",
+      "suffix": ".pdf",
+      "bytes": 1385559,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e525f4edc64f",
+      "sha256": "e525f4edc64f34b02e34ed5cbe6b3c46c4afac3e1ae2c0e77d601c713901e082",
+      "suffix": ".doc",
+      "bytes": 184832,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-56235ca53612",
+      "sha256": "56235ca5361284431b5b78aa03aa4ffb9035283409f8edc40d71967c4b0b5a52",
+      "suffix": ".pdf",
+      "bytes": 420919,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-654139afc789",
+      "sha256": "654139afc7893b12ecf11db984ba5bfdaf2c192fef6142481b4672557b2512cb",
+      "suffix": ".doc",
+      "bytes": 137216,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-da52fa676a74",
+      "sha256": "da52fa676a74bf99960249be093e6f3f986f11b69926e09bf90ba12d14a8ca5f",
+      "suffix": ".pdf",
+      "bytes": 1462082,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-91b3e28704f1",
+      "sha256": "91b3e28704f17bb9958293b2e896d4dcae7112bc79a51d5415e2e4e79c7b86fb",
+      "suffix": ".doc",
+      "bytes": 101376,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-bde4620631ec",
+      "sha256": "bde4620631ec378ee636b91d3c1d9e73a66977d79c8264f92a5d63f099c6e4cd",
+      "suffix": ".pdf",
+      "bytes": 1845950,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-435b0cb11e72",
+      "sha256": "435b0cb11e72d44c25eb1e3a6e3a2291c8b8d727e4f34499619537644001e813",
+      "suffix": ".doc",
+      "bytes": 169984,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-f531e38e6557",
+      "sha256": "f531e38e6557f7682fb51a1dbe11c14ec1a02192502cb961c74fac670839a58c",
+      "suffix": ".pdf",
+      "bytes": 505675,
+      "copies": 6,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1e0651b6810e",
+      "sha256": "1e0651b6810ecba34a3dbc5b5b0209226f889004607c1f203540a48d64e5a93a",
+      "suffix": ".pdf",
+      "bytes": 819383,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5f286d70425c",
+      "sha256": "5f286d70425c4d569b8bf076c41085b5b6c6cbdc53f169c1c6ac3e5d5464e21c",
+      "suffix": ".doc",
+      "bytes": 635392,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-a56f19d3e15c",
+      "sha256": "a56f19d3e15cb2b464a8271909e79fbc51d5991b282f0e4c9b2e012de0e33982",
+      "suffix": ".pdf",
+      "bytes": 2346867,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-57517b5b2c3a",
+      "sha256": "57517b5b2c3a8d74986b0f2b4cd9f1103927a8bf65922d7097f00b2512a2d664",
+      "suffix": ".doc",
+      "bytes": 36864,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-7aea8b36aa7b",
+      "sha256": "7aea8b36aa7b39d68b1c53ad816fe485e2e5c07f2c29bf199d3833cbb2d2dc6c",
+      "suffix": ".pdf",
+      "bytes": 565863,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-beac6b76200d",
+      "sha256": "beac6b76200d04fddbfc420d5ed553eed6fc47374f81d9ef5f73d26886ec18f5",
+      "suffix": ".doc",
+      "bytes": 37376,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-c733f2896531",
+      "sha256": "c733f2896531c46deead61af3fcd8620c0d1987229deca8cb70bd1c15eaf0528",
+      "suffix": ".pdf",
+      "bytes": 1442777,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1ec66619c16f",
+      "sha256": "1ec66619c16fe4e14833cf513387967e5c73403feeef57f7cbe6fbfae1ec650d",
+      "suffix": ".doc",
+      "bytes": 43008,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-9100e100bf55",
+      "sha256": "9100e100bf55ad79f43b8c7356269d046127e77ac5d2dffcf3ae286d1e8409d0",
+      "suffix": ".pdf",
+      "bytes": 5541910,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e4a6450c4ca6",
+      "sha256": "e4a6450c4ca6f91b128d6858eb02b6cd98f3ef192786481ef9392f2c24c193cc",
+      "suffix": ".doc",
+      "bytes": 39936,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-245dd0f916f3",
+      "sha256": "245dd0f916f33d119d896d93a00eb769eb37bda3060b4436eef46e82615f0684",
+      "suffix": ".pdf",
+      "bytes": 2788889,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6d610054490b",
+      "sha256": "6d610054490bf3e65d1ad61beac3f6a0017bf9e53c6dc808fe343f2f6e78287a",
+      "suffix": ".doc",
+      "bytes": 41984,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-7269af2efd40",
+      "sha256": "7269af2efd402a8886149f5478b3b13b5a59ebe1fbb55a2bb6752b9d1c400dee",
+      "suffix": ".pdf",
+      "bytes": 1334141,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-13ef1edeb3f9",
+      "sha256": "13ef1edeb3f9906b260af908739348f5e300ad7e7cb6dab605ebd34c926004b8",
+      "suffix": ".doc",
+      "bytes": 38912,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-e401adb5c525",
+      "sha256": "e401adb5c5258edaca5b7ecd69ff1f6927c3a666f745ee6cba80ad8f206d9c8d",
+      "suffix": ".pdf",
+      "bytes": 2249828,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-efae0a7ded6e",
+      "sha256": "efae0a7ded6e7b13ace16703cd65ffa78800950161859f3c04d094b991352c6b",
+      "suffix": ".doc",
+      "bytes": 32256,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-1b19d6662fa4",
+      "sha256": "1b19d6662fa46bfaa45d180ae48d24b60b4ab201e0e056f5cc8b09074937f202",
+      "suffix": ".pdf",
+      "bytes": 2686054,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-083a9056febb",
+      "sha256": "083a9056febb3d7e6db0438a68bb6f3fd65c5d631c061f1754abcec445283351",
+      "suffix": ".doc",
+      "bytes": 40448,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-8975cfabbbfb",
+      "sha256": "8975cfabbbfbcfc5c73dbbaaab507a178864b28b6b4790b89ba7378bac7ef52f",
+      "suffix": ".pdf",
+      "bytes": 2400132,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-48b50a1f6c61",
+      "sha256": "48b50a1f6c61915bc802554fae59f0c48cc38656f82916e175a34048b55293ea",
+      "suffix": ".doc",
+      "bytes": 43520,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-a0fbdd27c115",
+      "sha256": "a0fbdd27c115594326fd75b3a0f569fb94cbf0b5c34c84fdc204d993064188bb",
+      "suffix": ".pdf",
+      "bytes": 558744,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f286558136b6",
+      "sha256": "f286558136b6399c3c83382973fac37b67766300989637fab5c14404abe4bde7",
+      "suffix": ".doc",
+      "bytes": 42496,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-8bc101f654a1",
+      "sha256": "8bc101f654a100ce8c71dc36d1e326875b40d564e49d1a8fc0f51f4505d57705",
+      "suffix": ".pdf",
+      "bytes": 1334606,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f696c8cbb2b7",
+      "sha256": "f696c8cbb2b7ec5f6206d96d004432beb50dd24f6bc3936a7074d8e1d1f65147",
+      "suffix": ".doc",
+      "bytes": 86016,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-e22a2b01258e",
+      "sha256": "e22a2b01258eef843860c1a9ad7ec08ca1578532814fcfb3741d160651905117",
+      "suffix": ".pdf",
+      "bytes": 694201,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2e10090208de",
+      "sha256": "2e10090208deb445fa5a9ecf892bf4b223ce60b367ec2fdc105d6bf50f9f9cc6",
+      "suffix": ".doc",
+      "bytes": 34304,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-4672bf9539a1",
+      "sha256": "4672bf9539a13039c74046d02efe71837f038cc4bd9569c4d630b68915a62719",
+      "suffix": ".doc",
+      "bytes": 43520,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-01ae3f1536b2",
+      "sha256": "01ae3f1536b28ef5f721a2df6eb29ef1922221d10dbcfdeb906001fd363119c9",
+      "suffix": ".pdf",
+      "bytes": 493373,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-4f8c9e04f607",
+      "sha256": "4f8c9e04f607e0f2862ce126168a3368199c083be79123dd5a5be9d222b755e7",
+      "suffix": ".doc",
+      "bytes": 43008,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-9b9782806b48",
+      "sha256": "9b9782806b48e5f2ad93ba304e94507cb0dc289a55a154373dd27f16bffb4971",
+      "suffix": ".pdf",
+      "bytes": 630252,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c8d48e13ff40",
+      "sha256": "c8d48e13ff406c5c6285050d072816f9a2226d42d69eb0372951fa11453ff5bf",
+      "suffix": ".doc",
+      "bytes": 26624,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-3ef3fbd7a2ae",
+      "sha256": "3ef3fbd7a2ae403e44e8957817a9ae00a720695b0654a92f58c8ea44686dfadc",
+      "suffix": ".pdf",
+      "bytes": 752408,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d233257a4d5e",
+      "sha256": "d233257a4d5e195fc3547328f1f1c6891b654ac84ed0ed8bbe02c92c7d062e07",
+      "suffix": ".doc",
+      "bytes": 35328,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-d25908c70850",
+      "sha256": "d25908c708502a328ca6cf4c0ba49f0fb8eb0ed12b7dffc806e6f204e01bb094",
+      "suffix": ".doc",
+      "bytes": 172544,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-35736a322640",
+      "sha256": "35736a32264012b898e002ee73591d801c1b996406754d9eca5d5ea7651d7120",
+      "suffix": ".pdf",
+      "bytes": 1869828,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6ad83a35b268",
+      "sha256": "6ad83a35b2686812b575a30336c456367e9a34d3141948df3c5d8785dfcd3372",
+      "suffix": ".doc",
+      "bytes": 129536,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-c6d695530dfb",
+      "sha256": "c6d695530dfba0d235c6a7a3b6645d4f5fd31b7e149e63baff414fb2613ce025",
+      "suffix": ".pdf",
+      "bytes": 420923,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d4a61ba1577a",
+      "sha256": "d4a61ba1577a45fa83823248b40d61394fecb8083c0a0cf485f77bff0f34caf2",
+      "suffix": ".doc",
+      "bytes": 29696,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-ba28f7b4d174",
+      "sha256": "ba28f7b4d1743eecda773e7e9f4c3fe24aa3d966f64b0b825eb8c2e18044fc40",
+      "suffix": ".pdf",
+      "bytes": 16749311,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-04a16451954d",
+      "sha256": "04a16451954dafd04bbf536ecd8a16a82333fc6d4ba0be1c14348933bb9d22c3",
+      "suffix": ".doc",
+      "bytes": 35328,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-7a4417b4e5eb",
+      "sha256": "7a4417b4e5ebbfd6a6c8c54cebbe26991905884c9a7506f4998480c80042e71e",
+      "suffix": ".pdf",
+      "bytes": 492962,
+      "copies": 2,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9a77cfd3f524",
+      "sha256": "9a77cfd3f524b737bb20904bac3072f5b613eaa3df6ccd2d350ed01adc7e6684",
+      "suffix": ".doc",
+      "bytes": 38400,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-26b6140a1ec6",
+      "sha256": "26b6140a1ec65b81d40cff0d6a381c00a5919dc4cbdb4b5a8f0a1fdae1f8cd8a",
+      "suffix": ".pdf",
+      "bytes": 1911443,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-62337b0fd065",
+      "sha256": "62337b0fd065b3366f09e0663a700b6c63a05fcb1b5008bac3846d17a75f707f",
+      "suffix": ".doc",
+      "bytes": 31232,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-e4bf7494b386",
+      "sha256": "e4bf7494b3869f13d5262f818ef8b7bbcc9e483a0cc3e99897bdb6a361496e80",
+      "suffix": ".pdf",
+      "bytes": 1454923,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-92dd1f929b39",
+      "sha256": "92dd1f929b39bafd818f1f5d217e8cf57f2bc4caed7d0e4679fdb521ac5031b2",
+      "suffix": ".doc",
+      "bytes": 41472,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-9fd87b02ecc9",
+      "sha256": "9fd87b02ecc96c1ecf2b8c2166faf969a2acb187ab3e1e9333b26d226387ff55",
+      "suffix": ".pdf",
+      "bytes": 941241,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-fc9ac104edac",
+      "sha256": "fc9ac104edac05ebdec5be0fc4b91cb8c237369e4a0dbee53446fbeff3372a5d",
+      "suffix": ".doc",
+      "bytes": 148480,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-9ea360bac922",
+      "sha256": "9ea360bac9227cfe93d28929730e5e86bf20282525d539f4cfede060b43f5b0c",
+      "suffix": ".pdf",
+      "bytes": 136076,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-7715346b7cec",
+      "sha256": "7715346b7cec8440648969a05da4cfa922210a4fe232ea569f7922821b4cfb41",
+      "suffix": ".docx",
+      "bytes": 704079,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-51164c14a5a9",
+      "sha256": "51164c14a5a93e1d31c74e695b00477390bdaf3994d5c104e5fc36cc824ee87c",
+      "suffix": ".pdf",
+      "bytes": 4804526,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8c56b35816c9",
+      "sha256": "8c56b35816c9cda9d6992278111356eef6b12a959882d81865eb2e6cc1e1b5de",
+      "suffix": ".doc",
+      "bytes": 75776,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-8486f3b66958",
+      "sha256": "8486f3b669582dfd623f305a7655c087f4f7908e17a4059cc9aea3ae53b3c69e",
+      "suffix": ".doc",
+      "bytes": 105984,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-8f01c3c1b479",
+      "sha256": "8f01c3c1b4796b3cf6ec0f738637d66a342c8759e57a1140d22df218b47047cd",
+      "suffix": ".doc",
+      "bytes": 105472,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-bd9674777dda",
+      "sha256": "bd9674777dda2876102556e244856a6062a73f068b474d0c22b06934aa92cb5e",
+      "suffix": ".zip",
+      "bytes": 3689972,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-323c7c40fb0d",
+      "sha256": "323c7c40fb0d95655928838edef9922f4ff9e27c532ac5e02f7feff0761c260b",
+      "suffix": ".pdf",
+      "bytes": 698574,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3f3b8ad5ff4f",
+      "sha256": "3f3b8ad5ff4f75decb78dd20428b423325657abe7da1e2a00d39e028f32ca052",
+      "suffix": ".doc",
+      "bytes": 245248,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-e35cd320326c",
+      "sha256": "e35cd320326cc4d59318edf2f70b23964aca94696693a5ca8bd028d277cb6e47",
+      "suffix": ".pdf",
+      "bytes": 4430766,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-3a49d1a3c6a9",
+      "sha256": "3a49d1a3c6a92132377f6e8464134b124fb123087f0f121b8b543f9bf7dd18ff",
+      "suffix": ".doc",
+      "bytes": 140288,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-1f71603ad966",
+      "sha256": "1f71603ad96687afc804fd27c08949a8bdfb854309d7023eb259de247e124d01",
+      "suffix": ".pdf",
+      "bytes": 1427187,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-0be3bf42c235",
+      "sha256": "0be3bf42c23543ff0364d8251ca9255519602d2239fc7e1791ec4fe8d3ade4df",
+      "suffix": ".doc",
+      "bytes": 88064,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-1e46c5a5c926",
+      "sha256": "1e46c5a5c92653c30d2a4816fde488bc812cce7d6a84cbdff374a350c05549d7",
+      "suffix": ".pdf",
+      "bytes": 882071,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-c38f43c4432c",
+      "sha256": "c38f43c4432cdb9fdb035767911f14cab7b357dd5dee37cda35e567dd49c7450",
+      "suffix": ".doc",
+      "bytes": 81408,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-5cd1a0cf4f6a",
+      "sha256": "5cd1a0cf4f6a4b4c7ed9ff7b9e16af62fa459b60a1a89fea3bbb85ea44333fe5",
+      "suffix": ".pdf",
+      "bytes": 446898,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-30e35f16125d",
+      "sha256": "30e35f16125d043d6904c9be4e42e9861ae1539c7ff26837f423dc1f11084fc3",
+      "suffix": ".doc",
+      "bytes": 102912,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-3ca53ef93b8b",
+      "sha256": "3ca53ef93b8bab461997ad0d4fa7ad3d2a0a8ed348e09b257ac3c0d1ef2afc6a",
+      "suffix": ".doc",
+      "bytes": 43008,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-3a3c24c0d3b7",
+      "sha256": "3a3c24c0d3b7dd27d0b5c7451c4b3e463d32baba6cb7175a32f5d921151c6b04",
+      "suffix": ".pdf",
+      "bytes": 672837,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-550f2f353e04",
+      "sha256": "550f2f353e042520bd22ff4ef0405b464fe133d9072799345ad2afad5cd42ca1",
+      "suffix": ".doc",
+      "bytes": 225280,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-ec7de76541d5",
+      "sha256": "ec7de76541d5c8ddc8c50b7eaa65f221be436812974c7658180501a469052ca6",
+      "suffix": ".pdf",
+      "bytes": 1102331,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-683fe1cfc576",
+      "sha256": "683fe1cfc57683ad3120fa4f43f59f0a326ba76e3ae616a8f361a873c65a233e",
+      "suffix": ".doc",
+      "bytes": 119296,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-62b165139917",
+      "sha256": "62b165139917cbc574a5eff5b55b58e2a5502ce884af1eb2539ef1cec335dfdd",
+      "suffix": ".pdf",
+      "bytes": 1401823,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1683f31a8058",
+      "sha256": "1683f31a80583416d6e203181e674ff525eedcba339155c847cdad910182f620",
+      "suffix": ".doc",
+      "bytes": 327680,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-03db62744f6a",
+      "sha256": "03db62744f6a818663a9cbf47afcc4a902c58548304b06850d1d305d98618a48",
+      "suffix": ".txt",
+      "bytes": 79,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-c7f08bc05602",
+      "sha256": "c7f08bc05602b1df33dedda6c500a44738c8b15bb8c2ecc5c053c2dc2ba5567e",
+      "suffix": ".pdf",
+      "bytes": 697115,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5bb92cd0c2f0",
+      "sha256": "5bb92cd0c2f0fcb5e0cb0a71012678d44947d68bb382464bda7cd9e8d75b0acd",
+      "suffix": ".pdf",
+      "bytes": 424381,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5586a13453d1",
+      "sha256": "5586a13453d15ec856cc7772350e4bf823287ffeb334edf20fe5a58fa0ae45e6",
+      "suffix": ".md",
+      "bytes": 358406,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-ddc0359edc28",
+      "sha256": "ddc0359edc2889683f09fec1cd547641a07224e80566710a86d3dc6ef8039178",
+      "suffix": ".txt",
+      "bytes": 72,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-dba2b63163d4",
+      "sha256": "dba2b63163d4dc2834d59ffd931ec546c5a5a9dd0c8e051ee968668da9afab4f",
+      "suffix": ".txt",
+      "bytes": 1838,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-b47a75e4da8e",
+      "sha256": "b47a75e4da8e290e9e48dc9cfff0af5f0e774c851b3e00d63b9094b99c69fc0d",
+      "suffix": ".txt",
+      "bytes": 346114,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-9e51cf85a3f4",
+      "sha256": "9e51cf85a3f429393aa1b7f0df730929fa53230eb7eb51d0b2b2a31e35824782",
+      "suffix": ".pdf",
+      "bytes": 3507244,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-95069000b359",
+      "sha256": "95069000b35966e74e62b16937969f18725d23eed7b532ecc2a0bf32c9572abc",
+      "suffix": ".zip",
+      "bytes": 12071645,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-a8186bc2d94f",
+      "sha256": "a8186bc2d94f1c3394c5f3c7141f898ea4b13520fd1a7c4e68c3f07b3d41a2a8",
+      "suffix": ".png",
+      "bytes": 2955013,
+      "copies": 1,
+      "status": "image_reviewed_research_or_promotion_classified"
+    },
+    {
+      "id": "FILE-1448b0196880",
+      "sha256": "1448b0196880ef9b83d8829eca0deeffbd62a0cea4132e6c78504792ce6fae30",
+      "suffix": ".png",
+      "bytes": 4325428,
+      "copies": 1,
+      "status": "image_reviewed_research_or_promotion_classified"
+    },
+    {
+      "id": "FILE-5df3edf55694",
+      "sha256": "5df3edf55694b5e3fcf2c99b5d5c4e03ba1f8f49ad8583b5ed4496738da92a1d",
+      "suffix": "",
+      "bytes": 1081,
+      "copies": 1,
+      "status": "development_or_empty_artifact_excluded"
+    },
+    {
+      "id": "FILE-c7898dea3032",
+      "sha256": "c7898dea30320a0fe61e8e274f00830d21cd28625d304566512dd321944437f4",
+      "suffix": ".md",
+      "bytes": 4606,
+      "copies": 1,
+      "status": "text_archived"
+    },
+    {
+      "id": "FILE-a51e8d154260",
+      "sha256": "a51e8d154260f55d62850bff8ff313a5c42dfbb34e06c3dd1a63006935aca30d",
+      "suffix": ".zip",
+      "bytes": 6974512,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-ec6298dbbc68",
+      "sha256": "ec6298dbbc68375b14f5b23422e27262855e263325a5d8bc35dbf60a8f70ca04",
+      "suffix": ".pdf",
+      "bytes": 45091424,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-73c72dbe0d50",
+      "sha256": "73c72dbe0d50660d39254a8d61b232d4060f08b674ef68a61535bac88110ebe7",
+      "suffix": ".pdf",
+      "bytes": 1693323,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e4521941c4a3",
+      "sha256": "e4521941c4a34ebf07c0bf3c8284c265fe444377de57db5d954f752a6ed05cf6",
+      "suffix": ".pdf",
+      "bytes": 2174986,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-839054a78b1d",
+      "sha256": "839054a78b1d7ec361303f340e7ac0f3e0a3bcc09647e422507d5c26a57be30c",
+      "suffix": ".pdf",
+      "bytes": 2482051,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9dcffe1c8e39",
+      "sha256": "9dcffe1c8e3917f9bff20d666af137f7a9d357883824b1ebc1bf5555bc73b849",
+      "suffix": ".pdf",
+      "bytes": 5008525,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-bec785992d7e",
+      "sha256": "bec785992d7ebe1da103ae26ef593e8f69f027564b270ec5026806fdbb90e0d9",
+      "suffix": ".pdf",
+      "bytes": 11839806,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2a6b57fe6d9a",
+      "sha256": "2a6b57fe6d9a28919d9999c9cec0355e3ff50847775d9454afb850300d48f825",
+      "suffix": ".pdf",
+      "bytes": 3365850,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-57cef796bcf6",
+      "sha256": "57cef796bcf6724874434de0ae664f0a0ef1a9e15d7786a65a8cde01c9a106f6",
+      "suffix": ".pdf",
+      "bytes": 5207950,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-a74aa51ae040",
+      "sha256": "a74aa51ae0402f10e34e053117301d1172cf471a2e06ea04eb28472d447e2a02",
+      "suffix": ".zip",
+      "bytes": 32299498,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-a46585a2b49f",
+      "sha256": "a46585a2b49f23889e174f4a944cd64ac4ffc54e5cfe1f0406a5f095bc97ebd8",
+      "suffix": ".zip",
+      "bytes": 665185,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-3836c46309f6",
+      "sha256": "3836c46309f6171b524f5c4b4e6470829a33c6c8c22f712e97bc2a0cc7b8718a",
+      "suffix": ".pdf",
+      "bytes": 2221055,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-250b38d150da",
+      "sha256": "250b38d150dad24d77671670ad427c813cd105ffa09c788ab501404afc4cef30",
+      "suffix": ".pdf",
+      "bytes": 4371918,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2cda48e74a49",
+      "sha256": "2cda48e74a49e3552aedbf61bc6436767ed3867cb710bbd2b79e48624fd66126",
+      "suffix": ".pdf",
+      "bytes": 2331745,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-37fcaf0db832",
+      "sha256": "37fcaf0db832a0c150ee03ffdceb11e8bdd67b7017c9f53c98ee5905a3bc9b88",
+      "suffix": ".zip",
+      "bytes": 3510157,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-ac6e9d2d18eb",
+      "sha256": "ac6e9d2d18eb25957233cf04aaa2c7836dc3561eb4f6871862a30f7def7e2e58",
+      "suffix": ".pdf",
+      "bytes": 940863,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1d6768f4017c",
+      "sha256": "1d6768f4017c2a7fc62e182b93fdfeab277942698e4bd6f87f4cadbc6e154cc6",
+      "suffix": ".pdf",
+      "bytes": 1069182,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6acc7deb827a",
+      "sha256": "6acc7deb827af488daa92e27f5fd35ca4498a8723f03b8941c7b872901e76d15",
+      "suffix": ".pdf",
+      "bytes": 9023548,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-17d71f4a5e0b",
+      "sha256": "17d71f4a5e0b7ac0404b4f71ac9f6f9854f97759b1fe6c16766f2ce96bc8dab9",
+      "suffix": ".pdf",
+      "bytes": 6148253,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-af15631293cc",
+      "sha256": "af15631293cc3e4797175c345084de982fe02fb7ff388e4df5636bda45678517",
+      "suffix": ".pdf",
+      "bytes": 16563974,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e787eb62e0ca",
+      "sha256": "e787eb62e0cafd1978370fb85e5b5051ffb5fe604fb435bdb046d91ea06600e8",
+      "suffix": ".zip",
+      "bytes": 31254007,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-67f6b7f2135d",
+      "sha256": "67f6b7f2135dc2b05329781b9885b6fc8328488a3cd3e129ba8c2e92079ab9c9",
+      "suffix": ".pdf",
+      "bytes": 16678369,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6595df526790",
+      "sha256": "6595df52679062c4cc474520b2bd355f7586adba7ec541e50dd1c6bd63e00ecf",
+      "suffix": ".pdf",
+      "bytes": 7285313,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d333e698d1da",
+      "sha256": "d333e698d1da16f990da247979860ac4030f16df6e76534790e746e187c2e5f9",
+      "suffix": ".pdf",
+      "bytes": 1301548,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-fb53f28c81e1",
+      "sha256": "fb53f28c81e171726e767cdab8ad797b27d9adb23b874e739f440656831ad6e3",
+      "suffix": ".pdf",
+      "bytes": 193690,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-4daffb5bd39a",
+      "sha256": "4daffb5bd39a68412f208f1caeba8af6bb3d6f44582e0b6a6d4fa0fae38d03f6",
+      "suffix": ".pdf",
+      "bytes": 899622,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-e7cd3826f92e",
+      "sha256": "e7cd3826f92e2f2428f2d9f561c7ea75f3955b71d6402a9e75265f117ddea8c5",
+      "suffix": ".pdf",
+      "bytes": 1062564,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-32c54e109554",
+      "sha256": "32c54e109554d133217919509ba62fec35b8b8e3c50af4da2f6e18a28482afcf",
+      "suffix": ".pdf",
+      "bytes": 3263052,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2d206cf55929",
+      "sha256": "2d206cf559291591d9ee1b974939265946e5e085480bae2c3751beef4e251d27",
+      "suffix": ".pdf",
+      "bytes": 10983995,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-15ae322f4205",
+      "sha256": "15ae322f4205536cc3dc443d9acd055eea8f7845d9545fbe02528f4fb1302464",
+      "suffix": ".pdf",
+      "bytes": 1492713,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-609639cb093d",
+      "sha256": "609639cb093d4fd0a255688721e1192ab909c34059febda057c6b8400c808c93",
+      "suffix": ".pdf",
+      "bytes": 569228,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-2c8ec1236df0",
+      "sha256": "2c8ec1236df095d91ad069a1405a437295ab8ccee79da4bea8498e0c3772a580",
+      "suffix": ".pdf",
+      "bytes": 997536,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-580748c8608b",
+      "sha256": "580748c8608bc946c7ea1fb9212d30c4a4942cdac52f6b829fe505f10af79761",
+      "suffix": ".pdf",
+      "bytes": 6036346,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9e5fa1229986",
+      "sha256": "9e5fa1229986d26878f366e045baedfe07f0210066307f63744bb50c07c87b83",
+      "suffix": ".doc",
+      "bytes": 10240,
+      "copies": 1,
+      "status": "word_text_and_image_read"
+    },
+    {
+      "id": "FILE-cc67d31674d2",
+      "sha256": "cc67d31674d26068f5cc18fc125c1639b0408415ff8946944aef771f346532cd",
+      "suffix": ".pdf",
+      "bytes": 310264,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-064e965819c4",
+      "sha256": "064e965819c4b92de9e52ec651b803a00e731649f0489c7638bd8be4c21f27c4",
+      "suffix": ".doc",
+      "bytes": 9216,
+      "copies": 1,
+      "status": "office_refused_open_preserved"
+    },
+    {
+      "id": "FILE-7eecb8153005",
+      "sha256": "7eecb8153005821f621ffa6c3a61c8029c1323a0bd11b656a1398a2453e234a7",
+      "suffix": ".zip",
+      "bytes": 333779,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-cc76c3639589",
+      "sha256": "cc76c3639589f587f589782c20eee98bc0d85801809040a91f7fa99170e34944",
+      "suffix": ".pdf",
+      "bytes": 549428,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-b29ab724ace8",
+      "sha256": "b29ab724ace863cf1f4dfb650ba8cd0ae6a173ccb0c2c5b394fef9cf13a766f9",
+      "suffix": ".pdf",
+      "bytes": 434824,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8fd5b7527ea9",
+      "sha256": "8fd5b7527ea9a2dc492cf6c9d63a160b688a73542e71e402339c6b774fbb802e",
+      "suffix": ".pdf",
+      "bytes": 990969,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f5483ca129b0",
+      "sha256": "f5483ca129b071bc2d3a9a4802fcc5103fb768b275b1eca9539fc7e852c76d09",
+      "suffix": ".zip",
+      "bytes": 165970,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-56b0638e1ceb",
+      "sha256": "56b0638e1ceb4977ddd278eee2497c4e4b0b2b0871b35f883389ed2370538e41",
+      "suffix": ".zip",
+      "bytes": 49496,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-0885d540f4c1",
+      "sha256": "0885d540f4c15e1553567f2f05162e8f0d2c6b60603468e98a00423e67b4d105",
+      "suffix": ".zip",
+      "bytes": 354618,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-4e7a8520c792",
+      "sha256": "4e7a8520c79236b94778e85efcde8e60904660d3b824a79aafc8292792b1fcaa",
+      "suffix": ".pdf",
+      "bytes": 434554,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6d6218d6083b",
+      "sha256": "6d6218d6083b9ef8f0b1ed5f870fa5a6eff3496c9b714431fa38e070196c0a86",
+      "suffix": ".zip",
+      "bytes": 1231,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-94dedcffb60e",
+      "sha256": "94dedcffb60ee6d4510d473a521e7d027890d2896c237f013b2c7b9e2889c66c",
+      "suffix": ".pdf",
+      "bytes": 3281078,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5b97935ed866",
+      "sha256": "5b97935ed866a50baebd35cef3deda127c127dbde01db5a0e7ac15dcbf7f5201",
+      "suffix": ".zip",
+      "bytes": 21639551,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-edbfd63c8bac",
+      "sha256": "edbfd63c8bac1fdb43e3bef2495fb12adc37880763f90151b6bb1f69c138a614",
+      "suffix": ".pdf",
+      "bytes": 36326964,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f201360063f2",
+      "sha256": "f201360063f28569c920d0550e1fc5600449a9a3affe93224d729878bd1ae1cc",
+      "suffix": ".pdf",
+      "bytes": 2454114,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-ecc8d2773c3c",
+      "sha256": "ecc8d2773c3ccd2e8b004f99ba68d0d75708d5747892c9e712dd8916925a92a8",
+      "suffix": ".pdf",
+      "bytes": 8353756,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-bcd1ca5fc28b",
+      "sha256": "bcd1ca5fc28b2ea96a046f4f8622bcb321963d7d3b58e4ae4815ab6745d85f2f",
+      "suffix": ".pdf",
+      "bytes": 1922248,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8e07dc472739",
+      "sha256": "8e07dc472739cbce3abe544322adb6f0ccb5e1f6eee68032727555159ad8b5e8",
+      "suffix": ".pdf",
+      "bytes": 1065500,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-777c883a6e6c",
+      "sha256": "777c883a6e6c15c2ec3ccaef6492d6b31f22abf8bf2ce4408f76df490c261b17",
+      "suffix": ".pdf",
+      "bytes": 2163462,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-449fcbcfce55",
+      "sha256": "449fcbcfce551496d8d9e849f024ef1df289b50ee9592e3914728e0d0f73a5a6",
+      "suffix": ".pdf",
+      "bytes": 2137758,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-020a9c4a2a64",
+      "sha256": "020a9c4a2a64c8b7b3ff6fd97b329e93da192c97fc4e88603c74c0381ad1bc7e",
+      "suffix": ".pdf",
+      "bytes": 7883933,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-d813f45143b5",
+      "sha256": "d813f45143b5dcd1c1f914d6e5e63c5acefdcc985b89d717d1ab6e4742cddd3f",
+      "suffix": ".pdf",
+      "bytes": 1075430,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9159ea8c8a67",
+      "sha256": "9159ea8c8a67dd39542cbc7a47b773ff09ac2ab8b8411eaf4ea8f46d19792703",
+      "suffix": ".pdf",
+      "bytes": 7902876,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-892896002362",
+      "sha256": "8928960023624c197134c2d2e860c3a13b0b5547f1c10044d9c6d42a3967915b",
+      "suffix": ".zip",
+      "bytes": 413378,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-8390dba38ac5",
+      "sha256": "8390dba38ac516941cac4b1c9bc7fdf2af9e7e1722f05200678950a26f2f7b6a",
+      "suffix": ".pdf",
+      "bytes": 1705559,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f8ac59230667",
+      "sha256": "f8ac59230667a54fc03ca18850fa489a2ce413dabc9339f7142d4dc9d4e3def4",
+      "suffix": ".pdf",
+      "bytes": 16478512,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9f6e06631b70",
+      "sha256": "9f6e06631b70cad77b65dd80699a1ac89e82c4bb4818be6957c657675f615509",
+      "suffix": ".pdf",
+      "bytes": 1492426,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-05552c2f497c",
+      "sha256": "05552c2f497c5add9d91b8c8558718763925b43078880bdefb023706f37aca41",
+      "suffix": ".pdf",
+      "bytes": 4707769,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-49a63ce2ab7a",
+      "sha256": "49a63ce2ab7abeb39bbeecd1b7044241864d0fef0b6a543193cf43debef960fd",
+      "suffix": ".pdf",
+      "bytes": 1032089,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-66ee54086ace",
+      "sha256": "66ee54086ace9e273f529aa65b3695f4b9144bda192eb9f9737f62008f7bde7a",
+      "suffix": ".zip",
+      "bytes": 2829877,
+      "copies": 1,
+      "status": "archive_members_and_source_inspected"
+    },
+    {
+      "id": "FILE-a568183b71d0",
+      "sha256": "a568183b71d035761b99c82f076db0ac52d8ad13444dcb4382a23066824e4bde",
+      "suffix": ".pdf",
+      "bytes": 2952002,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-308071e5c506",
+      "sha256": "308071e5c5065cd2a538773649f717cd83445106f42a51076c3b4ef1ac1625c3",
+      "suffix": ".pdf",
+      "bytes": 3364190,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-b558d6ffb58b",
+      "sha256": "b558d6ffb58b3f234a9ad21ca7152e639a25e83ede94bc7f7e36322a209bf351",
+      "suffix": ".pdf",
+      "bytes": 3992622,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-5669cff56452",
+      "sha256": "5669cff56452121673bf92193549fa927ac78e36c0556dac0f07f228f3391cba",
+      "suffix": ".pdf",
+      "bytes": 10808628,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-442d29f3272d",
+      "sha256": "442d29f3272d3a5b7134faf52b4a5cb74cd52a45ba1c6ef2f844f7b77184e80f",
+      "suffix": ".pdf",
+      "bytes": 2078107,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6a2ad0413dab",
+      "sha256": "6a2ad0413dabfbdd75712d363d77bb000cb30e26e1d51a9fc868586e8f98d59a",
+      "suffix": ".pdf",
+      "bytes": 4549565,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6faea1e6e21b",
+      "sha256": "6faea1e6e21bde792a05431255a879db01aa378e46882c5f8c6385256181e05f",
+      "suffix": ".pdf",
+      "bytes": 17984565,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-13a87690221a",
+      "sha256": "13a87690221ad65c3d2e64ff094b390b00fcc73c505649dd4c32edcea07bc0f6",
+      "suffix": ".pdf",
+      "bytes": 339134,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-10849af7b2d3",
+      "sha256": "10849af7b2d3c5a7cdc933590f3fc5823d2fe576d5f3d738828d0b09234df1fb",
+      "suffix": ".pdf",
+      "bytes": 1780342,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-cc6e2e217a1c",
+      "sha256": "cc6e2e217a1c23fc2838388b02e3fa4074182f2cab4d729c624222ab0ed67e33",
+      "suffix": ".pdf",
+      "bytes": 18437882,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-305085f8c97a",
+      "sha256": "305085f8c97aef929c62bd3f6936249fa062935dbfd0aefa9e4ed9dc055024af",
+      "suffix": ".pdf",
+      "bytes": 2754629,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-f77a75fc6da4",
+      "sha256": "f77a75fc6da41d917cfe6db1b9cbb9011c9acf5d72143b330598817b9bd79d25",
+      "suffix": ".pdf",
+      "bytes": 6141766,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-1e6b8c68c00c",
+      "sha256": "1e6b8c68c00c066774d477b7ca77fa81fac688b5d3e0fc841c426cf3278f1e0d",
+      "suffix": ".pdf",
+      "bytes": 14065346,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-6c907f80f22c",
+      "sha256": "6c907f80f22c400dcdd384d96c594d92a7f6762e3fb620ecb8fb596245dfb79d",
+      "suffix": ".pdf",
+      "bytes": 5328039,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-9cdb729926b7",
+      "sha256": "9cdb729926b771b22b68d22c4a7eed30116638248a68c6a1bbe106c3b01b8246",
+      "suffix": ".pdf",
+      "bytes": 2972767,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-7ac920757e0b",
+      "sha256": "7ac920757e0b7456aacf5741a18350c55275c25b4fe3712cee1c4c9bb7e4d4dc",
+      "suffix": ".pdf",
+      "bytes": 1224619,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-0824ea3b9607",
+      "sha256": "0824ea3b96072a3c1282f4520e2e09fe2efb9eeb1f9412882d8fb74db3451d37",
+      "suffix": ".pdf",
+      "bytes": 320103,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    },
+    {
+      "id": "FILE-8116e6ac63c1",
+      "sha256": "8116e6ac63c132dace49e9c8c4ce72871fc905e0366099729e13b3987c3d96fe",
+      "suffix": ".pdf",
+      "bytes": 1315477,
+      "copies": 1,
+      "status": "pdf_text_archived"
+    }
+  ]
+}

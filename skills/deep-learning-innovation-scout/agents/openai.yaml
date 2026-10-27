@@ -1,0 +1,6 @@
+interface:
+  display_name: "深度学习创新思路助手"
+  short_description: "遇到深度学习瓶颈时检索模块线索，诊断问题并形成可验证的论文创新思路"
+  default_prompt: "请使用 $deep-learning-innovation-scout，结合我的任务和实验瓶颈，检索参考资料并提出可证伪的改进方向。"
+policy:
+  allow_implicit_invocation: true
